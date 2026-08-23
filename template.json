@@ -1,0 +1,18 @@
+{
+    "name": "Keystone",
+    "industry": "home-services",
+    "description": "A calm, premium template for any home-service business — deep pine primary, copper accents, hairline dividers, warm photography, and a floating dispatch card that keeps the phone number always in reach. Ships four homepage looks.",
+    "pages": ["Home", "Services", "About", "Reviews", "Contact", "404"],
+    "collections": ["services", "reviews", "hours"],
+    "variants": {
+        "centered": "Centered hero with service chips",
+        "editorial": "Soft-panel hero with a floating review",
+        "frame": "Full-frame photo with a floating content card"
+    },
+    "default_variant_description": "Split hero with the dispatch card",
+    "cta": "Get a free estimate",
+    "theme": "light",
+    "accent": "#135142",
+    "secondary": "#b0721c",
+    "fonts": ["Inter"]
+}
