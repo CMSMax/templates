@@ -9,9 +9,9 @@
                 </p>
                 <h1 class="mt-5 max-w-[16ch] font-display text-4xl font-semibold tracking-tight text-balance text-ink sm:text-5xl">{{ $heading }}</h1>
                 <p class="mt-5 max-w-[46ch] text-lg text-pretty text-muted">Professional home services, done right. From quick fixes to full installations, our experienced team is here when you need us most.</p>
-                <div class="mt-8 flex flex-wrap items-center gap-3">
-                    <a href="/contact" class="rounded-lg bg-accent px-4 py-2.5 font-medium text-accent-ink transition-transform duration-200 ease-[cubic-bezier(0.22,1,0.36,1)] active:scale-[0.98] hover:bg-accent/85 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">{{ $site->cta_label }}</a>
-                    <a href="/services" class="rounded-lg border border-ink/15 px-4 py-2.5 font-medium text-ink hover:border-ink/30 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">View services</a>
+                <div class="mt-8 flex flex-wrap items-center gap-3 max-sm:flex-col max-sm:items-stretch">
+                    <a href="/contact" class="rounded-lg bg-accent px-4 py-2.5 text-center font-medium text-accent-ink transition-transform duration-200 ease-[cubic-bezier(0.22,1,0.36,1)] active:scale-[0.98] hover:bg-accent/85 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">{{ $site->cta_label }}</a>
+                    <a href="/services" class="rounded-lg border border-ink/15 px-4 py-2.5 text-center font-medium text-ink hover:border-ink/30 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">View services</a>
                 </div>
                 <dl class="mt-10 grid grid-cols-1 gap-y-4 sm:grid-cols-3 sm:gap-x-5">
                     <div>

@@ -8,9 +8,9 @@
             </p>
             <h1 class="mx-auto mt-6 max-w-[18ch] font-display text-4xl font-semibold tracking-tight text-balance text-ink sm:text-5xl lg:text-6xl">{{ $heading }}</h1>
             <p class="mx-auto mt-5 max-w-[46ch] text-lg text-pretty text-muted">From quick fixes to major installs, our licensed professionals deliver quality work and friendly service you can count on.</p>
-            <div class="mt-8 flex flex-wrap items-center justify-center gap-3">
-                <a href="/contact" class="rounded-lg bg-accent px-4 py-2.5 font-medium text-accent-ink transition-transform duration-200 ease-[cubic-bezier(0.22,1,0.36,1)] active:scale-[0.98] hover:bg-accent/85 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">{{ $site->cta_label }}</a>
-                <a href="/services" class="rounded-lg border border-line px-4 py-2.5 font-medium text-ink hover:border-ink/30 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">Explore services</a>
+            <div class="mt-8 flex flex-wrap items-center justify-center gap-3 max-sm:flex-col max-sm:items-stretch">
+                <a href="/contact" class="rounded-lg bg-accent px-4 py-2.5 text-center font-medium text-accent-ink transition-transform duration-200 ease-[cubic-bezier(0.22,1,0.36,1)] active:scale-[0.98] hover:bg-accent/85 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">{{ $site->cta_label }}</a>
+                <a href="/services" class="rounded-lg border border-line px-4 py-2.5 text-center font-medium text-ink hover:border-ink/30 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">Explore services</a>
             </div>
             <ul role="list" class="mt-10 flex flex-wrap items-center justify-center gap-2.5">
                 @foreach ($services as $service)
