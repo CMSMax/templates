@@ -1,0 +1,19 @@
+{
+    "name": "Keystone Home Services",
+    "short_name": "Keystone",
+    "tagline": "Professional home services, made simple.",
+    "phone": "(555) 204-8890",
+    "phone_href": "tel:+15552048890",
+    "email": "hello@keystone.example",
+    "address": "482 Alder Street, Springfield",
+    "service_area": "Springfield and the surrounding neighborhoods",
+    "hours_note": "Emergency calls answered 24/7",
+    "cta_label": "Get a free estimate",
+    "art_direction": {
+        "identity": "Software-company clarity applied to the trades: white canvas, near-black ink, black primary CTA, hairline dividers, one huge tight headline, floating white dispatch cards over warm photography.",
+        "type": "Inter only. Display weight 600 with tight tracking; body 1rem with relaxed line-height; numbers tabular.",
+        "color": "Ink-on-white with two brand colors: bg-accent (deep pine green) is the PRIMARY — reserved for CTAs and the closing band; text-secondary (warm copper) is the SECONDARY — reserved for rating stars, the trust-pill icon, and step labels. Green (ok) only on the dispatch card's availability dot. Never add a third color.",
+        "signature": "The floating dispatch card — the small white scheduling card in the hero, reprised in the closing band. Keep it wherever the design evolves.",
+        "voice": "Plain-spoken and confident. Short sentences. No fluff, no exclamation points, no jargon."
+    }
+}

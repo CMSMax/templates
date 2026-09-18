@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Plumbing",
+        "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"size-5 shrink-0\" aria-hidden=\"true\"><path d=\"M7 16.3c2.2 0 4-1.83 4-4.05c0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05\"/><path d=\"M12.56 6.6A11 11 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97\"/></svg>",
+        "blurb": "Leaks, clogs, water heaters, and full re-pipes — found fast and fixed right.",
+        "detail": "Faucets and fixtures, drain clearing, water heater repair and replacement, sump pumps, and whole-house re-pipes."
+    },
+    {
+        "name": "Electrical",
+        "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"size-5 shrink-0\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15.914 4a1.5 1.5 0 0 0-2.474-1.561l-9 9A1.5 1.5 0 0 0 5.5 14h4.002a.5.5 0 0 1 .471.666L8.086 20a1.5 1.5 0 0 0 2.475 1.56l9-9A1.5 1.5 0 0 0 18.5 10h-3.997a.5.5 0 0 1-.472-.667z\"/></svg>",
+        "blurb": "Panels, outlets, lighting, and EV chargers, wired to code by licensed pros.",
+        "detail": "Panel upgrades, troubleshooting, recessed lighting, ceiling fans, smoke detectors, and EV charger installation."
+    },
+    {
+        "name": "Heating & cooling",
+        "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"size-5 shrink-0\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 17.5a2.5 2.5 0 1 1-4 2.03V12m-8 0H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2M6 8h12M6.6 15.572A2 2 0 1 0 10 17v-5\"/></svg>",
+        "blurb": "Tune-ups, repairs, and replacements that keep every season comfortable.",
+        "detail": "Seasonal tune-ups, furnace and AC repair, smart thermostats, duct sealing, and full system replacement."
+    },
+    {
+        "name": "Carpentry & repairs",
+        "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"size-5 shrink-0\" aria-hidden=\"true\"><path d=\"m15 12l-9.373 9.373a1 1 0 0 1-3.001-3L12 9m6 6l4-4\"/><path d=\"m21.5 11.5l-1.914-1.914A2 2 0 0 1 19 8.172v-.344a2 2 0 0 0-.586-1.414l-1.657-1.657A6 6 0 0 0 12.516 3H9l1.243 1.243A6 6 0 0 1 12 8.485V10l2 2h1.172a2 2 0 0 1 1.414.586L18.5 14.5\"/></svg>",
+        "blurb": "Doors, decks, drywall, and the to-do list that never seems to shrink.",
+        "detail": "Door and window adjustment, deck repair, drywall patching, trim work, and general handyman punch lists."
+    },
+    {
+        "name": "Painting",
+        "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"size-5 shrink-0\" aria-hidden=\"true\"><rect width=\"16\" height=\"6\" x=\"2\" y=\"2\" rx=\"2\"/><path d=\"M10 16v-2a2 2 0 0 1 2-2h8a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><rect width=\"4\" height=\"6\" x=\"8\" y=\"16\" rx=\"1\"/></svg>",
+        "blurb": "Crisp interior and exterior finishes, prepped properly and cut in clean.",
+        "detail": "Interior rooms, exterior siding and trim, cabinets, fences, and color consultation before the first coat."
+    },
+    {
+        "name": "Pest control",
+        "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"size-5 shrink-0\" aria-hidden=\"true\"><path d=\"M12 20v-9m2-4a4 4 0 0 1 4 4v3a6 6 0 0 1-12 0v-3a4 4 0 0 1 4-4zm.12-3.12L16 2\"/><path d=\"M21 21a4 4 0 0 0-3.81-4M21 5a4 4 0 0 1-3.55 3.97M22 13h-4M3 21a4 4 0 0 1 3.81-4M3 5a4 4 0 0 0 3.55 3.97M6 13H2M8 2l1.88 1.88M9 7.13V6a3 3 0 1 1 6 0v1.13\"/></svg>",
+        "blurb": "Inspections and treatments that keep ants, wasps, and rodents out for good.",
+        "detail": "Whole-home inspections, targeted treatments, exclusion work, and seasonal prevention plans."
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "quote": "They showed up on time, found the leak in twenty minutes, and left the bathroom cleaner than they found it.",
+        "name": "Sam R.",
+        "initial": "S",
+        "area": "Maple Hill",
+        "service": "Plumbing"
+    },
+    {
+        "quote": "Booked online at 8am, water heater replaced by 2pm. Fair price, zero surprises.",
+        "name": "Jordan P.",
+        "initial": "J",
+        "area": "Riverbend",
+        "service": "Plumbing"
+    },
+    {
+        "quote": "The estimate was the price. That alone puts them ahead of everyone else we have used.",
+        "name": "Casey M.",
+        "initial": "C",
+        "area": "Old Town",
+        "service": "Electrical"
+    },
+    {
+        "quote": "Our go-to for everything now — electrical, gutters, the lot. You can tell they hire carefully.",
+        "name": "Alex T.",
+        "initial": "A",
+        "area": "Fairview",
+        "service": "General repairs"
+    },
+    {
+        "quote": "Explained exactly what our furnace needed and what could wait. Did not upsell a thing.",
+        "name": "Morgan L.",
+        "initial": "M",
+        "area": "Westgate",
+        "service": "Heating & cooling"
+    },
+    {
+        "quote": "Small job, but they treated it like it mattered. The door has not stuck since.",
+        "name": "Riley K.",
+        "initial": "R",
+        "area": "Sunnybrook",
+        "service": "Carpentry"
+    }
+]
