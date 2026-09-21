@@ -3,6 +3,7 @@
     'body' => 'Groceries twice a week, supper every Thursday, help with the rent when a month goes wrong. Run by neighbors, out of one hall on Alder Street, since 2011.',
     'secondaryLabel' => 'Volunteer with us',
     'secondaryLink' => '/get-involved',
+    'image' => '/images/crate.jpg',
 ])
 <section class="relative overflow-hidden">
     <div class="mx-auto max-w-7xl px-5 pt-14 pb-20 sm:px-6 lg:px-8 lg:pt-20 lg:pb-28">
@@ -10,7 +11,13 @@
             <h1 data-settle class="relative max-w-[11ch] font-display text-[clamp(3.25rem,10vw,7.25rem)] leading-[0.9] font-extrabold tracking-[-0.04em] text-balance text-ink">{{ $heading }}</h1>
             <div data-drum class="overprint pointer-events-none absolute z-10 -top-6 right-[-22%] size-[clamp(12rem,48vw,40rem)] sm:-top-16 sm:right-[-6%] lg:right-[2%]" aria-hidden="true">
                 <div class="halftone absolute inset-0 translate-x-[3%] translate-y-[4%] rounded-full text-ink/15"></div>
-                <div class="absolute inset-0 rounded-full bg-primary"></div>
+                <div class="absolute inset-0 overflow-hidden rounded-full bg-primary">
+                    @if ($image)
+                        <div class="riso-ink riso-fade absolute inset-0 mix-blend-multiply">
+                            <img src="{{ $image }}" alt="" aria-hidden="true" width="1024" height="1024" class="absolute -top-[24%] -left-[15%] size-[130%] max-w-none object-cover">
+                        </div>
+                    @endif
+                </div>
             </div>
         </div>
         <div class="relative z-20 mt-12 grid gap-12 lg:mt-10 lg:grid-cols-[1fr_minmax(0,26rem)] lg:items-start lg:gap-20">

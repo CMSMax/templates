@@ -31,7 +31,7 @@
                             <x-level :value="$class->level"/>
                             <span class="mt-1 block text-muted">{{ $class->length }}</span>
                         </span>
-                        <img src="{{ $class->image }}" alt="" width="512" height="640" loading="lazy" class="aspect-[4/5] w-20 rounded-xl object-cover outline-1 -outline-offset-1 outline-ink/5 max-lg:hidden">
+                        <img src="{{ $class->image }}" alt="" aria-hidden="true" width="512" height="640" loading="lazy" class="aspect-[4/5] w-20 rounded-xl object-cover outline-1 -outline-offset-1 outline-ink/5 max-lg:hidden">
                     </a>
                 </li>
             @endforeach

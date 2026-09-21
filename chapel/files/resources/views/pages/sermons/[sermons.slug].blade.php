@@ -27,7 +27,7 @@
                 </dl>
             </header>
             @if ($sermons->image)
-                <img src="{{ $sermons->image }}" alt="" width="1600" height="900" class="mt-14 aspect-[16/9] w-full rounded-t-[12rem] object-cover">
+                <img src="{{ $sermons->image }}" alt="" aria-hidden="true" width="1600" height="900" class="mt-14 aspect-[16/9] w-full rounded-t-[12rem] object-cover">
             @endif
             <div class="prose mx-auto mt-14 max-w-2xl">{!! $sermons->content !!}</div>
             <div class="mx-auto mt-20 max-w-2xl border-t border-line pt-10">

@@ -4,8 +4,8 @@
     'body' => 'An old stone church on the corner of Chapel and Linden. Come for an hour of hymns, scripture and bread on Sunday — stay for coffee, and for as long as you like after that.',
     'secondaryLabel' => 'Hear last Sunday’s sermon',
     'secondaryLink' => '/sermons',
-    'image' => '',
-    'imageAlt' => '',
+    'image' => '/images/sanctuary.jpg',
+    'imageAlt' => 'Morning light through the arched east window, falling across the oak pews and the stone aisle',
 ])
 <section class="pt-12 sm:pt-16 lg:pt-20">
     <div class="mx-auto max-w-6xl px-5 sm:px-8">

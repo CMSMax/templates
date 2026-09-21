@@ -5,3 +5,4 @@ fields:
     body: { type: textarea, label: Supporting copy, rows: 3 }
     secondaryLabel: { type: text, label: Second button text }
     secondaryLink: { type: url, label: Second button link }
+    image: { type: image, label: Photo printed in the pink sun (leave empty for flat pink) }

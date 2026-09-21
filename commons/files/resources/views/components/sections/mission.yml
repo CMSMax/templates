@@ -6,3 +6,5 @@ fields:
     rest: { type: textarea, label: Statement — after the highlight, rows: 2 }
     body: { type: textarea, label: Supporting paragraph, rows: 3 }
     signoff: { type: text, label: Signed by }
+    image: { type: image, label: Photo (printed in the site's ink) }
+    imageAlt: { type: text, label: Photo description }

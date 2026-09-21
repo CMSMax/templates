@@ -6,14 +6,14 @@
     'bodyTwo' => 'I’ve spent twelve years working with adults and couples in community clinics and private practice. You won’t get homework you didn’t ask for or jargon you have to decode. You will get someone who remembers what you said last week.',
     'approaches' => 'Emotionally Focused Therapy · CBT · ACT · Gottman Method, Level 2',
     'signature' => 'Nora',
-    'image' => '',
-    'imageAlt' => 'Portrait of Nora Lind in her Portland office',
+    'image' => '/images/nora.jpg',
+    'imageAlt' => 'Nora Lind in a slate-blue sweater, sitting in an armchair in her Portland office',
 ])
 <section id="about" aria-labelledby="about-heading" class="scroll-mt-8 py-24 lg:py-32">
     <div class="mx-auto grid max-w-6xl items-start gap-12 px-5 sm:px-8 lg:grid-cols-[5fr_7fr] lg:gap-20">
         <figure class="max-w-md lg:sticky lg:top-10">
             @if ($image)
-                <img src="{{ $image }}" alt="{{ $imageAlt }}" width="800" height="1000" loading="lazy" decoding="async" class="aspect-[4/5] w-full rounded-[1.5rem] object-cover outline-1 -outline-offset-1 outline-ink/5">
+                <img src="{{ $image }}" alt="{{ $imageAlt }}" width="928" height="1152" loading="lazy" decoding="async" class="aspect-[4/5] w-full rounded-[1.5rem] object-cover outline-1 -outline-offset-1 outline-ink/5">
             @else
                 <div class="sky-dawn relative isolate grid aspect-[4/5] w-full place-items-center overflow-hidden rounded-[1.5rem]" role="img" aria-label="{{ $imageAlt }}">
                     <div class="absolute -bottom-[34%] left-1/2 -z-10 size-[64%] -translate-x-1/2 rounded-full bg-primary blur-[1px]" aria-hidden="true"></div>

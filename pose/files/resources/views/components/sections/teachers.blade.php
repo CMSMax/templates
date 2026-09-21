@@ -30,7 +30,7 @@
         @endif
             @foreach ($teachers as $teacher)
                 <li class="flex flex-col">
-                    <img src="{{ $teacher->image }}" alt="" width="512" height="640" loading="lazy" class="aspect-[4/5] w-full rounded-[1.75rem] bg-surface object-cover outline-1 -outline-offset-1 outline-ink/5">
+                    <img src="{{ $teacher->image }}" alt="" aria-hidden="true" width="512" height="640" loading="lazy" class="aspect-[4/5] w-full rounded-[1.75rem] bg-surface object-cover outline-1 -outline-offset-1 outline-ink/5">
                     <h3 class="mt-4 font-display text-xl font-medium tracking-tight text-ink sm:mt-5 sm:text-2xl">{{ $teacher->name }}</h3>
                     <p class="mt-1 text-sm text-muted sm:text-base">{{ $teacher->role }}</p>
                     @if ($showBio == '1')

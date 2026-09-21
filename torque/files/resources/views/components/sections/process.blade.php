@@ -3,6 +3,9 @@
     'body' => 'Here’s how every job goes, from the minute you hand over the keys.',
     'estimateLabel' => 'A real estimate, the way you’ll get it',
     'warrantyLabel' => 'Every repair is covered for',
+    'image' => '/images/inspection.jpg',
+    'imageAlt' => 'A technician’s gloved hand pointing a flashlight at a worn brake pad and scored rotor',
+    'imageCaption' => 'What we found: front pads at 2 mm, rotors scored.',
 ])
 <section id="process" class="scroll-mt-18 border-y border-line bg-surface py-20 lg:py-28">
     <div class="mx-auto grid max-w-7xl grid-cols-1 gap-16 px-5 sm:px-8 lg:grid-cols-12 lg:gap-12">
@@ -40,6 +43,15 @@
                     </div>
                     <p class="rounded-md bg-surface px-3 py-1.5 font-display text-lg font-bold tracking-[0.12em] text-ink uppercase tabular-nums ring-2 ring-ink/80">{{ $site->estimate->plate }}</p>
                 </div>
+                @if ($image)
+                    <div class="border-b border-line p-3 sm:p-4">
+                        <img src="{{ $image }}" alt="{{ $imageAlt }}" width="1264" height="848" loading="lazy" decoding="async" class="aspect-[16/9] w-full rounded-md object-cover">
+                        <p class="mt-3 flex items-center gap-2.5 px-3 text-sm text-muted sm:px-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4 shrink-0 text-ink" aria-hidden="true"><path fill-rule="evenodd" d="M1 8a2 2 0 0 1 2-2h.93a2 2 0 0 0 1.664-.89l.812-1.22A2 2 0 0 1 8.07 3h3.86a2 2 0 0 1 1.664.89l.812 1.22A2 2 0 0 0 16.07 6H17a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8Zm13.5 3a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0ZM10 14a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" clip-rule="evenodd"/></svg>
+                            {{ $imageCaption }}
+                        </p>
+                    </div>
+                @endif
                 <table class="w-full text-left">
                     <caption class="sr-only">Estimate line items</caption>
                     <thead class="sr-only">

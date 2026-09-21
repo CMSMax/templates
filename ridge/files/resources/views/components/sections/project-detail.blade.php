@@ -51,7 +51,7 @@
                         @if ($other->slug != $project->slug)
                             <li class="border-b border-line">
                                 <a href="{{ $other->link }}" class="group flex items-center gap-4 py-4">
-                                    <img src="{{ $other->image }}" alt="" width="1600" height="1205" loading="lazy" decoding="async" class="aspect-square w-20 shrink-0 rounded-md object-cover">
+                                    <img src="{{ $other->image }}" alt="" aria-hidden="true" width="1600" height="1205" loading="lazy" decoding="async" class="aspect-square w-20 shrink-0 rounded-md object-cover">
                                     <span class="flex min-w-0 flex-col gap-1">
                                         <span class="font-semibold group-hover:underline group-hover:decoration-primary group-hover:decoration-2 group-hover:underline-offset-4">{{ $other->title }}</span>
                                         <span class="text-sm text-muted">{{ $other->material }} · {{ $other->place }}</span>

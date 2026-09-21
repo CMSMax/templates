@@ -37,6 +37,34 @@
     mix-blend-mode: multiply;
 }
 
+/* A photograph pulled through the blue drum: shadows print in the ink,
+   highlights stay paper. The photo is made grayscale and screened over the
+   ink, so any picture dropped in comes out in the poster's palette. */
+@utility riso-ink {
+    isolation: isolate;
+    background-color: var(--color-ink);
+
+    & > img {
+        filter: grayscale(1) contrast(1.15);
+        mix-blend-mode: screen;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-color: var(--color-canvas);
+        mix-blend-mode: multiply;
+        pointer-events: none;
+    }
+}
+
+/* Inside the overprint sun the photograph fades out toward the headline,
+   so the words it overlaps stay on flat pink. */
+@utility riso-fade {
+    mask-image: linear-gradient(100deg, transparent 22%, #000 62%);
+}
+
 /* A hundred cents: one tick per percent of the bar's width, and every
    tenth tick runs the full height like the long marks on a ruler. Masks
    whatever colored segments sit underneath. */

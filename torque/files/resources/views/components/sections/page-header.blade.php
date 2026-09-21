@@ -1,6 +1,8 @@
 @props([
     'heading' => 'Services & prices',
     'body' => 'Every job we do most weeks, with what it includes, how long it usually takes, and what it costs.',
+    'image' => '/images/bay.jpg',
+    'imageAlt' => 'Inside the shop: a technician working under an SUV raised on the lift, a red tool chest against the white wall',
 ])
 <section class="border-b border-line pt-14 pb-14 sm:pt-20 lg:pb-20">
     <div class="mx-auto flex max-w-7xl flex-col gap-10 px-5 sm:px-8 lg:flex-row lg:items-end lg:justify-between">
@@ -24,4 +26,9 @@
             @endforeach
         </ul>
     </div>
+    @if ($image)
+        <div class="mx-auto mt-14 max-w-7xl px-5 sm:px-8 lg:mt-16">
+            <img src="{{ $image }}" alt="{{ $imageAlt }}" width="1584" height="672" decoding="async" class="aspect-[2/1] w-full rounded-xl object-cover ring-1 ring-line sm:aspect-[21/9]">
+        </div>
+    @endif
 </section>

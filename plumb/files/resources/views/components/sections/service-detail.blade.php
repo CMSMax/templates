@@ -56,7 +56,7 @@
                             @if ($other->slug != $service->slug)
                                 <li class="border-b border-line">
                                     <a href="{{ $other->link }}" class="group flex items-center gap-4 py-3.5">
-                                        <img src="{{ $other->image }}" alt="" width="1024" height="688" loading="lazy" class="size-14 shrink-0 rounded-xl object-cover">
+                                        <img src="{{ $other->image }}" alt="" aria-hidden="true" width="1024" height="688" loading="lazy" class="size-14 shrink-0 rounded-xl object-cover">
                                         <span class="flex min-w-0 flex-1 flex-col">
                                             <span class="font-semibold group-hover:text-primary">{{ $other->title }}</span>
                                             <span class="text-sm text-muted tabular-nums">{{ $other->priceFrom }}</span>

@@ -2,8 +2,8 @@
     'quote' => 'You do not need to believe everything, or anything, to walk through our doors. Bring your questions and your doubts. We keep a seat and a cup of coffee for you either way.',
     'name' => 'Rev. Anna Whitley',
     'role' => 'Rector, since 2015',
-    'image' => '',
-    'imageAlt' => '',
+    'image' => '/images/rector.jpg',
+    'imageAlt' => 'Rev. Anna Whitley smiling in the stone doorway of the church',
 ])
 <section aria-label="A welcome from our rector" class="bg-surface py-24 sm:py-28 lg:py-32">
     <div class="mx-auto max-w-6xl px-5 sm:px-8">

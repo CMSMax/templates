@@ -3,6 +3,8 @@
     'body' => 'Shopping the pantry, dropping off a bag of groceries, or just curious — the door on Alder Street is open, and someone will show you around.',
     'directionsLabel' => 'Get directions',
     'closingLine' => 'Can’t make it over? Give from wherever you are.',
+    'image' => '/images/hall.jpg',
+    'imageAlt' => 'The brick hall on Alder Street with its doors propped open and a cart of grocery boxes by the entrance',
 ])
 <section id="visit" aria-labelledby="visit-heading" class="scroll-mt-20">
     <div class="mx-auto max-w-7xl px-5 py-20 sm:px-6 lg:px-8 lg:py-28">
@@ -20,6 +22,11 @@
                 <a href="{{ $site->directions_url }}" class="mt-8 inline-flex min-h-12 items-center gap-2 rounded-full px-6 font-bold text-ink ring-2 ring-ink ring-inset transition-colors duration-150 hover:bg-ink hover:text-canvas focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink">{{ $directionsLabel }}<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="size-5" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-7-7l7 7l-7 7"/></svg></a>
             </div>
             <div class="lg:col-span-5 lg:col-start-8">
+                @if ($image)
+                    <div class="mb-12">
+                        <x-riso :image="$image" :alt="$imageAlt"/>
+                    </div>
+                @endif
                 <h3 class="font-display text-2xl font-bold text-ink">Hours</h3>
                 <dl class="mt-5 border-b-2 border-ink">
                     @foreach ($site->hours as $row)

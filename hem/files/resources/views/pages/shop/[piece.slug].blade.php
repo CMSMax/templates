@@ -50,7 +50,7 @@
                         <li>
                             <a href="{{ $other->link }}" class="group block focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ink">
                                 <div class="overflow-hidden bg-surface">
-                                    <img src="{{ $other->image }}" alt="" width="896" height="1120" loading="lazy" decoding="async" class="aspect-4/5 w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]">
+                                    <img src="{{ $other->image }}" alt="" aria-hidden="true" width="896" height="1120" loading="lazy" decoding="async" class="aspect-4/5 w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]">
                                 </div>
                                 <p class="mt-3 text-sm text-muted">{{ $other->brand }}</p>
                                 <h3 class="font-display text-base font-medium tracking-tight text-ink group-hover:underline group-hover:underline-offset-4 sm:text-lg">{{ $other->title }}</h3>

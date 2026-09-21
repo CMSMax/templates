@@ -3,3 +3,5 @@ description: The Services page title with the shop's promises (from the site det
 fields:
     heading: { type: text, label: Page title }
     body: { type: textarea, label: Introduction, rows: 3 }
+    image: { type: image, label: Photo under the title }
+    imageAlt: { type: text, label: Photo description }

@@ -1,8 +1,8 @@
 @props([
     'heading' => 'When and where',
     'body' => 'Come to whichever service suits you. The 9:00 is quiet and short; the 11:00 has the choir, the organ and the children’s blessing.',
-    'image' => '',
-    'imageAlt' => '',
+    'image' => '/images/red-doors.jpg',
+    'imageAlt' => 'The red doors of the church standing open under a carved stone arch, a maple turning gold beside them',
 ])
 <section aria-labelledby="times-heading" class="pb-24 sm:pb-28 lg:pb-32">
     <div class="mx-auto grid max-w-6xl gap-14 px-5 sm:px-8 lg:grid-cols-[5fr_7fr] lg:gap-20">

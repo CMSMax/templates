@@ -6,3 +6,5 @@ fields:
     afterHoursLabel: { type: text, label: After-hours heading }
     afterHours: { type: textarea, label: After-hours note, rows: 2 }
     directionsLabel: { type: text, label: Directions button text }
+    image: { type: image, label: Photo of the shop }
+    imageAlt: { type: text, label: Photo description }

@@ -27,7 +27,7 @@
                     <a href="{{ $sermon->link }}" class="group block rounded-t-full focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary">
                         <span class="relative block aspect-[5/4] overflow-hidden sm:aspect-[4/5] rounded-t-full bg-surface ring-1 ring-line">
                             @if ($sermon->image)
-                                <img src="{{ $sermon->image }}" alt="" width="640" height="800" class="size-full object-cover">
+                                <img src="{{ $sermon->image }}" alt="" aria-hidden="true" width="640" height="800" class="size-full object-cover">
                             @else
                                 <span class="absolute inset-3 flex flex-col items-center justify-center rounded-t-full border border-line px-6 text-center" aria-hidden="true">
                                     <span class="smallcaps text-sm text-muted">{{ $sermon->series }}</span>

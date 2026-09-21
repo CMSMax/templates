@@ -3,3 +3,4 @@ description: The page's poster headline with the pink overprint sun and a link t
 fields:
     heading: { type: text, label: Headline }
     body: { type: textarea, label: Supporting copy, rows: 3 }
+    image: { type: image, label: Photo printed in the pink sun (leave empty for flat pink) }

@@ -5,3 +5,6 @@ fields:
     body: { type: textarea, label: Supporting copy, rows: 2 }
     estimateLabel: { type: text, label: Label above the estimate }
     warrantyLabel: { type: text, label: Words before the warranty }
+    image: { type: image, label: Inspection photo on the estimate }
+    imageAlt: { type: text, label: Photo description }
+    imageCaption: { type: text, label: Caption under the photo }

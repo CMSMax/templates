@@ -2,8 +2,8 @@
     'heading' => 'Life together',
     'headingEmphasis' => 'the rest of the week.',
     'body' => 'Sunday is where it starts. Most of what we do happens between Sundays — in classrooms, kitchens and living rooms all over town.',
-    'image' => '',
-    'imageAlt' => '',
+    'image' => '/images/supper.jpg',
+    'imageAlt' => 'Hands passing bread and ladling soup at the Wednesday supper table in the hall',
 ])
 <section id="ministries" aria-labelledby="ministries-heading" class="scroll-mt-8 py-24 sm:py-28 lg:py-36">
     <div class="mx-auto grid max-w-6xl gap-14 px-5 sm:px-8 lg:grid-cols-[5fr_7fr] lg:gap-20">

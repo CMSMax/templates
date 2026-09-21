@@ -5,3 +5,5 @@ fields:
     body: { type: textarea, label: Supporting copy, rows: 3 }
     directionsLabel: { type: text, label: Directions button text }
     closingLine: { type: text, label: Closing line }
+    image: { type: image, label: Photo of the place (printed in the site's ink) }
+    imageAlt: { type: text, label: Photo description }
