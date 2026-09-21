@@ -16,7 +16,7 @@
                 <li class="flex flex-col justify-between gap-8 border-t border-line pt-6">
                     <p class="relative max-w-[42ch] text-[1.0625rem]/7 text-ink before:absolute before:inline before:-translate-x-full before:content-['\201C'] after:inline after:content-['\201D']">{{ $review->quote }}</p>
                     <div class="flex items-center gap-3">
-                        <img src="{{ $review->avatar }}" alt="" width="160" height="160" loading="lazy" decoding="async" class="size-10 shrink-0 rounded-full object-cover outline-1 -outline-offset-1 outline-ink/10">
+                        <img src="{{ $review->avatar }}" alt="" aria-hidden="true" width="160" height="160" loading="lazy" decoding="async" class="size-10 shrink-0 rounded-full object-cover outline-1 -outline-offset-1 outline-ink/10">
                         <div>
                             <p class="font-medium text-ink">{{ $review->name }}</p>
                             <p class="text-base/6 text-muted sm:text-sm/6">{{ $review->trade }} — {{ $review->place }}</p>
