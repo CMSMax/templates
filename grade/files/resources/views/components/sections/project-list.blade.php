@@ -6,7 +6,7 @@
                 <div class="grid gap-y-14 lg:grid-cols-12 lg:gap-x-10">
                     <a href="{{ $project->link }}" class="group relative block lg:col-span-7 lg:group-even/row:order-last lg:group-even/row:col-start-6" tabindex="-1" aria-hidden="true">
                         <div class="overflow-hidden">
-                            <img src="{{ $project->image }}" alt="" width="1168" height="880" loading="lazy" decoding="async" class="aspect-[4/3] w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]">
+                            <img src="{{ $project->image }}" alt="" aria-hidden="true" width="1168" height="880" loading="lazy" decoding="async" class="aspect-[4/3] w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]">
                         </div>
                         <div class="absolute -bottom-8 left-4 md:left-6">
                             <x-stamp :number="$project->number" :title="$project->title" :location="$project->location" :year="$project->year" :scope="$project->scope" :weeks="$project->weeks"/>

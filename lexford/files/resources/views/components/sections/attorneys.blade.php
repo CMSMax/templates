@@ -23,7 +23,7 @@
             @foreach ($items as $person)
                 <li>
                     <div class="overflow-hidden rounded-[min(3vw,1.5rem)] bg-line">
-                        <img src="{{ $person->image }}" alt="" width="1200" height="1500" loading="lazy" class="aspect-4/5 w-full object-cover">
+                        <img src="{{ $person->image }}" alt="" aria-hidden="true" width="1200" height="1500" loading="lazy" class="aspect-4/5 w-full object-cover">
                     </div>
                     <h3 class="mt-6 font-display text-2xl tracking-tight text-ink">{{ $person->name }}</h3>
                     <p class="mt-1 text-base text-muted">{{ $person->role }}</p>
