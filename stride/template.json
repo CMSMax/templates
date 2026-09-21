@@ -1,0 +1,11 @@
+{
+    "name": "Stride",
+    "industry": "physical-therapy",
+    "description": "An athletic, plan-first template for physical therapy and sports-rehab clinics — cool gym-floor canvas, moss-black ink and one lime accent, bright photography of real movement, a range-of-motion card that shows the degrees won back, a where-does-it-hurt index, and the recovery plan drawn as four resistance bands that deepen as the load goes up.",
+    "pages": ["Home", "Services & pricing", "404"],
+    "collections": ["services", "faqs", "hours"],
+    "cta": "Book an evaluation",
+    "theme": "light",
+    "accent": "#c8f04e",
+    "fonts": ["Epilogue", "Rethink Sans"]
+}

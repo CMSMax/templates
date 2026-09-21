@@ -1,0 +1,5 @@
+title: Call to action
+description: The closing band in the accent color — a huge booking line and the phone number.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 2 }

@@ -1,0 +1,6 @@
+title: Page header
+description: The page's headline and a short introduction, with an optional highlighted line above it.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Introduction, rows: 3 }
+    highlight: { type: text, label: Highlighted line (leave empty to hide) }

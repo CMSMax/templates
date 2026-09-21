@@ -1,0 +1,9 @@
+title: Footer
+description: The practice's name and tagline, page links, contact details and office hours from site.json, and the small print.
+fields:
+    practiceHeading: { type: text, label: Links heading }
+    servicesLabel: { type: text, label: Services link text }
+    aboutLabel: { type: text, label: About link text }
+    contactHeading: { type: text, label: Contact heading }
+    hoursHeading: { type: text, label: Hours heading }
+    note: { type: textarea, label: Small print, rows: 2 }

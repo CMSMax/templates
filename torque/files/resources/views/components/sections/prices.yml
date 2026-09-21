@@ -1,0 +1,8 @@
+title: Posted prices
+description: The price board, grouped by the service groups in the site details. On the home page it shows the services switched on "Show on the home page"; the Services page shows every one.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    all: { type: select, label: Which services, options: { "0": Home page picks, "1": Every service } }
+    showLink: { type: toggle, label: Show the link to the Services page }
+    linkLabel: { type: text, label: Link text }

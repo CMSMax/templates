@@ -1,0 +1,10 @@
+[
+    { "date": "Jan 15", "month": "1", "day": "15", "title": "Fourth-quarter estimated tax", "who": "Self-employed and investors" },
+    { "date": "Jan 31", "month": "1", "day": "31", "title": "W-2s and 1099s to workers", "who": "Employers and contractors’ clients" },
+    { "date": "Mar 15", "month": "3", "day": "15", "title": "S-corp and partnership returns", "who": "Business owners" },
+    { "date": "Apr 15", "month": "4", "day": "15", "title": "Individual returns and Q1 estimate", "who": "Almost everyone" },
+    { "date": "Jun 15", "month": "6", "day": "15", "title": "Second-quarter estimated tax", "who": "Self-employed and investors" },
+    { "date": "Sep 15", "month": "9", "day": "15", "title": "Q3 estimate and extended business returns", "who": "Business owners" },
+    { "date": "Oct 15", "month": "10", "day": "15", "title": "Extended individual returns", "who": "Anyone who filed an extension" },
+    { "date": "Dec 31", "month": "12", "day": "31", "title": "Last day for year-end tax moves", "who": "Everyone planning ahead" }
+]

@@ -1,0 +1,11 @@
+{
+    "name": "Tally",
+    "industry": "accountants",
+    "description": "A crisp, paper-and-ink template for accounting and tax practices — warm paper canvas, ballpoint-blue accent, IBM Plex type with tabular figures, a tally-mark monogram, services priced like a fee schedule, and a full-width tax-year calendar that marks today and the next deadline.",
+    "pages": ["Home", "Services", "About", "Contact", "404"],
+    "collections": ["services", "deadlines", "plans", "team", "faqs"],
+    "cta": "Book a free call",
+    "theme": "light",
+    "accent": "#2340c8",
+    "fonts": ["IBM Plex Sans", "IBM Plex Mono"]
+}

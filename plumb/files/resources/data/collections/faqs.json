@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Do you charge by the hour?",
+        "answer": "No. Every job has a flat price from our price book, shown to you before we start. If the job runs long, that is on us."
+    },
+    {
+        "question": "What does the $59 visit cover?",
+        "answer": "The trip and the diagnosis. If you go ahead with the repair, the $59 comes off the price."
+    },
+    {
+        "question": "Is the emergency line really 24/7?",
+        "answer": "Yes, and a dispatcher answers, not a voicemail. Nights, weekends and holidays cost the same as a Tuesday morning."
+    },
+    {
+        "question": "What does the one-year guarantee cover?",
+        "answer": "Any repair or installation we do. If it fails within twelve months, we come back and fix it again at no charge."
+    },
+    {
+        "question": "Will you install a fixture I bought myself?",
+        "answer": "Gladly, at the same flat price. Our guarantee covers the installation; the maker's warranty covers the fixture."
+    }
+]

@@ -1,0 +1,13 @@
+title: Intro offer
+description: The one dark band — the try-a-week offer with three plain promises, a bright button, and a photo.
+fields:
+    tag: { type: text, label: Tag }
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    pointOne: { type: text, label: First promise }
+    pointTwo: { type: text, label: Second promise }
+    pointThree: { type: text, label: Third promise }
+    buttonLabel: { type: text, label: Button text }
+    buttonLink: { type: url, label: Button link }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }

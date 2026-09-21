@@ -1,0 +1,7 @@
+title: Memberships
+description: The plans compared side by side. Plans come from the Memberships collection; switch on "Highlight this plan" for the one most members choose.
+fields:
+    label: { type: text, label: Section label }
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    featuredLabel: { type: text, label: Highlighted plan badge }

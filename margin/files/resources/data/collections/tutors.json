@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Clare Whitlock",
+        "role": "Head of maths",
+        "subjects": "Maths, AP Calculus",
+        "credential": "MEd, 14 years teaching high school maths",
+        "quote": "If a student can explain the step to me, they own it.",
+        "image": "/images/tutors/clare.jpg",
+        "imageAlt": "Clare Whitlock smiling in front of a bookshelf"
+    },
+    {
+        "name": "James Okafor",
+        "role": "Head of English",
+        "subjects": "Reading, writing, AP Literature",
+        "credential": "MA English, former department head",
+        "quote": "I mark in the margin so the reason sits next to the mistake.",
+        "image": "/images/tutors/james.jpg",
+        "imageAlt": "James Okafor in a white jacket, smiling"
+    },
+    {
+        "name": "Priya Nair",
+        "role": "Sciences",
+        "subjects": "Chemistry, biology, physics",
+        "credential": "PhD Chemistry, 8 years tutoring",
+        "quote": "Idea first, equation second, exam question third.",
+        "image": "/images/tutors/priya.jpg",
+        "imageAlt": "Priya Nair in an olive shirt in a bright classroom"
+    },
+    {
+        "name": "Sam Keller",
+        "role": "Test prep",
+        "subjects": "SAT, ACT, ISEE",
+        "credential": "99th percentile SAT, 6 years coaching",
+        "quote": "The first mock is a map, not a verdict.",
+        "image": "/images/tutors/sam.jpg",
+        "imageAlt": "Sam Keller smiling in a bright room"
+    },
+    {
+        "name": "Leila Haddad",
+        "role": "Maths & reading",
+        "subjects": "Ages 8–12, maths and reading",
+        "credential": "Certified elementary teacher, BEd",
+        "quote": "Confidence comes from small wins, so we plan for them.",
+        "image": "/images/tutors/leila.jpg",
+        "imageAlt": "Leila Haddad in a denim jacket beside a bookshelf"
+    },
+    {
+        "name": "Robert Hale",
+        "role": "Study skills",
+        "subjects": "Study skills, history",
+        "credential": "Former head of year, 22 years in schools",
+        "quote": "Most students need a better week, not more hours.",
+        "image": "/images/tutors/robert.jpg",
+        "imageAlt": "Robert Hale in a navy jacket, smiling"
+    }
+]

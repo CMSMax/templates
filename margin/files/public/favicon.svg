@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 32">
+    <style>
+        .page { fill: #17203b }
+        .rule { fill: #c93a22 }
+        @media (prefers-color-scheme: dark) { .page { fill: #eef1f7 } .rule { fill: #ef6a52 } }
+    </style>
+    <path class="page" fill-rule="evenodd" d="M2 1h21a4 4 0 0 1 4 4v22a4 4 0 0 1-4 4H2V1Zm10 8.25h10v1.5H12v-1.5Zm0 6h10v1.5H12v-1.5Zm0 6h7v1.5h-7v-1.5Z"/>
+    <path class="rule" d="M7.5 1H10v30H7.5z"/>
+</svg>

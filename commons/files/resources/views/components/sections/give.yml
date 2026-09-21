@@ -1,0 +1,17 @@
+title: Give
+description: A pink field holding a paper flyer with a tear-off tab for every gift amount. The amounts live in the Gift amounts collection.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    flyerHeading: { type: text, label: Flyer headline }
+    flyerBody: { type: textarea, label: Flyer copy, rows: 3 }
+    monthlyNote: { type: text, label: Monthly giving line }
+    gifts:
+        type: repeater
+        label: Gift amounts
+        source: gifts
+        item_label: amount
+        sub_fields:
+            amount: { type: text, label: Amount }
+            buys: { type: text, label: What it pays for }
+            link: { type: url, label: Donation link }

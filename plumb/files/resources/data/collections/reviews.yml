@@ -1,0 +1,7 @@
+label: Reviews
+icon: ⭐
+fields:
+    quote: { type: textarea, label: Quote, rows: 3 }
+    name: { type: text, label: Name }
+    area: { type: text, label: Neighborhood }
+    job: { type: text, label: Job }

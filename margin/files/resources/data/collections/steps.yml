@@ -1,0 +1,6 @@
+label: Term steps
+icon: calendar
+fields:
+    when: { type: text }
+    title: { type: text }
+    body: { type: textarea }

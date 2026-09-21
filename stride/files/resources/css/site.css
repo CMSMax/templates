@@ -1,0 +1,102 @@
+@import 'tailwindcss';
+
+@theme {
+    /* Cool gym-floor neutrals; warmth comes from the photography, not a
+       cream ground. */
+    --color-canvas: #f2f3ef;
+    --color-surface: #e6e8e1;
+    --color-card: #ffffff;
+    --color-ink: #151a13;
+    --color-muted: #51584d;
+    --color-line: #d8dbd2;
+    /* The one accent: lime, used as a fill (buttons, the goniometer arc, the
+       resistance bands) and never as text on the light canvas. Secondary is
+       the moss-black that carries the dark bands. The Branding page's colors
+       reach the site through these four. */
+    --color-primary: #c8f04e;
+    --color-primary-foreground: #151a13;
+    --color-secondary: #151a13;
+    --color-secondary-foreground: #f2f3ef;
+    --font-sans:
+        'Rethink Sans', ui-sans-serif, system-ui, -apple-system, 'Segoe UI',
+        sans-serif;
+    --font-display:
+        'Epilogue', 'Rethink Sans', ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background-color: var(--color-primary);
+    color: var(--color-primary-foreground);
+}
+
+/* First-viewport arrival: copy rises, the range-of-motion card settles onto
+   the photo and its arc sweeps from the starting angle to today's. Time-based,
+   so no script is involved. */
+@keyframes rise-in {
+    from {
+        opacity: 0;
+        transform: translateY(16px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes arc-sweep {
+    from {
+        stroke-dashoffset: var(--arc-from, 100);
+    }
+}
+
+@keyframes band-stretch {
+    from {
+        transform: scaleX(0.55);
+    }
+}
+
+[data-rise] {
+    animation: rise-in 800ms cubic-bezier(0.22, 1, 0.36, 1) both;
+    animation-delay: calc(60ms + var(--i, 0) * 90ms);
+}
+
+[data-arc] {
+    animation: arc-sweep 1400ms cubic-bezier(0.22, 1, 0.36, 1) 500ms both;
+}
+
+[data-band] {
+    transform-origin: left center;
+    animation: band-stretch 1100ms cubic-bezier(0.22, 1, 0.36, 1) both;
+    animation-delay: calc(var(--i, 0) * 120ms);
+    animation-timeline: view();
+    animation-range: entry 10% cover 40%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    [data-rise],
+    [data-arc],
+    [data-band] {
+        animation: none;
+    }
+}
+
+/* A strip of lime tape behind the lower part of a phrase — the hero's
+   emphasis, drawn like kinesiology tape rather than a marker swipe. */
+@utility tape {
+    background-image: linear-gradient(
+        transparent 60%,
+        var(--color-primary) 60%,
+        var(--color-primary) 90%,
+        transparent 90%
+    );
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}

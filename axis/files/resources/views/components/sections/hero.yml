@@ -1,0 +1,9 @@
+title: Hero
+description: The opening line with a photo set into it, the book-your-first-visit button, a wide treatment photo, and a strip with the phone number, hours and address.
+fields:
+    headingLead: { type: text, label: Headline — first line }
+    headingTail: { type: text, label: Headline — second line }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    chipImage: { type: image, label: Small photo inside the headline }
+    image: { type: image, label: Main photo }
+    imageAlt: { type: text, label: Main photo description }

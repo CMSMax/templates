@@ -1,0 +1,8 @@
+title: Service area & hours
+description: The neighbourhoods you cover as map-pin chips, a photo, and the hours you answer the phone.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Intro, rows: 2 }
+    hoursHeading: { type: text, label: Hours heading }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }

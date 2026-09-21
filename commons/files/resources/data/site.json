@@ -1,0 +1,51 @@
+{
+    "name": "Eastside Commons",
+    "short_name": "Commons",
+    "tagline": "A neighborhood nonprofit making sure nobody on the east side goes without food, heat, or a hand.",
+    "place": "Eastside, Riverton",
+    "founded": "2011",
+    "status": "Eastside Commons is a registered 501(c)(3) nonprofit. Gifts are tax-deductible as allowed by law.",
+    "phone": "(555) 318-4402",
+    "phone_href": "tel:+15553184402",
+    "email": "hello@eastsidecommons.example",
+    "volunteer_email": "volunteer@eastsidecommons.example",
+    "address": "214 Alder Street",
+    "city": "Riverton",
+    "directions_url": "https://maps.google.com/?q=214+Alder+Street+Riverton",
+    "donate_url": "https://example.org/donate",
+    "cta_label": "Donate",
+    "report_url": "https://example.org/annual-report",
+    "report_label": "Read the 2025 annual report",
+    "instagram": "https://instagram.com/",
+    "notice_heading": "Need groceries this week?",
+    "notice_body": "Walk in during pantry hours. No paperwork, no questions — bring a bag if you have one.",
+    "hours": [
+        { "label": "Pantry", "value": "Tue 4–7 pm · Sat 10 am–1 pm" },
+        { "label": "Community supper", "value": "Thursdays, 6 pm" },
+        { "label": "Donation drop-off", "value": "Mon–Fri, 9 am–5 pm" }
+    ],
+    "hours_note": "Closed on federal holidays — we post the make-up day on Instagram.",
+    "split": [
+        { "label": "Programs", "percent": "87", "note": "Groceries, suppers, rent help and winter heat, delivered on Alder Street." },
+        { "label": "Running the place", "percent": "8", "note": "Rent on the hall, the van's insurance, one part-time coordinator." },
+        { "label": "Asking for more", "percent": "5", "note": "Printing, postage, and the spring supper that pays for itself twice." }
+    ],
+    "ways": [
+        { "title": "Run a food drive", "note": "At your office, school, or congregation. We bring the boxes, a list of what's running low, and pick everything up." },
+        { "title": "Double it at work", "note": "Many employers match gifts to 501(c)(3)s. Ask HR — it takes five minutes and turns $50 into $100." },
+        { "title": "Drop off what's needed most", "note": "Right now: cooking oil, canned fish, diapers in sizes 4 and 5, and winter gloves. Weekdays, 9 to 5." }
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "A two-ink risograph community poster — the flyer pinned on the laundromat corkboard, printed at the copy shop. Paper-white stock, every word in one federal-blue ink, one fluorescent-pink overprint. Flat fields of color, halftone dots, no photographs required, no gradients, no soft cards. Neighborly, not corporate-charity.",
+        "type": "Funnel Display, bold and tight, for every heading — set big like poster type. Atkinson Hyperlegible Next for all text, labels and navigation; it was drawn for readers with low vision, which suits an organization that serves everyone.",
+        "color": "One accent: fluorescent pink (bg-primary), used as a whole field (the give flyer), the overprint sun behind the hero headline, marker highlights in the mission, and the Donate button. Where pink sits on blue ink it multiplies (the overprint utility). Text on pink is primary-foreground. The dollar section uses the blue ink as a full field with paper-colored type. Never add a second accent.",
+        "signature": "A dollar drawn as a ruler of a hundred cents — one tick per cent, long ticks every ten — with the program share printed in pink. Supported by the flyer of tear-off tabs, one tab per gift amount. Keep both wherever the design evolves; the split lives in site.json, the tabs in the gifts collection.",
+        "voice": "A neighbor explaining what happens on Alder Street: plain, specific, numbers over adjectives. Say what a gift buys. No 'make a difference', no 'together we can', no exclamation marks."
+    }
+}

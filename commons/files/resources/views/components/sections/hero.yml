@@ -1,0 +1,7 @@
+title: Hero
+description: The poster headline with the pink overprint sun, the donate button, and a notice slip with this week's hours (the hours live in site settings).
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    secondaryLabel: { type: text, label: Second button text }
+    secondaryLink: { type: url, label: Second button link }

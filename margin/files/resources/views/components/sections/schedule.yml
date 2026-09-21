@@ -1,0 +1,31 @@
+title: Weekly schedule
+description: When the centre is open and which subjects run each day, typeset as a timetable.
+fields:
+    heading:
+        type: text
+        label: Headline
+        default: The week at the centre.
+    note:
+        type: textarea
+        label: Note beside the table
+        rows: 2
+        default: Online sessions run on the same timetable. Saturday mornings are kept for mocks and intensives.
+    items:
+        type: repeater
+        label: Days
+        item_label: day
+        add_button_label: Add a day
+        source: collections.schedule
+        sub_fields:
+            day:
+                type: text
+                label: Day
+                default: Monday
+            times:
+                type: text
+                label: Hours
+                default: 3:30–8:00pm
+            subjects:
+                type: text
+                label: Subjects
+                default: Maths, English, sciences

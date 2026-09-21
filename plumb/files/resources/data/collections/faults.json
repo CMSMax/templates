@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Water where it shouldn't be",
+        "slug": "leak",
+        "code": "LK-01",
+        "urgency": "Same day",
+        "cause": "A failed supply line or a pinhole in an old copper pipe, usually under a sink or behind the washer.",
+        "fix": "Shut the water, find the source, replace the failed section, and pressure-test the line.",
+        "time": "45 – 90 minutes",
+        "price": "from $189"
+    },
+    {
+        "name": "A drain that won't drain",
+        "slug": "drain",
+        "code": "DR-02",
+        "urgency": "Today or tomorrow",
+        "cause": "Grease, hair or wipes built up past the trap. One slow drain is a local clog; several means the main line.",
+        "fix": "Clear it with a cable from the nearest cleanout, run water for ten minutes, and show you the camera if you want it.",
+        "time": "About an hour",
+        "price": "from $149"
+    },
+    {
+        "name": "No hot water",
+        "slug": "hot-water",
+        "code": "WH-03",
+        "urgency": "Same day",
+        "cause": "On a gas heater, a worn thermocouple or pilot. On electric, a burnt-out element or thermostat.",
+        "fix": "Test the part, replace it from the van, and flush the tank while we're there. We only quote a new heater if the tank is leaking.",
+        "time": "1 – 2 hours",
+        "price": "from $229"
+    },
+    {
+        "name": "A toilet that runs or rocks",
+        "slug": "toilet",
+        "code": "TL-04",
+        "urgency": "This week",
+        "cause": "A tired flapper or fill valve if it runs; a broken wax seal or flange if it rocks.",
+        "fix": "Rebuild the tank, or lift the toilet, replace the seal and bolts, and reset it level.",
+        "time": "30 – 60 minutes",
+        "price": "from $129"
+    },
+    {
+        "name": "Weak pressure everywhere",
+        "slug": "pressure",
+        "code": "PR-05",
+        "urgency": "This week",
+        "cause": "A failing pressure regulator at the meter, or galvanized pipes narrowed by decades of scale.",
+        "fix": "Gauge the pressure at the hose bib, replace the regulator, or quote a repipe in writing if the pipes are the cause.",
+        "time": "1 – 2 hours",
+        "price": "from $349"
+    }
+]

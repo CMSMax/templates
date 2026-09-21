@@ -1,0 +1,12 @@
+label: Classes
+icon: 🧘
+fields:
+    name: { type: text, label: Class name }
+    slug: { type: text, label: "Anchor (lowercase, no spaces)" }
+    pose: { type: select, label: Pictogram, options: { mountain: Mountain, salute: Upward salute, lunge: Low lunge, fold: Forward fold, halflift: Halfway lift, plank: Plank, updog: Upward dog, downdog: Downward dog, child: Child's pose, tree: Tree, warrior: Warrior, seated: Seated, rest: Resting } }
+    level: { type: select, label: Level, options: { '1': Gentle, '2': Steady, '3': Strong } }
+    length: { type: text, label: Length (e.g. 60 min) }
+    summary: { type: textarea, label: One-line summary, rows: 2 }
+    detail: { type: textarea, label: Longer description (Classes page), rows: 4 }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }

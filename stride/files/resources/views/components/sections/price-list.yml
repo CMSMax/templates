@@ -1,0 +1,24 @@
+title: Price list
+description: Every service from the Services collection, grouped under the service groups in site.json, with its length and self-pay price on hairline rules.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: text, label: Note beside the headline }
+    service_groups:
+        type: repeater
+        label: Groups
+        source: site.service_groups
+        item_label: name
+        sub_fields:
+            name: { type: text, label: Group name (must match the service's Group) }
+            body: { type: text, label: One-line description }
+    services:
+        type: repeater
+        label: Services
+        source: services
+        item_label: name
+        sub_fields:
+            name: { type: text, label: Service }
+            category: { type: text, label: Group }
+            description: { type: textarea, label: Short description, rows: 2 }
+            duration: { type: text, label: Length }
+            price: { type: text, label: Self-pay price }

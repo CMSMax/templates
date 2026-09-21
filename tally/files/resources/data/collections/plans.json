@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Sole trader",
+        "price": "$190",
+        "cadence": "per month",
+        "for": "Freelancers and one-person businesses",
+        "includes": "Quarterly bookkeeping, Schedule C and personal return, quarterly estimates, email support",
+        "featured": ""
+    },
+    {
+        "name": "Small business",
+        "price": "$480",
+        "cadence": "per month",
+        "for": "Owner-run companies with a small team",
+        "includes": "Monthly bookkeeping, payroll for up to ten, business and owner returns, quarterly review",
+        "featured": "1"
+    },
+    {
+        "name": "Growing company",
+        "price": "$1,150",
+        "cadence": "per month",
+        "for": "Teams of ten to fifty",
+        "includes": "Weekly bookkeeping, full payroll, all returns, monthly advisory call, cash-flow forecast",
+        "featured": ""
+    }
+]

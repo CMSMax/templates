@@ -1,0 +1,9 @@
+label: Services
+icon: 🦵
+fields:
+    name: { type: text, label: Service }
+    category: { type: select, label: Group, options: { 'Getting started': Getting started, 'Rehab': Rehab, 'Hands-on care': Hands-on care, 'Performance': Performance } }
+    description: { type: textarea, label: Short description, rows: 2 }
+    duration: { type: text, label: Length (e.g. 55 min) }
+    price: { type: text, label: Self-pay price (e.g. $125) }
+    featured: { type: toggle, label: Show on the homepage }

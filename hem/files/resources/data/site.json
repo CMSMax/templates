@@ -1,0 +1,86 @@
+{
+    "name": "Hem",
+    "tagline": "Clothes and small goods, chosen for the cloth.",
+    "phone": "(555) 318-4402",
+    "phone_href": "tel:+15553184402",
+    "email": "hello@hem.example",
+    "address": "41 Linden Street",
+    "city": "Millbrook",
+    "map_url": "https://maps.google.com/?q=41+Linden+Street+Millbrook",
+    "parking": "Free two-hour parking on Linden Street and behind the library.",
+    "shop_url": "/shop",
+    "shop_label": "Shop new in",
+    "instagram_url": "https://instagram.com/",
+    "instagram_handle": "@hem.millbrook",
+    "hours_note": "Open late until 8 pm on the first Thursday of the month.",
+    "services": [
+        {
+            "name": "Alterations",
+            "description": "Hems, sleeves and waists taken in by Ruth at the back counter, usually within the week.",
+            "detail": "From $18"
+        },
+        {
+            "name": "Fitting appointments",
+            "description": "An hour in the shop before opening, with the rails pulled for your size and what you need.",
+            "detail": "Free, book by phone"
+        },
+        {
+            "name": "Gift cards",
+            "description": "Any amount, wrapped in tissue at the counter or posted in a card the same day.",
+            "detail": "From $25"
+        }
+    ],
+    "carry": [
+        {
+            "label": "Knitwear"
+        },
+        {
+            "label": "Overshirts"
+        },
+        {
+            "label": "Silk dresses"
+        },
+        {
+            "label": "Canvas trousers"
+        },
+        {
+            "label": "Boiled wool coats"
+        },
+        {
+            "label": "Breton tops"
+        },
+        {
+            "label": "Bags and belts"
+        },
+        {
+            "label": "Gift cards"
+        }
+    ],
+    "principles": [
+        {
+            "title": "We meet the maker.",
+            "body": "Every label on the rail is a workshop we have visited, or a person we have sat down with. If we cannot say where it was made, we do not stock it."
+        },
+        {
+            "title": "We buy small.",
+            "body": "One or two of each size, and rarely the same piece twice. It means gaps on the rail, and it means your coat is not everyone’s coat."
+        },
+        {
+            "title": "We fix what we sell.",
+            "body": "Hems, buttons, a re-wax, a de-pill — anything bought here is mended here, for as long as you have it."
+        }
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "The shop as a mill swatch book: cool card-stock grey pages, cloth cut with pinking shears (zig-zag masked edges on colour fields and chips), numbered colourways, and garments photographed on a wooden hanger against a pale wall in daylight.",
+        "type": "Funnel Display 500–600 for every heading, piece name and price, set large with tight tracking; Funnel Sans for body and interface text at 1rem with a relaxed line height. Prices, colour numbers and hours use tabular numerals.",
+        "color": "Committed lilac field (field) owns whole regions — the hero, the colour card, the closing band — and is never a text tint. Canvas card grey is the dominant neutral, ink for text in two tiers. Buttons are primary (ink). Chartreuse (spot) is a thread only: the new-in dot and the selected-swatch tick. Photographs carry every other colour.",
+        "signature": "The colour card — numbered, pinked fabric chips; choosing one shows the piece made in that cloth with its composition, mill and price. Keep it on the homepage and change the chips with the season.",
+        "voice": "Plain, warm and specific about cloth, fit and where things are made. Short sentences. No exclamation marks, no 'curated', no 'elevate'."
+    }
+}

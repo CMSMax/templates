@@ -1,0 +1,22 @@
+[
+    {
+        "when": "Week 0",
+        "title": "Free assessment",
+        "body": "Forty minutes with a tutor to find the gap, not just the grade."
+    },
+    {
+        "when": "Week 1",
+        "title": "A written plan",
+        "body": "What we will teach, in what order, and what good looks like by the end of term."
+    },
+    {
+        "when": "Every week",
+        "title": "The same tutor",
+        "body": "Sessions at the same time with the same teacher, and one line for you afterwards."
+    },
+    {
+        "when": "Every 4 weeks",
+        "title": "A short report",
+        "body": "Marks, effort and the next step, written by the tutor and sent home."
+    }
+]

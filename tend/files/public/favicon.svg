@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+    <style>
+        .bg { fill: #b9c7e8 }
+        .sun { fill: #f4a36c }
+        .line { stroke: #181b2a }
+        @media (prefers-color-scheme: dark) { .bg { fill: #1a1e31 } .line { stroke: #eff1f6 } }
+    </style>
+    <rect class="bg" width="32" height="32" rx="8"/>
+    <path class="sun" d="M8 20.5a8 8 0 0 1 16 0Z"/>
+    <path class="line" fill="none" stroke-width="2" stroke-linecap="round" d="M5 20.5h22M10 25h12"/>
+</svg>

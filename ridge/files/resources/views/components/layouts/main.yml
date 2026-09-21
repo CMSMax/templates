@@ -1,0 +1,6 @@
+title: Page settings
+description: The browser title, search description, and social sharing image for this page.
+fields:
+    title: { type: text, label: Page title }
+    description: { type: textarea, label: Search description, rows: 3 }
+    image: { type: image, label: Social sharing image }

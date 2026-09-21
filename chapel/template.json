@@ -1,0 +1,11 @@
+{
+    "name": "Chapel",
+    "industry": "churches",
+    "description": "A quiet, hymnal-inspired template for churches and parishes — lime-washed paper canvas, EB Garamond set like a prayer book with vermilion rubrics, an arched-window motif, service times up front, and a signature order of worship printed like the Sunday bulletin.",
+    "pages": ["Home", "Plan a visit", "Sermons", "Sermon detail", "404"],
+    "collections": ["gatherings", "ministries", "sermons"],
+    "cta": "Plan your visit",
+    "theme": "light",
+    "accent": "#b3321c",
+    "fonts": ["EB Garamond", "Instrument Sans"]
+}

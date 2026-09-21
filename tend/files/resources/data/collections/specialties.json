@@ -1,0 +1,50 @@
+[
+    {
+        "weather": "fog",
+        "condition": "Fog",
+        "feeling": "I can't switch my brain off.",
+        "name": "Anxiety & overthinking",
+        "body": "Worry loops, 3am what-ifs, the body braced for something that never arrives. We slow the spiral down and build a few tools that actually hold up on a bad day.",
+        "format": "Individual · weekly"
+    },
+    {
+        "weather": "overcast",
+        "condition": "Overcast",
+        "feeling": "I'm functioning, but I don't feel like myself.",
+        "name": "Low mood & burnout",
+        "body": "Getting through the days on autopilot, joy on mute. We look at what's draining you, what's been lost along the way, and what small things bring colour back.",
+        "format": "Individual · weekly"
+    },
+    {
+        "weather": "storm",
+        "condition": "Storms",
+        "feeling": "We keep having the same fight.",
+        "name": "Couples & relationships",
+        "body": "For partners who love each other and keep ending up in the same argument. We find the pattern underneath it and practise a different way through.",
+        "format": "Couples · 80 minutes"
+    },
+    {
+        "weather": "wind",
+        "condition": "High winds",
+        "feeling": "Everything is changing at once.",
+        "name": "Life transitions",
+        "body": "A move, a breakup, a new baby, a diagnosis, a parent getting older. Space to steady yourself while the ground shifts, and to decide who you want to be on the other side.",
+        "format": "Individual · weekly or fortnightly"
+    },
+    {
+        "weather": "rain",
+        "condition": "Rain",
+        "feeling": "I'm still carrying something from a long time ago.",
+        "name": "Grief & past hurt",
+        "body": "Loss that doesn't fit the timeline people expect, and older wounds that keep resurfacing. We go gently, at a pace that feels safe, and never faster.",
+        "format": "Individual · weekly"
+    },
+    {
+        "weather": "clearing",
+        "condition": "Clearing",
+        "feeling": "Things are better — I want to keep it that way.",
+        "name": "Check-ins & maintenance",
+        "body": "Monthly sessions for people who've done the work and want somewhere to keep thinking out loud before small clouds become weather.",
+        "format": "Individual · monthly"
+    }
+]

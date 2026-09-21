@@ -1,0 +1,11 @@
+{
+    "name": "Balm",
+    "industry": "massage-therapists",
+    "description": "A warm, grounded template for massage therapists and small massage studios — river-stone grey and basalt with one massage-oil amber, golden-hour photography, a headline with one word circled by hand, an intake-form body map that pins where you're holding tension to the treatment that helps, and every treatment priced by the hour you need.",
+    "pages": ["Home", "Treatments", "404"],
+    "collections": ["treatments", "areas", "faqs"],
+    "cta": "Book a massage",
+    "theme": "light",
+    "accent": "#d9913f",
+    "fonts": ["Hedvig Letters Serif", "Manrope"]
+}

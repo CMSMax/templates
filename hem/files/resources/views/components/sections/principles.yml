@@ -1,0 +1,6 @@
+title: Principles
+description: Numbered rules for how the shop buys, on an ink band.
+fields:
+    eyebrow: { type: text, label: Small line above the heading }
+    heading: { type: text, label: Heading }
+    items: { type: repeater, label: Rules, source: principles, item_label: title, add_button_label: Add a rule, sub_fields: { title: { type: text, label: Rule }, body: { type: textarea, label: Explanation, rows: 2 } } }

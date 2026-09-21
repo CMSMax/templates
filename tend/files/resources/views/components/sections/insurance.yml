@@ -1,0 +1,13 @@
+title: Insurance & sliding scale
+description: How payment works — in-network plans, superbills, and the sliding scale — in three plain columns.
+fields:
+    heading: { type: text, label: Headline (first line) }
+    headingItalic: { type: text, label: Headline (italic second line) }
+    insurance:
+        type: repeater
+        label: Payment options
+        source: site.insurance
+        item_label: title
+        sub_fields:
+            title: { type: text, label: Title }
+            body: { type: textarea, label: Detail, rows: 3 }

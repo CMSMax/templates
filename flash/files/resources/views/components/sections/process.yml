@@ -1,0 +1,15 @@
+title: Process
+description: The custom-tattoo steps, numbered in pink on the black band, beside a taped-in photo. The steps live in site settings.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }
+    items:
+        type: repeater
+        label: Steps
+        source: site.steps
+        item_label: title
+        sub_fields:
+            title: { type: text, label: Step }
+            body: { type: textarea, label: Description, rows: 2 }

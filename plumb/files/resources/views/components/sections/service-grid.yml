@@ -1,0 +1,18 @@
+title: Service cards
+description: Every service as a photo card with its price and time, linking to the service's own page.
+fields:
+    linkLabel: { type: text, label: Link text (for screen readers) }
+    items:
+        type: repeater
+        label: Services
+        source: services
+        item_label: title
+        add_button_label: Add service
+        sub_fields:
+            title: { type: text, label: Service }
+            description: { type: textarea, label: One-line summary, rows: 2 }
+            image: { type: image, label: Photo }
+            imageAlt: { type: text, label: Photo description }
+            priceFrom: { type: text, label: Price (from) }
+            time: { type: text, label: Typical time }
+            link: { type: url, label: Page link }

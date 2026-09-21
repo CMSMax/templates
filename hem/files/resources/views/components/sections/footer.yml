@@ -1,0 +1,9 @@
+title: Footer
+description: The closing band with the shop's address, hours and ways to get in touch.
+fields:
+    blurb: { type: textarea, label: Short description, rows: 2 }
+    visitHeading: { type: text, label: Address heading }
+    hoursHeading: { type: text, label: Hours heading }
+    contactHeading: { type: text, label: Contact heading }
+    directionsLabel: { type: text, label: Directions link text }
+    showWordmark: { type: toggle, label: Show the giant name at the bottom }

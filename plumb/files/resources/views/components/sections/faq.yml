@@ -1,0 +1,14 @@
+title: Questions
+description: Common questions as an accordion beside a short heading.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Intro, rows: 2 }
+    items:
+        type: repeater
+        label: Questions
+        source: faqs
+        item_label: question
+        add_button_label: Add question
+        sub_fields:
+            question: { type: text, label: Question }
+            answer: { type: textarea, label: Answer, rows: 3 }

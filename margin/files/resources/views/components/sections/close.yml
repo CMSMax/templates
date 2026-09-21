@@ -1,0 +1,24 @@
+title: Closing call
+description: The ink band that ends every page — one sentence, the assessment button and the phone number.
+fields:
+    heading:
+        type: text
+        label: Headline
+        default: Start with forty minutes and a plan.
+    body:
+        type: textarea
+        label: Supporting line
+        rows: 3
+        default: The first assessment is free. You leave with a written summary of where your child is and what we would teach first.
+    margin:
+        type: text
+        label: Handwritten note
+        default: no obligation
+    ctaLabel:
+        type: text
+        label: Button label
+        default: Book a free assessment
+    ctaUrl:
+        type: url
+        label: Button links to
+        default: /contact

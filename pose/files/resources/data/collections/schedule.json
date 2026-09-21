@@ -1,0 +1,210 @@
+[
+    {
+        "day": "Mon",
+        "time": "7:00am",
+        "className": "Morning Flow",
+        "teacher": "Ama",
+        "level": "2",
+        "length": "60 min"
+    },
+    {
+        "day": "Mon",
+        "time": "12:15pm",
+        "className": "Gentle Basics",
+        "teacher": "Walter",
+        "level": "1",
+        "length": "60 min"
+    },
+    {
+        "day": "Mon",
+        "time": "6:00pm",
+        "className": "Strong Flow",
+        "teacher": "Daniel",
+        "level": "3",
+        "length": "75 min"
+    },
+    {
+        "day": "Mon",
+        "time": "7:45pm",
+        "className": "Slow & Yin",
+        "teacher": "Mei",
+        "level": "1",
+        "length": "60 min"
+    },
+    {
+        "day": "Tue",
+        "time": "6:30am",
+        "className": "Strong Flow",
+        "teacher": "Daniel",
+        "level": "3",
+        "length": "75 min"
+    },
+    {
+        "day": "Tue",
+        "time": "9:30am",
+        "className": "Prenatal",
+        "teacher": "Ama",
+        "level": "1",
+        "length": "60 min"
+    },
+    {
+        "day": "Tue",
+        "time": "6:00pm",
+        "className": "Morning Flow",
+        "teacher": "Mei",
+        "level": "2",
+        "length": "60 min"
+    },
+    {
+        "day": "Tue",
+        "time": "7:30pm",
+        "className": "Breath & Stillness",
+        "teacher": "Walter",
+        "level": "1",
+        "length": "45 min"
+    },
+    {
+        "day": "Wed",
+        "time": "7:00am",
+        "className": "Morning Flow",
+        "teacher": "Ama",
+        "level": "2",
+        "length": "60 min"
+    },
+    {
+        "day": "Wed",
+        "time": "12:15pm",
+        "className": "Slow & Yin",
+        "teacher": "Mei",
+        "level": "1",
+        "length": "60 min"
+    },
+    {
+        "day": "Wed",
+        "time": "6:00pm",
+        "className": "Gentle Basics",
+        "teacher": "Walter",
+        "level": "1",
+        "length": "60 min"
+    },
+    {
+        "day": "Wed",
+        "time": "7:30pm",
+        "className": "Strong Flow",
+        "teacher": "Daniel",
+        "level": "3",
+        "length": "75 min"
+    },
+    {
+        "day": "Thu",
+        "time": "6:30am",
+        "className": "Morning Flow",
+        "teacher": "Daniel",
+        "level": "2",
+        "length": "60 min"
+    },
+    {
+        "day": "Thu",
+        "time": "9:30am",
+        "className": "Prenatal",
+        "teacher": "Ama",
+        "level": "1",
+        "length": "60 min"
+    },
+    {
+        "day": "Thu",
+        "time": "6:00pm",
+        "className": "Slow & Yin",
+        "teacher": "Mei",
+        "level": "1",
+        "length": "60 min"
+    },
+    {
+        "day": "Thu",
+        "time": "7:30pm",
+        "className": "Breath & Stillness",
+        "teacher": "Walter",
+        "level": "1",
+        "length": "45 min"
+    },
+    {
+        "day": "Fri",
+        "time": "7:00am",
+        "className": "Morning Flow",
+        "teacher": "Ama",
+        "level": "2",
+        "length": "60 min"
+    },
+    {
+        "day": "Fri",
+        "time": "12:15pm",
+        "className": "Gentle Basics",
+        "teacher": "Walter",
+        "level": "1",
+        "length": "60 min"
+    },
+    {
+        "day": "Fri",
+        "time": "5:30pm",
+        "className": "Strong Flow",
+        "teacher": "Daniel",
+        "level": "3",
+        "length": "75 min"
+    },
+    {
+        "day": "Sat",
+        "time": "8:30am",
+        "className": "Morning Flow",
+        "teacher": "Mei",
+        "level": "2",
+        "length": "60 min"
+    },
+    {
+        "day": "Sat",
+        "time": "10:00am",
+        "className": "Gentle Basics",
+        "teacher": "Walter",
+        "level": "1",
+        "length": "60 min"
+    },
+    {
+        "day": "Sat",
+        "time": "11:30am",
+        "className": "Prenatal",
+        "teacher": "Ama",
+        "level": "1",
+        "length": "60 min"
+    },
+    {
+        "day": "Sat",
+        "time": "4:00pm",
+        "className": "Slow & Yin",
+        "teacher": "Mei",
+        "level": "1",
+        "length": "60 min"
+    },
+    {
+        "day": "Sun",
+        "time": "9:00am",
+        "className": "Strong Flow",
+        "teacher": "Daniel",
+        "level": "3",
+        "length": "75 min"
+    },
+    {
+        "day": "Sun",
+        "time": "10:45am",
+        "className": "Morning Flow",
+        "teacher": "Ama",
+        "level": "2",
+        "length": "60 min"
+    },
+    {
+        "day": "Sun",
+        "time": "4:00pm",
+        "className": "Breath & Stillness",
+        "teacher": "Walter",
+        "level": "1",
+        "length": "45 min"
+    }
+]

@@ -1,0 +1,12 @@
+{
+    "name": "Flash",
+    "industry": "tattoo-studios",
+    "description": "A bright, handmade template for tattoo studios — the studio's own photocopied flyer in copier-paper white, toner-black type and one hot-pink sheet, healed work taped in like prints, and a flash wall where every design hangs as a numbered tag with its price and a TAKEN stamp once it is claimed.",
+    "pages": ["Home", "Flash", "Artists", "404"],
+    "collections": ["flash", "artists", "hours"],
+    "cta": "Book a consult",
+    "theme": "light",
+    "accent": "#ff4f93",
+    "secondary": "#0e0e0e",
+    "fonts": ["Dela Gothic One", "Albert Sans"]
+}

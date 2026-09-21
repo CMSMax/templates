@@ -1,0 +1,15 @@
+title: First Sunday
+description: The one dark band — what a first visit looks like, step by step, with the address, service times and the plan-your-visit button.
+fields:
+    heading: { type: text, label: Headline }
+    headingEmphasis: { type: text, label: Headline (italic second line) }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    showActions: { type: toggle, label: Show address and buttons }
+    steps:
+        type: repeater
+        label: Steps
+        source: site.first_visit
+        item_label: title
+        sub_fields:
+            title: { type: text, label: Step }
+            body: { type: textarea, label: Description, rows: 3 }

@@ -1,0 +1,266 @@
+@import 'tailwindcss';
+
+@theme {
+    /* Sky after a storm: cool paper, storm-slate ink, and the green of the
+       first radar band — the colour of "it's only rain". */
+    --color-canvas: #eef2f5;
+    --color-surface: #ffffff;
+    --color-ink: #0e1a26;
+    --color-muted: #4b5b6a;
+    --color-line: #cfd8e0;
+    /* The storm field: whole regions (the storm log, the footer) sit on it. */
+    --color-storm: #12263a;
+    --color-storm-line: #2a4058;
+    --color-storm-muted: #a9bacb;
+    /* Radar green is the brand primary, so a colour the owner picks on the
+       Branding page repaints every button and focal mark. A fill only —
+       text on it is always ink. */
+    --color-primary: #3ecf7a;
+    --color-primary-foreground: #0e1a26;
+    --color-secondary: #12263a;
+    --color-secondary-foreground: #eef2f5;
+
+    /* The radar legend. Used by the storm map and its legend only. */
+    --color-radar-1: #3ecf7a;
+    --color-radar-2: #f2d335;
+    --color-radar-3: #f28c28;
+    --color-radar-4: #e0344c;
+    --color-radar-5: #b640c8;
+
+    /* Roof materials, drawn in the layer cross-section only. */
+    --color-shingle: #1f2b37;
+    --color-vent: #7c8a97;
+    --color-underlayment: #dfe4e9;
+    --color-chalk: #3a7bd5;
+    --color-membrane: #2e3a46;
+    --color-deck: #d6b887;
+
+    --font-display: 'Familjen Grotesk', ui-sans-serif, system-ui, sans-serif;
+    --font-sans: 'Figtree', ui-sans-serif, system-ui, sans-serif;
+
+    /* Soft, offset shadows tinted with the ink. */
+    --shadow-lift: 0 1px 2px rgb(14 26 38 / 0.12), 0 8px 24px -8px rgb(14 26 38 / 0.35);
+    --shadow-float: 0 1px 2px rgb(14 26 38 / 0.08), 0 12px 32px -12px rgb(14 26 38 / 0.4);
+    --shadow-sheet: 0 1px 2px rgb(14 26 38 / 0.06), 0 24px 48px -24px rgb(14 26 38 / 0.3);
+
+    --text-hero: clamp(3rem, 7.4vw, 6rem);
+    --text-hero--line-height: 0.98;
+    --text-hero--letter-spacing: -0.035em;
+    --text-section: clamp(2.25rem, 4.6vw, 3.75rem);
+    --text-section--line-height: 1.02;
+    --text-section--letter-spacing: -0.03em;
+}
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 6rem;
+    }
+
+    :focus-visible {
+        outline: 2px solid var(--color-ink);
+        outline-offset: 3px;
+    }
+
+    .bg-storm :focus-visible,
+    footer :focus-visible {
+        outline-color: var(--color-primary);
+    }
+}
+
+/* The bulletin label: small, tracked, tabular — the timestamp line a
+   weather service puts above every advisory. Measurement, not costume. */
+@utility bulletin {
+    font-size: 0.8125rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    font-variant-numeric: tabular-nums;
+}
+
+/* The roof cross-section: each layer a slab, stacked like the real thing
+   and pulled apart so every layer shows its edge. */
+@utility roof-slab {
+    transform: skewY(-14deg);
+    transition:
+        transform 300ms cubic-bezier(0.22, 1, 0.36, 1),
+        box-shadow 300ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Body copy from the projects collection (richtext). */
+@utility prose-roof {
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: var(--color-ink);
+
+    & > * + * {
+        margin-top: 1.25em;
+    }
+
+    & h2,
+    & h3 {
+        font-family: var(--font-display);
+        font-weight: 600;
+        letter-spacing: -0.02em;
+        line-height: 1.1;
+        margin-top: 2em;
+    }
+
+    & h2 {
+        font-size: 1.875rem;
+    }
+
+    & h3 {
+        font-size: 1.375rem;
+    }
+
+    & ul {
+        list-style: disc;
+        padding-left: 1.25em;
+    }
+
+    & li + li {
+        margin-top: 0.4em;
+    }
+
+    & li::marker {
+        color: var(--color-muted);
+    }
+
+    & a {
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 3px;
+        text-decoration-color: var(--color-primary);
+    }
+}
+
+/* The radar sweep over the storm map. */
+@keyframes sweep {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@utility radar-sweep {
+    transform-origin: 50% 50%;
+    animation: sweep 6s linear infinite;
+}
+
+/* Scroll reveals: gated behind the class the layout script stamps first,
+   so a failed script costs the animation, never the content. */
+html.reveal-ready [data-reveal] {
+    opacity: 0;
+    transform: translateY(16px);
+    transition:
+        opacity 700ms cubic-bezier(0.22, 1, 0.36, 1),
+        transform 700ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+html.reveal-ready [data-reveal].is-visible {
+    opacity: 1;
+    transform: none;
+}
+
+/* The swath draws itself in, band by band, when the map scrolls into view. */
+html.reveal-ready [data-reveal] .swath-band {
+    opacity: 0;
+    transform: scale(0.92);
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+    transition:
+        opacity 900ms cubic-bezier(0.22, 1, 0.36, 1),
+        transform 900ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+html.reveal-ready [data-reveal].is-visible .swath-band {
+    opacity: 1;
+    transform: none;
+}
+
+html.reveal-ready [data-reveal].is-visible .swath-band:nth-child(2) { transition-delay: 120ms; }
+html.reveal-ready [data-reveal].is-visible .swath-band:nth-child(3) { transition-delay: 240ms; }
+html.reveal-ready [data-reveal].is-visible .swath-band:nth-child(4) { transition-delay: 360ms; }
+html.reveal-ready [data-reveal].is-visible .swath-band:nth-child(5) { transition-delay: 480ms; }
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    html.reveal-ready [data-reveal],
+    html.reveal-ready [data-reveal] .swath-band {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+
+    .radar-sweep {
+        animation: none;
+        opacity: 0;
+    }
+
+    .roof-slab {
+        transition: none;
+    }
+}
+
+/* The hail legend's chips take the radar colours in order. */
+@utility hail-legend {
+    & > li:nth-child(1) .chip { background: var(--color-radar-1); }
+    & > li:nth-child(2) .chip { background: var(--color-radar-2); }
+    & > li:nth-child(3) .chip { background: var(--color-radar-3); }
+    & > li:nth-child(4) .chip { background: var(--color-radar-4); }
+    & > li:nth-child(n + 5) .chip { background: var(--color-radar-5); }
+}
+
+/* The pulled-apart stack: each slab sits a step below the last. */
+.roof-stack > .roof-slab:nth-child(1) { top: 6%; z-index: 5; }
+.roof-stack > .roof-slab:nth-child(2) { top: 23%; z-index: 4; }
+.roof-stack > .roof-slab:nth-child(3) { top: 40%; z-index: 3; }
+.roof-stack > .roof-slab:nth-child(4) { top: 57%; z-index: 2; }
+.roof-stack > .roof-slab:nth-child(n + 5) { top: 74%; z-index: 1; }
+
+.roof-slab {
+    box-shadow:
+        0 1px 0 rgb(14 26 38 / 0.18),
+        0 14px 24px -14px rgb(14 26 38 / 0.45);
+}
+
+.roof-slab[data-tone='shingle'] {
+    background-color: var(--color-shingle);
+    background-image:
+        repeating-linear-gradient(90deg, transparent 0 30px, rgb(255 255 255 / 0.14) 30px 32px),
+        repeating-linear-gradient(0deg, transparent 0 14px, rgb(0 0 0 / 0.35) 14px 16px);
+}
+
+.roof-slab[data-tone='vent'] {
+    background-color: var(--color-vent);
+    background-image: repeating-linear-gradient(90deg, transparent 0 8px, rgb(14 26 38 / 0.35) 8px 10px);
+}
+
+.roof-slab[data-tone='underlayment'] {
+    background-color: var(--color-underlayment);
+    background-image:
+        linear-gradient(0deg, transparent 32%, var(--color-chalk) 32% calc(32% + 1.5px), transparent calc(32% + 1.5px) 66%, var(--color-chalk) 66% calc(66% + 1.5px), transparent calc(66% + 1.5px));
+}
+
+.roof-slab[data-tone='membrane'] {
+    background-color: var(--color-membrane);
+    background-image: radial-gradient(rgb(255 255 255 / 0.1) 1px, transparent 1.5px);
+    background-size: 7px 7px;
+}
+
+.roof-slab[data-tone='deck'] {
+    background-color: var(--color-deck);
+    background-image:
+        repeating-linear-gradient(90deg, transparent 0 96px, rgb(14 26 38 / 0.25) 96px 98px),
+        radial-gradient(ellipse 6px 2px, rgb(120 84 40 / 0.35) 40%, transparent 60%);
+    background-size: auto, 23px 11px;
+}
+
+.roof-slab[data-on] {
+    transform: skewY(-14deg) translateX(-7%);
+    outline: 2px solid var(--color-primary);
+    outline-offset: 4px;
+}

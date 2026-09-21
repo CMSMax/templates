@@ -1,0 +1,12 @@
+{
+    "name": "Ridge",
+    "industry": "roofers",
+    "description": "A calm, storm-season template for roofing companies — sky-paper canvas, storm-navy fields, radar-green buttons, a drawn hail-swath storm log that shows where the hail fell and which roofs the crew checked, and a pulled-apart roof cross-section that lights up every layer under the shingles.",
+    "pages": ["Home", "Roofing", "Storm help", "Recent roofs", "Roof story", "Contact", "404"],
+    "collections": ["services", "layers", "hail", "projects", "reviews", "claim", "faqs", "materials", "checks"],
+    "cta": "Book a free roof check",
+    "theme": "light",
+    "accent": "#3ecf7a",
+    "secondary": "#12263a",
+    "fonts": ["Familjen Grotesk", "Figtree"]
+}

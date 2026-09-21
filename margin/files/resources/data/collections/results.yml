@@ -1,0 +1,9 @@
+label: Report card
+icon: award
+fields:
+    student: { type: text }
+    year: { type: text }
+    subject: { type: text }
+    started: { type: text }
+    now: { type: text }
+    weeks: { type: text }

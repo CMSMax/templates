@@ -1,0 +1,63 @@
+title: Pricing
+description: The ways to study with you, side by side, with the family favourite marked in red pen.
+fields:
+    heading:
+        type: text
+        label: Headline
+        default: Three ways to study with us.
+    note:
+        type: textarea
+        label: Note beside the headline
+        rows: 2
+        default: Prices are per student. The assessment is free, and there is no registration fee or contract.
+    featuredNote:
+        type: text
+        label: Red-pen note on the featured plan
+        default: what most families choose
+    ctaLabel:
+        type: text
+        label: Button label
+        default: Book a free assessment
+    ctaUrl:
+        type: url
+        label: Button links to
+        default: /contact
+    items:
+        type: repeater
+        label: Plans
+        item_label: name
+        add_button_label: Add a plan
+        source: collections.plans
+        sub_fields:
+            name:
+                type: text
+                label: Plan
+                default: Small group
+            who:
+                type: text
+                label: Who it suits
+                default: Up to four students, same subject and level.
+            price:
+                type: text
+                label: Price
+                default: $58
+            unit:
+                type: text
+                label: Per
+                default: per 60-minute session
+            feature1:
+                type: text
+                label: First inclusion
+                default: Same tutor every week
+            feature2:
+                type: text
+                label: Second inclusion
+                default: Four-weekly written report
+            feature3:
+                type: text
+                label: Third inclusion
+                default: Homework support between sessions
+            featured:
+                type: toggle
+                label: Mark as the family favourite
+                default: ''

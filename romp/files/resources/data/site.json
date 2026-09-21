@@ -1,0 +1,105 @@
+{
+    "name": "Romp Dog Club",
+    "short_name": "Romp",
+    "tagline": "Grooming, daycare and overnight boarding for dogs on the east side. Clean dogs, tired dogs, happy dogs.",
+    "phone": "(555) 204-7667",
+    "phone_href": "tel:+15552047667",
+    "email": "hello@romp.example",
+    "address": "88 Mill Street",
+    "city": "Riverside",
+    "directions_url": "https://maps.google.com/?q=88+Mill+Street+Riverside",
+    "hours_short": "7am–7pm, every day",
+    "hours_sign": "Open daily",
+    "hours_note": "Grooming by appointment · daycare drop-off until 10am",
+    "cta_label": "Book a visit",
+    "cta_link": "tel:+15552047667",
+    "hero_facts": ["Half-acre fenced yard", "Groups sorted by size and play style", "A report card every pick-up"],
+    "service_groups": [
+        {
+            "id": "grooming",
+            "name": "Grooming",
+            "body": "Baths, haircuts and nail trims, one dog at a time.",
+            "from": "from $45",
+            "icon": "scissors"
+        },
+        {
+            "id": "daycare",
+            "name": "Daycare",
+            "body": "A full day of supervised play, a nap, and a ride home tired.",
+            "from": "$38 a day",
+            "icon": "ball"
+        },
+        {
+            "id": "boarding",
+            "name": "Boarding",
+            "body": "Overnights in a quiet suite, with daycare included.",
+            "from": "$62 a night",
+            "icon": "moon"
+        },
+        {
+            "id": "walks",
+            "name": "Walks & training",
+            "body": "Neighborhood walks and one-on-one manners sessions.",
+            "from": "from $25",
+            "icon": "walk"
+        }
+    ],
+    "day": [
+        {
+            "time": "7:00",
+            "title": "Drop-off",
+            "body": "A quick sniff at the gate, then straight to the group that fits their size and energy."
+        },
+        {
+            "time": "9:30",
+            "title": "Yard time",
+            "body": "Fetch, chase and wrestling on turf and gravel, always with a handler in the yard."
+        },
+        {
+            "time": "12:30",
+            "title": "Lunch and a nap",
+            "body": "Their own food, then two hours of lights-down rest in the quiet room."
+        },
+        {
+            "time": "3:00",
+            "title": "Afternoon play",
+            "body": "Smaller groups, puzzle toys, and a rinse for anyone who found the mud."
+        },
+        {
+            "time": "Pick-up",
+            "title": "The report card",
+            "body": "Who they played with, how they ate, and anything worth knowing. Written, not guessed."
+        }
+    ],
+    "rules": [
+        {
+            "title": "Up-to-date vaccines",
+            "body": "Rabies, DHPP and bordetella, with records from your vet before the first visit."
+        },
+        {
+            "title": "A free meet-and-greet",
+            "body": "A half-day trial so we can learn their play style and they can learn the yard."
+        },
+        {
+            "title": "Spayed or neutered after seven months",
+            "body": "For group play only. Grooming and walks welcome every dog."
+        },
+        {
+            "title": "Flea and tick prevention",
+            "body": "Whatever your vet recommends, kept current year-round."
+        }
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "The neighborhood dog park's signage: brown enamel park-department sign plates with a cream keyline and rivets, a gravel-grey canvas, and one tennis-ball chartreuse. Warm and outdoorsy, never cutesy — no paw prints, no cartoons.",
+        "type": "Overpass (weight 800, tight tracking) for every heading — the highway-gothic lettering on park signs. Atkinson Hyperlegible Next for body and UI. Headlines are big and blunt; body stays at a comfortable reading size.",
+        "color": "One accent: chartreuse (bg-primary) for the booking button, the headline swash, prices on the brown signs, and the closing call-to-action band. Enamel brown (bg-secondary) carries the sign plates and the footer. Everything else is gravel canvas, stone surface, cream cards, ink and muted text. Never add another color.",
+        "signature": "The trailhead directory — a big brown enamel sign listing every service like a park wayfinding post: pictogram, name, one line, a chartreuse price, and an arrow. Keep it wherever the design evolves.",
+        "voice": "Plain, warm and a little dry. Short sentences, real numbers and real routines. No exclamation marks, no 'fur babies', no pet puns."
+    }
+}

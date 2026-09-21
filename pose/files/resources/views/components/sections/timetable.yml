@@ -1,0 +1,20 @@
+title: Timetable
+description: The week at a glance — one column per day, every class with its time, teacher, length and level.
+fields:
+    eyebrow: { type: text, label: Small line above the headline }
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    note: { type: textarea, label: Note under the timetable, rows: 2 }
+    slots:
+        type: repeater
+        label: Classes this week
+        source: schedule
+        item_label: className
+        add_button_label: Add a class time
+        sub_fields:
+            day: { type: select, label: Day, options: { Mon: Monday, Tue: Tuesday, Wed: Wednesday, Thu: Thursday, Fri: Friday, Sat: Saturday, Sun: Sunday } }
+            time: { type: text, label: Start time }
+            className: { type: text, label: Class }
+            teacher: { type: text, label: Teacher }
+            level: { type: select, label: Level, options: { '1': Gentle, '2': Steady, '3': Strong } }
+            length: { type: text, label: Length }

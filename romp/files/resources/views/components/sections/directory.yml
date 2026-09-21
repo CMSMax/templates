@@ -1,0 +1,17 @@
+title: Services directory
+description: The signature — every service on a brown park wayfinding sign, with its starting price and a link to the full price list.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Intro, rows: 3 }
+    linkLabel: { type: text, label: Link to all services }
+    items:
+        type: repeater
+        label: Services on the sign
+        source: site.service_groups
+        item_label: name
+        sub_fields:
+            name: { type: text, label: Name }
+            body: { type: textarea, label: One line, rows: 2 }
+            from: { type: text, label: Starting price (e.g. from $45) }
+            id: { type: text, label: Anchor on the services page }
+            icon: { type: select, label: Pictogram, options: { scissors: Scissors, ball: Tennis ball, moon: Moon, walk: Walker, bath: Bath, dog: Dog } }

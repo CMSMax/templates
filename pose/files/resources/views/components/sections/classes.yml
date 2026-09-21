@@ -1,0 +1,18 @@
+title: Class index
+description: Every class as a ruled row — its pictogram, name, one line, level and length — linking to the class on the Classes page.
+fields:
+    eyebrow: { type: text, label: Small line above the headline }
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    linkLabel: { type: text, label: Link text (leave empty to hide) }
+    linkHref: { type: url, label: Link }
+    classes:
+        type: repeater
+        label: Classes
+        source: classes
+        item_label: name
+        add_button_label: Add a class
+        sub_fields:
+            name: { type: text, label: Class name }
+            summary: { type: textarea, label: One-line summary, rows: 2 }
+            length: { type: text, label: Length }

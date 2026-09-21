@@ -1,0 +1,19 @@
+title: Services list
+description: The cast-iron band listing every service with its price and time, each row linking to the service's page.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Intro, rows: 3 }
+    linkLabel: { type: text, label: Link text }
+    linkHref: { type: url, label: Link }
+    items:
+        type: repeater
+        label: Services
+        source: services
+        item_label: title
+        add_button_label: Add service
+        sub_fields:
+            title: { type: text, label: Service }
+            description: { type: textarea, label: One-line summary, rows: 2 }
+            priceFrom: { type: text, label: Price (from) }
+            time: { type: text, label: Typical time }
+            link: { type: url, label: Page link }

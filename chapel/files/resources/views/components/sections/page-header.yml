@@ -1,0 +1,6 @@
+title: Page header
+description: The page's headline — the second line in red italic — and a short introduction.
+fields:
+    heading: { type: text, label: Headline }
+    headingEmphasis: { type: text, label: Headline (italic second line) }
+    body: { type: textarea, label: Introduction, rows: 3 }

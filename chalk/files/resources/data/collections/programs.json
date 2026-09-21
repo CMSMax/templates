@@ -1,0 +1,38 @@
+[
+    {
+        "number": "01",
+        "name": "Strength",
+        "plate": "red",
+        "summary": "The big lifts — squat, press, deadlift — on a twelve-week cycle that adds weight to the bar on purpose, not by accident.",
+        "length": "60 min",
+        "frequency": "3× a week",
+        "level": "All levels"
+    },
+    {
+        "number": "02",
+        "name": "Engine",
+        "plate": "blue",
+        "summary": "Rowers, sleds, bikes and carries. Intervals built to raise your ceiling, scored so you can see it move.",
+        "length": "45 min",
+        "frequency": "2× a week",
+        "level": "All levels"
+    },
+    {
+        "number": "03",
+        "name": "Barbell Club",
+        "plate": "yellow",
+        "summary": "Snatch and clean & jerk, coached in small groups. Technique first; the kilos follow.",
+        "length": "75 min",
+        "frequency": "2× a week",
+        "level": "Some lifting"
+    },
+    {
+        "number": "04",
+        "name": "Foundations",
+        "plate": "green",
+        "summary": "Where everyone starts. Four weeks of the movements, the language and the habits, at half the class size.",
+        "length": "50 min",
+        "frequency": "2× a week",
+        "level": "New members"
+    }
+]

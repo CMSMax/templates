@@ -1,0 +1,17 @@
+title: Visit
+description: How to find the studio — address, hours, phone and email from Site data — with a photo and a first-class checklist.
+fields:
+    eyebrow: { type: text, label: Small line above the headline }
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Directions, rows: 3 }
+    checklistHeading: { type: text, label: Checklist heading }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }
+    steps:
+        type: repeater
+        label: First-class checklist
+        source: site.first_visit
+        item_label: text
+        add_button_label: Add a step
+        sub_fields:
+            text: { type: text, label: Step }

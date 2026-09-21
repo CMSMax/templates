@@ -1,0 +1,129 @@
+{
+    "name": "Torque Auto Repair",
+    "short_name": "Torque",
+    "tagline": "An independent shop for every make and model. We show you the problem, price it before we start, and fix nothing you haven't approved.",
+    "phone": "(555) 204-8816",
+    "phone_href": "tel:+15552048816",
+    "email": "service@torqueauto.example",
+    "address": "2210 Kettle Road",
+    "city": "Columbus, OH 43212",
+    "map_url": "https://maps.google.com/?q=2210+Kettle+Road+Columbus+OH",
+    "cta_label": "Book service",
+    "cta_link": "/#book",
+    "currency": "$",
+    "open_summary": "Open Mon–Sat from 7:30 am",
+    "hours_note": "Closed Sundays. Drop-off key box by the front door, any hour.",
+    "labor_rate": "$120 an hour, posted and never padded",
+    "labor_short": "$120 / hour, posted",
+    "makes": "Every make & model",
+    "plate_top": "Columbus · Ohio",
+    "plate_slogan": "Honest repairs since 1998",
+    "plate_frame": "Serviced by Torque Auto Repair",
+    "sticker_top": "Open",
+    "sticker_bottom": "Mon–Sat",
+    "plate_label": "A license plate reading TORQUE, Columbus, Ohio — Honest repairs since 1998, in a Serviced by Torque Auto Repair frame",
+    "warranty": "24 months / 24,000 miles",
+    "warranty_short": "24 mo / 24k mi",
+    "service_groups": [
+        {
+            "name": "Maintenance",
+            "note": "The things your owner's manual keeps asking for"
+        },
+        {
+            "name": "Brakes & tires",
+            "note": "Stopping, steering, and the four patches that touch the road"
+        },
+        {
+            "name": "Diagnostics & repair",
+            "note": "When something sounds, smells, or feels wrong"
+        }
+    ],
+    "process_steps": [
+        {
+            "title": "Drop it off",
+            "body": "Book a time or leave the keys in the drop box. Tell us what it's doing — noises, smells, when it started.",
+            "highlight": false
+        },
+        {
+            "title": "We call with findings",
+            "body": "A technician inspects it and we send photos of what we found, in plain English, the same day.",
+            "highlight": false
+        },
+        {
+            "title": "You approve the price",
+            "body": "Every line priced before a wrench turns. Say yes to all of it, some of it, or none of it.",
+            "highlight": true
+        },
+        {
+            "title": "Pick it up",
+            "body": "We text when it's ready. Old parts in the trunk if you want them, and the warranty on the invoice.",
+            "highlight": false
+        }
+    ],
+    "estimate": {
+        "number": "Estimate 24-0917",
+        "vehicle": "2016 Honda CR-V · 94,210 mi",
+        "plate": "HKT 4471",
+        "total": "$443.40",
+        "status": "Waiting on your OK",
+        "note": "Nothing gets fixed until you say yes."
+    },
+    "estimate_lines": [
+        {
+            "item": "Front brake pads & rotors",
+            "detail": "Parts",
+            "amount": "$186.40"
+        },
+        {
+            "item": "Labor",
+            "detail": "1.4 hr at $120",
+            "amount": "$168.00"
+        },
+        {
+            "item": "Brake fluid exchange",
+            "detail": "Fluid below spec",
+            "amount": "$89.00"
+        }
+    ],
+    "promises": [
+        "Free check-up with every service — tires, fluids, belts, lights",
+        "Photos of anything we recommend, sent to your phone",
+        "Old parts returned on request",
+        "Free shuttle within 5 miles, or a loaner by reservation"
+    ],
+    "faqs": [
+        {
+            "question": "Do you work on my make?",
+            "answer": "Almost certainly. We service domestic, Asian and European cars, light trucks and hybrids. We don't do motorcycles or heavy diesel."
+        },
+        {
+            "question": "Will servicing here void my factory warranty?",
+            "answer": "No. Federal law lets you have maintenance done anywhere. We use parts that meet factory spec and keep a record you can show the dealer."
+        },
+        {
+            "question": "What does a diagnosis cost?",
+            "answer": "A check-engine scan and road test is $89. If you go ahead with the repair here, we take that off the bill."
+        },
+        {
+            "question": "How long will my car be here?",
+            "answer": "Most maintenance is done while you wait or by lunch. Bigger repairs depend on parts — we'll give you a time when we call with the price."
+        },
+        {
+            "question": "What if the problem comes back?",
+            "answer": "Our repairs carry a 24-month / 24,000-mile parts and labor warranty. Bring it back and we make it right."
+        }
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "State-issued plate stock: cool reflective white, petrol-teal stamped lettering, embossed rims and bolt holes, one sticker-red accent. Plain, confident, numerate. No dark garage photos, no wrench icons, no neon.",
+        "type": "Saira Condensed (weights 600–800) for headings, prices and the plate — stamped, squarish, automotive. Public Sans for everything else. No third family.",
+        "color": "One accent: sticker red (bg-primary) for the Book service button, the registration sticker and the one urgent warning light. The dark petrol field (bg-field) carries the warning-light band. Amber is data, used only for caution telltales.",
+        "signature": "The license plate in its 'Serviced by' dealer frame (hero and 404), the dashboard-light decoder, the posted price board, and the sample estimate waiting on the customer's OK. Keep all four as the design evolves.",
+        "voice": "The service writer you trust: plain-spoken, specific, numbers over adjectives. Here's what it is, here's what it costs. No exclamation points, no 'drive with confidence'."
+    }
+}

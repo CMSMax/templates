@@ -1,0 +1,8 @@
+title: Mission
+description: The mission set big like poster copy, with one phrase highlighted in pink, and a short note signed by a person.
+fields:
+    lead: { type: textarea, label: Statement — before the highlight, rows: 2 }
+    highlight: { type: text, label: Highlighted phrase }
+    rest: { type: textarea, label: Statement — after the highlight, rows: 2 }
+    body: { type: textarea, label: Supporting paragraph, rows: 3 }
+    signoff: { type: text, label: Signed by }

@@ -1,0 +1,67 @@
+[
+    {
+        "title": "Maths",
+        "slug": "maths",
+        "link": "/programs/maths",
+        "ages": "Ages 8–18",
+        "grades": "Grade 3 to AP Calculus",
+        "summary": "Number sense to calculus, one idea at a time, with the working shown every time.",
+        "format": "One-to-one or groups of four",
+        "price": "From $58 a session",
+        "mark": "x²",
+        "description": "Maths tutoring from times tables to AP Calculus in Harrow Hill and online — qualified teachers, a written plan, and a report every four weeks.",
+        "content": "<p>Most maths trouble is one missing step from two years ago. The free assessment finds it, and the first few weeks fill it before we touch this term's homework.</p><h2>What we cover</h2><ul><li>Number, fractions and times tables for ages 8 to 11</li><li>Pre-algebra, algebra and geometry</li><li>Algebra II, trigonometry and precalculus</li><li>AP Calculus AB and BC, and AP Statistics</li></ul><h2>How a session runs</h2><p>Ten minutes on last week's mistakes, thirty on new material, and ten on a short problem set done without help. Every session ends with the tutor writing one line for parents: what clicked, and what is next.</p>"
+    },
+    {
+        "title": "English & reading",
+        "slug": "english-and-reading",
+        "link": "/programs/english-and-reading",
+        "ages": "Ages 8–18",
+        "grades": "Phonics to AP Literature",
+        "summary": "Reading with understanding, then writing that makes an argument and holds it.",
+        "format": "One-to-one or groups of four",
+        "price": "From $58 a session",
+        "mark": "Aa",
+        "description": "Reading, writing and English tutoring for ages 8 to 18 — comprehension, essays and AP Literature, taught by qualified English teachers.",
+        "content": "<p>Strong readers become strong writers, so younger students read aloud every session and older ones read the text before they write about it. We mark drafts the way a teacher does: in the margin, with a reason.</p><h2>What we cover</h2><ul><li>Reading fluency and comprehension</li><li>Grammar, punctuation and paragraphing</li><li>Essay structure, evidence and argument</li><li>AP Language and AP Literature</li></ul><h2>How a session runs</h2><p>Every student keeps one notebook with us. It holds their drafts, our marks and their rewrites, so progress is on the page rather than in a spreadsheet.</p>"
+    },
+    {
+        "title": "Sciences",
+        "slug": "sciences",
+        "link": "/programs/sciences",
+        "ages": "Ages 11–18",
+        "grades": "Middle school to AP Chemistry",
+        "summary": "Biology, chemistry and physics taught from the idea up, not the formula down.",
+        "format": "One-to-one or groups of three",
+        "price": "From $62 a session",
+        "mark": "H₂O",
+        "description": "Biology, chemistry and physics tutoring for middle and high school, up to AP level — concepts first, then the exam technique.",
+        "content": "<p>Science grades usually drop when the maths arrives. We teach the idea first, then the equation that describes it, then the kind of question the exam will ask.</p><h2>What we cover</h2><ul><li>Middle school general science</li><li>Biology, chemistry and physics</li><li>AP Biology, AP Chemistry and AP Physics 1</li><li>Lab write-ups and data questions</li></ul><h2>How a session runs</h2><p>Short explanation, worked example, then questions in the style of the student's own tests. Groups are capped at three so everyone gets asked.</p>"
+    },
+    {
+        "title": "Entrance & test prep",
+        "slug": "entrance-and-test-prep",
+        "link": "/programs/entrance-and-test-prep",
+        "ages": "Ages 10–18",
+        "grades": "ISEE, SSAT, SAT and ACT",
+        "summary": "Timed practice, honest scoring and a plan that starts from the first mock.",
+        "format": "One-to-one or 8-week intensive",
+        "price": "From $72 a session",
+        "mark": "A+",
+        "description": "ISEE, SSAT, SAT and ACT preparation with full timed mocks, scored the way the real test is, and a week-by-week plan.",
+        "content": "<p>Test prep works when it is honest. Every student sits a full timed mock in week one, and we build the plan from what it shows rather than from a textbook's order.</p><h2>What we cover</h2><ul><li>ISEE and SSAT for independent school entry</li><li>SAT and ACT, digital and paper</li><li>Timing, pacing and guessing strategy</li><li>A mock every three weeks, scored and reviewed</li></ul><h2>How a session runs</h2><p>Half the session reviews the last mock question by question; half teaches the one skill costing the most points. Parents get the score trend after every mock.</p>"
+    },
+    {
+        "title": "Study skills",
+        "slug": "study-skills",
+        "link": "/programs/study-skills",
+        "ages": "Ages 11–18",
+        "grades": "Middle and high school",
+        "summary": "Planning the week, revising properly and walking into the test calm.",
+        "format": "One-to-one, six sessions",
+        "price": "From $58 a session",
+        "mark": "¶",
+        "description": "A six-session study skills course: planning, note-taking, active revision and test-day calm, for students who work hard and still fall short.",
+        "content": "<p>Some students do not need more content; they need a better week. This short course fixes how they plan, revise and sit tests, and it pays off in every subject at once.</p><h2>What we cover</h2><ul><li>A weekly plan they will actually keep</li><li>Notes that are useful a month later</li><li>Retrieval practice instead of re-reading</li><li>Handling nerves in the exam room</li></ul><h2>How it runs</h2><p>Six one-to-one sessions over six weeks, with a check-in on the student's real planner each time. Most families pair it with a subject program.</p>"
+    }
+]

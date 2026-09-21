@@ -1,0 +1,6 @@
+label: Makers
+icon: tag
+fields:
+    name: { type: text }
+    what: { type: text }
+    where: { type: text }

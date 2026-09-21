@@ -1,0 +1,8 @@
+title: Book a service
+description: The closing call to book — the phone number, hours (from the Hours collection), address and directions.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    afterHoursLabel: { type: text, label: After-hours heading }
+    afterHours: { type: textarea, label: After-hours note, rows: 2 }
+    directionsLabel: { type: text, label: Directions button text }

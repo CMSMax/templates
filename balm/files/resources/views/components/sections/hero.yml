@@ -1,0 +1,18 @@
+title: Hero
+description: The treatment room edge to edge, a headline with one word circled in amber, the booking button, and three quick facts.
+fields:
+    headingLead: { type: text, label: Headline }
+    headingCircled: { type: text, label: Circled word (ends the headline) }
+    body: { type: textarea, label: Supporting line, rows: 3 }
+    secondaryLabel: { type: text, label: Second button text }
+    secondaryLink: { type: url, label: Second button link }
+    image: { type: image, label: Photograph }
+    imageAlt: { type: text, label: Photograph description }
+    facts:
+        type: repeater
+        label: Quick facts
+        source: site.facts
+        item_label: value
+        sub_fields:
+            value: { type: text, label: Figure }
+            label: { type: text, label: What it means }

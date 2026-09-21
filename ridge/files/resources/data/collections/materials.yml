@@ -1,0 +1,7 @@
+label: Materials
+icon: 🪵
+fields:
+    name: { type: text, label: Material }
+    life: { type: text, label: Expected life }
+    hail: { type: text, label: Hail rating }
+    best: { type: text, label: Best for }

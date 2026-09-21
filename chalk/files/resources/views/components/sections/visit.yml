@@ -1,0 +1,21 @@
+title: Visit
+description: The closing call to action — a wide photo of the floor, the free-trial offer with phone and email, the hours and the address.
+fields:
+    label: { type: text, label: Section label }
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }
+    hoursLabel: { type: text, label: Hours heading }
+    addressLabel: { type: text, label: Address heading }
+    directionsLabel: { type: text, label: Directions link text }
+    arrivalNote: { type: textarea, label: Parking and arrival note, rows: 2 }
+    items:
+        type: repeater
+        label: Hours
+        item_label: day
+        add_button_label: Add a row
+        source: site.hours
+        sub_fields:
+            day: { type: text, label: Days }
+            hours: { type: text, label: Hours }

@@ -1,0 +1,7 @@
+label: Team
+icon: 👥
+fields:
+    name: { type: text, label: Name }
+    role: { type: text, label: Role }
+    bio: { type: textarea, label: Short bio, rows: 2 }
+    image: { type: image, label: Portrait }

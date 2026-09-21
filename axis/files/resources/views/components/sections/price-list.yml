@@ -1,0 +1,18 @@
+title: Price list
+description: Every service grouped under three headings, each with its length and price. Group titles must match the services' Group values.
+fields:
+    visitsTitle: { type: text, label: First group }
+    rehabTitle: { type: text, label: Second group }
+    plansTitle: { type: text, label: Third group }
+    services:
+        type: repeater
+        label: Services
+        source: services
+        item_label: name
+        sub_fields:
+            name: { type: text, label: Service }
+            category: { type: text, label: Group }
+            description: { type: textarea, label: Short description, rows: 2 }
+            duration: { type: text, label: Length }
+            price: { type: text, label: Price }
+            featured: { type: toggle, label: Show on the homepage }

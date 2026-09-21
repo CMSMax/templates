@@ -1,0 +1,13 @@
+title: Questions
+description: First-visit questions as open-and-close rows.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    faqs:
+        type: repeater
+        label: Questions
+        source: site.faqs
+        item_label: question
+        sub_fields:
+            question: { type: text, label: Question }
+            answer: { type: textarea, label: Answer, rows: 3 }

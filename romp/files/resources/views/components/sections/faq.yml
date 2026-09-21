@@ -1,0 +1,5 @@
+title: FAQ
+description: Common questions as an accordion. The questions live in the FAQs collection.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Intro, rows: 2 }

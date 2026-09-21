@@ -1,0 +1,7 @@
+title: Page header
+description: The services page opening — the page title, a short promise about billing, and a wide photo of the clinic.
+fields:
+    heading: { type: text, label: Page title }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }

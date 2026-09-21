@@ -1,0 +1,20 @@
+title: Hero
+description: The opening — a big plain headline, the intro-offer button, a wide photo labelled like a pose plate, and three numbers.
+fields:
+    eyebrow: { type: text, label: Small line above the headline }
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    secondaryLabel: { type: text, label: Second link text (leave empty to hide) }
+    secondaryLink: { type: url, label: Second link }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }
+    platePose: { type: select, label: Plate pictogram, options: { mountain: Mountain, salute: Upward salute, lunge: Low lunge, fold: Forward fold, halflift: Halfway lift, plank: Plank, updog: Upward dog, downdog: Downward dog, child: Child's pose, tree: Tree, warrior: Warrior, seated: Seated, rest: Resting } }
+    plateNumber: { type: text, label: Plate number }
+    plateName: { type: text, label: Plate name (leave empty to hide the plate) }
+    plateCue: { type: text, label: Plate cue }
+    statOne: { type: text, label: First number }
+    statOneLabel: { type: text, label: First number label }
+    statTwo: { type: text, label: Second number }
+    statTwoLabel: { type: text, label: Second number label }
+    statThree: { type: text, label: Third number }
+    statThreeLabel: { type: text, label: Third number label }

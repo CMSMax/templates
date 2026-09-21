@@ -1,0 +1,23 @@
+title: Spine map
+description: The signature section — an S-curved spine beside the conditions you treat, grouped by where they live. Pointing at a condition lights up its part of the spine.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    hint: { type: text, label: Caption under the spine }
+    neckTitle: { type: text, label: Neck group title }
+    neckLabel: { type: text, label: Neck group note }
+    midTitle: { type: text, label: Mid-back group title }
+    midLabel: { type: text, label: Mid-back group note }
+    lowTitle: { type: text, label: Low-back group title }
+    lowLabel: { type: text, label: Low-back group note }
+    pelvisTitle: { type: text, label: Pelvis group title }
+    pelvisLabel: { type: text, label: Pelvis group note }
+    conditions:
+        type: repeater
+        label: Conditions
+        source: conditions
+        item_label: name
+        sub_fields:
+            name: { type: text, label: Condition }
+            region: { type: select, label: Spine region, options: { neck: Neck & head, mid: Mid back, low: Low back, pelvis: Pelvis & hips } }
+            note: { type: text, label: One-line description }

@@ -1,0 +1,62 @@
+[
+    {
+        "title": "Brick colonial after the June hail",
+        "slug": "berkeley-place-colonial",
+        "date": "2026-06-24",
+        "description": "Golf-ball hail cracked most of a twelve-year-old roof. Claim approved in full; new shingles and copper gutters in one day.",
+        "image": "/images/projects/berkeley-colonial.jpg",
+        "imageAlt": "A red-brick colonial house with a new slate-grey shingle roof and copper gutters under a blue sky.",
+        "link": "/projects/berkeley-place-colonial",
+        "place": "Berkeley Place",
+        "material": "Class 4 shingles",
+        "size": "32 squares",
+        "days": "1 day",
+        "storm": "June 14 hail · 1.75 in",
+        "content": "<p>The Hendersons called the morning after the June 14 storm. Their gutters were dented and a neighbour had already found shingle grit in the downspouts.</p><h2>What we found</h2><ul><li>Forty-one hail hits on the west slope alone, each circled and photographed</li><li>Cracked ridge caps and a split pipe boot over the kitchen</li><li>Two soft sheets of decking under the old valley</li></ul><h2>What we built</h2><p>We met the adjuster on the roof on day four and the claim was approved in full. On build day the crew tore off to the deck, replaced the soft decking, and laid Class 4 impact-rated shingles, which also lowered the family's premium.</p><p>The copper gutters were the owners' own upgrade. The yard was swept with a magnet twice before we left.</p>"
+    },
+    {
+        "title": "Standing-seam metal on a farmhouse",
+        "slug": "aledo-farmhouse-metal",
+        "date": "2026-04-10",
+        "description": "A third shingle roof in fifteen years was one too many. Dark bronze standing seam, rated for hail and fifty years.",
+        "image": "/images/projects/aledo-metal.jpg",
+        "imageAlt": "A white farmhouse with a new dark bronze standing-seam metal roof on a sunny day.",
+        "link": "/projects/aledo-farmhouse-metal",
+        "place": "Aledo",
+        "material": "Standing-seam steel",
+        "size": "41 squares",
+        "days": "3 days",
+        "storm": "Planned replacement",
+        "content": "<p>This farmhouse sits on open ground west of town, where every spring storm hits it first. The owners had replaced their shingles three times in fifteen years.</p><h2>What we built</h2><ul><li>Full tear-off and new synthetic underlayment over the whole deck</li><li>24-gauge standing-seam steel in dark bronze, with concealed fasteners</li><li>A snow-and-hail guard line over the porch entry</li></ul><h2>How it went</h2><p>Metal takes longer than shingles: three days, including a day of on-site panel forming. The porch stayed usable the whole time.</p><p>The roof carries a Class 4 hail rating and a fifty-year manufacturer warranty.</p>"
+    },
+    {
+        "title": "Cedar shake on a Fairmount cottage",
+        "slug": "fairmount-cedar-cottage",
+        "date": "2025-10-02",
+        "description": "A 1920s cottage in the historic district needed its roof to match the street. Hand-split cedar, laid the old way.",
+        "image": "/images/projects/fairmount-cedar.jpg",
+        "imageAlt": "A small cottage with a new honey-coloured cedar shake roof and white trim, hydrangeas in front.",
+        "link": "/projects/fairmount-cedar-cottage",
+        "place": "Fairmount",
+        "material": "Cedar shake",
+        "size": "18 squares",
+        "days": "4 days",
+        "storm": "Historic district review",
+        "content": "<p>The historic district asked for cedar, and the owners wanted a roof that looked the way it did in 1924. The old shakes had been covered with two layers of asphalt.</p><h2>What we built</h2><ul><li>Removed three layers of roofing down to the original skip sheathing</li><li>New solid deck with a breathable underlayment for the cedar</li><li>Hand-split red cedar shakes with a straight-line exposure</li></ul><h2>How it went</h2><p>Cedar is slow work. The crew spent four days on eighteen squares and hand-cut every hip. The review board signed off on the first visit.</p>"
+    },
+    {
+        "title": "Craftsman bungalow in Ryan Place",
+        "slug": "ryan-place-craftsman",
+        "date": "2026-06-19",
+        "description": "Quarter-to-golf-ball hail on a nineteen-year-old roof. Charcoal architectural shingles, a new ridge vent, and one day on site.",
+        "image": "/images/hero-roof.jpg",
+        "imageAlt": "A craftsman house with a new charcoal shingle roof, a roofer finishing the ridge under a clearing blue sky.",
+        "link": "/projects/ryan-place-craftsman",
+        "place": "Ryan Place",
+        "material": "Architectural shingles",
+        "size": "28 squares",
+        "days": "1 day",
+        "storm": "June 14 hail · 1.25 in",
+        "content": "<p>The Nguyens' roof was nineteen years old and had already been patched twice. The June 14 storm finished it: we circled thirty-two hits on the south slope alone.</p><h2>What we built</h2><ul><li>Tear-off to the deck and three sheets of new decking over the porch</li><li>Ice and water shield in both valleys and around the chimney</li><li>Charcoal architectural shingles and a continuous ridge vent</li></ul><h2>How it went</h2><p>The claim was approved on the adjuster's first visit. The crew arrived at seven, had the old roof off by ten, and swept the yard with a magnet before five.</p>"
+    }
+]

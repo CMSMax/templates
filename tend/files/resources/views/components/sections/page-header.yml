@@ -1,0 +1,7 @@
+title: Page header
+description: A short dawn-sky header with a two-part page title.
+fields:
+    eyebrow: { type: text, label: Small label }
+    heading: { type: text, label: Title (first line) }
+    headingItalic: { type: text, label: Title (italic second line) }
+    body: { type: textarea, label: Supporting copy, rows: 2 }

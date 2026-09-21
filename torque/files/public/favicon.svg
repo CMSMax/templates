@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+    <style>
+        rect { fill: #0c2c35 }
+        .nut { fill: #eef1ee }
+        .dot { fill: #d62839 }
+        @media (prefers-color-scheme: dark) { rect { fill: #123a45 } }
+    </style>
+    <rect width="32" height="32" rx="7"/>
+    <path class="nut" fill-rule="evenodd" d="M16 5.5 25.1 10.75v10.5L16 26.5l-9.1-5.25v-10.5Zm0 6a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9Z"/>
+    <circle class="dot" cx="16" cy="16" r="2"/>
+</svg>

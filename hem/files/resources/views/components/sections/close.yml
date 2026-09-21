@@ -1,0 +1,7 @@
+title: Closing band
+description: The lilac band before the footer, with the address and the directions button.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    primaryLabel: { type: text, label: Directions button text }
+    secondaryLabel: { type: text, label: Call link text }

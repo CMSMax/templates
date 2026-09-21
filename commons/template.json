@@ -1,0 +1,11 @@
+{
+    "name": "Commons",
+    "industry": "nonprofits",
+    "description": "A two-ink, risograph-poster template for community nonprofits, food banks and mutual-aid groups — paper-white stock, federal-blue ink and one fluorescent-pink overprint, a giant poster headline, programs as a ruled ledger, every dollar drawn as a ruler of a hundred cents, and a flyer of tear-off tabs that turns each gift amount into something a neighbor can picture.",
+    "pages": ["Home", "Get involved", "404"],
+    "collections": ["programs", "gifts", "roles"],
+    "cta": "Donate",
+    "theme": "light",
+    "accent": "#ff5ca8",
+    "fonts": ["Funnel Display", "Atkinson Hyperlegible Next"]
+}

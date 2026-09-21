@@ -1,0 +1,20 @@
+title: Inner-weather forecast
+description: The specialties typeset as a forecast — a weather symbol, a condition, what a client might say, and what the work looks like.
+fields:
+    heading: { type: text, label: Headline (first line) }
+    headingItalic: { type: text, label: Headline (italic second line) }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    footnote: { type: text, label: Note under the forecast }
+    footnoteLink: { type: text, label: Link text }
+    specialties:
+        type: repeater
+        label: Specialties
+        source: specialties
+        item_label: name
+        sub_fields:
+            name: { type: text, label: Specialty }
+            weather: { type: select, label: Weather symbol, options: { fog: Fog, overcast: Overcast, storm: Storm, wind: Wind, rain: Rain, clearing: Clearing } }
+            condition: { type: text, label: Forecast word }
+            feeling: { type: text, label: What a client might say }
+            body: { type: textarea, label: What we work on, rows: 3 }
+            format: { type: text, label: Format }

@@ -1,0 +1,7 @@
+title: Page not found
+description: The message shown when a page doesn't exist, with links home and to recent roofs.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Message, rows: 2 }
+    homeLabel: { type: text, label: Homepage link text }
+    workLabel: { type: text, label: Roofs link text }

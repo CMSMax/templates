@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Free consultation",
+        "detail": "A 15-minute phone or video call to see if we're a fit",
+        "length": "15 min",
+        "price": "Free"
+    },
+    {
+        "name": "Individual session",
+        "detail": "Weekly or fortnightly, in person or online",
+        "length": "50 min",
+        "price": "$165"
+    },
+    {
+        "name": "Couples session",
+        "detail": "Both partners, with occasional individual check-ins",
+        "length": "80 min",
+        "price": "$220"
+    },
+    {
+        "name": "Extended first session",
+        "detail": "Optional — for people who'd rather tell the whole story at once",
+        "length": "80 min",
+        "price": "$240"
+    },
+    {
+        "name": "Sliding-scale session",
+        "detail": "A few weekly spots, no proof of income needed",
+        "length": "50 min",
+        "price": "$95–$140"
+    }
+]

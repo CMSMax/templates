@@ -1,0 +1,5 @@
+title: Questions
+description: Common questions as an open-and-close list. The questions and answers live in the site details (faqs).
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 2 }

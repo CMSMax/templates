@@ -1,0 +1,9 @@
+label: Specialties
+icon: 🌤️
+fields:
+    name: { type: text, label: Specialty }
+    weather: { type: select, label: Weather symbol, options: { fog: Fog, overcast: Overcast, storm: Storm, wind: Wind, rain: Rain, clearing: Clearing } }
+    condition: { type: text, label: Forecast word (e.g. Fog) }
+    feeling: { type: text, label: What a client might say }
+    body: { type: textarea, label: What we work on, rows: 3 }
+    format: { type: text, label: Format (e.g. Individual · weekly) }

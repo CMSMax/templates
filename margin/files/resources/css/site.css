@@ -1,0 +1,151 @@
+@import 'tailwindcss';
+
+/* Margin's whole colour and type system. Every real value lives here and
+   nowhere else: retune a token and the entire site follows. Markup only ever
+   names the token utilities (bg-canvas, text-ink, border-line, bg-accent). */
+@theme {
+    /* Exercise-book paper is the dominant neutral — roughly three quarters of
+       any viewport. Surface is a fresh sheet lifted off it. */
+    --color-canvas: #f6f4ee;
+    --color-surface: #fdfcf9;
+    --color-ink: #17203b;
+    --color-muted: #535d77;
+    --color-line: #d8dce5;
+    /* The faint blue of ruled lines and the one pale field the report card
+       sits on. */
+    --color-rule: #c9d6ec;
+    --color-panel: #e7edf6;
+    /* Red pen. It marks: the primary button, the margin rule, the circled
+       grades and the handwritten notes. It is never a background field. */
+    --color-accent: #c23a22;
+    --color-accent-ink: #fffaf6;
+    /* Blue-black ink as a field belongs to the closing band and the footer
+       only — the two places the page stops and asks. */
+    --color-deep: #17203b;
+    --color-deep-ink: #eef1f7;
+    --color-deep-muted: #a7b0c7;
+
+    --font-sans: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+    /* Fraunces at its soft optical size reads like a well-set school book,
+       not like a law firm. */
+    --font-display: 'Fraunces', ui-serif, Georgia, serif;
+    --font-display--font-variation-settings: 'SOFT' 50, 'WONK' 0;
+    /* The red-pen hand. Only ever for short margin notes, never for copy
+       someone has to read. */
+    --font-hand: 'Caveat', ui-rounded, cursive;
+
+    --radius-xs: 3px;
+    --radius-sm: 6px;
+
+    /* Paper lifted off a desk: a hairline contact shadow plus one soft,
+       offset fall. Never a glow. */
+    --shadow-press: 0 1px 2px color-mix(in oklab, var(--color-ink) 12%, transparent);
+    --shadow-sheet: 0 1px 2px color-mix(in oklab, var(--color-ink) 6%, transparent), 0 18px 40px -16px color-mix(in oklab, var(--color-ink) 24%, transparent);
+    --shadow-tag: 0 8px 20px -10px color-mix(in oklab, var(--color-ink) 50%, transparent);
+}
+
+/* Ruled paper: the faint blue lines of an exercise book, drawn with a
+   gradient so they cost nothing and follow the token. */
+.ruled {
+    background-image: repeating-linear-gradient(to bottom, transparent 0, transparent calc(2rem - 1px), var(--color-rule) calc(2rem - 1px), var(--color-rule) 2rem);
+}
+
+.ruled-deep {
+    background-image: repeating-linear-gradient(to bottom, transparent 0, transparent calc(2rem - 1px), color-mix(in oklab, var(--color-deep-ink) 9%, transparent) calc(2rem - 1px), color-mix(in oklab, var(--color-deep-ink) 9%, transparent) 2rem);
+}
+
+/* The hero is the page's one authored moment: the slab's lines arrive in
+   sequence (--i is the slot), then the red pen draws its marks. */
+@keyframes margin-rise {
+    from {
+        opacity: 0;
+        transform: translateY(14px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes margin-draw {
+    from {
+        stroke-dashoffset: 1;
+    }
+
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+[data-rise] {
+    animation: margin-rise 800ms cubic-bezier(0.22, 1, 0.36, 1) both;
+    animation-delay: calc(100ms + var(--i, 0) * 90ms);
+}
+
+/* A red-pen stroke: pathLength="1" on the path, then it draws itself. */
+[data-pen] {
+    stroke-dasharray: 1;
+    stroke-dashoffset: 0;
+    animation: margin-draw 900ms cubic-bezier(0.65, 0, 0.35, 1) both;
+    animation-delay: calc(700ms + var(--i, 0) * 180ms);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    [data-rise],
+    [data-pen] {
+        animation: none;
+    }
+}
+
+/* Body copy written by the owner (a program's detail page) arrives as HTML
+   no utility class can reach, so it is styled once here. */
+.prose {
+    color: var(--color-muted);
+    font-size: 1.0625rem;
+    line-height: 1.75;
+}
+
+.prose > * + * {
+    margin-top: 1.25rem;
+}
+
+.prose h2 {
+    color: var(--color-ink);
+    font-family: var(--font-display);
+    font-size: 1.625rem;
+    font-weight: 500;
+    letter-spacing: -0.015em;
+    line-height: 1.2;
+    margin-top: 2.75rem;
+}
+
+.prose h3 {
+    color: var(--color-ink);
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+.prose strong {
+    color: var(--color-ink);
+    font-weight: 600;
+}
+
+.prose a {
+    color: var(--color-ink);
+    text-decoration: underline;
+    text-decoration-color: var(--color-accent);
+    text-underline-offset: 4px;
+}
+
+.prose ul {
+    display: grid;
+    gap: 0.625rem;
+}
+
+.prose li {
+    border-top: 1px solid var(--color-line);
+    padding-top: 0.625rem;
+}

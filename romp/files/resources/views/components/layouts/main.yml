@@ -1,0 +1,5 @@
+title: Page settings
+description: The page's title and description for search engines and link previews.
+fields:
+    title: { type: text, label: Page title }
+    description: { type: textarea, label: Meta description, rows: 3 }

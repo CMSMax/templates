@@ -1,0 +1,13 @@
+label: Colour card
+icon: palette
+fields:
+    number: { type: text }
+    name: { type: text }
+    color: { type: color }
+    piece: { type: text }
+    maker: { type: text }
+    cloth: { type: text }
+    price: { type: text }
+    link: { type: url }
+    image: { type: image }
+    imageAlt: { type: text }

@@ -1,0 +1,7 @@
+[
+    { "day": "Day 0", "title": "The storm", "body": "Hail comes through. Call us or book online — you don't need to know yet if there's damage.", "icon": "storm" },
+    { "day": "Day 1–2", "title": "Free inspection", "body": "We check every slope, circle each hit in chalk, and send you the photos the same day.", "icon": "search" },
+    { "day": "Day 3–7", "title": "Adjuster visit", "body": "Your crew lead meets the insurance adjuster on the roof and walks them through every hit.", "icon": "people" },
+    { "day": "Day 10–20", "title": "Build day", "body": "Tear-off, new roof, magnet sweep of the yard. Most homes are done before dinner.", "icon": "hammer" },
+    { "day": "Day 30", "title": "Paperwork closed", "body": "Final photos and invoice to your insurer, and a workmanship warranty to you.", "icon": "check" }
+]

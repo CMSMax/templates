@@ -1,0 +1,23 @@
+title: Flash wall
+description: The studio's flash sheet on a pink field — each design pinned up as a numbered tag with its size, artist and price, stamped TAKEN once it is claimed. The designs live in the Flash collection; the walk-in note lives in site settings.
+fields:
+    heading: { type: text, label: Headline (leave empty to hide the intro) }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    limit: { type: number, label: How many designs to show, min: 1, max: 60, step: 1 }
+    columns: { type: select, label: Columns on wide screens, options: { '3': Three, '4': Four } }
+    linkLabel: { type: text, label: Button text (leave empty to hide) }
+    linkUrl: { type: url, label: Button link }
+    items:
+        type: repeater
+        label: Designs
+        source: flash
+        item_label: name
+        sub_fields:
+            name: { type: text, label: Design name }
+            number: { type: text, label: Sheet number }
+            size: { type: text, label: Size }
+            price: { type: text, label: Price }
+            artist: { type: text, label: Artist }
+            taken: { type: toggle, label: Taken (stamps the tag) }
+            image: { type: image, label: Design }
+            alt: { type: text, label: Design description }

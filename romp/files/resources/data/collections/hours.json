@@ -1,0 +1,6 @@
+[
+    { "day": "Monday – Friday", "hours": "7am – 7pm" },
+    { "day": "Saturday", "hours": "8am – 6pm" },
+    { "day": "Sunday", "hours": "9am – 5pm" },
+    { "day": "Boarding pick-up", "hours": "Until 11am on your last day" }
+]

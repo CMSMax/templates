@@ -1,0 +1,14 @@
+title: Questions
+description: Common questions as an open-and-close list.
+fields:
+    label: { type: text, label: Section label }
+    heading: { type: text, label: Headline }
+    items:
+        type: repeater
+        label: Questions
+        item_label: question
+        add_button_label: Add a question
+        source: site.faqs
+        sub_fields:
+            question: { type: text, label: Question }
+            answer: { type: textarea, label: Answer, rows: 3 }

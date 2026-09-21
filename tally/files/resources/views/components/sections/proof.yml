@@ -1,0 +1,10 @@
+title: Client story
+description: A full-height photograph beside one client's words and the figure that mattered to them.
+fields:
+    quote: { type: textarea, label: Quote, rows: 3 }
+    name: { type: text, label: Client name }
+    business: { type: text, label: Client's business }
+    figure: { type: text, label: Figure }
+    figureLabel: { type: text, label: Figure label }
+    image: { type: image, label: Photograph }
+    imageAlt: { type: text, label: Photograph description }

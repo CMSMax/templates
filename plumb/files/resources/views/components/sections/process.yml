@@ -1,0 +1,15 @@
+title: How a job runs
+description: Four steps joined by a pipe that fills with water as it scrolls into view.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Intro, rows: 2 }
+    items:
+        type: repeater
+        label: Steps
+        source: steps
+        item_label: title
+        add_button_label: Add step
+        sub_fields:
+            when: { type: text, label: When }
+            title: { type: text, label: Step }
+            body: { type: textarea, label: Description, rows: 2 }

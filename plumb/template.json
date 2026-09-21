@@ -1,0 +1,11 @@
+{
+    "name": "Plumb",
+    "industry": "plumbers",
+    "description": "A straight-talking template for plumbers and drain specialists — porcelain-white canvas, one field of enamel water-department blue, wide cast-iron lettering, a meter-lid roundel for a badge, a flat-rate price book, and a “What's going on?” fault finder that tells a visitor the likely cause, the fix, and the price before they call.",
+    "pages": ["Home", "Services", "Service detail", "Prices", "Contact", "404"],
+    "collections": ["services", "faults", "prices", "steps", "reviews", "faqs"],
+    "cta": "Book a plumber",
+    "theme": "light",
+    "accent": "#1747c8",
+    "fonts": ["Anybody", "Geist"]
+}

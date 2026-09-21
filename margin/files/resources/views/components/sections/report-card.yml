@@ -1,0 +1,68 @@
+title: Report card
+description: The signature — a typeset term report of real students, the grade they started on and the grade they reached, circled in red pen.
+fields:
+    heading:
+        type: text
+        label: Headline
+        default: Last term, on paper.
+    body:
+        type: textarea
+        label: Introduction
+        rows: 3
+        default: 'Five of our students, shared with their families’ permission: the grade they arrived with, and the one on their spring report.'
+        description: Only publish results a family has agreed to share.
+    margin:
+        type: text
+        label: Red-pen margin note
+        default: every one moved up
+    cardTitle:
+        type: text
+        label: Report title
+        default: Spring term report
+    cardMeta:
+        type: text
+        label: Term and year
+        default: Term 2 · 2026
+    signedBy:
+        type: text
+        label: Signed by
+        default: C. Whitlock
+    signedRole:
+        type: text
+        label: Signer's role
+        default: Head of maths
+    footnote:
+        type: text
+        label: Footnote
+        default: Grades as they appeared on each student’s school report.
+    items:
+        type: repeater
+        label: Report rows
+        item_label: student
+        add_button_label: Add a student
+        source: collections.results
+        sub_fields:
+            student:
+                type: text
+                label: Student (first name and initial)
+                default: Maya R.
+            year:
+                type: text
+                label: Year or grade
+                default: Grade 9
+            subject:
+                type: text
+                label: Subject
+                default: Algebra
+            started:
+                type: text
+                label: Grade they started on
+                default: C+
+            now:
+                type: text
+                label: Grade now (circled)
+                default: A−
+            weeks:
+                type: text
+                label: Weeks with us
+                default: '11'

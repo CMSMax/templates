@@ -1,0 +1,4 @@
+title: Marquee
+description: A tilted lilac band of what the shop carries, drifting slowly sideways.
+fields:
+    items: { type: repeater, label: Words, source: carry, item_label: label, add_button_label: Add a word, sub_fields: { label: { type: text, label: Word } } }

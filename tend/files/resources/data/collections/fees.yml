@@ -1,0 +1,7 @@
+label: Fees
+icon: 🧾
+fields:
+    name: { type: text, label: Session type }
+    detail: { type: text, label: Short detail }
+    length: { type: text, label: Length (e.g. 50 min) }
+    price: { type: text, label: Price (e.g. $165 or Free) }

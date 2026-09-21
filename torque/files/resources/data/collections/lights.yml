@@ -1,0 +1,8 @@
+label: Warning lights
+icon: ⚠️
+fields:
+    name: { type: text, label: Light }
+    icon: { type: select, label: Symbol, options: { engine: Check engine, oil: Oil pressure, brake: Brake, battery: Battery, coolant: Temperature, tire: Tire pressure } }
+    level: { type: select, label: Color, options: { caution: Amber — caution, stop: Red — stop } }
+    urgency: { type: text, label: How urgent }
+    meaning: { type: textarea, label: What it means, rows: 3 }

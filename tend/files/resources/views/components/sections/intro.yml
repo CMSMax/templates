@@ -1,0 +1,12 @@
+title: About
+description: A first-person introduction from the therapist beside their portrait and a gallery-style caption.
+fields:
+    eyebrow: { type: text, label: Small label }
+    heading: { type: text, label: Headline (first line) }
+    headingItalic: { type: text, label: Headline (italic second line) }
+    body: { type: textarea, label: First paragraph, rows: 4 }
+    bodyTwo: { type: textarea, label: Second paragraph, rows: 4 }
+    approaches: { type: text, label: Ways I work }
+    signature: { type: text, label: Signed as }
+    image: { type: image, label: Portrait (leave empty for the monogram) }
+    imageAlt: { type: text, label: Portrait description }

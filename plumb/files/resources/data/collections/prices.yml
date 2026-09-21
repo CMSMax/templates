@@ -1,0 +1,8 @@
+label: Prices
+icon: 🧾
+fields:
+    job: { type: text, label: Job }
+    note: { type: textarea, label: What's included, rows: 2 }
+    category: { type: text, label: Group (must match a price group name) }
+    price: { type: text, label: Price }
+    featured: { type: toggle, label: Show on the homepage }

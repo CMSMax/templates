@@ -1,0 +1,14 @@
+title: Price signs
+description: One brown park sign per service group, listing every service in it with its price. Services themselves live in the Services collection.
+fields:
+    groups:
+        type: repeater
+        label: Service groups
+        source: site.service_groups
+        item_label: name
+        sub_fields:
+            name: { type: text, label: Name }
+            body: { type: textarea, label: One line, rows: 2 }
+            from: { type: text, label: Starting price (shown on the homepage) }
+            id: { type: text, label: Group key (matches each service's group) }
+            icon: { type: select, label: Pictogram, options: { scissors: Scissors, ball: Tennis ball, moon: Moon, walk: Walker, bath: Bath, dog: Dog } }

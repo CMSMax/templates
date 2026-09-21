@@ -1,0 +1,5 @@
+title: Page header
+description: The Services page title with the shop's promises (from the site details) beside it.
+fields:
+    heading: { type: text, label: Page title }
+    body: { type: textarea, label: Introduction, rows: 3 }

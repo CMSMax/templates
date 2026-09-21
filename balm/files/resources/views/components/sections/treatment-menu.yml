@@ -1,0 +1,23 @@
+title: Treatment menu
+description: Every treatment in three groups — Relax, Repair and Specialist — with its 60- and 90-minute prices. Treatments live in the Treatments collection; each one's Group decides where it appears.
+fields:
+    relaxHeading: { type: text, label: Relax group heading }
+    relaxNote: { type: text, label: Relax group note }
+    repairHeading: { type: text, label: Repair group heading }
+    repairNote: { type: text, label: Repair group note }
+    specialistHeading: { type: text, label: Specialist group heading }
+    specialistNote: { type: text, label: Specialist group note }
+    treatments:
+        type: repeater
+        label: Treatments
+        source: treatments
+        item_label: name
+        sub_fields:
+            name: { type: text, label: Treatment }
+            slug: { type: text, label: Anchor (URL-safe) }
+            group: { type: select, label: Group, options: { Relax: Relax, Repair: Repair, Specialist: Specialist } }
+            summary: { type: textarea, label: Description, rows: 3 }
+            best_for: { type: text, label: Best for }
+            price_60: { type: text, label: 60-minute price }
+            price_90: { type: text, label: 90-minute price }
+            featured: { type: toggle, label: Show on the homepage }

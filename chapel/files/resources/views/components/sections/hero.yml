@@ -1,0 +1,20 @@
+title: Hero
+description: The welcome — a two-line headline (the second line in red italic), the plan-your-visit button, the arched window, and the service times ledger from the Gatherings collection.
+fields:
+    heading: { type: text, label: Headline }
+    headingEmphasis: { type: text, label: Headline (italic second line) }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    secondaryLabel: { type: text, label: Second link text }
+    secondaryLink: { type: url, label: Second link }
+    image: { type: image, label: Window photo (leave empty for the drawn window) }
+    imageAlt: { type: text, label: Photo description }
+    gatherings:
+        type: repeater
+        label: Service times
+        source: gatherings
+        item_label: name
+        sub_fields:
+            day: { type: text, label: Day }
+            time: { type: text, label: Time }
+            name: { type: text, label: Service }
+            note: { type: textarea, label: What it's like, rows: 2 }

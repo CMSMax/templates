@@ -1,0 +1,171 @@
+{
+    "name": "Stride Physical Therapy",
+    "short_name": "Stride",
+    "tagline": "One-on-one physical therapy for sore backs, bad knees, stubborn shoulders, and the surgery you just had — with a plan you can see from the first visit.",
+    "phone": "(555) 204-7710",
+    "phone_href": "tel:+15552047710",
+    "email": "hello@stride.example",
+    "address": "88 Mercer Street, Suite 2",
+    "city": "Springfield",
+    "directions_url": "https://maps.google.com/?q=88+Mercer+Street+Springfield",
+    "hours_short": "Mon–Thu 7am–7pm · Fri 7am–5pm · Sat 8am–12pm",
+    "hours_note": "Early and late slots go first — book a week ahead if you can.",
+    "cta_label": "Book an evaluation",
+    "cta_link": "/#visit",
+    "booking_link": "tel:+15552047710",
+    "license_note": "Dana Whitfield, PT, DPT · Licensed physical therapist",
+    "hero_facts": [
+        "No referral needed",
+        "Most insurance accepted",
+        "55-minute, one-on-one visits"
+    ],
+    "rom": {
+        "label": "Range of motion",
+        "joint": "Left knee flexion",
+        "start": "92°",
+        "now": "131°",
+        "start_deg": 92,
+        "now_deg": 131,
+        "goal_deg": 135,
+        "start_label": "Week 1",
+        "now_label": "Week 8",
+        "goal": "Goal: 135° — kneeling in the garden again"
+    },
+    "conditions": [
+        {
+            "area": "Neck & back",
+            "examples": "Disc pain, sciatica, desk-posture stiffness, headaches that start in the neck"
+        },
+        {
+            "area": "Shoulder & elbow",
+            "examples": "Rotator cuff strain, frozen shoulder, tennis and golfer's elbow"
+        },
+        {
+            "area": "Hip & knee",
+            "examples": "Runner's knee, arthritis, IT band pain, ACL and meniscus injuries"
+        },
+        {
+            "area": "Foot & ankle",
+            "examples": "Sprains that keep rolling, plantar fasciitis, Achilles pain"
+        },
+        {
+            "area": "After surgery",
+            "examples": "Knee and hip replacements, ACL reconstruction, shoulder repairs, spine surgery"
+        },
+        {
+            "area": "Balance & everyday strength",
+            "examples": "Falls, unsteadiness, getting up from the floor, staying independent"
+        }
+    ],
+    "plan": [
+        {
+            "phase": "01",
+            "title": "Calm it down",
+            "weeks": "Weeks 1–2",
+            "body": "Settle the pain with hands-on care and gentle movement, so you can sleep, sit, and walk without bracing.",
+            "load": "Light"
+        },
+        {
+            "phase": "02",
+            "title": "Get it moving",
+            "weeks": "Weeks 2–4",
+            "body": "Win back range, joint by joint — measured every visit, so you can see the degrees come back.",
+            "load": "Medium"
+        },
+        {
+            "phase": "03",
+            "title": "Build it strong",
+            "weeks": "Weeks 4–8",
+            "body": "Progressive loading at the clinic and a short home program, added to only when you're ready.",
+            "load": "Heavy"
+        },
+        {
+            "phase": "04",
+            "title": "Back to your thing",
+            "weeks": "Week 8 on",
+            "body": "Practice the exact thing you came in for — the run, the lift, the stairs, the grandkids — then graduate.",
+            "load": "Extra heavy"
+        }
+    ],
+    "first_visit": [
+        {
+            "time": "0:00",
+            "title": "We listen",
+            "body": "Where it hurts, when it started, what it stops you doing, and what you want back."
+        },
+        {
+            "time": "0:15",
+            "title": "We measure",
+            "body": "Strength, range, balance, and how you move — numbers we'll check again at every visit."
+        },
+        {
+            "time": "0:35",
+            "title": "We treat",
+            "body": "You leave with less pain today, not just an appointment card."
+        },
+        {
+            "time": "0:50",
+            "title": "You get a plan",
+            "body": "Three or four exercises for home, how often to come in, and when you should feel a difference."
+        }
+    ],
+    "testimonial": {
+        "quote": "I came in unable to go down stairs without holding the rail. Twelve weeks later I ran my first 10K since the surgery. Dana told me exactly what each week was for, and she was right every time.",
+        "name": "Marcus L.",
+        "detail": "ACL reconstruction, 12 weeks"
+    },
+    "stats": [
+        {
+            "value": "55 min",
+            "label": "Every visit, one-on-one with your therapist"
+        },
+        {
+            "value": "8 visits",
+            "label": "The typical plan, start to graduation"
+        },
+        {
+            "value": "48 hrs",
+            "label": "Usual wait for a first evaluation"
+        }
+    ],
+    "insurance": [
+        "Medicare",
+        "Blue Cross Blue Shield",
+        "Aetna",
+        "Cigna",
+        "UnitedHealthcare",
+        "Workers' comp & auto claims"
+    ],
+    "insurance_note": "Not on the list? We'll check your benefits before your first visit, and our self-pay prices are listed above.",
+    "service_groups": [
+        {
+            "name": "Getting started",
+            "body": "Where every plan begins."
+        },
+        {
+            "name": "Rehab",
+            "body": "Recovery from injury and surgery, start to finish."
+        },
+        {
+            "name": "Hands-on care",
+            "body": "Added to a visit when it will speed things up."
+        },
+        {
+            "name": "Performance",
+            "body": "For people who are fine — and want to stay that way."
+        }
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "A modern, one-on-one physical therapy clinic that feels like a good coach: cool gym-floor canvas, moss-black ink, one bright lime accent, bright natural-light photography of real movement. Confident and athletic, never clinical-blue, never spa-soft.",
+        "type": "Epilogue (semibold, tight tracking) for every heading and big number; Rethink Sans for body and UI. Big, short headlines; comfortable body size; tabular numerals for degrees, times, and prices.",
+        "color": "One accent: lime (bg-primary) for the primary button, the goniometer arc, and the resistance bands. Lime is a fill, never text on the light canvas. Moss-black (bg-secondary) carries the dark bands — the recovery plan and the closing visit section. Everything else is canvas, surface, white cards, ink, and muted text. Never add another color.",
+        "signature": "The recovery plan drawn as four resistance bands — each phase a stretched band that gets longer and deeper in the one lime hue as the load increases (Light, Medium, Heavy, Extra heavy). Also the range-of-motion card in the hero, showing degrees won back. Keep both wherever the design evolves.",
+        "voice": "Plain, specific, encouraging — like a coach who's done this a thousand times. Real numbers (degrees, minutes, weeks), short sentences, no exclamation marks, no 'wellness journey'."
+    }
+}

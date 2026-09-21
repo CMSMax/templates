@@ -1,0 +1,40 @@
+{
+    "name": "Ridge Roofing Co.",
+    "short_name": "Ridge",
+    "tagline": "Roof replacement, repair, and storm help across Fort Worth.",
+    "phone": "(817) 555-0192",
+    "phone_href": "tel:+18175550192",
+    "email": "office@ridgeroofing.example",
+    "address": "3100 W 7th Street, Fort Worth, TX 76107",
+    "service_area": "Fort Worth, Arlington, and Tarrant County",
+    "license": "Licensed and insured · GAF Certified installer",
+    "founded": "2008",
+    "hours_note": "Office Mon–Sat, 7am–6pm. Storm line answered every day.",
+    "advisory": "Hail season is open. Free roof checks within 48 hours of any storm report in Tarrant County.",
+    "cta_label": "Book a free roof check",
+    "cta_link": "/contact",
+    "nav_links": [
+        { "label": "Roofing", "href": "/services" },
+        { "label": "Storm help", "href": "/storm" },
+        { "label": "Recent roofs", "href": "/projects" },
+        { "label": "Contact", "href": "/contact" }
+    ],
+    "figures": [
+        { "value": "3,400+", "label": "Roofs replaced since 2008" },
+        { "value": "48 hrs", "label": "From storm report to your roof" },
+        { "value": "1 day", "label": "Most replacements, tear-off to clean-up" }
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "A roofer's website written like a weather service bulletin: cool sky-paper canvas, storm-slate ink, deep storm-navy fields, and radar-legend colour used only where it carries data. Rounded-small corners, hairline rules, bright daylight photographs of finished roofs.",
+        "type": "Familjen Grotesk (600) for every heading, tight tracking; Figtree for everything else at 1rem/1.65. Timestamps and readings use the bulletin utility with tabular numerals. Never a third family.",
+        "color": "Canvas #eef2f5, surface #ffffff, ink #0e1a26, muted #4b5b6a, hairline #cfd8e0, storm field #12263a. Radar green (bg-primary) is the one action colour — buttons and one focal mark per section, never text. The five radar colours appear only in the storm map and hail legend.",
+        "signature": "The storm log — a drawn hail-swath map over the service area's street grid, the radar bands blooming from green to magenta, with a bulletin readout of the storm and how many roofs the crew checked after it.",
+        "voice": "A calm crew lead after a hailstorm. Plain facts, real numbers, dates and times. No 'quality craftsmanship', no exclamation points, never fear-selling."
+    }
+}

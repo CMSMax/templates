@@ -1,0 +1,16 @@
+title: Healed work
+description: A sideways strip of photographs, each taped-print style with a title and a note. The photos live in site settings.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    linkLabel: { type: text, label: Instagram link text (leave empty to hide) }
+    items:
+        type: repeater
+        label: Photos
+        source: site.work
+        item_label: title
+        sub_fields:
+            image: { type: image, label: Photo }
+            alt: { type: text, label: Photo description }
+            title: { type: text, label: Title }
+            note: { type: text, label: Note (artist, how long healed) }

@@ -1,0 +1,6 @@
+title: Services
+description: Three numbered things the shop does beyond selling — alterations, fittings, gift cards.
+fields:
+    eyebrow: { type: text, label: Small line above the heading }
+    heading: { type: text, label: Heading }
+    items: { type: repeater, label: Services, source: services, item_label: name, add_button_label: Add a service, sub_fields: { name: { type: text, label: Name }, description: { type: textarea, label: Description, rows: 2 }, detail: { type: text, label: Price or detail } } }

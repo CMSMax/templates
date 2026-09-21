@@ -1,0 +1,13 @@
+label: Services
+icon: 🔧
+fields:
+    title: { type: text, label: Service }
+    slug: { type: text, label: URL slug }
+    date: { type: text, label: Updated (YYYY-MM-DD) }
+    description: { type: textarea, label: One-line summary, rows: 2 }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }
+    link: { type: url, label: Page link }
+    priceFrom: { type: text, label: Price (from) }
+    time: { type: text, label: Typical time }
+    content: { type: richtext, label: Page body }

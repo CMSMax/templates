@@ -1,0 +1,11 @@
+label: Faults
+icon: 💧
+fields:
+    name: { type: text, label: What the customer sees }
+    slug: { type: text, label: Short id (lowercase, dashes) }
+    code: { type: text, label: Ticket code }
+    urgency: { type: text, label: How soon }
+    cause: { type: textarea, label: Most likely cause, rows: 2 }
+    fix: { type: textarea, label: What we do, rows: 2 }
+    time: { type: text, label: Time on site }
+    price: { type: text, label: Flat price }

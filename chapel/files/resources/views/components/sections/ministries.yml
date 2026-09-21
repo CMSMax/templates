@@ -1,0 +1,17 @@
+title: Life together
+description: The ministries list from the Ministries collection — each with when it meets — beside a sticky headline and an arched window.
+fields:
+    heading: { type: text, label: Headline }
+    headingEmphasis: { type: text, label: Headline (italic second line) }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    image: { type: image, label: Window photo (leave empty for the drawn window) }
+    imageAlt: { type: text, label: Photo description }
+    ministries:
+        type: repeater
+        label: Ministries
+        source: ministries
+        item_label: name
+        sub_fields:
+            name: { type: text, label: Name }
+            description: { type: textarea, label: Description, rows: 2 }
+            when: { type: text, label: When it meets }

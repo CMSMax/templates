@@ -1,0 +1,9 @@
+title: Tax-year calendar
+description: The blue band with a twelve-month rail — every deadline marked where it falls in the year, a line for today, and the next deadline highlighted.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    todayLabel: { type: text, label: Today marker text }
+    nextLabel: { type: text, label: Next-deadline badge text }
+    months: { type: repeater, label: Month labels, source: site.months, item_label: label, sub_fields: { label: { type: text, label: Month } } }
+    items: { type: repeater, label: Deadlines, source: deadlines, item_label: title, sub_fields: { date: { type: text, label: Date as shown }, month: { type: number, label: Month number (1–12) }, day: { type: number, label: Day of the month }, title: { type: text, label: What's due }, who: { type: text, label: Who it applies to } } }

@@ -1,0 +1,56 @@
+title: Tutors
+description: One tutor introduced properly, the rest listed with their subjects and qualifications.
+fields:
+    heading:
+        type: text
+        label: Headline
+        default: Taught by teachers.
+    intro:
+        type: textarea
+        label: Introduction
+        rows: 3
+        default: Every tutor holds a teaching credential or a graduate degree in their subject. Your child sees the same one every week.
+    linkLabel:
+        type: text
+        label: Link label
+        default: Meet all six tutors
+    linkUrl:
+        type: url
+        label: Link goes to
+        default: /tutors
+    items:
+        type: repeater
+        label: Tutors
+        item_label: name
+        add_button_label: Add a tutor
+        source: collections.tutors
+        sub_fields:
+            name:
+                type: text
+                label: Name
+                default: Clare Whitlock
+            role:
+                type: text
+                label: Role
+                default: Head of maths
+            subjects:
+                type: text
+                label: Subjects
+                default: Maths, AP Calculus
+            credential:
+                type: text
+                label: Qualification
+                default: MEd, 14 years teaching high school maths
+            quote:
+                type: textarea
+                label: In their words
+                rows: 2
+                default: If a student can explain the step to me, they own it.
+            image:
+                type: image
+                label: Portrait
+                default: /images/tutors/clare.jpg
+            imageAlt:
+                type: text
+                label: Portrait description
+                default: Clare Whitlock smiling in front of a bookshelf

@@ -1,0 +1,21 @@
+title: Treatments
+description: The featured treatments on a dark band with their 60- and 90-minute prices. Treatments live in the Treatments collection; switch on "Show on the homepage" to list one here.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Introduction, rows: 3 }
+    image: { type: image, label: Photograph }
+    imageAlt: { type: text, label: Photograph description }
+    linkLabel: { type: text, label: Link text }
+    linkHref: { type: url, label: Link }
+    treatments:
+        type: repeater
+        label: Treatments
+        source: treatments
+        item_label: name
+        sub_fields:
+            name: { type: text, label: Treatment }
+            summary: { type: textarea, label: Description, rows: 3 }
+            best_for: { type: text, label: Best for }
+            price_60: { type: text, label: 60-minute price }
+            price_90: { type: text, label: 90-minute price }
+            featured: { type: toggle, label: Show on the homepage }

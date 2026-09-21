@@ -1,0 +1,9 @@
+title: The shop
+description: A full-width photograph of the shop with a card holding the address, parking and opening hours.
+fields:
+    image: { type: image, label: Photograph }
+    imageAlt: { type: text, label: Photograph description }
+    eyebrow: { type: text, label: Small line above the heading }
+    heading: { type: text, label: Heading }
+    hoursLabel: { type: text, label: Hours heading }
+    directionsLabel: { type: text, label: Directions link text }

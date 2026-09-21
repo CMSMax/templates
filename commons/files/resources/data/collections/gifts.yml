@@ -1,0 +1,6 @@
+label: Gift amounts
+icon: ✂️
+fields:
+    amount: { type: text, label: Amount }
+    buys: { type: text, label: What it pays for }
+    link: { type: url, label: Donation link for this amount }

@@ -1,0 +1,152 @@
+{
+    "name": "Tally Accounting",
+    "wordmark": "Tally",
+    "tagline": "Tax, bookkeeping and advice for small businesses and the people who run them.",
+    "phone": "(555) 318-4402",
+    "phone_href": "tel:+15553184402",
+    "email": "hello@tally.example",
+    "email_href": "mailto:hello@tally.example",
+    "address": "214 Maple Street, Suite 2",
+    "city": "Springfield",
+    "map_url": "https://maps.google.com/?q=214+Maple+Street+Springfield",
+    "founded": "2011",
+    "cta_label": "Book a free call",
+    "response_note": "We answer every call and email within one business day — in tax season too.",
+    "next_deadline": "Oct 15 — extended individual returns",
+    "hours": [
+        {
+            "day": "Monday – Thursday",
+            "hours": "8:30 – 17:30"
+        },
+        {
+            "day": "Friday",
+            "hours": "8:30 – 15:00"
+        },
+        {
+            "day": "Feb – Apr Saturdays",
+            "hours": "9:00 – 13:00"
+        }
+    ],
+    "months": [
+        {
+            "label": "Jan"
+        },
+        {
+            "label": "Feb"
+        },
+        {
+            "label": "Mar"
+        },
+        {
+            "label": "Apr"
+        },
+        {
+            "label": "May"
+        },
+        {
+            "label": "Jun"
+        },
+        {
+            "label": "Jul"
+        },
+        {
+            "label": "Aug"
+        },
+        {
+            "label": "Sep"
+        },
+        {
+            "label": "Oct"
+        },
+        {
+            "label": "Nov"
+        },
+        {
+            "label": "Dec"
+        }
+    ],
+    "steps": [
+        {
+            "when": "Day 1",
+            "title": "A free twenty-minute call",
+            "body": "Tell us what you run and what keeps you up at night. We’ll tell you plainly whether we’re the right fit."
+        },
+        {
+            "when": "Week 1",
+            "title": "A fixed monthly fee",
+            "body": "One written quote covering everything we agreed. No hourly billing, no surprise invoices in April."
+        },
+        {
+            "when": "Week 2",
+            "title": "We take over the paperwork",
+            "body": "We connect your bank feeds, collect last year’s returns and tidy the books — you send one folder."
+        },
+        {
+            "when": "Every month",
+            "title": "Numbers you can read",
+            "body": "A one-page report on the fifth of the month, and a person who picks up when you call."
+        }
+    ],
+    "bring": [
+        {
+            "item": "Last year’s tax return, federal and state"
+        },
+        {
+            "item": "W-2s, 1099s and any K-1s you’ve received"
+        },
+        {
+            "item": "Business bank and card statements for the year"
+        },
+        {
+            "item": "Mortgage interest, childcare and donation receipts"
+        },
+        {
+            "item": "Any letters you’ve had from the IRS or the state"
+        }
+    ],
+    "credentials": [
+        {
+            "name": "Certified Public Accountants",
+            "detail": "Licensed by the State Board of Accountancy"
+        },
+        {
+            "name": "Enrolled Agents",
+            "detail": "Authorised to represent you before the IRS"
+        },
+        {
+            "name": "QuickBooks & Xero advisors",
+            "detail": "Certified on both, fluent in the rest"
+        },
+        {
+            "name": "Peer reviewed",
+            "detail": "Our own work independently checked every three years"
+        }
+    ],
+    "figures": [
+        {
+            "label": "Clients",
+            "value": "412"
+        },
+        {
+            "label": "Returns last season",
+            "value": "1,240"
+        },
+        {
+            "label": "Missed deadlines",
+            "value": "0"
+        }
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "A modern small accounting practice that feels like well-kept working papers: warm paper canvas, near-black ink, hairline rules, tabular figures, bright daylight photography of real desks and real clients, and one ballpoint-blue accent.",
+        "type": "IBM Plex Sans for headings (medium weight, tight tracking) and body at 1rem with relaxed leading; IBM Plex Mono ONLY for figures — dates, fees, hours, phone numbers, the months on the calendar. Never set a heading or a sentence in mono.",
+        "color": "Paper canvas and surface, ink text in two tiers (ink, muted), line for hairline rules. One accent: primary (ballpoint blue) for the main button, the tax-year calendar band, and link hovers. Text on primary uses primary-foreground. The ink panel (secondary) closes the page. Never add a second accent.",
+        "signature": "The tax-year calendar (sections/calendar) — a full-width blue band with a twelve-month rail, every filing deadline marked at its point in the year, a 'today' line, and the next deadline highlighted. Keep it on the homepage wherever the design evolves.",
+        "voice": "Plain, calm and exact. Short sentences, real numbers, no jargon, no fear-selling about the IRS, no exclamation points."
+    }
+}

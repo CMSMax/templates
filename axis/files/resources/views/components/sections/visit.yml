@@ -1,0 +1,15 @@
+title: Visit and book
+description: The closing call to action — book your first visit, call, or write — with the week's hours and the address. Hours live in the Hours collection.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    hoursHeading: { type: text, label: Hours card title }
+    emailLabel: { type: text, label: Email line label }
+    hours:
+        type: repeater
+        label: Hours
+        source: hours
+        item_label: day
+        sub_fields:
+            day: { type: text, label: Day }
+            hours: { type: text, label: Hours (or Closed) }

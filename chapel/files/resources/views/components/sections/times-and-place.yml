@@ -1,0 +1,17 @@
+title: When and where
+description: Every service from the Gatherings collection with what it is like, the address, and the church office — beside an arched window.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    image: { type: image, label: Window photo (leave empty for the drawn window) }
+    imageAlt: { type: text, label: Photo description }
+    gatherings:
+        type: repeater
+        label: Service times
+        source: gatherings
+        item_label: name
+        sub_fields:
+            day: { type: text, label: Day }
+            time: { type: text, label: Time }
+            name: { type: text, label: Service }
+            note: { type: textarea, label: What it's like, rows: 2 }

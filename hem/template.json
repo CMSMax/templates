@@ -1,0 +1,28 @@
+{
+    "name": "Hem",
+    "industry": "boutiques-and-retail",
+    "description": "A bright, cloth-first template for clothing boutiques and concept stores — cool card-stock grey, one committed lilac field cut with pinking-shear edges, garments on wooden hangers in daylight, a new-in rail, the makers you carry, and a colour card of numbered fabric chips that shows the piece made in each cloth.",
+    "pages": [
+        "Home",
+        "Shop",
+        "Piece detail",
+        "About",
+        "Visit",
+        "404"
+    ],
+    "collections": [
+        "piece",
+        "swatches",
+        "makers",
+        "hours",
+        "faqs"
+    ],
+    "cta": "Visit the shop",
+    "theme": "light",
+    "accent": "#cbbcf2",
+    "secondary": "#1c1b20",
+    "fonts": [
+        "Funnel Display",
+        "Funnel Sans"
+    ]
+}

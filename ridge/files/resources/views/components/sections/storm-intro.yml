@@ -1,0 +1,11 @@
+title: Storm help intro
+description: The storm page's opening — the promise, the inspection button, the storm line, and the chalk-marked roof photo.
+fields:
+    label: { type: text, label: Label }
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    ctaLabel: { type: text, label: Button text }
+    ctaLink: { type: url, label: Button link }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }
+    caption: { type: text, label: Photo caption }

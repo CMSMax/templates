@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Drop-in",
+        "price": "$25",
+        "period": "a class",
+        "classes": "One class",
+        "open_gym": "That day",
+        "coaching": "Coached class",
+        "extras": "—",
+        "featured": false,
+        "note": "For visitors and the curious."
+    },
+    {
+        "name": "Eight",
+        "price": "$129",
+        "period": "a month",
+        "classes": "8 a month",
+        "open_gym": "Staffed hours",
+        "coaching": "Quarterly check-in",
+        "extras": "Member app",
+        "featured": false,
+        "note": "Two classes a week, and room for life."
+    },
+    {
+        "name": "Unlimited",
+        "price": "$179",
+        "period": "a month",
+        "classes": "Every class",
+        "open_gym": "24/7 key fob",
+        "coaching": "Monthly check-in",
+        "extras": "Member app, towel service",
+        "featured": true,
+        "note": "What most members choose."
+    }
+]

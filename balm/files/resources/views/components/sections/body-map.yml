@@ -1,0 +1,21 @@
+title: Body map
+description: The signature — an intake-form drawing of a back with numbered pins where people hold tension, beside a list of what each feels like and what to book. Pins and rows come from the Body map areas collection.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Introduction, rows: 3 }
+    formTitle: { type: text, label: Form title }
+    formNote: { type: text, label: Form note }
+    linkLabel: { type: text, label: Link text }
+    linkHref: { type: url, label: Link }
+    areas:
+        type: repeater
+        label: Areas
+        source: areas
+        item_label: name
+        sub_fields:
+            number: { type: text, label: Pin number }
+            name: { type: text, label: Area }
+            feels: { type: textarea, label: What it feels like, rows: 2 }
+            treatment: { type: text, label: What to book }
+            x: { type: number, label: Pin across (0–100), min: 0, max: 100 }
+            y: { type: number, label: Pin down (0–100), min: 0, max: 100 }

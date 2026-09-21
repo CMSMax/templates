@@ -1,0 +1,14 @@
+title: Questions
+description: Common questions from the FAQs collection, as open-and-close rows.
+fields:
+    heading: { type: text, label: Headline (first line) }
+    headingItalic: { type: text, label: Headline (italic second line) }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    faqs:
+        type: repeater
+        label: Questions
+        source: faqs
+        item_label: question
+        sub_fields:
+            question: { type: text, label: Question }
+            answer: { type: textarea, label: Answer, rows: 3 }

@@ -1,0 +1,9 @@
+title: Hero
+description: The opening promise — a three-line headline, the booking button, the phone number, and a tall photo with the hours sign hanging off it.
+fields:
+    lineOne: { type: text, label: Headline line one }
+    lineTwo: { type: text, label: Headline line two }
+    lineThree: { type: text, label: Headline line three (highlighted) }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }

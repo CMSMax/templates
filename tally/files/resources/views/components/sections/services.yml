@@ -1,0 +1,10 @@
+title: Services and fees
+description: The services laid out like a fee schedule — name, what it covers, and the starting fee — each linking to its full description.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    serviceLabel: { type: text, label: First column heading }
+    coversLabel: { type: text, label: Second column heading }
+    feeLabel: { type: text, label: Fee column heading }
+    linkLabel: { type: text, label: Link text }
+    items: { type: repeater, label: Services, source: services, item_label: name, sub_fields: { name: { type: text, label: Service }, summary: { type: textarea, label: One-line summary }, fee: { type: text, label: Fee } } }

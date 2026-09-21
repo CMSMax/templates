@@ -1,0 +1,22 @@
+title: Artists
+description: A taped-in portrait of each artist with their styles and whether their books are open. The artists live in the Artists collection.
+fields:
+    heading: { type: text, label: Headline (leave empty to hide the intro) }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    full: { type: toggle, label: Show each artist's bio }
+    linkLabel: { type: text, label: Link text (leave empty to hide) }
+    linkUrl: { type: url, label: Link }
+    items:
+        type: repeater
+        label: Artists
+        source: artists
+        item_label: name
+        sub_fields:
+            name: { type: text, label: Name }
+            role: { type: text, label: Role }
+            styles: { type: text, label: Styles }
+            bio: { type: textarea, label: Bio, rows: 3 }
+            status: { type: text, label: Books status }
+            open: { type: toggle, label: Books open }
+            image: { type: image, label: Portrait }
+            alt: { type: text, label: Portrait description }

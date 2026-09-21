@@ -1,0 +1,42 @@
+[
+    {
+        "number": "1",
+        "name": "Neck and base of the skull",
+        "feels": "Headaches that start at the back and creep forward. Checking your blind spot hurts.",
+        "treatment": "Deep tissue, 60 minutes",
+        "x": 50,
+        "y": 22
+    },
+    {
+        "number": "2",
+        "name": "Tops of the shoulders",
+        "feels": "Shoulders up by your ears by 3 pm. The laptop, the steering wheel, the baby carrier.",
+        "treatment": "Relaxation or hot stone",
+        "x": 30,
+        "y": 30
+    },
+    {
+        "number": "3",
+        "name": "Between the shoulder blades",
+        "feels": "The knot you can't reach, that you can point to but never quite press.",
+        "treatment": "Deep tissue, 90 minutes",
+        "x": 58,
+        "y": 40
+    },
+    {
+        "number": "4",
+        "name": "Lower back",
+        "feels": "Stiff getting out of the car, better once you're moving, worse again by evening.",
+        "treatment": "Deep tissue or prenatal",
+        "x": 50,
+        "y": 64
+    },
+    {
+        "number": "5",
+        "name": "Hips and glutes",
+        "feels": "Tight after a long run or a long sit. Sometimes it shows up as a sore knee instead.",
+        "treatment": "Sports and recovery",
+        "x": 38,
+        "y": 86
+    }
+]

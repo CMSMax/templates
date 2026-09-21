@@ -1,0 +1,10 @@
+label: Tutors
+icon: users
+fields:
+    name: { type: text }
+    role: { type: text }
+    subjects: { type: text }
+    credential: { type: text }
+    quote: { type: textarea }
+    image: { type: image }
+    imageAlt: { type: text }

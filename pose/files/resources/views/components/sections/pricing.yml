@@ -1,0 +1,23 @@
+title: Plans
+description: The regular prices as three cards, one marked as most popular.
+fields:
+    eyebrow: { type: text, label: Small line above the headline }
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    plans:
+        type: repeater
+        label: Plans
+        source: plans
+        item_label: name
+        add_button_label: Add a plan
+        sub_fields:
+            name: { type: text, label: Plan name }
+            price: { type: text, label: Price }
+            per: { type: text, label: Price note }
+            description: { type: text, label: One-line description }
+            featureOne: { type: text, label: First included item }
+            featureTwo: { type: text, label: Second included item }
+            featureThree: { type: text, label: Third included item }
+            highlight: { type: toggle, label: Mark as most popular }
+            ctaLabel: { type: text, label: Button text }
+            ctaLink: { type: url, label: Button link }

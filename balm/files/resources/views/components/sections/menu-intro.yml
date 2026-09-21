@@ -1,0 +1,5 @@
+title: Treatments introduction
+description: The Treatments page's title and opening line.
+fields:
+    heading: { type: text, label: Page heading }
+    body: { type: textarea, label: Introduction, rows: 3 }

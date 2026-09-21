@@ -1,0 +1,11 @@
+[
+    { "name": "New patient visit", "category": "Visits", "description": "Consultation, full exam, X-rays if needed, and your first adjustment.", "duration": "60 min", "price": "$95", "featured": true },
+    { "name": "Adjustment", "category": "Visits", "description": "A focused follow-up visit: re-check, adjust, and progress your plan.", "duration": "20 min", "price": "$55", "featured": true },
+    { "name": "Extended visit", "category": "Visits", "description": "An adjustment plus soft-tissue work for stubborn or multi-area problems.", "duration": "40 min", "price": "$85", "featured": true },
+    { "name": "Pregnancy care", "category": "Visits", "description": "Webster-certified adjustments on a pregnancy table, every trimester.", "duration": "30 min", "price": "$65", "featured": false },
+    { "name": "Active Release Technique", "category": "Soft tissue & rehab", "description": "Hands-on release for tight, scarred or overworked muscles.", "duration": "30 min", "price": "$70", "featured": true },
+    { "name": "Rehab exercise session", "category": "Soft tissue & rehab", "description": "One-to-one strength and mobility work so the fix lasts.", "duration": "45 min", "price": "$80", "featured": false },
+    { "name": "Kinesiology taping", "category": "Soft tissue & rehab", "description": "Supportive taping for knees, shoulders and low backs between visits.", "duration": "10 min", "price": "$20", "featured": false },
+    { "name": "Six-visit plan", "category": "Plans", "description": "Six adjustments to use within ten weeks, booked around your schedule.", "duration": "6 × 20 min", "price": "$295", "featured": false },
+    { "name": "Monthly maintenance", "category": "Plans", "description": "Two visits a month for people who want to stay ahead of it. Cancel anytime.", "duration": "2 × 20 min", "price": "$99 / mo", "featured": false }
+]

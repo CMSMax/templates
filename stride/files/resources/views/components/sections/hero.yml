@@ -1,0 +1,9 @@
+title: Hero
+description: The opening promise — a two-line headline with the lime tape, the book button, the phone number, and a tall photo carrying the range-of-motion card (its numbers live under "rom" in site.json).
+fields:
+    eyebrow: { type: text, label: Small line above the headline }
+    heading: { type: text, label: Headline, first line }
+    headingTape: { type: text, label: Headline, taped line }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }

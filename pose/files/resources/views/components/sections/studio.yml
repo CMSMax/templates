@@ -1,0 +1,13 @@
+title: The studio
+description: The studio's story beside a wide photo, with two numbers.
+fields:
+    eyebrow: { type: text, label: Small line above the headline }
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: First paragraph, rows: 4 }
+    bodyTwo: { type: textarea, label: Second paragraph, rows: 4 }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }
+    statOne: { type: text, label: First number }
+    statOneLabel: { type: text, label: First number label }
+    statTwo: { type: text, label: Second number }
+    statTwoLabel: { type: text, label: Second number label }

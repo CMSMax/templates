@@ -1,0 +1,9 @@
+title: Hero
+description: The opening — a dawn sky with a rising sun, a two-part headline, the book-a-consultation button, and a forecast card of openings.
+fields:
+    heading: { type: text, label: Headline (first line) }
+    headingItalic: { type: text, label: Headline (italic second line) }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    secondaryLabel: { type: text, label: Second link text }
+    secondaryLink: { type: url, label: Second link }
+    cardHeading: { type: text, label: Card title }

@@ -1,0 +1,19 @@
+title: Roof layers
+description: The signature cross-section — every layer of a new roof drawn as a pulled-apart stack, with a numbered list that lights up each one.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Intro, rows: 2 }
+    note: { type: text, label: Hint under the list }
+    items:
+        type: repeater
+        label: Layers (top to bottom)
+        source: layers
+        item_label: name
+        add_button_label: Add layer
+        sub_fields:
+            name: { type: text, label: Layer }
+            body: { type: textarea, label: What it does, rows: 2 }
+            tone:
+                type: select
+                label: Drawn colour
+                options: { shingle: Shingle, vent: Ridge vent, underlayment: Underlayment, membrane: Membrane, deck: Deck }

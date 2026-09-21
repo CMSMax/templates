@@ -1,0 +1,212 @@
+[
+    {
+        "day": "Mon",
+        "time": "6:00 am",
+        "program": "Strength",
+        "coach": "Dana"
+    },
+    {
+        "day": "Tue",
+        "time": "6:00 am",
+        "program": "Engine",
+        "coach": "Theo"
+    },
+    {
+        "day": "Wed",
+        "time": "6:00 am",
+        "program": "Strength",
+        "coach": "Dana"
+    },
+    {
+        "day": "Thu",
+        "time": "6:00 am",
+        "program": "Engine",
+        "coach": "Theo"
+    },
+    {
+        "day": "Fri",
+        "time": "6:00 am",
+        "program": "Strength",
+        "coach": "Dana"
+    },
+    {
+        "day": "Mon",
+        "time": "7:00 am",
+        "program": "Engine",
+        "coach": "Theo"
+    },
+    {
+        "day": "Tue",
+        "time": "7:00 am",
+        "program": "Strength",
+        "coach": "Dana"
+    },
+    {
+        "day": "Wed",
+        "time": "7:00 am",
+        "program": "Engine",
+        "coach": "Theo"
+    },
+    {
+        "day": "Thu",
+        "time": "7:00 am",
+        "program": "Strength",
+        "coach": "Dana"
+    },
+    {
+        "day": "Fri",
+        "time": "7:00 am",
+        "program": "Engine",
+        "coach": "Theo"
+    },
+    {
+        "day": "Mon",
+        "time": "9:30 am",
+        "program": "Foundations",
+        "coach": "Jules"
+    },
+    {
+        "day": "Wed",
+        "time": "9:30 am",
+        "program": "Foundations",
+        "coach": "Dana"
+    },
+    {
+        "day": "Fri",
+        "time": "9:30 am",
+        "program": "Foundations",
+        "coach": "Jules"
+    },
+    {
+        "day": "Sat",
+        "time": "9:30 am",
+        "program": "Strength",
+        "coach": "Marco"
+    },
+    {
+        "day": "Sun",
+        "time": "9:30 am",
+        "program": "Engine",
+        "coach": "Priya"
+    },
+    {
+        "day": "Mon",
+        "time": "12:15 pm",
+        "program": "Strength",
+        "coach": "Marco"
+    },
+    {
+        "day": "Tue",
+        "time": "12:15 pm",
+        "program": "Engine",
+        "coach": "Priya"
+    },
+    {
+        "day": "Wed",
+        "time": "12:15 pm",
+        "program": "Strength",
+        "coach": "Marco"
+    },
+    {
+        "day": "Thu",
+        "time": "12:15 pm",
+        "program": "Engine",
+        "coach": "Priya"
+    },
+    {
+        "day": "Fri",
+        "time": "12:15 pm",
+        "program": "Strength",
+        "coach": "Marco"
+    },
+    {
+        "day": "Mon",
+        "time": "5:00 pm",
+        "program": "Engine",
+        "coach": "Priya"
+    },
+    {
+        "day": "Tue",
+        "time": "5:00 pm",
+        "program": "Strength",
+        "coach": "Marco"
+    },
+    {
+        "day": "Wed",
+        "time": "5:00 pm",
+        "program": "Engine",
+        "coach": "Priya"
+    },
+    {
+        "day": "Thu",
+        "time": "5:00 pm",
+        "program": "Strength",
+        "coach": "Marco"
+    },
+    {
+        "day": "Sat",
+        "time": "5:00 pm",
+        "program": "Barbell Club",
+        "coach": "Marco"
+    },
+    {
+        "day": "Mon",
+        "time": "6:00 pm",
+        "program": "Strength",
+        "coach": "Marco"
+    },
+    {
+        "day": "Tue",
+        "time": "6:00 pm",
+        "program": "Barbell Club",
+        "coach": "Marco"
+    },
+    {
+        "day": "Wed",
+        "time": "6:00 pm",
+        "program": "Strength",
+        "coach": "Marco"
+    },
+    {
+        "day": "Thu",
+        "time": "6:00 pm",
+        "program": "Barbell Club",
+        "coach": "Marco"
+    },
+    {
+        "day": "Fri",
+        "time": "6:00 pm",
+        "program": "Engine",
+        "coach": "Theo"
+    },
+    {
+        "day": "Mon",
+        "time": "7:15 pm",
+        "program": "Foundations",
+        "coach": "Jules"
+    },
+    {
+        "day": "Tue",
+        "time": "7:15 pm",
+        "program": "Engine",
+        "coach": "Theo"
+    },
+    {
+        "day": "Wed",
+        "time": "7:15 pm",
+        "program": "Foundations",
+        "coach": "Jules"
+    },
+    {
+        "day": "Thu",
+        "time": "7:15 pm",
+        "program": "Engine",
+        "coach": "Theo"
+    },
+    {
+        "day": "Sun",
+        "time": "7:15 pm",
+        "program": "Foundations",
+        "coach": "Jules"
+    }
+]

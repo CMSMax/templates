@@ -1,0 +1,28 @@
+title: Footer
+description: The closing strip — what the centre teaches, where it is, and the program links.
+fields:
+    about:
+        type: textarea
+        label: About the centre
+        rows: 3
+        default: Small-group and one-to-one tutoring in maths, English, the sciences and entrance exams, taught by qualified teachers.
+    note:
+        type: textarea
+        label: Small print
+        rows: 2
+        default: Margin is a demonstration tutoring centre. Swap the name, the tutors and the results for your own.
+    links:
+        type: repeater
+        label: Program links
+        item_label: label
+        add_button_label: Add a link
+        source: site.footer_links
+        sub_fields:
+            label:
+                type: text
+                label: Label
+                default: Maths
+            url:
+                type: url
+                label: Links to
+                default: /programs/maths

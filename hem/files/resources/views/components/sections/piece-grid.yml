@@ -1,0 +1,7 @@
+title: Piece grid
+description: Every piece in the shop, four to a row, each linking to its own page.
+fields:
+    heading: { type: text, label: Heading }
+    note: { type: text, label: Note beside the heading }
+    newLabel: { type: text, label: New badge text }
+    items: { type: repeater, label: Pieces, source: piece, item_label: title, add_button_label: Add a piece, sub_fields: { title: { type: text, label: Name }, brand: { type: text, label: Maker }, category: { type: text, label: Category }, colour: { type: text, label: Colour }, price: { type: text, label: Price }, link: { type: url, label: Link }, isNew: { type: toggle, label: New }, image: { type: image, label: Photo }, imageAlt: { type: text, label: Photo description } } }

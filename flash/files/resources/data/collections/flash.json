@@ -1,0 +1,11 @@
+[
+    { "number": "01", "name": "Lucky bolt", "size": "3 in", "price": "140", "artist": "Dario", "taken": false, "image": "/images/flash/bolt.svg", "alt": "A pink lightning bolt with short motion lines" },
+    { "number": "02", "name": "Night moth", "size": "4 in", "price": "180", "artist": "Wren", "taken": false, "image": "/images/flash/butterfly.svg", "alt": "A pink-winged butterfly with a black body" },
+    { "number": "03", "name": "Heart dagger", "size": "5 in", "price": "200", "artist": "Dario", "taken": true, "image": "/images/flash/dagger.svg", "alt": "A pink-bladed dagger with a black guard and banded grip" },
+    { "number": "04", "name": "All-seeing eye", "size": "4 in", "price": "180", "artist": "Rosa", "taken": false, "image": "/images/flash/eye.svg", "alt": "An open eye with a pink iris, rays above and a single tear" },
+    { "number": "05", "name": "True heart", "size": "4 in", "price": "160", "artist": "Dario", "taken": false, "image": "/images/flash/heart.svg", "alt": "A pink heart wrapped in a banner reading TRUE" },
+    { "number": "06", "name": "Half moon", "size": "3 in", "price": "140", "artist": "Wren", "taken": true, "image": "/images/flash/moon.svg", "alt": "A pink crescent moon with two small stars" },
+    { "number": "07", "name": "Garden rose", "size": "4 in", "price": "180", "artist": "Rosa", "taken": false, "image": "/images/flash/rose.svg", "alt": "A round pink rose with two black leaves on a short stem" },
+    { "number": "08", "name": "Lazy snake", "size": "5 in", "price": "220", "artist": "Wren", "taken": false, "image": "/images/flash/snake.svg", "alt": "A pink snake winding upward to a black head with a forked tongue" },
+    { "number": "09", "name": "Sweet skull", "size": "4 in", "price": "180", "artist": "Rosa", "taken": false, "image": "/images/flash/skull.svg", "alt": "A small skull with pink eye sockets and a row of teeth" }
+]

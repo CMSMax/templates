@@ -1,0 +1,118 @@
+@import 'tailwindcss';
+
+@theme {
+    --color-canvas: #f6f5f0;
+    --color-surface: #fdfdfb;
+    --color-ink: #15171c;
+    --color-muted: #585c65;
+    --color-line: #dfdcd2;
+    /* primary is the ONE accent (Tally ballpoint blue): the main button, the
+       tax-year calendar band, deadline marks and link hovers. The customer's
+       Branding color replaces it at serve time; keep the foreground paired
+       with it. secondary is the ink panel (closing band, footer). */
+    --color-primary: #2340c8;
+    --color-primary-foreground: #ffffff;
+    --color-secondary: #15171c;
+    --color-secondary-foreground: #f6f5f0;
+    --font-display: 'IBM Plex Sans', ui-sans-serif, system-ui, -apple-system, sans-serif;
+    --font-sans: 'IBM Plex Sans', ui-sans-serif, system-ui, -apple-system, sans-serif;
+    /* Mono is for figures only: dates, fees, hours, phone numbers. */
+    --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+::selection {
+    background-color: color-mix(in oklch, var(--color-primary) 18%, transparent);
+    color: var(--color-ink);
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+/* Faint ruled paper behind the page headers — the working-paper texture,
+   drawn in the line color so it retunes with the palette. */
+.paper-rule {
+    background-image: linear-gradient(to bottom, color-mix(in oklch, var(--color-line) 70%, transparent) 1px, transparent 1px);
+    background-size: 100% 2rem;
+}
+
+/* The tax-year rail: each deadline sits at its own point in the year from
+   its month and day (--m, --d), and the script sets --today on the rail. */
+[data-year-rail] [data-mark] {
+    left: calc(((var(--m) - 1) + (var(--d) - 1) / 31) / 12 * 100%);
+}
+
+[data-year-rail] [data-today] {
+    left: calc(var(--today, 0) * 100%);
+    transform-origin: bottom;
+    animation: today-in 900ms cubic-bezier(0.22, 1, 0.36, 1) 300ms both;
+}
+
+[data-year-rail] [data-elapsed] {
+    width: calc(var(--today, 0) * 100%);
+    transition: width 1200ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+[data-year-rail]:not([style*='--today']) [data-today] {
+    display: none;
+}
+
+@keyframes today-in {
+    from {
+        opacity: 0;
+        transform: scaleY(0);
+    }
+    to {
+        opacity: 1;
+        transform: scaleY(1);
+    }
+}
+
+/* The next deadline, picked by the script, gets a filled marker. */
+[data-deadline].is-next [data-dot] {
+    background-color: var(--color-primary-foreground);
+    box-shadow: 0 0 0 4px color-mix(in oklch, var(--color-primary-foreground) 30%, transparent);
+}
+
+[data-deadline].is-next [data-next-label] {
+    display: inline-flex;
+}
+
+@keyframes settle {
+    from {
+        opacity: 0;
+        transform: scale(1.035);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+[data-settle] {
+    animation: settle 1400ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+details > summary {
+    list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    [data-settle],
+    [data-year-rail] [data-today] {
+        animation: none;
+    }
+
+    [data-year-rail] [data-elapsed] {
+        transition: none;
+    }
+}

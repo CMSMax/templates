@@ -1,0 +1,5 @@
+[
+    { "name": "Drop-in", "price": "$24", "per": "a class", "description": "For the odd class when it suits you.", "featureOne": "Any class on the schedule", "featureTwo": "Mat and props included", "featureThree": "Book up to a week ahead", "highlight": false, "ctaLabel": "Book a class", "ctaLink": "/classes#schedule" },
+    { "name": "Unlimited", "price": "$139", "per": "a month", "description": "For two or more classes a week. Cancel any time.", "featureOne": "Every class, every day", "featureTwo": "Two guest passes a month", "featureThree": "Book up to two weeks ahead", "highlight": true, "ctaLabel": "Start unlimited", "ctaLink": "/visit#contact" },
+    { "name": "Ten classes", "price": "$200", "per": "valid six months", "description": "For a steady week-to-week rhythm.", "featureOne": "$20 a class", "featureTwo": "Share with one friend", "featureThree": "Pause for travel or injury", "highlight": false, "ctaLabel": "Buy ten classes", "ctaLink": "/visit#contact" }
+]

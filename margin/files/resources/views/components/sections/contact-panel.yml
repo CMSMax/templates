@@ -1,0 +1,35 @@
+title: Contact
+description: Every way to reach the centre, beside a slip of paper that explains the free assessment.
+fields:
+    heading:
+        type: text
+        label: Headline
+        default: Call, email or come by.
+    body:
+        type: textarea
+        label: What to tell us
+        rows: 3
+        default: Tell us the student’s age, the subject and what the last report said. We reply the same day and book the assessment at a time that suits you.
+    slipTitle:
+        type: text
+        label: Slip title
+        default: The free assessment
+    slipNote:
+        type: text
+        label: Red-pen note on the slip
+        default: bring the last report card
+    items:
+        type: repeater
+        label: What happens
+        item_label: title
+        add_button_label: Add a point
+        source: site.assessment
+        sub_fields:
+            title:
+                type: text
+                label: Point
+                default: Forty minutes, one subject
+            body:
+                type: text
+                label: Detail
+                default: With the tutor who would teach your child, in person or online.

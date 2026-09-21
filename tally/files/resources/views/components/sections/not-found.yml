@@ -1,0 +1,8 @@
+title: Page not found
+description: The 404 message with links back home and to the contact page.
+fields:
+    code: { type: text, label: Code }
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Message, rows: 2 }
+    homeLabel: { type: text, label: Home button text }
+    contactLabel: { type: text, label: Contact link text }

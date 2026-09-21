@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Tax returns",
+        "slug": "tax-returns",
+        "summary": "Personal and business returns, prepared early and explained in plain English.",
+        "description": "Federal and state returns for individuals, sole proprietors, S-corps, partnerships and C-corps. We prepare them in February and March, not the night before, and walk you through every number before anything is filed.",
+        "includes": "Form 1040 and schedules, 1120-S, 1065, 1120, state returns, quarterly estimates, extensions",
+        "fee": "from $450"
+    },
+    {
+        "name": "Bookkeeping",
+        "slug": "bookkeeping",
+        "summary": "Monthly books, reconciled by the fifth, in QuickBooks or Xero.",
+        "description": "We categorise every transaction, reconcile every account and close the month on time — so your numbers are ready whenever the bank, a buyer or the IRS asks for them.",
+        "includes": "Bank and card reconciliation, receipts capture, accounts payable, month-end close, one-page monthly report",
+        "fee": "from $325 / mo"
+    },
+    {
+        "name": "Payroll",
+        "slug": "payroll",
+        "summary": "Your team paid on time, with every filing that goes with it.",
+        "description": "Direct deposit, withholding, year-end W-2s and 1099s, and the quarterly payroll returns most owners forget exist. One to fifty employees, one flat monthly fee.",
+        "includes": "Pay runs, direct deposit, Forms 941 and 940, state unemployment, W-2s, 1099-NECs, new-hire reporting",
+        "fee": "from $95 / mo"
+    },
+    {
+        "name": "Advisory",
+        "slug": "advisory",
+        "summary": "A quarterly sit-down on cash, pricing and what to do before year-end.",
+        "description": "The conversation most small businesses never get: where the money went, what the next two quarters look like, and which moves — entity, salary, retirement, equipment — will actually lower the bill.",
+        "includes": "Quarterly review, cash-flow forecast, tax planning, entity and salary advice, budgeting",
+        "fee": "from $250 / qtr"
+    },
+    {
+        "name": "IRS & state notices",
+        "slug": "notices",
+        "summary": "A letter from the IRS, answered by someone who reads them every week.",
+        "description": "Send us the letter and stop worrying about it. We work out what it means, reply on your behalf, and set up payment plans or penalty relief where they apply.",
+        "includes": "Notice review, correspondence, power of attorney, payment plans, penalty abatement, audit support",
+        "fee": "from $200"
+    }
+]

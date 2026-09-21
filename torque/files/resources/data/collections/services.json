@@ -1,0 +1,15 @@
+[
+    { "name": "Synthetic oil change", "category": "Maintenance", "detail": "Up to 5 quarts, filter, and the free check-up", "time": "30 min", "price": "79", "from": false, "featured": true },
+    { "name": "Tire rotation & balance", "category": "Maintenance", "detail": "All four, torqued to spec, pressures set", "time": "45 min", "price": "59", "from": false, "featured": false },
+    { "name": "Scheduled maintenance", "category": "Maintenance", "detail": "30k, 60k, 90k — exactly what your manual lists, nothing extra", "time": "2–3 hr", "price": "249", "from": true, "featured": true },
+    { "name": "Battery test & replacement", "category": "Maintenance", "detail": "Free test; installed battery with a 3-year warranty", "time": "30 min", "price": "189", "from": true, "featured": false },
+    { "name": "A/C recharge", "category": "Maintenance", "detail": "Leak check, evacuate and recharge", "time": "1 hr", "price": "149", "from": true, "featured": false },
+    { "name": "Brake pads", "category": "Brakes & tires", "detail": "Per axle, ceramic pads, caliper service", "time": "1.5 hr", "price": "229", "from": true, "featured": true },
+    { "name": "Pads & rotors", "category": "Brakes & tires", "detail": "Per axle, new rotors, road-tested", "time": "2 hr", "price": "389", "from": true, "featured": false },
+    { "name": "Four-wheel alignment", "category": "Brakes & tires", "detail": "Printout of before and after readings", "time": "1 hr", "price": "119", "from": false, "featured": true },
+    { "name": "Mount & balance four tires", "category": "Brakes & tires", "detail": "Tires you bring or tires we source at cost plus 10%", "time": "1 hr", "price": "96", "from": false, "featured": false },
+    { "name": "Check-engine diagnosis", "category": "Diagnostics & repair", "detail": "Scan, road test, and a written finding — credited if we do the repair", "time": "1 hr", "price": "89", "from": false, "featured": true },
+    { "name": "Suspension & steering", "category": "Diagnostics & repair", "detail": "Struts, shocks, tie rods, control arms", "time": "Quoted", "price": "320", "from": true, "featured": false },
+    { "name": "Cooling system repair", "category": "Diagnostics & repair", "detail": "Pressure test, hoses, water pump, radiator", "time": "Quoted", "price": "180", "from": true, "featured": false },
+    { "name": "Pre-purchase inspection", "category": "Diagnostics & repair", "detail": "120-point report before you buy a used car", "time": "1.5 hr", "price": "139", "from": false, "featured": true }
+]

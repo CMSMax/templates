@@ -1,0 +1,93 @@
+@import 'tailwindcss';
+
+@theme {
+    --color-canvas: #e8e4de;
+    --color-surface: #f4f1ec;
+    --color-card: #f4f1ec;
+    --color-ink: #1d1b19;
+    --color-muted: #57524b;
+    --color-line: #cfc8bf;
+    /* The one accent: massage-oil amber, always carrying basalt text. The
+       Branding page's colors reach the site through primary/secondary, so
+       retune these to recolor the site. Secondary is the basalt band. */
+    --color-primary: #d9913f;
+    --color-primary-foreground: #1d1b19;
+    --color-secondary: #1d1b19;
+    --color-secondary-foreground: #ece7e0;
+    --font-sans: 'Manrope', ui-sans-serif, system-ui, -apple-system, sans-serif;
+    --font-display: 'Hedvig Letters Serif', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+}
+
+/* The homepage lays the header over the hero photograph; every other page
+   keeps the solid bar. The layout's `header` prop sets data-header on <body>. */
+@custom-variant overlay (&:where([data-header='overlay'] *));
+
+::selection {
+    background-color: var(--color-primary);
+    color: var(--color-primary-foreground);
+}
+
+/* A hand-drawn loop of oil-amber ink around one word of a headline. The
+   stroke is an SVG so it scales with the word it circles. */
+@utility circled {
+    position: relative;
+    display: inline-block;
+    padding-inline: 0.12em;
+
+    &::after {
+        content: '';
+        position: absolute;
+        inset: -0.16em -0.2em -0.08em -0.22em;
+        background-color: var(--color-primary);
+        mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 120' preserveAspectRatio='none'%3E%3Cpath d='M262 22C214 4 98 2 44 22 8 36 2 70 26 90c36 30 170 30 230 8 42-15 44-52 10-72-22-13-72-18-118-16' fill='none' stroke='%23000' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E")
+            center / 100% 100% no-repeat;
+        pointer-events: none;
+    }
+}
+
+/* The dotted leader between an add-on and its price. */
+@utility leader {
+    flex: 1 1 0%;
+    min-width: 1.5rem;
+    border-bottom: 1.5px dotted currentColor;
+    opacity: 0.35;
+    transform: translateY(-0.3em);
+}
+
+/* The tilted ribbon over the visit band: one line repeated along a strip. */
+@utility ribbon {
+    transform: rotate(-2.5deg);
+    margin-inline: -2rem;
+}
+
+details > summary {
+    list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+/* First-viewport arrival: copy rises in sequence (--i is each element's
+   slot). Time-based, so no script is involved. */
+@keyframes rise-in {
+    from {
+        opacity: 0;
+        transform: translateY(18px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+[data-rise] {
+    animation: rise-in 1000ms cubic-bezier(0.22, 1, 0.36, 1) both;
+    animation-delay: calc(120ms + var(--i, 0) * 110ms);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    [data-rise] {
+        animation: none;
+    }
+}

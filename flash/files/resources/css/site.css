@@ -1,0 +1,80 @@
+@import 'tailwindcss';
+
+@theme {
+    /* The studio's own photocopied flyer: copier-paper white, toner black,
+       and one sheet of hot-pink paper. */
+    --color-canvas: #f5f5f2;
+    --color-surface: #ffffff;
+    --color-ink: #0e0e0e;
+    --color-muted: #55544e;
+    --color-line: #d9d8d1;
+    --color-tape: #e9e6d8;
+    /* The one accent: hot-pink copier paper. It is a FIELD — a band, a
+       highlight, a stamp pad — always carrying ink-black text, never used as
+       text on the light canvas. The Branding page's colors reach the site
+       through primary/secondary, so retune these to recolor the site. */
+    --color-primary: #ff4f93;
+    --color-primary-foreground: #0e0e0e;
+    --color-secondary: #0e0e0e;
+    --color-secondary-foreground: #f5f5f2;
+    --font-sans: 'Albert Sans', ui-sans-serif, system-ui, -apple-system, sans-serif;
+    --font-display: 'Dela Gothic One', 'Arial Black', ui-sans-serif, system-ui, sans-serif;
+}
+
+::selection {
+    background-color: var(--color-primary);
+    color: var(--color-primary-foreground);
+}
+
+/* A strip of masking tape holding a print to the page. */
+@utility tape {
+    position: absolute;
+    z-index: 10;
+    height: 1.75rem;
+    width: 6.5rem;
+    background-color: color-mix(in oklab, var(--color-tape) 82%, transparent);
+    box-shadow: 0 1px 2px color-mix(in oklab, var(--color-ink) 10%, transparent);
+}
+
+/* A highlighter pass behind a word — the pink sheet, torn to a strip. */
+@utility marker {
+    background-image: linear-gradient(transparent 12%, var(--color-primary) 12%, var(--color-primary) 88%, transparent 88%);
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    padding-inline: 0.12em;
+}
+
+/* The styles ribbon: one tilted band of pink paper, its words sliding by. */
+@keyframes ribbon {
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+[data-ribbon] {
+    animation: ribbon 38s linear infinite;
+}
+
+/* Arrival: the hero lines drop onto the page in sequence (--i is the slot). */
+@keyframes drop-in {
+    from {
+        opacity: 0;
+        transform: translateY(14px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+[data-drop] {
+    animation: drop-in 700ms cubic-bezier(0.22, 1, 0.36, 1) both;
+    animation-delay: calc(40ms + var(--i, 0) * 80ms);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    [data-ribbon],
+    [data-drop] {
+        animation: none;
+    }
+}

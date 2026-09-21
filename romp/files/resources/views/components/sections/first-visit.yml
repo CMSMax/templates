@@ -1,0 +1,16 @@
+title: First visit
+description: What a new dog needs before the first visit, on a cream yard-rules sign, beside the common questions.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Intro, rows: 2 }
+    signTitle: { type: text, label: Sign title }
+    signNote: { type: text, label: Sign note }
+    faqHeading: { type: text, label: Questions heading }
+    items:
+        type: repeater
+        label: Rules on the sign
+        source: site.rules
+        item_label: title
+        sub_fields:
+            title: { type: text, label: Rule }
+            body: { type: textarea, label: Detail, rows: 2 }

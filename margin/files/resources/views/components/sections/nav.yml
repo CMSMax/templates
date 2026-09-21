@@ -1,0 +1,26 @@
+title: Navigation
+description: The sticky header — the mark, the menu, the phone number and the assessment button.
+fields:
+    ctaLabel:
+        type: text
+        label: Button label
+        default: Book a free assessment
+    ctaUrl:
+        type: url
+        label: Button links to
+        default: /contact
+    links:
+        type: repeater
+        label: Menu links
+        item_label: label
+        add_button_label: Add a link
+        source: site.nav_links
+        sub_fields:
+            label:
+                type: text
+                label: Label
+                default: Programs
+            url:
+                type: url
+                label: Links to
+                default: /programs

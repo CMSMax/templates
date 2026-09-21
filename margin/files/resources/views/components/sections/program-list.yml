@@ -1,0 +1,47 @@
+title: Program list
+description: Every program as one ruled row — the subject, what it covers, who it is for and what it costs.
+fields:
+    linkLabel:
+        type: text
+        label: Link label on each row
+        default: What the program covers
+    items:
+        type: repeater
+        label: Programs
+        item_label: title
+        add_button_label: Add a program
+        source: collections.program
+        sub_fields:
+            title:
+                type: text
+                label: Program
+                default: Maths
+            mark:
+                type: text
+                label: Symbol
+                default: x²
+                description: Two or three characters set large in the margin.
+            summary:
+                type: text
+                label: One-line summary
+                default: Number sense to calculus, one idea at a time, with the working shown every time.
+            grades:
+                type: text
+                label: Levels
+                default: Grade 3 to AP Calculus
+            ages:
+                type: text
+                label: Ages
+                default: Ages 8–18
+            format:
+                type: text
+                label: Format
+                default: One-to-one or groups of four
+            price:
+                type: text
+                label: Price
+                default: From $58 a session
+            link:
+                type: url
+                label: Links to
+                default: /programs/maths

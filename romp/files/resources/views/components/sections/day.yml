@@ -1,0 +1,19 @@
+title: A day here
+description: The daily routine as a timeline beside a yard photo, closed by one customer quote.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Intro, rows: 3 }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }
+    quote: { type: textarea, label: Customer quote, rows: 4 }
+    quoteName: { type: text, label: Customer name }
+    quotePet: { type: text, label: Their dog }
+    items:
+        type: repeater
+        label: The day
+        source: site.day
+        item_label: title
+        sub_fields:
+            time: { type: text, label: Time }
+            title: { type: text, label: What happens }
+            body: { type: textarea, label: Detail, rows: 2 }

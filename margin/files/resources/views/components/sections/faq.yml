@@ -1,0 +1,28 @@
+title: Questions
+description: The questions a parent asks before booking — answered in two sentences each.
+fields:
+    heading:
+        type: text
+        label: Headline
+        default: Questions parents ask first.
+    note:
+        type: textarea
+        label: Note beside the list
+        rows: 3
+        default: Anything else, call or email. We would rather answer it now than after the first session.
+    items:
+        type: repeater
+        label: Questions
+        item_label: question
+        add_button_label: Add a question
+        source: collections.faqs
+        sub_fields:
+            question:
+                type: text
+                label: Question
+                default: What happens in the free assessment?
+            answer:
+                type: textarea
+                label: Answer
+                rows: 4
+                default: Forty minutes with a tutor in the student's weakest subject. You get a written summary of what we found and a recommended plan, with no obligation.

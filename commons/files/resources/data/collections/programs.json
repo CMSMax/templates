@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Community pantry",
+        "summary": "Two afternoons a week the hall turns into a grocery store where everything is free. Fresh produce from three farms, bread from Marlow's, and staples you pick yourself off the shelf.",
+        "when": "Tue & Sat",
+        "figure": "41,200",
+        "figure_label": "bags of groceries last year"
+    },
+    {
+        "name": "Thursday supper",
+        "summary": "A hot meal at long tables, cooked by volunteers and eaten together. Kids eat first, seconds are expected, and whoever's left helps stack the chairs.",
+        "when": "Thursdays",
+        "figure": "9,860",
+        "figure_label": "plates served"
+    },
+    {
+        "name": "Rent & utility bridge",
+        "summary": "One-time help paid straight to a landlord or utility, so a bad month doesn't become an eviction. Decided within a week, by people who live here.",
+        "when": "By appointment",
+        "figure": "318",
+        "figure_label": "households kept housed"
+    },
+    {
+        "name": "Warm winter",
+        "summary": "Coats, boots, space heaters and emergency heating oil from November to March — and a volunteer who'll carry the heater up the stairs.",
+        "when": "Nov – Mar",
+        "figure": "1,140",
+        "figure_label": "coats handed out"
+    }
+]

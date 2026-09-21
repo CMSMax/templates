@@ -1,0 +1,22 @@
+title: Add-ons and policies
+description: Extras with their prices on an amber panel, beside cancellation, lateness, insurance and gift-card policies.
+fields:
+    addonsHeading: { type: text, label: Add-ons heading }
+    addonsNote: { type: text, label: Add-ons note }
+    policiesHeading: { type: text, label: Policies heading }
+    addons:
+        type: repeater
+        label: Add-ons
+        source: site.addons
+        item_label: name
+        sub_fields:
+            name: { type: text, label: Add-on }
+            price: { type: text, label: Price (number only) }
+    policies:
+        type: repeater
+        label: Policies
+        source: site.policies
+        item_label: title
+        sub_fields:
+            title: { type: text, label: Policy }
+            note: { type: textarea, label: In plain words, rows: 2 }

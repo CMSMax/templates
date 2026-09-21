@@ -1,0 +1,9 @@
+title: Hero — notation
+description: A type-led opening with no photo — a huge headline, the intro-offer button, and every class as a pictogram plate you can tap.
+fields:
+    eyebrow: { type: text, label: Small line above the headline }
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    secondaryLabel: { type: text, label: Second link text (leave empty to hide) }
+    secondaryLink: { type: url, label: Second link }
+    plateNote: { type: text, label: Line above the class plates }

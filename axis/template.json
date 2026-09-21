@@ -1,0 +1,11 @@
+{
+    "name": "Axis",
+    "industry": "chiropractors",
+    "description": "An upright, poster-clean template for chiropractors and spine clinics — bone paper, deep indigo ink and one vermilion accent, tall condensed headlines with a photo set right into the line, a hand-built S-curved spine map where every condition lights up the vertebrae it lives in, a sixty-minute first visit laid out on a ruler, and a book-your-first-visit call to action at both ends of the page.",
+    "pages": ["Home", "Care & pricing", "404"],
+    "collections": ["conditions", "services", "hours"],
+    "cta": "Book your first visit",
+    "theme": "light",
+    "accent": "#c93617",
+    "fonts": ["Sofia Sans Condensed", "Instrument Sans"]
+}

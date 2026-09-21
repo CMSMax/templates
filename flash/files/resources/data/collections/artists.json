@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Rosa Quintero",
+        "role": "Owner",
+        "styles": "Fine line, botanical, ornamental",
+        "bio": "Rosa opened Flash in 2016 after ten years in other people's shops. She draws flowers the way botanists do, then makes them sit right on the body.",
+        "status": "Books open for October",
+        "open": true,
+        "image": "/images/artist-rosa.jpg",
+        "alt": "Rosa, a tattoo artist with dark curly hair, tattooing a client's arm in red gloves"
+    },
+    {
+        "name": "Dario Mendes",
+        "role": "Resident artist",
+        "styles": "American traditional, bold color, blackwork",
+        "bio": "Bold lines, a small palette, and designs that still read from across the room in twenty years. Dario draws most of the flash on the wall.",
+        "status": "Books closed until January",
+        "open": false,
+        "image": "/images/artist-dario.jpg",
+        "alt": "Dario, a tattooed artist in a white T-shirt, standing with his arms crossed"
+    },
+    {
+        "name": "Wren Hallow",
+        "role": "Resident artist",
+        "styles": "Linework, small pieces, cover-ups",
+        "bio": "Wren does the delicate work, from single-needle script to careful cover-ups. The artist to see for a first tattoo.",
+        "status": "Books open for November",
+        "open": true,
+        "image": "/images/artist-wren.jpg",
+        "alt": "Wren, a tattoo artist with long hair, working on a client's wrist at a padded arm rest"
+    }
+]

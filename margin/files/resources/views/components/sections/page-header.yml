@@ -1,0 +1,17 @@
+title: Page header
+description: The top of an inner page — its headline on ruled paper, one line under it and an optional red-pen note.
+fields:
+    heading:
+        type: text
+        label: Headline
+        default: Programs
+    intro:
+        type: textarea
+        label: Line under the headline
+        rows: 3
+        default: ''
+    margin:
+        type: text
+        label: Red-pen note
+        default: ''
+        description: Two to five words, or leave empty.

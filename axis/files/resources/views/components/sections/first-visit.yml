@@ -1,0 +1,19 @@
+title: First visit
+description: The dark band — the first hour laid out on a sixty-minute ruler, the new-patient price, and what follow-up visits cost.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    priceLabel: { type: text, label: Price label (matches the new-patient service name) }
+    endLabel: { type: text, label: Ruler end label }
+    afterHeading: { type: text, label: Follow-up prices title }
+    linkLabel: { type: text, label: Link text }
+    linkHref: { type: url, label: Link }
+    steps:
+        type: repeater
+        label: Steps of the first visit
+        source: site.first_visit
+        item_label: title
+        sub_fields:
+            minute: { type: text, label: Starts at minute }
+            title: { type: text, label: Step }
+            body: { type: textarea, label: What happens, rows: 2 }

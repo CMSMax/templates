@@ -1,0 +1,11 @@
+title: Ways to reach us
+description: Call, email and visit side by side on a rule, beside the office hours from site.json.
+fields:
+    callLabel: { type: text, label: Call label }
+    callNote: { type: text, label: Call note }
+    emailLabel: { type: text, label: Email label }
+    emailNote: { type: text, label: Email note }
+    visitLabel: { type: text, label: Visit label }
+    visitNote: { type: text, label: Visit note }
+    mapLabel: { type: text, label: Map link text }
+    hoursHeading: { type: text, label: Hours heading }

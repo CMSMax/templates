@@ -1,0 +1,16 @@
+title: First visit
+description: A tall photo beside the first visit laid out as a timeline of minutes, from "first_visit" in site.json.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }
+    first_visit:
+        type: repeater
+        label: Moments
+        source: site.first_visit
+        item_label: title
+        sub_fields:
+            time: { type: text, label: Minute (e.g. 0:15) }
+            title: { type: text, label: Title }
+            body: { type: textarea, label: What happens, rows: 2 }

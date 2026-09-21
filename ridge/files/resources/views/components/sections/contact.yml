@@ -1,0 +1,18 @@
+title: Contact
+description: How to book a roof check — every way to reach the office, and the drawn roof-check ticket listing what the visit includes.
+fields:
+    label: { type: text, label: Label }
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    ticketTitle: { type: text, label: Ticket — title }
+    ticketNote: { type: text, label: Ticket — note }
+    ctaLabel: { type: text, label: Button text }
+    subject: { type: text, label: Email subject line }
+    items:
+        type: repeater
+        label: What the roof check includes
+        source: checks
+        item_label: item
+        add_button_label: Add item
+        sub_fields:
+            item: { type: text, label: What's included }

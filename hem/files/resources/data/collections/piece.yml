@@ -1,0 +1,19 @@
+label: Pieces
+icon: shirt
+fields:
+    title: { type: text }
+    slug: { type: text }
+    link: { type: url }
+    brand: { type: text }
+    category: { type: text }
+    price: { type: text }
+    colour: { type: text }
+    cloth: { type: text }
+    madeIn: { type: text }
+    sizes: { type: text }
+    isNew: { type: toggle }
+    summary: { type: text }
+    image: { type: image }
+    imageAlt: { type: text }
+    description: { type: textarea }
+    content: { type: richtext }

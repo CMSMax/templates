@@ -1,0 +1,6 @@
+title: Page header
+description: The lilac opening field of an inner page, with its title and a short introduction.
+fields:
+    eyebrow: { type: text, label: Small line above the title }
+    heading: { type: text, label: Page title }
+    intro: { type: textarea, label: Introduction, rows: 3 }

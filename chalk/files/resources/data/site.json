@@ -1,0 +1,125 @@
+{
+    "name": "Chalk Strength Club",
+    "short_name": "Chalk",
+    "tagline": "A coached strength gym. Small classes, real programming, and a coach who knows your numbers.",
+    "phone": "(555) 204-7718",
+    "phone_href": "tel:+15552047718",
+    "email": "hello@chalkstrength.example",
+    "address": "72 Mill Race Road",
+    "city": "Portland, OR 97214",
+    "map_url": "https://maps.google.com/?q=72+Mill+Race+Road+Portland+OR",
+    "instagram": "https://instagram.com/",
+    "instagram_handle": "@chalkstrength",
+    "cta_label": "Start a free trial",
+    "cta_link": "/#visit",
+    "trial_note": "Your first week is free — no card needed, nothing to sign.",
+    "open_summary": "Open daily from 5:30 am",
+    "hours_note": "Staffed hours. Members with a key fob train 24/7.",
+    "hours": [
+        {
+            "day": "Monday – Friday",
+            "hours": "5:30 am – 9:00 pm"
+        },
+        {
+            "day": "Saturday",
+            "hours": "8:00 am – 2:00 pm"
+        },
+        {
+            "day": "Sunday",
+            "hours": "9:00 am – 1:00 pm"
+        }
+    ],
+    "next_class": "Strength",
+    "next_class_time": "6:00 pm",
+    "next_class_coach": "Coach Dana",
+    "next_class_spots": "4 of 12 spots left",
+    "stats": [
+        {
+            "value": "35",
+            "label": "coached classes a week"
+        },
+        {
+            "value": "12",
+            "label": "people, max, in any class"
+        },
+        {
+            "value": "14",
+            "label": "racks on a 9,000 sq ft floor"
+        },
+        {
+            "value": "6",
+            "label": "full-time coaches"
+        }
+    ],
+    "days": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat",
+        "Sun"
+    ],
+    "time_slots": [
+        "6:00 am",
+        "7:00 am",
+        "9:30 am",
+        "12:15 pm",
+        "5:00 pm",
+        "6:00 pm",
+        "7:15 pm"
+    ],
+    "first_steps": [
+        {
+            "time": "0:00",
+            "title": "Say hello at the desk",
+            "body": "Your coach meets you at the door, shows you the lockers, and asks what you want out of the next six months."
+        },
+        {
+            "time": "0:10",
+            "title": "Move, don't max",
+            "body": "A short movement screen — squat, hinge, push, pull. No testing, no numbers on a whiteboard, nobody watching."
+        },
+        {
+            "time": "0:25",
+            "title": "Join the class",
+            "body": "You train alongside the group with your own weights, scaled by a coach who has seen every version of your first day."
+        },
+        {
+            "time": "0:55",
+            "title": "Leave with a plan",
+            "body": "Your coach writes down your starting numbers and the three classes that suit your week. Come back tomorrow, or don't — no pressure."
+        }
+    ],
+    "faqs": [
+        {
+            "question": "I've never lifted. Is this for me?",
+            "answer": "Most of our members started exactly there. Every class is scaled person by person, and your first week is coached one step at a time."
+        },
+        {
+            "question": "Do I need to book classes?",
+            "answer": "Yes — classes cap at twelve so a coach can watch every rep. Book in the member app up to seven days ahead; drop-ins can call the desk."
+        },
+        {
+            "question": "What should I bring?",
+            "answer": "Flat shoes, water, and something you can squat in. We have chalk, belts, lockers and showers."
+        },
+        {
+            "question": "Can I freeze my membership?",
+            "answer": "Any time, for up to three months a year, for travel, injury or a new baby. Just tell the desk."
+        }
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "A coached strength gym after dark: rubber-floor graphite walls, chalk-white type, hairline rules, square corners, one chalk-white band, and bright daylight photography. Reads like a training log on the gym wall, not a nightclub — no neon, no glow, no gradients.",
+        "type": "Sofia Sans Extra Condensed (800–900, uppercase) for headings, numbers and tracked labels; Rethink Sans for everything else. No third family.",
+        "color": "One accent: plate red (bg-primary) for the Start a free trial button, the 'Today' marker and the highlighted plan — never as text. The bumper-plate colors (red, blue, yellow, green, white) are data: each program's plate field colors its chip and its classes on the timetable. Never use them as decoration.",
+        "signature": "The timetable board: the whole week as a real table, times down the side and days across, every class edged in its program's plate color, today's column lit. It reads straight from the sessions and programs collections — keep it wherever the design evolves.",
+        "voice": "A good coach: dry, specific, encouraging without cheerleading. Numbers over adjectives. No 'beast mode', no 'crush it', no exclamation points."
+    }
+}

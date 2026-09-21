@@ -1,0 +1,8 @@
+title: Sermons
+description: Sermons from the Sermons collection, each with a typeset scripture cover — the latest three with a heading, or every sermon.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    show: { type: select, label: Sermons shown, options: { recent: Latest three with a heading, all: Every sermon } }
+    linkLabel: { type: text, label: Link text (leave empty to hide) }
+    linkHref: { type: url, label: Link }

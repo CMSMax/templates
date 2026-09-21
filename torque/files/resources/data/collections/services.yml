@@ -1,0 +1,10 @@
+label: Services & prices
+icon: 🔧
+fields:
+    name: { type: text, label: Service }
+    category: { type: select, label: Group, options: { Maintenance: Maintenance, "Brakes & tires": "Brakes & tires", "Diagnostics & repair": "Diagnostics & repair" } }
+    detail: { type: textarea, label: What's included, rows: 2 }
+    time: { type: text, label: Typical time }
+    price: { type: text, label: Price (number only) }
+    from: { type: toggle, label: Show as a "from" price }
+    featured: { type: toggle, label: Show on the home page }

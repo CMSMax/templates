@@ -1,0 +1,5 @@
+title: Roof story
+description: One finished roof — its title, roof report, photo, story, and links to other roofs. The content comes from the Recent roofs collection.
+fields:
+    backLabel: { type: text, label: Back link text }
+    moreHeading: { type: text, label: Other roofs heading }

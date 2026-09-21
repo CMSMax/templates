@@ -1,0 +1,7 @@
+title: Visit
+description: The address, phone and email, the hours list (from site settings), and the closing donate line.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    directionsLabel: { type: text, label: Directions button text }
+    closingLine: { type: text, label: Closing line }

@@ -1,0 +1,8 @@
+title: Welcome
+description: A short welcome from the pastor, set large in Garamond, with a small arched portrait or a large red quotation mark.
+fields:
+    quote: { type: textarea, label: Welcome, rows: 4 }
+    name: { type: text, label: Name }
+    role: { type: text, label: Role }
+    image: { type: image, label: Portrait (leave empty for a large quotation mark) }
+    imageAlt: { type: text, label: Portrait description }

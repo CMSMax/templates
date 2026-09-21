@@ -1,0 +1,6 @@
+title: Page header
+description: The page's label, title, and a one-line introduction.
+fields:
+    label: { type: text, label: Label }
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Introduction, rows: 3 }

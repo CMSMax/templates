@@ -1,0 +1,6 @@
+label: Ministries
+icon: 🤝
+fields:
+    name: { type: text, label: Name }
+    description: { type: textarea, label: Description, rows: 2 }
+    when: { type: text, label: When it meets }

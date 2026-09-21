@@ -1,0 +1,10 @@
+label: Programs
+icon: dumbbell
+fields:
+    number: { type: text, label: Number (01, 02…) }
+    name: { type: text, label: Program name }
+    plate: { type: select, label: Plate color, options: { red: Red, blue: Blue, yellow: Yellow, green: Green, white: White } }
+    summary: { type: textarea, label: Summary, rows: 3 }
+    length: { type: text, label: Class length }
+    frequency: { type: text, label: Suggested frequency }
+    level: { type: text, label: Level }

@@ -1,0 +1,16 @@
+title: Hero
+description: The lilac opening field with the headline, the shop buttons, a photograph and its swing ticket.
+fields:
+    eyebrow: { type: text, label: Small line above the headline }
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Introduction, rows: 3 }
+    primaryLabel: { type: text, label: Main button text }
+    primaryUrl: { type: url, label: Main button link }
+    secondaryLabel: { type: text, label: Second link text }
+    secondaryUrl: { type: url, label: Second link }
+    image: { type: image, label: Photograph }
+    imageAlt: { type: text, label: Photograph description }
+    showTicket: { type: toggle, label: Show the swing ticket }
+    ticketNumber: { type: text, label: Ticket number }
+    ticketName: { type: text, label: Ticket piece name }
+    ticketDetail: { type: text, label: Ticket detail }

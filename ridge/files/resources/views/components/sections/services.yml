@@ -1,0 +1,20 @@
+title: Services
+description: What the crew does, as a ruled list beside a photo of a roof going down.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Intro, rows: 2 }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }
+    linkLabel: { type: text, label: Link text }
+    linkHref: { type: url, label: Link }
+    items:
+        type: repeater
+        label: Services
+        source: services
+        item_label: name
+        add_button_label: Add service
+        sub_fields:
+            name: { type: text, label: Service }
+            summary: { type: textarea, label: One-line summary, rows: 2 }
+            detail: { type: text, label: Timing note }
+            slug: { type: text, label: Anchor name }

@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Relaxation massage",
+        "slug": "relaxation",
+        "group": "Relax",
+        "summary": "Long, slow Swedish strokes with light to medium pressure. For when nothing hurts exactly — you're just wound tight and sleeping badly.",
+        "best_for": "Stress, poor sleep, a first massage",
+        "price_60": "95",
+        "price_90": "135",
+        "featured": true
+    },
+    {
+        "name": "Deep tissue",
+        "slug": "deep-tissue",
+        "group": "Repair",
+        "summary": "Slow, firm work into the layers under the surface, with forearms and elbows where they help. Focused on two or three areas rather than everything.",
+        "best_for": "Desk necks, stubborn knots, lower back",
+        "price_60": "110",
+        "price_90": "155",
+        "featured": true
+    },
+    {
+        "name": "Sports and recovery",
+        "slug": "sports",
+        "group": "Repair",
+        "summary": "Stretching, compression, and targeted work on the muscles your sport leans on. Book it two days after a race, or a week before one.",
+        "best_for": "Runners, climbers, lifters, cyclists",
+        "price_60": "110",
+        "price_90": "155",
+        "featured": true
+    },
+    {
+        "name": "Hot stone",
+        "slug": "hot-stone",
+        "group": "Relax",
+        "summary": "Warm basalt stones glide with the oil and rest along the spine, so muscles let go before any pressure arrives. Slow and heavy in the best way.",
+        "best_for": "Cold hands, winter shoulders, deep rest",
+        "price_60": "120",
+        "price_90": "165",
+        "featured": true
+    },
+    {
+        "name": "Prenatal massage",
+        "slug": "prenatal",
+        "group": "Specialist",
+        "summary": "Side-lying on a fully supported table, from the second trimester on. Gentle work for the hips, lower back, and the calves that swell by evening.",
+        "best_for": "Second and third trimester",
+        "price_60": "105",
+        "price_90": "145",
+        "featured": false
+    },
+    {
+        "name": "Lymphatic drainage",
+        "slug": "lymphatic",
+        "group": "Specialist",
+        "summary": "Very light, rhythmic work that follows the lymph pathways toward the nodes. Often booked after surgery, once your surgeon has cleared you.",
+        "best_for": "Swelling, post-surgical recovery",
+        "price_60": "115",
+        "price_90": "",
+        "featured": false
+    }
+]

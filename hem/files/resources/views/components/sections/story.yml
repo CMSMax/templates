@@ -1,0 +1,9 @@
+title: Story
+description: A photograph beside the story of the shop.
+fields:
+    image: { type: image, label: Photograph }
+    imageAlt: { type: text, label: Photograph description }
+    caption: { type: text, label: Caption }
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: First paragraph, rows: 5 }
+    secondBody: { type: textarea, label: Second paragraph, rows: 3 }

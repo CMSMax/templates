@@ -1,0 +1,32 @@
+[
+    {
+        "day": "Monday",
+        "times": "3:30–8:00pm",
+        "subjects": "Maths, English, sciences"
+    },
+    {
+        "day": "Tuesday",
+        "times": "3:30–8:00pm",
+        "subjects": "Maths, test prep"
+    },
+    {
+        "day": "Wednesday",
+        "times": "3:30–8:00pm",
+        "subjects": "English, sciences, study skills"
+    },
+    {
+        "day": "Thursday",
+        "times": "3:30–8:00pm",
+        "subjects": "Maths, test prep"
+    },
+    {
+        "day": "Friday",
+        "times": "3:30–6:00pm",
+        "subjects": "Maths, English"
+    },
+    {
+        "day": "Saturday",
+        "times": "9:00am–2:00pm",
+        "subjects": "Mocks, intensives, all subjects"
+    }
+]

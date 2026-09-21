@@ -1,0 +1,5 @@
+title: Get involved — opening
+description: The page's poster headline with the pink overprint sun and a link to write to the volunteer desk (the address lives in site settings).
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }

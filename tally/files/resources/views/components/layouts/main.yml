@@ -1,0 +1,5 @@
+title: Page settings
+description: The page title and search description shown in browser tabs and search results.
+fields:
+    title: { type: text, label: Page title }
+    description: { type: textarea, label: Search description, rows: 3 }

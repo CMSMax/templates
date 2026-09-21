@@ -1,0 +1,93 @@
+{
+    "name": "Axis Chiropractic",
+    "short_name": "Axis",
+    "tagline": "A chiropractic studio for neck pain, back pain and the things that stop you moving — thirty-minute visits, a clear plan, and no packages you didn't ask for.",
+    "phone": "(555) 386-2140",
+    "phone_href": "tel:+15553862140",
+    "email": "hello@axischiro.example",
+    "address": "88 Mercer Street, Suite 2",
+    "city": "Springfield",
+    "directions_url": "https://maps.google.com/?q=88+Mercer+Street+Springfield",
+    "hours_short": "Mon–Thu 7am–7pm · Fri 7am–2pm · Sat 8am–12pm",
+    "hours_note": "Closed Sundays. Same-week new patient visits.",
+    "cta_label": "Book your first visit",
+    "cta_link": "/#visit",
+    "booking_link": "tel:+15553862140",
+    "new_patient_price": "$95",
+    "new_patient_note": "Consultation, exam, X-rays if you need them, and your first adjustment. One visit, one price.",
+    "insurance_note": "In network with most major plans. We check your benefits before your first visit and tell you what you'll pay.",
+    "license_note": "Dr. Nia Okafor, DC · Licensed chiropractor",
+    "first_visit": [
+        {
+            "minute": "0",
+            "title": "Talk",
+            "body": "Where it hurts, when it started, what makes it worse. We listen before we touch anything."
+        },
+        {
+            "minute": "15",
+            "title": "Test",
+            "body": "Posture, range of motion, reflexes and a hands-on exam. X-rays only when the findings call for them."
+        },
+        {
+            "minute": "35",
+            "title": "Treat",
+            "body": "Your first adjustment, with soft-tissue work where it helps. Every movement explained first."
+        },
+        {
+            "minute": "50",
+            "title": "Plan",
+            "body": "What we found, how many visits it should take, and two stretches to do at home tonight."
+        }
+    ],
+    "doctor": {
+        "name": "Dr. Nia Okafor",
+        "role": "Doctor of Chiropractic · Founder",
+        "photo": "/images/doctor.jpg",
+        "photo_alt": "Dr. Nia Okafor in an indigo scrub top, standing in the Axis treatment room",
+        "credentials": [
+            "Doctor of Chiropractic, Palmer College",
+            "Certified in Active Release Technique",
+            "14 years in practice"
+        ]
+    },
+    "testimonial": {
+        "quote": "Eight months of sciatica, and I'd stopped picking up my daughter. Dr. Okafor told me it would take about six visits. It took five.",
+        "name": "Marcus T.",
+        "detail": "Low back and sciatica"
+    },
+    "faqs": [
+        {
+            "question": "Do I need a referral?",
+            "answer": "No. You can book directly. If we think something needs a doctor or a scan first, we'll tell you and point you to the right person."
+        },
+        {
+            "question": "Does an adjustment hurt?",
+            "answer": "Most people feel relief, sometimes a little soreness the next day. We explain every movement before we make it, and there are gentle techniques if you'd rather skip the pop."
+        },
+        {
+            "question": "How many visits will I need?",
+            "answer": "It depends on what we find. You'll get an honest estimate at the end of your first visit, and we re-check progress every few visits rather than booking you into months of care."
+        },
+        {
+            "question": "Do you take insurance?",
+            "answer": "We're in network with most major plans and check your benefits before you come in. Health savings and flexible spending cards are welcome too."
+        },
+        {
+            "question": "What should I wear?",
+            "answer": "Something comfortable you can move in. No need to change — we work over clothing."
+        }
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "Upright and poster-clean: bone-paper canvas, deep indigo ink, one vermilion accent, calm natural-light studio photography. Feels like a well-set anatomy chart, never a clinic stock site.",
+        "type": "Sofia Sans Condensed (semibold, tight) for every heading, set tall and large; Instrument Sans for body and UI. Headlines are short and upright.",
+        "color": "One accent: vermilion (bg-primary) for the primary button, the lit vertebrae in the spine map, and a small focal mark. Indigo (bg-secondary) carries exactly one dark band — the first visit ruler. Everything else is bone canvas, card, ink and muted text. Never add another color.",
+        "signature": "The spine map — an S-curved spine built from stacked vertebrae beside the conditions treated; hovering a condition lights the vertebrae of its region. Keep it wherever the design evolves.",
+        "voice": "Calm, plain, physical. Short sentences and real numbers. No 'wellness journey', no exclamation marks, no promises of cures."
+    }
+}

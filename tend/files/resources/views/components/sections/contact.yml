@@ -1,0 +1,7 @@
+title: Contact
+description: The closing invitation with the booking button, phone, office, hours, and the crisis-line note.
+fields:
+    heading: { type: text, label: Headline (first line) }
+    headingItalic: { type: text, label: Headline (italic second line) }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    buttonLabel: { type: text, label: Button text }

@@ -1,0 +1,6 @@
+title: Giving
+description: How to give, with one link for giving online (set the link in the site details).
+fields:
+    heading: { type: text, label: Headline }
+    headingEmphasis: { type: text, label: Headline (italic second line) }
+    body: { type: textarea, label: Supporting copy, rows: 3 }

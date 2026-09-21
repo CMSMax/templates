@@ -1,0 +1,15 @@
+title: What progress feels like
+description: Concrete, everyday signs that therapy is working, on a ruled list beside the headline.
+fields:
+    eyebrow: { type: text, label: Small label }
+    heading: { type: text, label: Headline (first line) }
+    headingItalic: { type: text, label: Headline (italic second line) }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    progress:
+        type: repeater
+        label: Moments
+        source: site.progress
+        item_label: title
+        sub_fields:
+            title: { type: text, label: Moment }
+            body: { type: textarea, label: Detail, rows: 2 }

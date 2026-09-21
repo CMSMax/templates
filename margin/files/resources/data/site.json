@@ -1,0 +1,107 @@
+{
+    "name": "Margin Tutoring",
+    "short_name": "Margin",
+    "tagline": "Tutoring that shows up on the report card.",
+    "phone": "(555) 214-0388",
+    "phone_href": "tel:+15552140388",
+    "email": "hello@margin.example",
+    "address": "42 Linden Street, Harrow Hill",
+    "area": "Harrow Hill, Eastbrook and online anywhere",
+    "hours_note": "Sessions Monday to Friday 3:30–8pm, Saturday 9am–2pm",
+    "ages": "Ages 8 to 18",
+    "nav_links": [
+        {
+            "label": "Programs",
+            "url": "/programs"
+        },
+        {
+            "label": "Tutors",
+            "url": "/tutors"
+        },
+        {
+            "label": "Pricing",
+            "url": "/pricing"
+        },
+        {
+            "label": "Contact",
+            "url": "/contact"
+        }
+    ],
+    "footer_links": [
+        {
+            "label": "Maths",
+            "url": "/programs/maths"
+        },
+        {
+            "label": "English & reading",
+            "url": "/programs/english-and-reading"
+        },
+        {
+            "label": "Sciences",
+            "url": "/programs/sciences"
+        },
+        {
+            "label": "Entrance & test prep",
+            "url": "/programs/entrance-and-test-prep"
+        },
+        {
+            "label": "Study skills",
+            "url": "/programs/study-skills"
+        },
+        {
+            "label": "Our tutors",
+            "url": "/tutors"
+        }
+    ],
+    "worksheet": [
+        {
+            "question": "Solve 3x + 7 = 22",
+            "answer": "x = 5",
+            "correct": "1",
+            "correction": ""
+        },
+        {
+            "question": "Factor x² − 5x + 6",
+            "answer": "(x − 2)(x − 3)",
+            "correct": "1",
+            "correction": ""
+        },
+        {
+            "question": "Expand (x + 3)²",
+            "answer": "x² + 9",
+            "correct": "",
+            "correction": "x² + 6x + 9"
+        },
+        {
+            "question": "Solve 2(x − 4) = 10",
+            "answer": "x = 9",
+            "correct": "1",
+            "correction": ""
+        }
+    ],
+    "assessment": [
+        {
+            "title": "Forty minutes, one subject",
+            "body": "With the tutor who would teach your child, in person or online."
+        },
+        {
+            "title": "Bring the last report card",
+            "body": "And a recent test or piece of homework, marked or not."
+        },
+        {
+            "title": "A written summary in two days",
+            "body": "What we found, where the gap is, and the plan we would suggest."
+        },
+        {
+            "title": "No obligation",
+            "body": "Most families book, some do not. Either way the summary is yours."
+        }
+    ],
+    "art_direction": {
+        "identity": "Exercise-book paper, blue-black ink and one red pen. Fraunces set like a well-made school book over DM Sans text, faint ruled lines, a red margin rule, and Caveat only for the short red-pen notes a teacher writes in the margin.",
+        "type": "Fraunces 400–500 with the soft axis at 50 for every heading, never bold; DM Sans at 1.0625rem/1.7 for body. Caveat is reserved for two- to six-word margin notes in the accent colour.",
+        "color": "Paper (bg-canvas) is roughly three quarters of any viewport. Red pen (accent) marks — the primary button, the margin rule, circled grades and hand notes — and never fills a field. Blue-black (bg-deep) belongs to the closing band and the footer only. The pale ruled blue (bg-panel) holds the report card. No gradients, no third brand colour.",
+        "signature": "The report card — a typeset term report of real students (shared with permission), the grade they started on and the grade they reached, the new grade circled in red pen and a handwritten note in the margin. Keep it wherever the design evolves.",
+        "voice": "A good teacher's report: plain, specific and warm. Name the subject, the year group and the weeks it took. Two sentences maximum, no exclamation points, never 'unlock your potential'."
+    }
+}

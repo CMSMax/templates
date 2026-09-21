@@ -1,0 +1,12 @@
+label: Memberships
+icon: credit-card
+fields:
+    name: { type: text, label: Plan name }
+    price: { type: text, label: Price }
+    period: { type: text, label: Per (a month, a class…) }
+    classes: { type: text, label: Classes }
+    open_gym: { type: text, label: Open gym }
+    coaching: { type: text, label: Coaching }
+    extras: { type: text, label: Extras }
+    featured: { type: toggle, label: Highlight this plan }
+    note: { type: text, label: One-line note }

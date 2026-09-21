@@ -1,0 +1,8 @@
+label: Services
+icon: ✂️
+fields:
+    name: { type: text, label: Service }
+    group: { type: select, label: Group, options: { grooming: Grooming, daycare: Daycare, boarding: Boarding, walks: Walks & training } }
+    description: { type: textarea, label: Short description, rows: 2 }
+    price: { type: text, label: Price (e.g. $38 or $45–$75) }
+    note: { type: text, label: Price note (e.g. per day) }

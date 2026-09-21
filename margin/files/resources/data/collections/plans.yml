@@ -1,0 +1,11 @@
+label: Pricing plans
+icon: tag
+fields:
+    name: { type: text }
+    price: { type: text }
+    unit: { type: text }
+    who: { type: text }
+    feature1: { type: text }
+    feature2: { type: text }
+    feature3: { type: text }
+    featured: { type: toggle }

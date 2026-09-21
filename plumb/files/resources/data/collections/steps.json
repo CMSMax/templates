@@ -1,0 +1,22 @@
+[
+    {
+        "when": "On the phone",
+        "title": "Tell us what's wrong",
+        "body": "A person answers, asks four questions, and gives you an arrival window you can plan around."
+    },
+    {
+        "when": "At the door",
+        "title": "See the price first",
+        "body": "The plumber looks, then shows you the flat price from our price book. Nothing starts until you say yes."
+    },
+    {
+        "when": "On the job",
+        "title": "Fixed, then tested",
+        "body": "Drop cloths down, shoes covered, the repair tested under pressure, and the mess leaves with us."
+    },
+    {
+        "when": "For a year after",
+        "title": "Guaranteed",
+        "body": "If our repair fails within twelve months, we come back and fix it again at no charge."
+    }
+]

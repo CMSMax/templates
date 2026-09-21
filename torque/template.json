@@ -1,0 +1,11 @@
+{
+    "name": "Torque",
+    "industry": "automotive",
+    "description": "A plain-spoken, price-first template for independent auto repair shops — reflective plate-white canvas, petrol-teal stamped type and one sticker-red accent, the shop's name stamped on a license plate in a 'Serviced by' dealer frame, a dashboard warning-light decoder that says what each light means and how urgent it is, a posted price board, and a sample estimate waiting on the customer's OK.",
+    "pages": ["Home", "Services & prices", "404"],
+    "collections": ["services", "lights", "hours"],
+    "cta": "Book service",
+    "theme": "light",
+    "accent": "#d62839",
+    "fonts": ["Saira Condensed", "Public Sans"]
+}

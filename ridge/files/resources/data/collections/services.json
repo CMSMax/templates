@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Roof replacement",
+        "summary": "Full tear-off to the deck, new underlayment, and a new roof — usually finished in one day.",
+        "detail": "Most homes: 1 day",
+        "slug": "replacement"
+    },
+    {
+        "name": "Leak and roof repair",
+        "summary": "Missing shingles, lifted flashing, a stain on the ceiling. Found, photographed, and fixed.",
+        "detail": "Same week",
+        "slug": "repair"
+    },
+    {
+        "name": "Hail and storm damage",
+        "summary": "A free inspection with photos of every hit, and a crew lead who meets your adjuster on the roof.",
+        "detail": "Within 48 hours",
+        "slug": "storm"
+    },
+    {
+        "name": "Metal roofing",
+        "summary": "Standing-seam steel in twelve colours. Class 4 hail rated and good for fifty years.",
+        "detail": "2–3 days",
+        "slug": "metal"
+    },
+    {
+        "name": "Gutters and ventilation",
+        "summary": "Seamless gutters, ridge vents, and attic airflow that keeps shingles from cooking in August.",
+        "detail": "Half a day",
+        "slug": "gutters"
+    }
+]

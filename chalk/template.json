@@ -1,0 +1,23 @@
+{
+    "name": "Chalk",
+    "industry": "fitness",
+    "description": "A dark, schedule-first template for strength gyms, CrossFit boxes and coached fitness studios — rubber-floor graphite walls, chalk-white condensed type and one plate-red accent, a numbered program list, the whole week on one timetable board with every class coded in its program's bumper-plate color, a chalk-white first-class band that walks nervous beginners through their first hour, memberships compared side by side, and a free-trial call to action.",
+    "pages": [
+        "Home",
+        "Schedule",
+        "404"
+    ],
+    "collections": [
+        "programs",
+        "sessions",
+        "plans"
+    ],
+    "cta": "Start a free trial",
+    "theme": "dark",
+    "accent": "#c8261a",
+    "secondary": "#edece7",
+    "fonts": [
+        "Sofia Sans Extra Condensed",
+        "Rethink Sans"
+    ]
+}

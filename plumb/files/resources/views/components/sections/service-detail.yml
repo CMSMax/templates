@@ -1,0 +1,11 @@
+title: Service page
+description: One service — its name, price, time, photo, full description, and links to the other services. The content comes from the Services collection.
+fields:
+    backLabel: { type: text, label: Back link text }
+    priceLabel: { type: text, label: Price label }
+    timeLabel: { type: text, label: Time label }
+    ctaLabel: { type: text, label: Button text }
+    ctaLink: { type: url, label: Button link }
+    asideHeading: { type: text, label: Other services heading }
+    callHeading: { type: text, label: Call box heading }
+    callBody: { type: textarea, label: Call box copy, rows: 2 }

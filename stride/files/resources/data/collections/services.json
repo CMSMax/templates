@@ -1,0 +1,66 @@
+[
+    {
+        "name": "First evaluation",
+        "category": "Getting started",
+        "description": "A full hour: history, movement testing, first treatment, and your written plan.",
+        "duration": "60 min",
+        "price": "$165",
+        "featured": true
+    },
+    {
+        "name": "Follow-up visit",
+        "category": "Getting started",
+        "description": "One-on-one treatment with your own therapist — hands-on care, exercise, and a progress check.",
+        "duration": "55 min",
+        "price": "$125",
+        "featured": true
+    },
+    {
+        "name": "Post-surgical rehab",
+        "category": "Rehab",
+        "description": "Protocol-based recovery after joint replacement, ACL, rotator cuff, and spine surgery, coordinated with your surgeon.",
+        "duration": "55 min",
+        "price": "$125",
+        "featured": true
+    },
+    {
+        "name": "Sports injury rehab",
+        "category": "Rehab",
+        "description": "Sprains, strains, and overuse injuries, with sport-specific drills and a clear return-to-play test.",
+        "duration": "55 min",
+        "price": "$125",
+        "featured": false
+    },
+    {
+        "name": "Dry needling",
+        "category": "Hands-on care",
+        "description": "Targeted release for stubborn trigger points, added to a visit when it will help.",
+        "duration": "+15 min",
+        "price": "$40",
+        "featured": false
+    },
+    {
+        "name": "Manual therapy",
+        "category": "Hands-on care",
+        "description": "Joint mobilization and soft-tissue work to calm pain and free up movement.",
+        "duration": "30 min",
+        "price": "$75",
+        "featured": false
+    },
+    {
+        "name": "Running gait analysis",
+        "category": "Performance",
+        "description": "Slow-motion video on the treadmill, a breakdown of what we see, and the three fixes that matter.",
+        "duration": "45 min",
+        "price": "$110",
+        "featured": true
+    },
+    {
+        "name": "Balance & fall prevention",
+        "category": "Performance",
+        "description": "Testing and training to stay steady on stairs, curbs, and uneven ground.",
+        "duration": "55 min",
+        "price": "$125",
+        "featured": false
+    }
+]

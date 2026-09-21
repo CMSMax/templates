@@ -1,0 +1,6 @@
+title: Closing call to action
+description: The ink band that closes the page with the booking button, phone number and response promise.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    phoneLabel: { type: text, label: Text before the phone number }

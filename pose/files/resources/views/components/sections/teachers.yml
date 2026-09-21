@@ -1,0 +1,21 @@
+title: Teachers
+description: The teachers as tall portraits with their names and what they teach, with an optional short bio.
+fields:
+    eyebrow: { type: text, label: Small line above the headline }
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    linkLabel: { type: text, label: Link text (leave empty to hide) }
+    linkHref: { type: url, label: Link }
+    showBio: { type: toggle, label: Show each teacher's bio }
+    teachers:
+        type: repeater
+        label: Teachers
+        source: teachers
+        item_label: name
+        add_button_label: Add a teacher
+        sub_fields:
+            name: { type: text, label: Name }
+            role: { type: text, label: What they teach }
+            bio: { type: textarea, label: Short bio, rows: 3 }
+            image: { type: image, label: Portrait }
+            imageAlt: { type: text, label: Portrait description }

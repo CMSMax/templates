@@ -1,0 +1,20 @@
+title: Class guide
+description: Every class as a card with its photo, pictogram, longer description, level and length.
+fields:
+    bookLabel: { type: text, label: Button text on each class }
+    bookLink: { type: url, label: Button link }
+    classes:
+        type: repeater
+        label: Classes
+        source: classes
+        item_label: name
+        add_button_label: Add a class
+        sub_fields:
+            name: { type: text, label: Class name }
+            slug: { type: text, label: "Anchor (lowercase, no spaces)" }
+            pose: { type: select, label: Pictogram, options: { mountain: Mountain, salute: Upward salute, lunge: Low lunge, fold: Forward fold, halflift: Halfway lift, plank: Plank, updog: Upward dog, downdog: Downward dog, child: Child's pose, tree: Tree, warrior: Warrior, seated: Seated, rest: Resting } }
+            level: { type: select, label: Level, options: { '1': Gentle, '2': Steady, '3': Strong } }
+            length: { type: text, label: Length }
+            detail: { type: textarea, label: Description, rows: 4 }
+            image: { type: image, label: Photo }
+            imageAlt: { type: text, label: Photo description }

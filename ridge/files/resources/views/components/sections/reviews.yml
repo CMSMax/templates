@@ -1,0 +1,16 @@
+title: Reviews
+description: Three short reviews from homeowners, with the overall review score.
+fields:
+    heading: { type: text, label: Heading }
+    rating: { type: text, label: Review score }
+    ratingNote: { type: text, label: Review note }
+    items:
+        type: repeater
+        label: Reviews
+        source: reviews
+        item_label: name
+        add_button_label: Add review
+        sub_fields:
+            quote: { type: textarea, label: Quote, rows: 3 }
+            name: { type: text, label: Name }
+            place: { type: text, label: Neighbourhood }

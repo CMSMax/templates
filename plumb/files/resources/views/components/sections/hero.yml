@@ -1,0 +1,15 @@
+title: Hero
+description: The blue field with the on-call line, the headline, the booking button and phone number, the photo of a plumber at work, and the meter-lid badge.
+fields:
+    status: { type: text, label: On-call line }
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    ctaLabel: { type: text, label: Button text }
+    ctaLink: { type: url, label: Button link }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }
+    rating: { type: text, label: Review rating }
+    ratingNote: { type: text, label: Review rating note }
+    promise: { type: text, label: Guarantee }
+    promiseNote: { type: text, label: Guarantee note }
+    lidText: { type: text, label: Badge lettering (runs round the lid) }

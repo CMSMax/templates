@@ -1,0 +1,15 @@
+title: Questions
+description: Common questions as an accordion, with a sticky heading beside them.
+fields:
+    eyebrow: { type: text, label: Small line above the headline }
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    faqs:
+        type: repeater
+        label: Questions
+        source: faqs
+        item_label: question
+        add_button_label: Add a question
+        sub_fields:
+            question: { type: text, label: Question }
+            answer: { type: textarea, label: Answer, rows: 3 }

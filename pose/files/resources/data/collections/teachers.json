@@ -1,0 +1,6 @@
+[
+    { "name": "Ama Mensah", "role": "Founder · Flow and prenatal", "bio": "Opened Pose in 2016 after ten years teaching in gyms. Certified in prenatal yoga and still teaches the 7am class most weekdays.", "image": "/images/teacher-ama.jpg", "imageAlt": "Ama laughing, with long braids and gold hoop earrings" },
+    { "name": "Daniel Ortega", "role": "Strong Flow", "bio": "A former climber who came to yoga for his shoulders. Teaches arm balances in small, honest steps.", "image": "/images/teacher-daniel.jpg", "imageAlt": "Daniel smiling in a sage green shirt, holding a coffee" },
+    { "name": "Mei Chen", "role": "Slow & Yin", "bio": "Trained in yin and restorative yoga in Taipei. Her classes are quiet, warm and very well propped.", "image": "/images/teacher-mei.jpg", "imageAlt": "Mei holding a seated pigeon variation on a mat in a white room" },
+    { "name": "Walter Brooks", "role": "Gentle Basics · Breath", "bio": "Started yoga at sixty-one for his back. Now teaches the classes he wishes he had found first.", "image": "/images/teacher-walter.jpg", "imageAlt": "Walter, silver-haired and smiling, arms folded in a navy sweater" }
+]

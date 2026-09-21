@@ -1,0 +1,12 @@
+title: Results
+description: One patient's story set large beside three plain numbers about how the clinic works. The quote lives under "testimonial" and the numbers under "stats" in site.json.
+fields:
+    heading: { type: text, label: Small heading }
+    stats:
+        type: repeater
+        label: Numbers
+        source: site.stats
+        item_label: value
+        sub_fields:
+            value: { type: text, label: Number }
+            label: { type: text, label: What it means }

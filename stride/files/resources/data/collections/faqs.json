@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Do I need a doctor's referral?",
+        "answer": "Not to get started. You can book an evaluation directly. Some insurance plans ask for a referral to pay for visits — we'll check yours before you come in and tell you if you need one."
+    },
+    {
+        "question": "What should I wear and bring?",
+        "answer": "Clothes you can move in, and shorts if it's your knee or hip. Bring your insurance card, a photo ID, and any surgical notes or imaging reports you have."
+    },
+    {
+        "question": "How many visits will I need?",
+        "answer": "Most people graduate in six to ten visits over six to eight weeks. You'll get an honest estimate at the end of your first evaluation, and we'll update it as you progress."
+    },
+    {
+        "question": "Will it hurt?",
+        "answer": "Some work will feel like effort, but it shouldn't make you worse. We keep pain at a level you're comfortable with and adjust the plan whenever it isn't."
+    },
+    {
+        "question": "What if I need to cancel?",
+        "answer": "Give us 24 hours and there's no charge. Life happens — call or email and we'll find you another slot."
+    }
+]

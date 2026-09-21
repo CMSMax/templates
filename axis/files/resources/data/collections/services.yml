@@ -1,0 +1,9 @@
+label: Services
+icon: 🩺
+fields:
+    name: { type: text, label: Service }
+    category: { type: select, label: Group, options: { 'Visits': Visits, 'Soft tissue & rehab': Soft tissue & rehab, 'Plans': Plans } }
+    description: { type: textarea, label: Short description, rows: 2 }
+    duration: { type: text, label: Length (e.g. 20 min) }
+    price: { type: text, label: Price (e.g. $55) }
+    featured: { type: toggle, label: Show on the homepage }

@@ -1,0 +1,6 @@
+label: Conditions
+icon: 🦴
+fields:
+    name: { type: text, label: Condition }
+    region: { type: select, label: Spine region, options: { neck: Neck & head, mid: Mid back, low: Low back, pelvis: Pelvis & hips } }
+    note: { type: text, label: One-line description }

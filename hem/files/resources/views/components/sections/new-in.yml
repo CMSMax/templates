@@ -1,0 +1,10 @@
+title: New in
+description: A sideways rail of the newest pieces, each linking to its own page.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    linkLabel: { type: text, label: Link text }
+    linkUrl: { type: url, label: Link }
+    newLabel: { type: text, label: New badge text }
+    onlyNew: { type: toggle, label: Only show pieces marked new }
+    items: { type: repeater, label: Pieces, source: piece, item_label: title, add_button_label: Add a piece, sub_fields: { title: { type: text, label: Name }, brand: { type: text, label: Maker }, price: { type: text, label: Price }, link: { type: url, label: Link }, isNew: { type: toggle, label: New }, image: { type: image, label: Photo }, imageAlt: { type: text, label: Photo description } } }

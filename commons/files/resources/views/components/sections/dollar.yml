@@ -1,0 +1,14 @@
+title: Where a dollar goes
+description: The signature — a dollar drawn as a ruler of a hundred cents, split by what the money paid for. The split lives in site settings (percentages should add up to 100).
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    split:
+        type: repeater
+        label: Where the money went
+        source: site.split
+        item_label: label
+        sub_fields:
+            label: { type: text, label: Category }
+            percent: { type: number, label: Cents of every dollar, min: 0, max: 100 }
+            note: { type: textarea, label: What it paid for }

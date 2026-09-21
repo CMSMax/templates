@@ -1,0 +1,17 @@
+title: Reviews
+description: One large customer quote beside the overall rating and a few shorter reviews. The first review is the large one.
+fields:
+    heading: { type: text, label: Heading (for screen readers) }
+    rating: { type: text, label: Overall rating }
+    ratingNote: { type: text, label: Rating note }
+    items:
+        type: repeater
+        label: Reviews
+        source: reviews
+        item_label: name
+        add_button_label: Add review
+        sub_fields:
+            quote: { type: textarea, label: Quote, rows: 3 }
+            name: { type: text, label: Name }
+            area: { type: text, label: Neighborhood }
+            job: { type: text, label: Job }

@@ -1,0 +1,5 @@
+label: FAQs
+icon: ❓
+fields:
+    question: { type: text, label: Question }
+    answer: { type: textarea, label: Answer, rows: 4 }

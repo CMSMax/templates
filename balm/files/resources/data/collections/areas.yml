@@ -1,0 +1,9 @@
+label: Body map areas
+icon: 📍
+fields:
+    number: { type: text, label: Pin number }
+    name: { type: text, label: Area }
+    feels: { type: textarea, label: What it feels like, rows: 2 }
+    treatment: { type: text, label: What to book }
+    x: { type: number, label: Pin across (0 left – 100 right), min: 0, max: 100 }
+    y: { type: number, label: Pin down (0 top – 100 bottom), min: 0, max: 100 }

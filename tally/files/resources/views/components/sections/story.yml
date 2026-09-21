@@ -1,0 +1,9 @@
+title: Our story
+description: A photograph of the office beside the practice's story and three figures on a rule.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: First paragraph, rows: 4 }
+    bodyTwo: { type: textarea, label: Second paragraph, rows: 3 }
+    image: { type: image, label: Photograph }
+    imageAlt: { type: text, label: Photograph description }
+    figures: { type: repeater, label: Figures, source: site.figures, item_label: label, sub_fields: { label: { type: text, label: Label }, value: { type: text, label: Figure } } }

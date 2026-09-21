@@ -1,0 +1,6 @@
+label: Hail sizes
+icon: 🌨️
+fields:
+    size: { type: text, label: Diameter }
+    name: { type: text, label: Common name }
+    note: { type: text, label: What it does to a roof }

@@ -1,0 +1,11 @@
+{
+    "name": "Tend",
+    "industry": "therapists-counselors",
+    "description": "A calm, weather-minded template for therapists, counselors and small group practices. A cool mist canvas, periwinkle skies drawn in code with one apricot sun, split headlines that turn into an italic serif halfway through, and a letter-style introduction under a gallery-label portrait. Its signature is the specialties typeset as an inner-weather forecast. It also includes a plain fee sheet with insurance and sliding-scale details, the 988 crisis line on every page, and a book-a-free-consultation button at both ends of the page.",
+    "pages": ["Home", "Fees & insurance", "404"],
+    "collections": ["specialties", "fees", "faqs"],
+    "cta": "Book a free consultation",
+    "theme": "light",
+    "accent": "#f4a36c",
+    "fonts": ["Rethink Sans", "Spectral"]
+}

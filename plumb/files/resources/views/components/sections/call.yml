@@ -1,0 +1,8 @@
+title: Call band
+description: The closing blue band with the phone number set huge, like the side of the van.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    ctaLabel: { type: text, label: Secondary link text }
+    ctaLink: { type: url, label: Secondary link }
+    lidText: { type: text, label: Badge lettering (runs round the lid) }

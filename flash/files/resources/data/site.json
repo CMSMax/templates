@@ -1,0 +1,115 @@
+{
+    "name": "Flash Tattoo Co.",
+    "short_name": "Flash",
+    "tagline": "Custom tattoos and walk-in flash from a small, bright studio with three chairs and no attitude.",
+    "established": "2016",
+    "phone": "(555) 283-0147",
+    "phone_href": "tel:+15552830147",
+    "email": "hello@flashtattoo.example",
+    "address": "214 Mercer Street, 2nd floor",
+    "city": "Springfield",
+    "directions_url": "https://maps.google.com/?q=214+Mercer+Street+Springfield",
+    "booking_url": "/#visit",
+    "cta_label": "Book a consult",
+    "flash_label": "See the flash",
+    "instagram": "https://instagram.com/",
+    "walkin_note": "Walk-in flash Fridays and Saturdays, noon until the sheet runs out.",
+    "age_note": "18+ only, with photo ID. No exceptions, not even with a parent.",
+    "deposit_note": "A $100 deposit holds your date and comes off the price of the tattoo.",
+    "currency": "$",
+    "styles": [
+        { "label": "Fine line" },
+        { "label": "Blackwork" },
+        { "label": "American traditional" },
+        { "label": "Japanese" },
+        { "label": "Cover-ups" },
+        { "label": "Walk-in flash" }
+    ],
+    "work": [
+        {
+            "image": "/images/work-peony-shoulder.jpg",
+            "alt": "A fine-line peony and lily half-sleeve on a shoulder, healed",
+            "title": "Peony half-sleeve",
+            "note": "Rosa · healed eight months"
+        },
+        {
+            "image": "/images/work-samurai-cat.jpg",
+            "alt": "A bold blackwork samurai cat holding a sword on an upper arm",
+            "title": "Samurai cat",
+            "note": "Dario · two sessions"
+        },
+        {
+            "image": "/images/work-color-sleeves.jpg",
+            "alt": "Two forearms with bright traditional flowers and koi in red, teal and yellow",
+            "title": "Matching forearms",
+            "note": "Dario · healed one year"
+        },
+        {
+            "image": "/images/work-moth-hand.jpg",
+            "alt": "A black linework moth and flower wrapping the back of a hand",
+            "title": "Moth hand piece",
+            "note": "Wren · healed four months"
+        },
+        {
+            "image": "/images/work-neck-peony.jpg",
+            "alt": "A dark ornamental peony tattooed on the side of a neck",
+            "title": "Neck peony",
+            "note": "Rosa · one sitting"
+        },
+        {
+            "image": "/images/work-bone-hand.jpg",
+            "alt": "A fine-line skeleton hand drawn over the bones of a real hand, against a grey wall",
+            "title": "Bone study",
+            "note": "Wren · fresh"
+        }
+    ],
+    "steps": [
+        {
+            "title": "Consult",
+            "body": "Twenty minutes, free, in person or on a call. Bring references, a placement and a rough size."
+        },
+        {
+            "title": "Deposit",
+            "body": "A $100 deposit holds your date and comes off the final price."
+        },
+        {
+            "title": "Drawing",
+            "body": "Your artist draws the piece and shows it to you the day before. Changes are welcome."
+        },
+        {
+            "title": "Session",
+            "body": "Stencil, placement check, then the needle. You leave with aftercare and a touch-up promise."
+        }
+    ],
+    "faqs": [
+        {
+            "question": "How do walk-ins work?",
+            "answer": "Pick a design off the flash wall, give the front desk your name, and we tattoo in the order you arrived. Each piece is tattooed once, then stamped taken."
+        },
+        {
+            "question": "What does a tattoo cost?",
+            "answer": "Flash has its price on the tag. Custom work is quoted at your consult, with a $120 shop minimum."
+        },
+        {
+            "question": "Can you cover up an old tattoo?",
+            "answer": "Often, yes. Send a clear photo in daylight and we will tell you honestly what will work."
+        },
+        {
+            "question": "How should I prepare?",
+            "answer": "Sleep, eat a real meal, and skip alcohol the night before. Wear something that leaves the spot easy to reach."
+        }
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "The studio's own photocopied flyer: copier-paper white canvas, toner-black type, one sheet of hot-pink paper, photographs taped onto the page at a slight tilt, and rubber stamps. Bright and handmade, never the moody black photo grid.",
+        "type": "Dela Gothic One, uppercase, for every heading and the brand; Albert Sans for all running text. Headlines are heavy, stacked and tight; body stays plain and calm.",
+        "color": "One accent: hot pink (bg-primary) used as a FIELD — the styles ribbon, the flash wall's background, a highlighter strip behind one word, the main button — always with ink-black text on it. Never pink text on the white canvas. Dark bands are ink (bg-secondary) with paper-white text.",
+        "signature": "The flash wall — flash designs pinned as numbered paper tags with size and price, and a TAKEN rubber stamp once a piece is claimed. Keep it wherever the design evolves.",
+        "voice": "Short, dry and a little punk. Plain about prices, deposits and rules. No exclamation points, no hype, no 'ink journey'."
+    }
+}

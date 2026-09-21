@@ -1,0 +1,6 @@
+label: Weekly schedule
+icon: clock
+fields:
+    day: { type: text }
+    times: { type: text }
+    subjects: { type: text }

@@ -1,0 +1,226 @@
+@import 'tailwindcss';
+
+@theme {
+    /* Porcelain, cast iron, and the water department's enamel blue. */
+    --color-canvas: #f5f6f4;
+    --color-surface: #ffffff;
+    --color-ink: #13171c;
+    --color-muted: #515a63;
+    --color-line: #d8dcdd;
+    --color-tint: #e3e9f8;
+    /* The enamel blue is the brand primary, so a colour the owner picks on
+       the Branding page repaints the hero field, the call band, the buttons
+       and the water in the pipe. White text sits on it at 7.6:1. */
+    --color-primary: #1747c8;
+    --color-primary-foreground: #ffffff;
+    --color-secondary: #13171c;
+    --color-secondary-foreground: #f5f6f4;
+
+    --font-display: 'Anybody', 'Arial Black', ui-sans-serif, sans-serif;
+    --font-sans: 'Geist', ui-sans-serif, system-ui, sans-serif;
+
+    --text-hero: clamp(2.5rem, 5.2vw, 4.75rem);
+    --text-hero--line-height: 0.98;
+    --text-section: clamp(2rem, 4.2vw, 3.625rem);
+    --text-section--line-height: 1.02;
+
+    --shadow-lift:
+        0 1px 2px rgb(19 23 28 / 0.08), 0 12px 28px -14px rgb(19 23 28 / 0.3);
+    --shadow-ticket:
+        0 1px 2px rgb(19 23 28 / 0.06), 0 24px 48px -24px rgb(19 23 28 / 0.28);
+    --shadow-photo:
+        0 2px 4px rgb(19 23 28 / 0.08), 0 30px 60px -20px rgb(19 23 28 / 0.45);
+}
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 6rem;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-stretch: 125%;
+        letter-spacing: -0.02em;
+    }
+
+    :focus-visible {
+        outline: 2px solid var(--color-primary);
+        outline-offset: 3px;
+    }
+
+    .bg-primary :focus-visible,
+    .bg-ink :focus-visible {
+        outline-color: var(--color-canvas);
+    }
+}
+
+/* Cast-iron tread: the raised diamond grid on a meter lid, drawn in the
+   ink it sits on so it reads as texture, never as pattern. */
+@utility tread {
+    background-image:
+        linear-gradient(45deg, rgb(255 255 255 / 0.035) 25%, transparent 25%),
+        linear-gradient(-45deg, rgb(255 255 255 / 0.035) 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, rgb(255 255 255 / 0.035) 75%),
+        linear-gradient(-45deg, transparent 75%, rgb(255 255 255 / 0.035) 75%);
+    background-size: 22px 22px;
+    background-position:
+        0 0,
+        0 11px,
+        11px -11px,
+        -11px 0;
+}
+
+/* The meter lid turns slowly, like a valve being opened. */
+@utility lid-spin {
+    animation: lid-spin 60s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes lid-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Body copy from the services collection (richtext). */
+@utility prose-plumb {
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: var(--color-ink);
+
+    & > * + * {
+        margin-top: 1.25em;
+    }
+
+    & h2,
+    & h3 {
+        font-family: var(--font-display);
+        font-stretch: 125%;
+        font-weight: 800;
+        letter-spacing: -0.02em;
+        line-height: 1.05;
+        margin-top: 2em;
+    }
+
+    & h2 {
+        font-size: 1.75rem;
+    }
+
+    & h3 {
+        font-size: 1.3125rem;
+    }
+
+    & ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    & li {
+        position: relative;
+        padding-left: 1.75em;
+    }
+
+    & li + li {
+        margin-top: 0.55em;
+    }
+
+    & li::before {
+        content: '';
+        position: absolute;
+        left: 0.25em;
+        top: 0.5em;
+        width: 0.625em;
+        height: 0.625em;
+        border-radius: 9999px;
+        border: 2px solid var(--color-primary);
+    }
+
+    & a {
+        color: var(--color-primary);
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 3px;
+    }
+
+    & strong {
+        font-weight: 600;
+    }
+}
+
+/* Scroll reveals: both states gated behind the class the layout script
+   stamps first, so a failed script costs the animation, never the content. */
+html.reveal-ready [data-reveal] {
+    opacity: 0;
+    transform: translateY(14px);
+    transition:
+        opacity 600ms cubic-bezier(0.22, 1, 0.36, 1),
+        transform 600ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+html.reveal-ready [data-reveal].is-visible {
+    opacity: 1;
+    transform: none;
+}
+
+/* The pipe run: water fills the pipe from the left once it scrolls in. */
+.pipe-water {
+    transform-origin: left center;
+}
+
+html.reveal-ready [data-reveal] .pipe-water {
+    transform: scaleX(0);
+    transition: transform 1600ms cubic-bezier(0.65, 0, 0.35, 1) 200ms;
+}
+
+html.reveal-ready [data-reveal].is-visible .pipe-water {
+    transform: scaleX(1);
+}
+
+@media (max-width: 767px) {
+    .pipe-water {
+        transform-origin: center top;
+    }
+
+    html.reveal-ready [data-reveal] .pipe-water {
+        transform: scaleY(0);
+    }
+
+    html.reveal-ready [data-reveal].is-visible .pipe-water {
+        transform: scaleY(1);
+    }
+}
+
+/* The fault finder's ticket settles in when a new fault is chosen. */
+[data-finder-panel]:not([hidden]) {
+    animation: ticket-in 280ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes ticket-in {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    .lid-spin {
+        animation: none;
+    }
+
+    [data-finder-panel]:not([hidden]) {
+        animation: none;
+    }
+
+    html.reveal-ready [data-reveal],
+    html.reveal-ready [data-reveal] .pipe-water {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+}

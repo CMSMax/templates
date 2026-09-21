@@ -1,0 +1,18 @@
+title: Hero
+description: The opening promise, the roof-check button, the review score, and the photo of a finished roof with its roof report.
+fields:
+    location: { type: text, label: Location line }
+    status: { type: text, label: Status line }
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    ctaLabel: { type: text, label: Button text }
+    ctaLink: { type: url, label: Button link }
+    rating: { type: text, label: Review score }
+    ratingNote: { type: text, label: Review note }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }
+    reportTitle: { type: text, label: Report — label }
+    reportPlace: { type: text, label: Report — neighbourhood }
+    reportJob: { type: text, label: Report — job }
+    reportSize: { type: text, label: Report — roof size }
+    reportTime: { type: text, label: Report — time on site }

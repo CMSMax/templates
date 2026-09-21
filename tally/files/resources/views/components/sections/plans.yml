@@ -1,0 +1,8 @@
+title: Packages
+description: Three monthly packages side by side on shared rules, with one highlighted.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    featuredLabel: { type: text, label: Highlight badge text }
+    buttonLabel: { type: text, label: Button text }
+    items: { type: repeater, label: Packages, source: plans, item_label: name, sub_fields: { name: { type: text, label: Package }, price: { type: text, label: Price }, cadence: { type: text, label: Billing period }, for: { type: text, label: Who it's for }, includes: { type: textarea, label: What's included }, featured: { type: toggle, label: Highlight } } }

@@ -1,0 +1,6 @@
+title: Navigation
+description: The header with the practice's name, page links, phone number and the booking button.
+fields:
+    servicesLabel: { type: text, label: Services link text }
+    aboutLabel: { type: text, label: About link text }
+    contactLabel: { type: text, label: Contact link text }

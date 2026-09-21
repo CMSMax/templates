@@ -1,0 +1,16 @@
+title: First visit
+description: The therapist's photo beside a minute-by-minute account of a first session and one client's words.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Introduction, rows: 3 }
+    image: { type: image, label: Photograph }
+    imageAlt: { type: text, label: Photograph description }
+    first_visit:
+        type: repeater
+        label: Timeline
+        source: site.first_visit
+        item_label: title
+        sub_fields:
+            time: { type: text, label: Minute mark }
+            title: { type: text, label: What happens }
+            note: { type: textarea, label: Detail, rows: 2 }

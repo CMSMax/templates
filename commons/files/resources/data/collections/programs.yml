@@ -1,0 +1,8 @@
+label: Programs
+icon: 🥫
+fields:
+    name: { type: text, label: Program name }
+    summary: { type: textarea, label: What it is, rows: 3 }
+    when: { type: text, label: When it runs }
+    figure: { type: text, label: Headline number }
+    figure_label: { type: text, label: What the number counts }

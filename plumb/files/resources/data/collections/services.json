@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Leak repair",
+        "slug": "leak-repair",
+        "date": "2026-01-12",
+        "description": "Dripping, spraying or soaking through the ceiling. Found, fixed and pressure-tested the same day.",
+        "image": "/images/services/leak-repair.jpg",
+        "imageAlt": "A plumber's hands soldering a new copper elbow under a bathroom vanity, a small blue flame at the joint.",
+        "link": "/services/leak-repair",
+        "priceFrom": "from $189",
+        "time": "Same day",
+        "content": "<p>Most leaks we see come from three places: a braided supply line that has given up, a pinhole in copper that is older than the house's second owner, or a joint that was never quite right. Each one is a short job once it is found. Finding it is the part we are good at.</p><h2>What the visit includes</h2><ul><li>Shutting off and draining the affected line so nothing else gets wet</li><li>A moisture meter and, behind walls, a thermal camera before we cut anything</li><li>Replacing the failed section in copper or PEX to match what you have</li><li>A pressure test, and a photo of the finished repair for your records</li></ul><h2>If it is behind a wall</h2><p>We open the smallest hole that gets the job done, cut it square so a drywaller can patch it in an hour, and tell you the price of the repair before we open anything.</p>"
+    },
+    {
+        "title": "Drain cleaning",
+        "slug": "drain-cleaning",
+        "date": "2026-01-12",
+        "description": "Kitchen, bath, laundry or the main line. Cleared with a cable or jetter, camera-checked on request.",
+        "image": "/images/services/drains.jpg",
+        "imageAlt": "A plumber in blue gloves feeding a drain cable into a floor drain in a bright white laundry room.",
+        "link": "/services/drain-cleaning",
+        "priceFrom": "from $149",
+        "time": "About an hour",
+        "content": "<p>One slow sink is a local clog and a quick job. Two fixtures backing up at once, or a gurgle in the tub when the washer drains, points to the main line. We will tell you which on the phone, so the right machine comes on the van.</p><h2>How we clear it</h2><ul><li>A hand cable for sinks, tubs and showers, from the trap or the nearest cleanout</li><li>A drum machine or hydro-jetter for the main line and anything with roots</li><li>Ten minutes of running water afterwards to prove it drains</li><li>A camera inspection on request, with the recording emailed to you</li></ul><h2>Keeping it clear</h2><p>If the same line keeps clogging, the camera usually shows why: a belly in the pipe, a root intrusion, or a bad joint. We quote the permanent fix in writing, and you decide when.</p>"
+    },
+    {
+        "title": "Water heaters",
+        "slug": "water-heaters",
+        "date": "2026-01-12",
+        "description": "Tank and tankless, gas and electric. Repaired from the van or replaced with the old one hauled away.",
+        "image": "/images/services/water-heaters.jpg",
+        "imageAlt": "A plumber checking the gas valve on a newly installed white tank water heater with fresh copper and brass pipework.",
+        "link": "/services/water-heaters",
+        "priceFrom": "from $229",
+        "time": "Same day",
+        "content": "<p>A water heater with no hot water is usually a part, not a new heater. We carry thermocouples, igniters, elements and thermostats for the common makes, so most repairs are done on the first visit.</p><h2>When it is time to replace</h2><ul><li>The tank itself is leaking, which no part can fix</li><li>It is past twelve years and the repair costs more than a third of a new one</li><li>You are moving to tankless and want the gas line and venting done properly</li></ul><h2>What a replacement includes</h2><p>The heater, a new shutoff, expansion tank and flex lines, the permit and inspection, and hauling the old unit away. Most swaps are done in half a day, and you have hot water again before dinner.</p>"
+    },
+    {
+        "title": "Toilets & faucets",
+        "slug": "toilets-and-faucets",
+        "date": "2026-01-12",
+        "description": "Running, rocking, dripping or just dated. Repaired or replaced, your fixture or ours.",
+        "image": "/images/services/fixtures.jpg",
+        "imageAlt": "A plumber installing a new chrome faucet on a white basin in a bathroom with white subway tile.",
+        "link": "/services/toilets-and-faucets",
+        "priceFrom": "from $129",
+        "time": "30 – 60 minutes",
+        "content": "<p>A running toilet can waste two hundred gallons a day, and a dripping faucet adds up on the bill just as quietly. Both are quick fixes. Replacing a fixture you are tired of looking at is barely longer.</p><h2>What we do</h2><ul><li>Toilet tank rebuilds: flapper, fill valve and flush valve</li><li>Wax seals and flanges for a toilet that rocks or smells</li><li>Faucet cartridges, or a new faucet fitted and tested</li><li>Shutoff valves and supply lines replaced while we are under there</li></ul><h2>Bought your own?</h2><p>Fine by us. We fit customer-supplied fixtures at the same flat price, and our one-year guarantee covers the installation.</p>"
+    },
+    {
+        "title": "Repiping",
+        "slug": "repiping",
+        "date": "2026-01-12",
+        "description": "Old galvanized or polybutylene pipe replaced with PEX, a room at a time, drywall patched.",
+        "image": "/images/services/repiping.jpg",
+        "imageAlt": "New red and blue PEX water lines running neatly through basement joists to a brass manifold with blue shutoff valves.",
+        "link": "/services/repiping",
+        "priceFrom": "Quoted in writing",
+        "time": "2 – 4 days",
+        "content": "<p>If your house was built before 1960, there is a fair chance the water still runs through galvanized steel that has narrowed with rust. Weak pressure, brown water after a trip away, and one leak after another are the signs.</p><h2>How a repipe works</h2><ul><li>A walk-through and a written, fixed quote, usually the same week</li><li>New PEX runs to a manifold, so every fixture gets its own shutoff</li><li>Water back on at the end of every working day</li><li>Openings patched and ready for paint when we leave</li></ul><h2>Living through it</h2><p>Most houses take two to four days. We work a room at a time, cover floors and furniture, and clean up every evening. You stay home the whole time.</p>"
+    },
+    {
+        "title": "Emergency call-outs",
+        "slug": "emergency",
+        "date": "2026-01-12",
+        "description": "Burst pipes, sewer backups, no water at all. Answered 24/7, and nights cost the same as days.",
+        "image": "/images/van.jpg",
+        "imageAlt": "A white plumbing van parked on a leafy street while a plumber carries a toolbox up the front path of a house.",
+        "link": "/services/emergency",
+        "priceFrom": "$59 visit",
+        "time": "Under 90 minutes",
+        "content": "<p>When water is coming through the ceiling, you need a person on the phone and a plumber at the door. A real dispatcher answers our emergency line at any hour and tells you the arrival time before you hang up.</p><h2>Until we get there</h2><ul><li>Turn off the main shutoff, usually where the water line enters the basement or crawlspace</li><li>If water is near outlets or the panel, switch off that circuit</li><li>Open a faucet on the lowest floor to drain the lines</li><li>Take photos for your insurer before you start mopping</li></ul><h2>What it costs</h2><p>The same $59 visit and the same flat prices as a weekday. We do not charge an after-hours rate, a holiday rate, or a call-out rate. We never have.</p>"
+    }
+]

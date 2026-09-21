@@ -1,0 +1,7 @@
+title: How it works
+description: The four steps of every job beside a sample estimate. The steps, the estimate and its lines live in the site details (process_steps, estimate, estimate_lines).
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    estimateLabel: { type: text, label: Label above the estimate }
+    warrantyLabel: { type: text, label: Words before the warranty }

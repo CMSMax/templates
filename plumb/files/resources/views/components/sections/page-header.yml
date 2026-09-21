@@ -1,0 +1,5 @@
+title: Page header
+description: The page's headline and a short line under it.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Intro, rows: 2 }

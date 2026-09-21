@@ -1,0 +1,16 @@
+title: Programs
+description: Every program as a ruled ledger row with when it runs and one number from last year. Programs live in the Programs collection.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    programs:
+        type: repeater
+        label: Programs
+        source: programs
+        item_label: name
+        sub_fields:
+            name: { type: text, label: Program name }
+            summary: { type: textarea, label: What it is }
+            when: { type: text, label: When it runs }
+            figure: { type: text, label: Headline number }
+            figure_label: { type: text, label: What the number counts }

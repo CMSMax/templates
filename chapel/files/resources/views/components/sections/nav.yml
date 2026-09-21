@@ -1,0 +1,11 @@
+title: Navigation
+description: The top bar — the church's name or logo, the menu links, and the plan-your-visit button.
+fields:
+    links:
+        type: repeater
+        label: Menu links
+        source: site.nav_links
+        item_label: label
+        sub_fields:
+            label: { type: text, label: Label }
+            link: { type: url, label: Link }

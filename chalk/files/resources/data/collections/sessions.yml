@@ -1,0 +1,7 @@
+label: Timetable
+icon: calendar
+fields:
+    day: { type: select, label: Day, options: { Mon: Monday, Tue: Tuesday, Wed: Wednesday, Thu: Thursday, Fri: Friday, Sat: Saturday, Sun: Sunday } }
+    time: { type: text, label: Start time (must match a time slot in site settings) }
+    program: { type: text, label: Program (must match a program name) }
+    coach: { type: text, label: Coach }

@@ -1,0 +1,5 @@
+title: The doctor
+description: A tall portrait with a name tag, a short introduction, credentials, and one patient's words. The name, photo and credentials live in site settings.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Introduction, rows: 4 }

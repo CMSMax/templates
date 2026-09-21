@@ -1,0 +1,19 @@
+title: All roofs
+description: Every finished roof from the Recent roofs collection, two to a row.
+fields:
+    items:
+        type: repeater
+        label: Roofs
+        source: projects
+        item_label: title
+        add_button_label: Add roof
+        sub_fields:
+            title: { type: text, label: Project name }
+            description: { type: textarea, label: Short description, rows: 3 }
+            image: { type: image, label: Photo }
+            imageAlt: { type: text, label: Photo description }
+            place: { type: text, label: Neighbourhood }
+            material: { type: text, label: Material }
+            size: { type: text, label: Roof size }
+            days: { type: text, label: Days on site }
+            storm: { type: text, label: Reason for the job }

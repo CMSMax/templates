@@ -1,0 +1,15 @@
+[
+    { "name": "Neck pain and stiffness", "region": "neck", "note": "From desks, phones and sleeping wrong." },
+    { "name": "Tension headaches", "region": "neck", "note": "The kind that start at the base of the skull." },
+    { "name": "Whiplash", "region": "neck", "note": "After a car accident or a hard fall." },
+    { "name": "Jaw and TMJ tension", "region": "neck", "note": "Clicking, clenching, a tight jaw by evening." },
+    { "name": "Upper back pain", "region": "mid", "note": "The knot between the shoulder blades." },
+    { "name": "Rib and breathing pain", "region": "mid", "note": "A rib that catches when you breathe in." },
+    { "name": "Posture strain", "region": "mid", "note": "Rounded shoulders, forward head, long days." },
+    { "name": "Low back pain", "region": "low", "note": "Sudden or years old, sharp or dull." },
+    { "name": "Sciatica", "region": "low", "note": "Pain that runs down the back of the leg." },
+    { "name": "Disc problems", "region": "low", "note": "Bulging or irritated discs, managed without surgery where possible." },
+    { "name": "Hip and SI joint pain", "region": "pelvis", "note": "One-sided pain low in the back or deep in the hip." },
+    { "name": "Pregnancy back pain", "region": "pelvis", "note": "Gentle, table-adapted care through every trimester." },
+    { "name": "Tailbone pain", "region": "pelvis", "note": "Sitting hurts, standing up hurts more." }
+]

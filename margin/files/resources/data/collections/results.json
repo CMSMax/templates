@@ -1,0 +1,42 @@
+[
+    {
+        "student": "Maya R.",
+        "year": "Grade 9",
+        "subject": "Algebra",
+        "started": "C+",
+        "now": "A−",
+        "weeks": "11"
+    },
+    {
+        "student": "Theo B.",
+        "year": "Grade 6",
+        "subject": "Reading",
+        "started": "C",
+        "now": "B+",
+        "weeks": "14"
+    },
+    {
+        "student": "Ana L.",
+        "year": "Grade 11",
+        "subject": "Chemistry",
+        "started": "D",
+        "now": "B",
+        "weeks": "16"
+    },
+    {
+        "student": "Jonah P.",
+        "year": "Grade 12",
+        "subject": "SAT",
+        "started": "1180",
+        "now": "1390",
+        "weeks": "10"
+    },
+    {
+        "student": "Ruby K.",
+        "year": "Grade 8",
+        "subject": "Essay writing",
+        "started": "B−",
+        "now": "A",
+        "weeks": "12"
+    }
+]

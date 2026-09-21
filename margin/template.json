@@ -1,0 +1,33 @@
+{
+    "name": "Margin",
+    "industry": "tutors-and-schools",
+    "description": "A clear, report-card template for tutoring centres, learning centres and small independent schools — exercise-book paper, blue-black ink and one red pen, Fraunces headlines over faint ruled lines, a marked worksheet in the hero, and a term report whose new grades are circled in red.",
+    "pages": [
+        "Home",
+        "Programs",
+        "Program detail",
+        "Tutors",
+        "Pricing",
+        "Contact",
+        "404"
+    ],
+    "collections": [
+        "program",
+        "tutors",
+        "results",
+        "testimonials",
+        "steps",
+        "plans",
+        "schedule",
+        "faqs"
+    ],
+    "cta": "Book a free assessment",
+    "theme": "light",
+    "accent": "#c23a22",
+    "secondary": "#17203b",
+    "fonts": [
+        "Fraunces",
+        "DM Sans",
+        "Caveat"
+    ]
+}

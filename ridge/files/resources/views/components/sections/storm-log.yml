@@ -1,0 +1,25 @@
+title: Storm log
+description: The signature storm map — a drawn hail swath over your service area, the storm's readings, how many roofs you checked after it, and the hail-size legend.
+fields:
+    label: { type: text, label: Label }
+    stormDate: { type: text, label: Storm date and time }
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    hailMax: { type: text, label: Largest hail }
+    gusts: { type: text, label: Peak gusts }
+    roofsChecked: { type: text, label: Roofs checked }
+    claimsApproved: { type: text, label: Claims approved }
+    mapCaption: { type: text, label: Map caption }
+    ctaLabel: { type: text, label: Link text }
+    ctaLink: { type: url, label: Link }
+    legendHeading: { type: text, label: Legend heading }
+    items:
+        type: repeater
+        label: Hail sizes
+        source: hail
+        item_label: size
+        add_button_label: Add hail size
+        sub_fields:
+            size: { type: text, label: Diameter }
+            name: { type: text, label: Common name }
+            note: { type: text, label: What it does to a roof }

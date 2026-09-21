@@ -1,0 +1,28 @@
+title: Fault finder
+description: Visitors pick what is going on and a work ticket shows the likely cause, the fix, the time on site, and the flat price.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Intro, rows: 3 }
+    ticketLabel: { type: text, label: Ticket label }
+    causeLabel: { type: text, label: Cause label }
+    fixLabel: { type: text, label: Fix label }
+    timeLabel: { type: text, label: Time label }
+    priceLabel: { type: text, label: Price label }
+    ctaLabel: { type: text, label: Button text }
+    ctaLink: { type: url, label: Button link }
+    note: { type: textarea, label: Small print under the ticket, rows: 2 }
+    items:
+        type: repeater
+        label: Faults
+        source: faults
+        item_label: name
+        add_button_label: Add fault
+        sub_fields:
+            name: { type: text, label: What the customer sees }
+            slug: { type: text, label: Short id (lowercase, dashes) }
+            code: { type: text, label: Ticket code }
+            urgency: { type: text, label: How soon }
+            cause: { type: textarea, label: Most likely cause, rows: 2 }
+            fix: { type: textarea, label: What we do, rows: 2 }
+            time: { type: text, label: Time on site }
+            price: { type: text, label: Flat price }

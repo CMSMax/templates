@@ -1,0 +1,11 @@
+label: Treatments
+icon: 🤲
+fields:
+    name: { type: text, label: Treatment }
+    slug: { type: text, label: Anchor (URL-safe) }
+    group: { type: select, label: Group, options: { Relax: Relax, Repair: Repair, Specialist: Specialist } }
+    summary: { type: textarea, label: Description, rows: 3 }
+    best_for: { type: text, label: Best for }
+    price_60: { type: text, label: 60-minute price (number only, blank if not offered) }
+    price_90: { type: text, label: 90-minute price (number only, blank if not offered) }
+    featured: { type: toggle, label: Show on the homepage }

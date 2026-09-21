@@ -1,0 +1,7 @@
+label: Gatherings
+icon: 🕯️
+fields:
+    day: { type: text, label: Day }
+    time: { type: text, label: Time }
+    name: { type: text, label: Service }
+    note: { type: textarea, label: What it's like, rows: 2 }

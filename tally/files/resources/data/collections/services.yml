@@ -1,0 +1,9 @@
+label: Services
+icon: 🧾
+fields:
+    name: { type: text, label: Service }
+    slug: { type: text, label: Anchor (lowercase, no spaces) }
+    summary: { type: textarea, label: One-line summary, rows: 2 }
+    description: { type: textarea, label: Full description, rows: 4 }
+    includes: { type: textarea, label: What's included (comma separated), rows: 2 }
+    fee: { type: text, label: Fee }

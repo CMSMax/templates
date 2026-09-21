@@ -1,0 +1,6 @@
+label: Testimonials
+icon: message-square
+fields:
+    quote: { type: textarea }
+    name: { type: text }
+    detail: { type: text }

@@ -1,0 +1,23 @@
+title: Recent roofs
+description: Three finished roofs, one large and two stacked, each with its roof report.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Intro, rows: 2 }
+    linkLabel: { type: text, label: Link text }
+    linkHref: { type: url, label: Link }
+    items:
+        type: repeater
+        label: Roofs
+        source: projects
+        item_label: title
+        add_button_label: Add roof
+        sub_fields:
+            title: { type: text, label: Project name }
+            description: { type: textarea, label: Short description, rows: 3 }
+            image: { type: image, label: Photo }
+            imageAlt: { type: text, label: Photo description }
+            place: { type: text, label: Neighbourhood }
+            material: { type: text, label: Material }
+            size: { type: text, label: Roof size }
+            days: { type: text, label: Days on site }
+            storm: { type: text, label: Reason for the job }

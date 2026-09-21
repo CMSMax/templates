@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+    <style>
+        path { fill: #0e1a26 }
+        .ridge-line { fill: #2fbf6c }
+        @media (prefers-color-scheme: dark) { path { fill: #eef2f5 } .ridge-line { fill: #3ecf7a } }
+    </style>
+    <path d="M1 21 16 6l15 15h-5.2L16 11.2 6.2 21Z"/>
+    <path class="ridge-line" d="M1 25h30v3.5H1Z"/>
+</svg>

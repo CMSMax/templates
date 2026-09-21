@@ -1,0 +1,10 @@
+title: Timetable
+description: The whole week as one board — times down the side, days across. Classes come from the Timetable collection; the time slots and days come from site settings.
+fields:
+    label: { type: text, label: Section label }
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    linkLabel: { type: text, label: Link text }
+    link: { type: url, label: Link }
+    showLink: { type: toggle, label: Show the link }
+    headingLevel: { type: select, label: Heading level, options: { h2: Section heading, h1: Page title } }

@@ -1,0 +1,16 @@
+label: Recent roofs
+icon: 🏡
+fields:
+    title: { type: text, label: Project name }
+    slug: { type: text, label: URL slug }
+    date: { type: text, label: Finished (YYYY-MM-DD) }
+    description: { type: textarea, label: Short description, rows: 3 }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }
+    link: { type: url, label: Page link }
+    place: { type: text, label: Neighbourhood }
+    material: { type: text, label: Material }
+    size: { type: text, label: Roof size }
+    days: { type: text, label: Days on site }
+    storm: { type: text, label: Reason for the job }
+    content: { type: richtext, label: Story }

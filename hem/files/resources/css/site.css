@@ -1,0 +1,208 @@
+@import 'tailwindcss';
+
+/* Hem's whole colour and type system. Every real value lives here and
+   nowhere else: retune a token and the entire site follows. Markup only ever
+   names the token utilities (bg-canvas, text-ink, bg-field, bg-primary). */
+@theme {
+    /* Card stock: the cool grey-white of a mill swatch book. It is the
+       dominant neutral — never cream. Surface is the lifted card on it. */
+    --color-canvas: #efeeea;
+    --color-surface: #f8f8f6;
+    --color-ink: #1c1b20;
+    --color-muted: #5c5a63;
+    --color-line: #d6d4ce;
+    /* Lilac is the committed colourway: it owns whole regions (the hero,
+       the page headers, the closing band) and is never used as a text tint.
+       field-muted is the secondary text tier when it sits on lilac. */
+    --color-field: #cbbcf2;
+    --color-field-muted: #4a4458;
+    /* primary paints the buttons. The customer's Branding color replaces it
+       at serve time; keep the foreground paired with it. */
+    --color-primary: #1c1b20;
+    --color-primary-foreground: #f8f8f6;
+    --color-secondary: #1c1b20;
+    --color-secondary-foreground: #f8f8f6;
+    /* Chartreuse is a thread, not a colour: the "new" dot and the selected
+       swatch tick, nothing else. Never text on a light ground. */
+    --color-spot: #d9f36a;
+
+    --font-display: 'Funnel Display', ui-sans-serif, system-ui, -apple-system, sans-serif;
+    --font-sans: 'Funnel Sans', ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+}
+
+::selection {
+    background-color: var(--color-field);
+    color: var(--color-ink);
+}
+
+/* Pinking shears. Cloth in a swatch book is cut with a zig-zag edge, and so
+   are Hem's colour fields and chips: a masked row of teeth, --tooth wide. */
+@utility pinked-b {
+    --tooth: 18px;
+    mask: conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) 50% / var(--tooth) 100%;
+}
+
+@utility pinked-t {
+    --tooth: 18px;
+    mask: conic-gradient(from 135deg at top, #0000, #000 1deg 89deg, #0000 90deg) 50% / var(--tooth) 100%;
+}
+
+@utility pinked {
+    --tooth: 10px;
+    mask:
+        conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) 50% / var(--tooth) 100%,
+        conic-gradient(from 135deg at top, #0000, #000 1deg 89deg, #0000 90deg) 50% / var(--tooth) 100%,
+        conic-gradient(from 45deg at left, #0000, #000 1deg 89deg, #0000 90deg) 50% / 100% var(--tooth),
+        conic-gradient(from -135deg at right, #0000, #000 1deg 89deg, #0000 90deg) 50% / 100% var(--tooth);
+    mask-composite: intersect;
+}
+
+/* The colour card (sections/colour-card, on ink): a radio group of chips, each
+   followed by its panel. Only the checked chip's panel shows — plain CSS, so
+   it works with any number of chips and without a script. */
+.swatch-panel {
+    display: none;
+}
+
+.swatch-input:checked + label + .swatch-panel {
+    display: grid;
+    animation: hem-fade 220ms ease-out both;
+}
+
+.swatch-input:checked + label [data-tick] {
+    opacity: 1;
+}
+
+.swatch-input:checked + label [data-chip] {
+    outline: 2px solid currentColor;
+    outline-offset: 4px;
+}
+
+.swatch-input:focus-visible + label [data-chip] {
+    outline: 2px dashed currentColor;
+    outline-offset: 7px;
+}
+
+/* The hero is the page's one authored entrance: its lines rise in sequence
+   (--i is the slot) and the photograph settles. Everything below the fold
+   is painted at rest. */
+@keyframes hem-rise {
+    from {
+        opacity: 0;
+        transform: translateY(18px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes hem-settle {
+    from {
+        transform: scale(1.04);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+/* The marquee drifts one copy's width, then repeats seamlessly. It only
+   runs under motion-safe, so reduced motion leaves it still. */
+@keyframes hem-marquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes hem-fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+[data-rise] {
+    animation: hem-rise 800ms cubic-bezier(0.22, 1, 0.36, 1) both;
+    animation-delay: calc(100ms + var(--i, 0) * 90ms);
+}
+
+[data-settle] {
+    animation: hem-settle 2200ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    [data-rise],
+    [data-settle],
+    .swatch-input:checked + label + .swatch-panel {
+        animation: none;
+    }
+}
+
+/* A piece's long description is owner-written HTML no utility can reach, so
+   it is styled once here. */
+.prose {
+    color: var(--color-muted);
+    font-size: 1.0625rem;
+    line-height: 1.7;
+}
+
+.prose > * + * {
+    margin-top: 1.125rem;
+}
+
+.prose h2,
+.prose h3 {
+    color: var(--color-ink);
+    font-family: var(--font-display);
+    font-weight: 500;
+    letter-spacing: -0.02em;
+}
+
+.prose h2 {
+    font-size: 1.5rem;
+    margin-top: 2.25rem;
+}
+
+.prose h3 {
+    font-size: 1.1875rem;
+    margin-top: 1.75rem;
+}
+
+.prose strong {
+    color: var(--color-ink);
+    font-weight: 600;
+}
+
+.prose a {
+    color: var(--color-ink);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.prose ul {
+    display: grid;
+    gap: 0.5rem;
+}
+
+.prose li {
+    border-top: 1px solid var(--color-line);
+    padding-top: 0.5rem;
+}

@@ -1,0 +1,116 @@
+{
+    "name": "Chapel Street Church",
+    "short_name": "Chapel Street",
+    "tagline": "An old stone church on a busy corner, keeping an open door and a long table since 1887.",
+    "phone": "(555) 214-0932",
+    "phone_href": "tel:+15552140932",
+    "email": "hello@chapelstreet.example",
+    "address": "214 Chapel Street",
+    "city": "Springfield",
+    "directions_url": "https://maps.google.com/?q=214+Chapel+Street+Springfield",
+    "times_short": "Sundays at 9:00 and 11:00 am",
+    "office_hours": "Church office open Tuesday to Friday, 9am – 3pm",
+    "cta_label": "Plan your visit",
+    "cta_link": "/visit",
+    "give_label": "Give",
+    "give_link": "/visit#giving",
+    "nav_links": [
+        {
+            "label": "Sundays",
+            "link": "/#sundays"
+        },
+        {
+            "label": "Sermons",
+            "link": "/sermons"
+        },
+        {
+            "label": "Life together",
+            "link": "/#ministries"
+        },
+        {
+            "label": "Give",
+            "link": "/visit#giving"
+        }
+    ],
+    "footer_note": "All are welcome. All means all.",
+    "bulletin_title": "The Order of Worship",
+    "bulletin_date": "Sunday, September 27 · the 18th Sunday after Pentecost",
+    "bulletin": [
+        {
+            "part": "Gathering",
+            "detail": "Hymn 432 · Be Thou My Vision",
+            "rubric": "All stand as they are able."
+        },
+        {
+            "part": "The Word",
+            "detail": "Luke 24:13–35",
+            "rubric": ""
+        },
+        {
+            "part": "Sermon",
+            "detail": "Bread for the Road",
+            "rubric": "Rev. Anna Whitley"
+        },
+        {
+            "part": "The Table",
+            "detail": "Holy Communion",
+            "rubric": "Everyone is welcome to receive, or to come forward for a blessing."
+        },
+        {
+            "part": "Sending",
+            "detail": "Hymn 118 · Now Thank We All Our God",
+            "rubric": "Coffee follows in the hall."
+        }
+    ],
+    "first_visit": [
+        {
+            "title": "Arrive",
+            "body": "Park on Linden Avenue or in our lot behind the hall. A greeter at the red doors will point you to a seat, the nursery, and the coffee."
+        },
+        {
+            "title": "Worship",
+            "body": "About an hour of hymns, scripture, a twenty-minute sermon, and communion. Everything you need to follow along is printed in the bulletin."
+        },
+        {
+            "title": "Stay",
+            "body": "Coffee and something baked in the hall afterward. No sign-up sheets, no pressure — just a chance to meet a few people."
+        }
+    ],
+    "faqs": [
+        {
+            "question": "What should I wear?",
+            "answer": "Whatever you are comfortable in. You will see suits and you will see jeans, sometimes in the same pew."
+        },
+        {
+            "question": "Is there something for my children?",
+            "answer": "A staffed nursery for under-threes runs through both services. Older children join Sunday School at 9:00 and come back in for communion."
+        },
+        {
+            "question": "Is the building accessible?",
+            "answer": "Yes. There is a ramp at the Linden Avenue door, an accessible restroom off the hall, and large-print bulletins at the welcome table."
+        },
+        {
+            "question": "Do I have to be a member to take communion?",
+            "answer": "No. Everyone is welcome at the table. If you would rather not receive, cross your arms and the priest will offer a blessing."
+        },
+        {
+            "question": "Can I just come and sit at the back?",
+            "answer": "Of course. Plenty of people have started exactly there, and nobody will ask you to stand up and introduce yourself."
+        }
+    ],
+    "giving_link": "mailto:hello@chapelstreet.example?subject=Giving",
+    "giving_link_label": "Ask about giving online",
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "A parish church printed like its own prayer book: lime-washed paper canvas, warm stone panels, hymnal-black ink, vermilion used the way red rubrics are used in a liturgy book. Quiet, unhurried, welcoming — never a concert-lighting megachurch site.",
+        "type": "EB Garamond for every heading, set large with italic for the second phrase of a headline and small caps for labels; Instrument Sans for body copy and UI. Old-style numerals for times.",
+        "color": "One accent: vermilion (bg-primary / text-primary) for the primary button, rubric lines, and small ornaments only. Deep evening slate (bg-secondary) carries exactly one dark band — the first-visit section. Everything else is paper canvas, stone surface, card white, ink and muted text. Never add another color.",
+        "signature": "The order of worship — this Sunday's service printed like the bulletin card: small-caps parts, leader rules, the hymn and reading on the right, and red italic rubrics underneath. Keep it wherever the design evolves. The arched window shape frames every photograph.",
+        "voice": "Warm, plain and a little literary. Short sentences, concrete details (parking, coffee, how long it lasts). No exclamation marks, no churchy jargon without explanation, no 'vibrant community'."
+    }
+}

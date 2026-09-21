@@ -1,0 +1,9 @@
+[
+    { "day": "Monday", "hours": "Closed" },
+    { "day": "Tuesday", "hours": "By appointment" },
+    { "day": "Wednesday", "hours": "12 – 8pm" },
+    { "day": "Thursday", "hours": "12 – 8pm" },
+    { "day": "Friday", "hours": "12 – 10pm" },
+    { "day": "Saturday", "hours": "11am – 10pm" },
+    { "day": "Sunday", "hours": "12 – 6pm" }
+]

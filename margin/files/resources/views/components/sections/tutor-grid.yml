@@ -1,0 +1,39 @@
+title: Tutor profiles
+description: Every tutor with a portrait, what they teach, their background and one line in their own words.
+fields:
+    items:
+        type: repeater
+        label: Tutors
+        item_label: name
+        add_button_label: Add a tutor
+        source: collections.tutors
+        sub_fields:
+            name:
+                type: text
+                label: Name
+                default: Clare Whitlock
+            role:
+                type: text
+                label: Role
+                default: Head of maths
+            subjects:
+                type: text
+                label: Subjects
+                default: Maths, AP Calculus
+            credential:
+                type: text
+                label: Qualification
+                default: MEd, 14 years teaching high school maths
+            quote:
+                type: textarea
+                label: In their words
+                rows: 2
+                default: If a student can explain the step to me, they own it.
+            image:
+                type: image
+                label: Portrait
+                default: /images/tutors/clare.jpg
+            imageAlt:
+                type: text
+                label: Portrait description
+                default: Clare Whitlock smiling in front of a bookshelf

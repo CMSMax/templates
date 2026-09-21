@@ -1,0 +1,9 @@
+label: Schedule
+icon: 🗓️
+fields:
+    day: { type: select, label: Day, options: { Mon: Monday, Tue: Tuesday, Wed: Wednesday, Thu: Thursday, Fri: Friday, Sat: Saturday, Sun: Sunday } }
+    time: { type: text, label: Start time (e.g. 7:00am) }
+    className: { type: text, label: Class }
+    teacher: { type: text, label: Teacher }
+    level: { type: select, label: Level, options: { '1': Gentle, '2': Steady, '3': Strong } }
+    length: { type: text, label: Length (e.g. 60 min) }

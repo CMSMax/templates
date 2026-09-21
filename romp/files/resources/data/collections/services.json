@@ -1,0 +1,14 @@
+[
+    { "group": "grooming", "name": "Bath & tidy", "description": "Shampoo, blow-dry, brush-out, nails, ears, and a tidy of the face, feet and rear.", "price": "$45–$75", "note": "by size" },
+    { "group": "grooming", "name": "Full groom", "description": "Everything in the bath, plus a full haircut to the style you ask for, or the breed standard.", "price": "$70–$120", "note": "by size and coat" },
+    { "group": "grooming", "name": "De-shed treatment", "description": "Conditioning soak and a long session with the high-velocity dryer. Less fur on the sofa for weeks.", "price": "+$20", "note": "add to any bath" },
+    { "group": "grooming", "name": "Nail trim & grind", "description": "Clipped and smoothed. Walk-ins welcome most afternoons.", "price": "$18", "note": "no appointment" },
+    { "group": "daycare", "name": "Full day", "description": "Drop-off by 10am, pick-up by 7pm. Yard play, lunch, a nap, and a report card.", "price": "$38", "note": "per day" },
+    { "group": "daycare", "name": "Half day", "description": "Up to five hours. A good start for puppies and older dogs.", "price": "$26", "note": "per visit" },
+    { "group": "daycare", "name": "Ten-day pack", "description": "Ten full days to use whenever you like, good for a year.", "price": "$340", "note": "save $40" },
+    { "group": "boarding", "name": "Overnight suite", "description": "A private room with a raised bed, a daytime spot in daycare, and bedtime check-ins.", "price": "$62", "note": "per night" },
+    { "group": "boarding", "name": "Second dog, same suite", "description": "Siblings stay together, eat apart, and play in the same group.", "price": "$44", "note": "per night" },
+    { "group": "boarding", "name": "Going-home bath", "description": "They leave smelling like they arrived. Better, honestly.", "price": "$35", "note": "on your last night" },
+    { "group": "walks", "name": "Neighborhood walk", "description": "Thirty minutes, on-leash, solo or with one well-matched friend. Photos sent after.", "price": "$25", "note": "per walk" },
+    { "group": "walks", "name": "Manners session", "description": "One hour, one trainer, one goal: loose-leash walking, recall, or greeting without jumping.", "price": "$85", "note": "per session" }
+]

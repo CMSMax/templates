@@ -1,0 +1,7 @@
+[
+    { "size": "0.25 in", "name": "Pea", "note": "Rarely damages a roof" },
+    { "size": "0.75 in", "name": "Penny", "note": "Dents gutters and vents" },
+    { "size": "1.00 in", "name": "Quarter", "note": "Bruises older shingles" },
+    { "size": "1.75 in", "name": "Golf ball", "note": "Cracks most shingles" },
+    { "size": "2.75 in", "name": "Baseball", "note": "Punctures to the deck" }
+]

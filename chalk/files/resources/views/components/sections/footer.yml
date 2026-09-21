@@ -1,0 +1,4 @@
+title: Footer
+description: The dark footer with links, contact details and the name set huge across the bottom.
+fields:
+    blurb: { type: textarea, label: Short description, rows: 2 }

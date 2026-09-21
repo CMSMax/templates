@@ -1,0 +1,6 @@
+title: Warning lights
+description: The dashboard-light decoder on the dark band. Each light, its color, how urgent it is and what it means come from the Warning lights collection.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    helpText: { type: textarea, label: Help line under the lights, rows: 2 }

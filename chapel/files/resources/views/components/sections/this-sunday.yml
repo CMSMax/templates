@@ -1,0 +1,18 @@
+title: This Sunday
+description: The signature order of worship — this Sunday's service printed like the bulletin card, with red italic rubrics under each part.
+fields:
+    heading: { type: text, label: Headline }
+    headingEmphasis: { type: text, label: Headline (italic second line) }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    linkLabel: { type: text, label: Link text (leave empty to hide) }
+    linkHref: { type: url, label: Link }
+    footnote: { type: text, label: Card footnote (leave empty to hide) }
+    bulletin:
+        type: repeater
+        label: Order of worship
+        source: site.bulletin
+        item_label: part
+        sub_fields:
+            part: { type: text, label: Part of the service }
+            detail: { type: text, label: Hymn, reading or title }
+            rubric: { type: text, label: Red note underneath (optional) }

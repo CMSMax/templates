@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Architectural shingles",
+        "body": "Class 4 impact-rated laminate shingles, nailed six to a shingle, not four.",
+        "tone": "shingle"
+    },
+    {
+        "name": "Ridge vent",
+        "body": "Lets the attic breathe along the peak, so summer heat leaves instead of baking the deck.",
+        "tone": "vent"
+    },
+    {
+        "name": "Synthetic underlayment",
+        "body": "A tear-proof sheet over the whole deck, laid to snapped chalk lines.",
+        "tone": "underlayment"
+    },
+    {
+        "name": "Ice and water shield",
+        "body": "Self-sealing membrane in every valley and around every pipe, where leaks start.",
+        "tone": "membrane"
+    },
+    {
+        "name": "Roof deck",
+        "body": "We walk every sheet after tear-off and replace soft decking before anything goes over it.",
+        "tone": "deck"
+    }
+]

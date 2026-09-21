@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Sunday School",
+        "description": "Stories, songs and snacks for ages three to eleven, in the classrooms off the hall.",
+        "when": "Sundays, 9:00 am"
+    },
+    {
+        "name": "Youth Group",
+        "description": "Pizza, honest questions and a service project each month for grades six to twelve.",
+        "when": "Fridays, 7:00 pm"
+    },
+    {
+        "name": "The Choir",
+        "description": "No audition, just a willingness to learn the tenor line. Robes provided.",
+        "when": "Thursdays, 7:30 pm"
+    },
+    {
+        "name": "Food Pantry",
+        "description": "Groceries for around two hundred neighbors a week, packed and handed out by volunteers.",
+        "when": "Saturdays, 9:00 am"
+    },
+    {
+        "name": "Home Groups",
+        "description": "Eight to ten people, a living room and a kettle — scattered across town most weeknights.",
+        "when": "Weeknights"
+    }
+]

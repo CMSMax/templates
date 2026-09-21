@@ -1,0 +1,13 @@
+title: Header
+description: The storm advisory strip, the logo, the menu, and the roof-check button at the top of every page. The advisory text lives in the site settings.
+fields:
+    showAdvisory: { type: toggle, label: Show the advisory strip }
+    links:
+        type: repeater
+        label: Menu links
+        source: site.nav_links
+        item_label: label
+        add_button_label: Add link
+        sub_fields:
+            label: { type: text, label: Label }
+            href: { type: url, label: Link }

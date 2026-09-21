@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+<style>.p{fill:#4b2f20}.k{stroke:#f1e8d6}.b{fill:#d5e04b}.s{stroke:#4b2f20}@media (prefers-color-scheme:dark){.p{fill:#f1e8d6}.k{stroke:#4b2f20}}</style>
+<rect class="p" width="36" height="36" rx="9"/>
+<rect class="k" x="2.5" y="2.5" width="31" height="31" rx="7" fill="none" stroke-width="1" stroke-opacity=".6"/>
+<circle class="b" cx="18" cy="18" r="8.5"/>
+<path class="s" d="M11.4 12.6c3.4 1.9 3.4 8.9 0 10.8M24.6 12.6c-3.4 1.9-3.4 8.9 0 10.8" fill="none" stroke-width="1.6" stroke-linecap="round"/>
+</svg>

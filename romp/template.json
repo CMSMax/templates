@@ -1,0 +1,11 @@
+{
+    "name": "Romp",
+    "industry": "pet-services",
+    "description": "An outdoorsy template for dog groomers, daycares and boarding kennels — gravel canvas, brown enamel park-sign plates with rivets and a cream keyline, one tennis-ball chartreuse, blunt highway-gothic headlines, a trailhead directory that signposts every service and price, a day-at-the-yard timeline, and a yard-rules sign for first visits.",
+    "pages": ["Home", "Services & prices", "404"],
+    "collections": ["services", "hours", "faqs"],
+    "cta": "Book a visit",
+    "theme": "light",
+    "accent": "#d5e04b",
+    "fonts": ["Overpass", "Atkinson Hyperlegible Next"]
+}

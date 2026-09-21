@@ -1,0 +1,11 @@
+label: Flash
+icon: ⚡
+fields:
+    name: { type: text, label: Design name }
+    number: { type: text, label: Sheet number }
+    size: { type: text, label: Size }
+    price: { type: text, label: Price }
+    artist: { type: text, label: Artist }
+    taken: { type: toggle, label: Taken (stamps the tag) }
+    image: { type: image, label: Design }
+    alt: { type: text, label: Design description }

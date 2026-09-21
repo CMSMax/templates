@@ -1,0 +1,13 @@
+title: Header
+description: The emergency line strip, the logo, the menu, and the booking button at the top of every page.
+fields:
+    stripLabel: { type: text, label: Emergency strip label }
+    links:
+        type: repeater
+        label: Menu links
+        source: site.nav_links
+        item_label: label
+        add_button_label: Add link
+        sub_fields:
+            label: { type: text, label: Label }
+            href: { type: url, label: Link }

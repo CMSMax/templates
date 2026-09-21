@@ -1,0 +1,8 @@
+title: What to bring
+description: A checklist of documents for the first meeting beside a full-height photograph.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    image: { type: image, label: Photograph }
+    imageAlt: { type: text, label: Photograph description }
+    items: { type: repeater, label: Documents, source: site.bring, item_label: item, sub_fields: { item: { type: text, label: Document } } }

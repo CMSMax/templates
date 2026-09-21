@@ -1,0 +1,14 @@
+title: Visit and book
+description: The closing band — a tilted ribbon with the first-visit offer, the booking button and phone number, opening hours, and the address.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting line, rows: 3 }
+    showOffer: { type: toggle, label: Show the offer ribbon }
+    hours:
+        type: repeater
+        label: Opening hours
+        source: site.hours
+        item_label: day
+        sub_fields:
+            day: { type: text, label: Day }
+            hours: { type: text, label: Hours }

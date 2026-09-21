@@ -1,0 +1,18 @@
+title: Recovery plan
+description: The signature dark band — the four phases of a plan, each drawn as a resistance band that gets longer, thicker, and deeper lime as the load goes up. Phases live under "plan" in site.json (keep four).
+fields:
+    eyebrow: { type: text, label: Small line above the headline }
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    loadLabel: { type: text, label: Word read aloud before each load }
+    plan:
+        type: repeater
+        label: Phases
+        source: site.plan
+        item_label: title
+        sub_fields:
+            phase: { type: text, label: Number }
+            title: { type: text, label: Phase name }
+            weeks: { type: text, label: When }
+            body: { type: textarea, label: What happens, rows: 2 }
+            load: { type: text, label: Load (Light, Medium, Heavy…) }

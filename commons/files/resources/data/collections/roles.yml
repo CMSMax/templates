@@ -1,0 +1,7 @@
+label: Volunteer roles
+icon: 📋
+fields:
+    role: { type: text, label: Role }
+    when: { type: text, label: When }
+    commitment: { type: text, label: Time commitment }
+    task: { type: textarea, label: What you'll do, rows: 2 }

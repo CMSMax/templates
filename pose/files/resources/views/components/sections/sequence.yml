@@ -1,0 +1,19 @@
+title: The sequence
+description: The signature — Sun Salutation A drawn as numbered pictogram plates, with a highlight that moves through them at the pace of a breath.
+fields:
+    eyebrow: { type: text, label: Small line above the headline }
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    linkLabel: { type: text, label: Link text (leave empty to hide) }
+    linkHref: { type: url, label: Link }
+    plates:
+        type: repeater
+        label: Plates
+        source: site.sequence
+        item_label: name
+        add_button_label: Add a plate
+        sub_fields:
+            pose: { type: select, label: Pictogram, options: { mountain: Mountain, salute: Upward salute, lunge: Low lunge, fold: Forward fold, halflift: Halfway lift, plank: Plank, updog: Upward dog, downdog: Downward dog, child: Child's pose, tree: Tree, warrior: Warrior, seated: Seated, rest: Resting } }
+            name: { type: text, label: Pose name }
+            sanskrit: { type: text, label: Sanskrit name }
+            breath: { type: select, label: Breath, options: { Inhale: Inhale, Exhale: Exhale } }

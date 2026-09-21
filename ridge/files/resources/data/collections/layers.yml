@@ -1,0 +1,9 @@
+label: Roof layers
+icon: 🧱
+fields:
+    name: { type: text, label: Layer }
+    body: { type: textarea, label: What it does, rows: 2 }
+    tone:
+        type: select
+        label: Drawn colour
+        options: { shingle: Shingle, vent: Ridge vent, underlayment: Underlayment, membrane: Membrane, deck: Deck }

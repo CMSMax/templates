@@ -1,0 +1,27 @@
+title: Testimonials
+description: One parent's words set large, then the rest beneath. Publish only with permission.
+fields:
+    heading:
+        type: text
+        label: Heading (for screen readers)
+        default: What families tell us.
+    items:
+        type: repeater
+        label: Testimonials
+        item_label: name
+        add_button_label: Add a testimonial
+        source: collections.testimonials
+        sub_fields:
+            quote:
+                type: textarea
+                label: Quote
+                rows: 3
+                default: Maya used to cry over algebra homework. Eleven weeks in, she asked if she could do the extension sheet.
+            name:
+                type: text
+                label: Name
+                default: Denise R.
+            detail:
+                type: text
+                label: Who they are
+                default: Parent, Grade 9

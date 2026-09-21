@@ -1,0 +1,34 @@
+{
+    "name": "Pose",
+    "industry": "yoga-studios",
+    "description": "A bright, notation-led template for yoga and movement studios — chalk-white canvas, mist-teal panels, deep teal ink and one chartreuse spark, every pose drawn as a numbered pictogram plate, a Sun Salutation that breathes across the page, a week-at-a-glance timetable with levels you can read at a glance, and a try-a-week offer at every turn. Ships two homepage looks.",
+    "pages": [
+        "Home",
+        "Classes",
+        "Teachers",
+        "Pricing",
+        "Visit",
+        "404"
+    ],
+    "collections": [
+        "classes",
+        "schedule",
+        "teachers",
+        "plans",
+        "reviews",
+        "faqs"
+    ],
+    "variants": {
+        "notation": "Type-led hero with every class as a pictogram plate, no photo"
+    },
+    "default_variant_name": "Plate",
+    "default_variant_description": "Plain headline beside a wide photo labelled like a pose plate",
+    "cta": "Try a week for $25",
+    "theme": "light",
+    "accent": "#0d6b63",
+    "secondary": "#d6f26a",
+    "fonts": [
+        "Funnel Display",
+        "Funnel Sans"
+    ]
+}

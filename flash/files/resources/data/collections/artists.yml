@@ -1,0 +1,11 @@
+label: Artists
+icon: 🖋️
+fields:
+    name: { type: text, label: Name }
+    role: { type: text, label: Role }
+    styles: { type: text, label: Styles }
+    bio: { type: textarea, label: Bio, rows: 3 }
+    status: { type: text, label: Books status }
+    open: { type: toggle, label: Books open }
+    image: { type: image, label: Portrait }
+    alt: { type: text, label: Portrait description }

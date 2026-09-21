@@ -1,0 +1,8 @@
+[
+    { "name": "Check engine", "icon": "engine", "level": "caution", "urgency": "Book this week", "meaning": "The engine computer logged a fault. Steady usually means a sensor or emissions issue. If it flashes, the engine is misfiring — slow down and call us." },
+    { "name": "Oil pressure", "icon": "oil", "level": "stop", "urgency": "Pull over now", "meaning": "The engine isn't getting oil. Shut it off as soon as it's safe — a few more miles can end the engine. Check the level, then have it towed." },
+    { "name": "Brake system", "icon": "brake", "level": "stop", "urgency": "Don't drive it", "meaning": "Low brake fluid or a hydraulic fault, if the parking brake is off. Your stopping distance may already be longer than you think." },
+    { "name": "Battery / charging", "icon": "battery", "level": "caution", "urgency": "Come in today", "meaning": "The alternator isn't charging. The car runs on battery alone until it dies — usually within the hour. Skip the A/C and come straight here." },
+    { "name": "Engine temperature", "icon": "coolant", "level": "stop", "urgency": "Pull over now", "meaning": "The engine is overheating. Pull over, shut it off, and let it cool. Never open a hot radiator cap." },
+    { "name": "Tire pressure", "icon": "tire", "level": "caution", "urgency": "Check it today", "meaning": "One or more tires is 25% or more under pressure. Fill them to the number on the door jamb; if it comes back, you likely have a slow leak we can patch." }
+]

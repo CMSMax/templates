@@ -1,0 +1,14 @@
+label: Programs
+icon: book-open
+fields:
+    title: { type: text }
+    slug: { type: text }
+    link: { type: url }
+    ages: { type: text }
+    grades: { type: text }
+    summary: { type: text }
+    format: { type: text }
+    price: { type: text }
+    mark: { type: text }
+    description: { type: textarea }
+    content: { type: richtext }

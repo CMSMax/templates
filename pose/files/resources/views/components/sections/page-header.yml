@@ -1,0 +1,7 @@
+title: Page header
+description: The opening of an inner page — headline, supporting copy, and a large pictogram plate.
+fields:
+    eyebrow: { type: text, label: Small line above the headline }
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    pose: { type: select, label: Pictogram, options: { mountain: Mountain, salute: Upward salute, lunge: Low lunge, fold: Forward fold, halflift: Halfway lift, plank: Plank, updog: Upward dog, downdog: Downward dog, child: Child's pose, tree: Tree, warrior: Warrior, seated: Seated, rest: Resting } }

@@ -1,0 +1,13 @@
+title: Questions
+description: Common questions that open and close. The questions live in site settings.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    items:
+        type: repeater
+        label: Questions
+        source: site.faqs
+        item_label: question
+        sub_fields:
+            question: { type: text, label: Question }
+            answer: { type: textarea, label: Answer, rows: 3 }

@@ -1,0 +1,6 @@
+label: Steps
+icon: 🚰
+fields:
+    when: { type: text, label: When }
+    title: { type: text, label: Step }
+    body: { type: textarea, label: Description, rows: 2 }

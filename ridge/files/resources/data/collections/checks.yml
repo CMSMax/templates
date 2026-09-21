@@ -1,0 +1,4 @@
+label: Roof check list
+icon: ✅
+fields:
+    item: { type: text, label: What's included }

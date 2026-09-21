@@ -1,0 +1,20 @@
+[
+    {
+        "day": "Sunday",
+        "time": "9:00 am",
+        "name": "Said Communion",
+        "note": "Quiet, spoken, 45 minutes. Sunday School runs alongside."
+    },
+    {
+        "day": "Sunday",
+        "time": "11:00 am",
+        "name": "Sung Worship",
+        "note": "Choir, organ and hymns, about an hour. Nursery available."
+    },
+    {
+        "day": "Wednesday",
+        "time": "6:30 pm",
+        "name": "Supper & Study",
+        "note": "A shared meal in the hall, then an hour with the week's readings."
+    }
+]

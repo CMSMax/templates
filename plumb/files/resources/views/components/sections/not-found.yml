@@ -1,0 +1,7 @@
+title: Page not found
+description: What a visitor sees at an address that doesn't exist.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Message, rows: 2 }
+    ctaLabel: { type: text, label: Button text }
+    ctaLink: { type: url, label: Button link }

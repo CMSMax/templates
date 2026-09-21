@@ -1,0 +1,32 @@
+title: How a term runs
+description: The rhythm of a term — assessment, plan, weekly sessions and reports — along one ruled line.
+fields:
+    heading:
+        type: text
+        label: Headline
+        default: How a term runs.
+    note:
+        type: textarea
+        label: Note beside the headline
+        rows: 2
+        default: The same rhythm for every program, so you always know what happened this week and what comes next.
+    items:
+        type: repeater
+        label: Steps
+        item_label: title
+        add_button_label: Add a step
+        source: collections.steps
+        sub_fields:
+            when:
+                type: text
+                label: When
+                default: Week 0
+            title:
+                type: text
+                label: Step
+                default: Free assessment
+            body:
+                type: textarea
+                label: What happens
+                rows: 2
+                default: Forty minutes with a tutor to find the gap, not just the grade.

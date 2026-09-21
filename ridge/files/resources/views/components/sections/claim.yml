@@ -1,0 +1,19 @@
+title: Claim forecast
+description: How an insurance claim runs, laid out like a five-day forecast strip.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Intro, rows: 2 }
+    items:
+        type: repeater
+        label: Steps
+        source: claim
+        item_label: title
+        add_button_label: Add step
+        sub_fields:
+            day: { type: text, label: When }
+            title: { type: text, label: Step }
+            body: { type: textarea, label: What happens, rows: 2 }
+            icon:
+                type: select
+                label: Icon
+                options: { storm: Storm cloud, search: Inspection, people: Meeting, hammer: Build, check: Done }

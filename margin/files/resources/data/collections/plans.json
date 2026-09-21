@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Small group",
+        "price": "$58",
+        "unit": "per 60-minute session",
+        "who": "Up to four students, same subject and level.",
+        "feature1": "Same tutor every week",
+        "feature2": "Four-weekly written report",
+        "feature3": "Homework support between sessions",
+        "featured": ""
+    },
+    {
+        "name": "One-to-one",
+        "price": "$96",
+        "unit": "per 60-minute session",
+        "who": "A tutor and a plan built around one student.",
+        "feature1": "Everything in small group",
+        "feature2": "A plan rewritten each term",
+        "feature3": "Online or in person, or both",
+        "featured": "1"
+    },
+    {
+        "name": "Exam intensive",
+        "price": "$840",
+        "unit": "8 weeks, 12 sessions",
+        "who": "ISEE, SSAT, SAT or ACT with a test date set.",
+        "feature1": "Four full timed mocks, scored",
+        "feature2": "Question-by-question review",
+        "feature3": "A score trend after every mock",
+        "featured": ""
+    }
+]

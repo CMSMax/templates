@@ -1,0 +1,131 @@
+{
+    "name": "Balm Massage Studio",
+    "short_name": "Balm",
+    "tagline": "Therapeutic and relaxation massage in a quiet two-room studio on Alder Street. Sixty or ninety minutes, and no rush out the door.",
+    "therapist": "Nora Whitfield",
+    "credentials": "Licensed massage therapist (LMT #MA-40218), 11 years in practice",
+    "phone": "(555) 310-0482",
+    "phone_href": "tel:+15553100482",
+    "email": "hello@balmstudio.example",
+    "address": "418 Alder Street, Suite 2",
+    "city": "Hollis Park",
+    "directions_url": "https://maps.google.com/?q=418+Alder+Street+Hollis+Park",
+    "booking_url": "mailto:hello@balmstudio.example?subject=Booking%20a%20massage",
+    "cta_label": "Book a massage",
+    "currency": "$",
+    "hours_note": "Closed Sundays and Mondays. Last booking 90 minutes before close.",
+    "offer": "First visit? Take 15% off any 90-minute session",
+    "instagram": "https://instagram.com/",
+    "facts": [
+        {
+            "value": "60 · 90",
+            "label": "Minute sessions, never rushed"
+        },
+        {
+            "value": "11 yrs",
+            "label": "Hands-on, licensed practice"
+        },
+        {
+            "value": "Tue – Sat",
+            "label": "Open late on weeknights"
+        }
+    ],
+    "hours": [
+        {
+            "day": "Tuesday",
+            "hours": "10 am – 8 pm"
+        },
+        {
+            "day": "Wednesday",
+            "hours": "10 am – 8 pm"
+        },
+        {
+            "day": "Thursday",
+            "hours": "10 am – 8 pm"
+        },
+        {
+            "day": "Friday",
+            "hours": "9 am – 6 pm"
+        },
+        {
+            "day": "Saturday",
+            "hours": "9 am – 4 pm"
+        }
+    ],
+    "first_visit": [
+        {
+            "time": "0:00",
+            "title": "Arrive, shoes off, a glass of water",
+            "note": "Come ten minutes early. There's a short health form — injuries, medication, anything that's bothering you this week."
+        },
+        {
+            "time": "0:10",
+            "title": "Five minutes of talking first",
+            "note": "Nora asks where it hurts, what you do all day, and how much pressure you like. You can change your mind on the table."
+        },
+        {
+            "time": "0:15",
+            "title": "On the table, under a warm sheet",
+            "note": "Undress to your comfort. Only the area being worked on is ever uncovered. Talk or don't — both are normal."
+        },
+        {
+            "time": "1:15",
+            "title": "Slow up, and one thing to take home",
+            "note": "Water, a minute to sit, and one stretch for whatever was tightest. Rebook if you like; there's no pressure to."
+        }
+    ],
+    "review": {
+        "quote": "I came in for my neck and she found the knot in my shoulder blade that's been causing it for three years. First night in months I didn't wake up with a headache.",
+        "name": "Daniel R.",
+        "detail": "Deep tissue, 90 minutes"
+    },
+    "addons": [
+        {
+            "name": "Hot basalt stones",
+            "price": "20"
+        },
+        {
+            "name": "Cupping on the back and shoulders",
+            "price": "15"
+        },
+        {
+            "name": "Scalp and face, ten minutes",
+            "price": "15"
+        },
+        {
+            "name": "Arnica muscle balm to finish",
+            "price": "10"
+        }
+    ],
+    "policies": [
+        {
+            "title": "Cancelling",
+            "note": "Free up to 24 hours before. Inside 24 hours we charge half the session — unless you're ill. Then stay home, and we'll rebook you."
+        },
+        {
+            "title": "Running late",
+            "note": "We'll still finish on time for the next client, so a late start is a shorter session at the full price."
+        },
+        {
+            "title": "Insurance and HSA",
+            "note": "We give you an itemized receipt for your insurer, and HSA and FSA cards work like any other card."
+        },
+        {
+            "title": "Gift cards",
+            "note": "Any session, any amount, by email or on thick card in an envelope. Good for a year."
+        }
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "A small, honest massage studio: river-stone grey canvas, basalt ink, and one massage-oil amber. Golden-hour photography of hands, sheets, and stones — never faces, never candles-and-orchids. Warm through light and material, not through cream and pink. Hairline rules, no cards-on-cards, no gradients except the dark wash that keeps text readable over the hero photograph.",
+        "type": "Hedvig Letters Serif for every heading at regular weight, tight tracking; one word in the hero headline gets a hand-drawn amber loop (the circled utility). Manrope for all text, navigation, and labels.",
+        "color": "One accent: massage-oil amber (bg-primary), always with basalt text — the book button, the body-map band, and the hand-drawn loop. The treatments band uses basalt (bg-secondary) as a dark ground. Everything else is stone canvas, lighter stone surface, basalt ink, and muted text. Never add a second accent.",
+        "signature": "The body map — an intake-form drawing of a back with numbered pins at the places people hold tension, each pin tied to a line saying what it feels like and what to book. Keep it wherever the design evolves; a new focus area gets a new pin.",
+        "voice": "A therapist talking plainly about bodies: specific muscles, real minutes, honest policies. Short sentences. No 'sanctuary', 'journey', 'indulge', 'pamper', or exclamation marks."
+    }
+}

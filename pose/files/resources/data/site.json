@@ -1,0 +1,74 @@
+{
+    "name": "Pose Yoga Studio",
+    "short_name": "Pose",
+    "tagline": "Small yoga classes seven days a week in a bright room on Alder Street. Every level, every body, no mirrors.",
+    "phone": "(555) 309-4417",
+    "phone_href": "tel:+15553094417",
+    "email": "hello@pose.example",
+    "address": "214 Alder Street, 2nd floor",
+    "city": "Portland",
+    "directions_url": "https://maps.google.com/?q=214+Alder+Street+Portland",
+    "hours_short": "Mon–Fri 6:30am–8:30pm · Sat–Sun 8am–5pm",
+    "cta_label": "Try a week for $25",
+    "cta_link": "/pricing#intro",
+    "schedule_link": "/classes#schedule",
+    "room_note": "Twelve mats a class, so there is always room to spread out.",
+    "nav": [
+        { "label": "Classes", "href": "/classes" },
+        { "label": "Schedule", "href": "/classes#schedule" },
+        { "label": "Teachers", "href": "/teachers" },
+        { "label": "Pricing", "href": "/pricing" },
+        { "label": "Visit", "href": "/visit" }
+    ],
+    "social": [
+        { "label": "Instagram", "href": "https://instagram.com/" },
+        { "label": "YouTube", "href": "https://youtube.com/" },
+        { "label": "Newsletter", "href": "/visit#contact" }
+    ],
+    "sequence": [
+        { "pose": "mountain", "name": "Mountain", "sanskrit": "Tadasana", "breath": "Exhale" },
+        { "pose": "salute", "name": "Upward salute", "sanskrit": "Urdhva Hastasana", "breath": "Inhale" },
+        { "pose": "fold", "name": "Forward fold", "sanskrit": "Uttanasana", "breath": "Exhale" },
+        { "pose": "halflift", "name": "Halfway lift", "sanskrit": "Ardha Uttanasana", "breath": "Inhale" },
+        { "pose": "plank", "name": "Four-limbed staff", "sanskrit": "Chaturanga", "breath": "Exhale" },
+        { "pose": "updog", "name": "Upward dog", "sanskrit": "Urdhva Mukha Svanasana", "breath": "Inhale" },
+        { "pose": "downdog", "name": "Downward dog", "sanskrit": "Adho Mukha Svanasana", "breath": "Exhale" },
+        { "pose": "halflift", "name": "Halfway lift", "sanskrit": "Ardha Uttanasana", "breath": "Inhale" },
+        { "pose": "fold", "name": "Forward fold", "sanskrit": "Uttanasana", "breath": "Exhale" },
+        { "pose": "salute", "name": "Upward salute", "sanskrit": "Urdhva Hastasana", "breath": "Inhale" },
+        { "pose": "mountain", "name": "Mountain", "sanskrit": "Tadasana", "breath": "Exhale" }
+    ],
+    "days": [
+        { "name": "Mon", "label": "Monday" },
+        { "name": "Tue", "label": "Tuesday" },
+        { "name": "Wed", "label": "Wednesday" },
+        { "name": "Thu", "label": "Thursday" },
+        { "name": "Fri", "label": "Friday" },
+        { "name": "Sat", "label": "Saturday" },
+        { "name": "Sun", "label": "Sunday" }
+    ],
+    "levels": [
+        { "value": "1", "label": "Gentle" },
+        { "value": "2", "label": "Steady" },
+        { "value": "3", "label": "Strong" }
+    ],
+    "first_visit": [
+        { "text": "Arrive ten minutes early so we can show you around." },
+        { "text": "Bring water. Mats, blocks, straps and blankets are here." },
+        { "text": "Tell your teacher about injuries or pregnancy — quietly is fine." },
+        { "text": "Showers and lockers are on the left past the front desk." }
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "A bright neighbourhood yoga studio drawn like a pictogram system: chalk-white canvas, mist-teal panels, deep teal ink, studio-teal buttons, and every pose drawn as a numbered geometric figure — the studio's own notation.",
+        "type": "Funnel Display (weight 500, tight tracking) for every heading and number; Funnel Sans for body and UI. No serif, no italics. Headlines large and plain, set in sentence case.",
+        "color": "Studio teal (bg-primary / text-primary) for buttons, pictograms and links. Deep teal (bg-secondary) carries exactly one dark band — the intro offer. Chartreuse (bg-spark) is only for the pose being held in the sequence, the intro-offer tag, and the call to action on the dark band. Never add another color.",
+        "signature": "The sequence — Sun Salutation A drawn as numbered pictogram plates, a chartreuse highlight moving through them at breath pace with an Inhale / Exhale cue and a breathing ring. Every class carries its own pictogram; keep drawing new poses in the same grammar (a filled circle head, round-capped 4-unit strokes on a 48-unit grid).",
+        "voice": "Plain, warm and specific. Times, prices, names, what to bring. No 'journey', no 'sanctuary', no 'namaste', no exclamation marks."
+    }
+}

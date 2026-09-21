@@ -1,0 +1,17 @@
+[
+    { "job": "Clear a sink, tub or shower drain", "note": "Cabled from the trap or cleanout, tested with running water.", "category": "Drains", "price": "$149", "featured": "1" },
+    { "job": "Clear the main sewer line", "note": "Drum machine from an accessible cleanout, up to 100 feet.", "category": "Drains", "price": "$289", "featured": "" },
+    { "job": "Camera inspection", "note": "Recorded and emailed to you, with the problem spots marked.", "category": "Drains", "price": "$199", "featured": "" },
+    { "job": "Hydro-jet a main line", "note": "For roots and grease that a cable only pushes aside.", "category": "Drains", "price": "$549", "featured": "" },
+    { "job": "Replace a gas thermocouple or igniter", "note": "Part from the van, tank flushed while we're there.", "category": "Water heaters", "price": "$229", "featured": "1" },
+    { "job": "Replace an electric element", "note": "Tested at both thermostats before we leave.", "category": "Water heaters", "price": "$259", "featured": "" },
+    { "job": "Install a 50-gallon gas water heater", "note": "Heater, expansion tank, permit, and haul-away of the old one.", "category": "Water heaters", "price": "$2,190", "featured": "1" },
+    { "job": "Install a tankless water heater", "note": "Unit, venting, gas line sizing, permit and haul-away.", "category": "Water heaters", "price": "$4,650", "featured": "" },
+    { "job": "Repair a supply-line leak", "note": "Failed section replaced, line pressure-tested.", "category": "Leaks & pipes", "price": "$189", "featured": "1" },
+    { "job": "Replace a main shutoff valve", "note": "Quarter-turn ball valve, the one you'll need in an emergency.", "category": "Leaks & pipes", "price": "$389", "featured": "" },
+    { "job": "Replace a pressure regulator", "note": "Set to 60 psi and gauged at the hose bib.", "category": "Leaks & pipes", "price": "$349", "featured": "" },
+    { "job": "Rebuild a running toilet", "note": "Flapper, fill valve and flush valve, all new.", "category": "Fixtures", "price": "$129", "featured": "1" },
+    { "job": "Reset a toilet on a new wax seal", "note": "New seal, bolts and supply line; set level and caulked.", "category": "Fixtures", "price": "$179", "featured": "" },
+    { "job": "Install a kitchen or bath faucet", "note": "Your faucet or ours, new supply lines included.", "category": "Fixtures", "price": "$219", "featured": "" },
+    { "job": "Install a garbage disposal", "note": "Wired to the existing switch and tested.", "category": "Fixtures", "price": "$289", "featured": "" }
+]

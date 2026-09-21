@@ -1,0 +1,100 @@
+@import 'tailwindcss';
+
+@theme {
+    /* Paper stock and the one ink every word is printed in. */
+    --color-canvas: #f1f1ec;
+    --color-surface: #e5e5de;
+    --color-ink: #1d2c6b;
+    --color-muted: #4a5486;
+    --color-line: #cdd0d8;
+    /* The one accent: fluorescent-pink overprint ink. The Branding page's
+       colors reach the site through primary/secondary, so retune these to
+       recolor the site. Text on pink uses primary-foreground (AA on pink). */
+    --color-primary: #ff5ca8;
+    --color-primary-foreground: #10163f;
+    --color-secondary: #e5e5de;
+    --color-secondary-foreground: #1d2c6b;
+    --font-display: 'Funnel Display', 'Arial Narrow', ui-sans-serif, system-ui, sans-serif;
+    --font-sans: 'Atkinson Hyperlegible Next', ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+    ::selection {
+        background: var(--color-primary);
+        color: var(--color-primary-foreground);
+    }
+}
+
+/* Riso halftone: a field of ink dots in the current text color. */
+@utility halftone {
+    background-image: radial-gradient(currentColor 28%, transparent 30%);
+    background-size: 9px 9px;
+}
+
+/* The overprint: pink laid over blue ink multiplies, the way a second
+   riso drum prints over the first. */
+@utility overprint {
+    mix-blend-mode: multiply;
+}
+
+/* A hundred cents: one tick per percent of the bar's width, and every
+   tenth tick runs the full height like the long marks on a ruler. Masks
+   whatever colored segments sit underneath. */
+@utility cents {
+    mask:
+        repeating-linear-gradient(90deg, #000 0 calc(1% - 3px), transparent calc(1% - 3px) 1%) top / 100% 68% no-repeat,
+        repeating-linear-gradient(90deg, #000 0 calc(1% - 3px), transparent calc(1% - 3px) 10%) bottom / 100% 100% no-repeat;
+}
+
+/* The perforation between tear-off tabs. */
+@utility perforated {
+    background-image: repeating-linear-gradient(180deg, currentColor 0 6px, transparent 6px 12px);
+    background-size: 1.5px 100%;
+    background-repeat: no-repeat;
+}
+
+@utility perforated-x {
+    background-image: repeating-linear-gradient(90deg, currentColor 0 6px, transparent 6px 12px);
+    background-size: 100% 1.5px;
+    background-repeat: no-repeat;
+}
+
+/* First-viewport arrival: the poster's lines settle in, one after another.
+   Time-based, so no script is involved. */
+@keyframes settle {
+    from {
+        opacity: 0;
+        transform: translateY(0.35em);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+[data-settle] {
+    animation: settle 900ms cubic-bezier(0.22, 1, 0.36, 1) both;
+    animation-delay: calc(80ms + var(--i, 0) * 110ms);
+}
+
+@keyframes drum {
+    from {
+        transform: translate(-6%, 4%) scale(0.92);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0, 0) scale(1);
+        opacity: 1;
+    }
+}
+
+[data-drum] {
+    animation: drum 1400ms cubic-bezier(0.22, 1, 0.36, 1) 150ms both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    [data-settle],
+    [data-drum] {
+        animation: none;
+    }
+}

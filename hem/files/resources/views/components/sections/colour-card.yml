@@ -1,0 +1,12 @@
+title: Colour card
+description: The signature — numbered fabric chips cut with pinking shears; choosing one shows the piece made from that cloth.
+fields:
+    eyebrow: { type: text, label: Small line above the heading }
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    pieceLabel: { type: text, label: Piece label }
+    clothLabel: { type: text, label: Cloth label }
+    makerLabel: { type: text, label: Maker label }
+    priceLabel: { type: text, label: Price label }
+    linkLabel: { type: text, label: Link text }
+    items: { type: repeater, label: Chips, source: swatches, item_label: name, add_button_label: Add a cloth, sub_fields: { number: { type: text, label: Number }, name: { type: text, label: Cloth name }, color: { type: color, label: Chip colour }, piece: { type: text, label: Piece made from it }, maker: { type: text, label: Made by }, cloth: { type: text, label: Composition }, price: { type: text, label: Price }, link: { type: url, label: Link }, image: { type: image, label: Photo }, imageAlt: { type: text, label: Photo description } } }

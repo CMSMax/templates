@@ -1,0 +1,177 @@
+@import 'tailwindcss';
+
+@theme {
+    /* State-issued plate stock: reflective white, petrol-teal stamped
+       lettering, one sticker-red accent. */
+    --color-canvas: #eef1ee;
+    --color-surface: #ffffff;
+    --color-ink: #0c2c35;
+    --color-muted: #4a5d62;
+    --color-line: #cdd6d3;
+
+    /* The dark petrol field (warning-light band, plate frame). */
+    --color-field: #0c2c35;
+    --color-field-raised: #123a45;
+    --color-field-ink: #eef1ee;
+    --color-field-muted: #a7bcc0;
+    --color-field-line: #2a4f59;
+
+    /* The one accent: sticker red. The Branding page's colors reach the
+       site through primary/secondary, so retune these to recolor it. */
+    --color-primary: #d62839;
+    --color-primary-foreground: #ffffff;
+    --color-secondary: #0c2c35;
+    --color-secondary-foreground: #eef1ee;
+
+    /* Telltale amber and red are data, not decoration: the warning lights only,
+       tuned to read on the dark field. */
+    --color-telltale: #f4b43c;
+    --color-telltale-stop: #ff6b6b;
+
+    --font-sans: 'Public Sans', ui-sans-serif, system-ui, -apple-system, sans-serif;
+    --font-display: 'Saira Condensed', 'Arial Narrow', ui-sans-serif, sans-serif;
+}
+
+::selection {
+    background-color: var(--color-primary);
+    color: var(--color-primary-foreground);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
+
+/* The plate: 12 × 6 in stock with a pressed rim, sized by its container so
+   every stamped character scales with it. */
+@utility plate {
+    position: relative;
+    container-type: inline-size;
+    aspect-ratio: 2 / 1;
+    border-radius: 4.5cqi;
+    background:
+        linear-gradient(
+            160deg,
+            rgb(255 255 255 / 0.9) 0%,
+            transparent 38%,
+            rgb(12 44 53 / 0.05) 100%
+        ),
+        var(--color-surface);
+    box-shadow:
+        inset 0 0 0 1.4cqi var(--color-surface),
+        inset 0 0 0 1.75cqi color-mix(in oklab, var(--color-ink) 22%, transparent),
+        inset 0.5cqi 0.6cqi 0.9cqi 1.75cqi rgb(255 255 255 / 0.9),
+        inset -0.4cqi -0.5cqi 0.9cqi 1.9cqi rgb(12 44 53 / 0.1);
+}
+
+/* A mounting hole. */
+@utility bolt {
+    position: absolute;
+    width: 3.4cqi;
+    aspect-ratio: 1;
+    border-radius: 9999px;
+    background: radial-gradient(
+        circle at 40% 35%,
+        color-mix(in oklab, var(--color-ink) 18%, var(--color-surface)) 0 30%,
+        color-mix(in oklab, var(--color-ink) 55%, var(--color-surface)) 70%
+    );
+    box-shadow: 0 0.2cqi 0 rgb(255 255 255 / 0.9);
+}
+
+/* Stamped characters: pressed up out of the metal. */
+@utility stamped {
+    text-shadow:
+        -0.25cqi -0.25cqi 0 rgb(255 255 255 / 0.9),
+        0.35cqi 0.45cqi 0.3cqi rgb(12 44 53 / 0.28);
+}
+
+/* The dealer frame around the plate. */
+@utility plate-frame {
+    container-type: inline-size;
+    border-radius: 5cqi;
+    background: linear-gradient(
+        180deg,
+        var(--color-field-raised) 0%,
+        var(--color-field) 55%,
+        color-mix(in oklab, var(--color-field) 80%, black) 100%
+    );
+    box-shadow:
+        0 1px 0 rgb(255 255 255 / 0.12) inset,
+        0 24px 48px -24px rgb(12 44 53 / 0.45),
+        0 4px 10px -4px rgb(12 44 53 / 0.25);
+}
+
+/* The registration sticker, slightly lifted at one corner. */
+@utility sticker {
+    border-radius: 1.4cqi;
+    background: linear-gradient(135deg, var(--color-primary) 0 62%, color-mix(in oklab, var(--color-primary) 82%, black));
+    color: var(--color-primary-foreground);
+    box-shadow: 0.3cqi 0.4cqi 0.8cqi rgb(12 44 53 / 0.25);
+    transform: rotate(-3deg);
+}
+
+/* A telltale lit on the cluster. */
+[data-level='caution'] {
+    --lamp: var(--color-telltale);
+}
+
+[data-level='stop'] {
+    --lamp: var(--color-telltale-stop);
+}
+
+@utility lamp {
+    color: var(--lamp, var(--color-telltale));
+}
+
+/* First-viewport arrival: the plate settles into its frame. Time-based, so
+   no script is involved. */
+@keyframes mount {
+    from {
+        opacity: 0;
+        transform: translateY(18px) rotate(-1.5deg);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) rotate(0);
+    }
+}
+
+@keyframes rise {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+[data-mount] {
+    animation: mount 900ms cubic-bezier(0.16, 1, 0.3, 1) 150ms both;
+}
+
+[data-rise] {
+    animation: rise 700ms cubic-bezier(0.16, 1, 0.3, 1) both;
+    animation-delay: calc(var(--i, 0) * 80ms);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    [data-mount],
+    [data-rise] {
+        animation: none;
+    }
+}
+
+details > summary {
+    list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}

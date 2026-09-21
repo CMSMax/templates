@@ -1,0 +1,15 @@
+title: Questions
+description: Frequently asked questions as open-and-close rows beside a still-life photograph. Questions live in the FAQs collection.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Introduction, rows: 3 }
+    image: { type: image, label: Photograph }
+    imageAlt: { type: text, label: Photograph description }
+    faqs:
+        type: repeater
+        label: Questions
+        source: faqs
+        item_label: question
+        sub_fields:
+            question: { type: text, label: Question }
+            answer: { type: textarea, label: Answer, rows: 4 }

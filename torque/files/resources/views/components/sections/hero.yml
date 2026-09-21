@@ -1,0 +1,6 @@
+title: Hero
+description: The opening headline and Book service button beside the shop's license plate. The plate's words come from the site details (short name, plate top line, slogan, frame and sticker).
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    callLabel: { type: text, label: Words before the phone number }

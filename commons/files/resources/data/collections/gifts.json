@@ -1,0 +1,6 @@
+[
+    { "amount": "$25", "buys": "A week of groceries for one family", "link": "https://example.org/donate?amount=25" },
+    { "amount": "$60", "buys": "Thursday supper for forty neighbors", "link": "https://example.org/donate?amount=60" },
+    { "amount": "$150", "buys": "A space heater and a tank of oil", "link": "https://example.org/donate?amount=150" },
+    { "amount": "$500", "buys": "A month's rent gap, closed", "link": "https://example.org/donate?amount=500" }
+]

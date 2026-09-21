@@ -1,0 +1,5 @@
+title: Insurance
+description: A dark band listing the insurance plans the clinic bills, from "insurance" in site.json, with a note for everyone else.
+fields:
+    eyebrow: { type: text, label: Small line above the headline }
+    heading: { type: text, label: Headline }

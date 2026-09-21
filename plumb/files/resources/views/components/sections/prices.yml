@@ -1,0 +1,28 @@
+title: Price book
+description: Flat prices for common jobs as a ruled ledger — the featured few, or every price grouped by kind of job.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Intro, rows: 3 }
+    show:
+        type: select
+        label: Which prices
+        options:
+            featured: Featured prices only
+            all: Every price, grouped
+    jobLabel: { type: text, label: Job column heading }
+    priceLabel: { type: text, label: Price column heading }
+    visitNote: { type: textarea, label: Visit fee note, rows: 2 }
+    linkLabel: { type: text, label: Link text (featured view) }
+    linkHref: { type: url, label: Link (featured view) }
+    items:
+        type: repeater
+        label: Prices
+        source: prices
+        item_label: job
+        add_button_label: Add price
+        sub_fields:
+            job: { type: text, label: Job }
+            note: { type: textarea, label: What's included, rows: 2 }
+            category: { type: text, label: Group (must match a price group name) }
+            price: { type: text, label: Price }
+            featured: { type: toggle, label: Show on the homepage }

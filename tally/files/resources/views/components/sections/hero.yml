@@ -1,0 +1,10 @@
+title: Hero
+description: The headline, the booking button and the next-deadline note, beside a portrait of the practice.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    secondaryLabel: { type: text, label: Services link text }
+    nextLabel: { type: text, label: Next-deadline label }
+    image: { type: image, label: Portrait }
+    imageAlt: { type: text, label: Portrait description }
+    caption: { type: text, label: Portrait caption }

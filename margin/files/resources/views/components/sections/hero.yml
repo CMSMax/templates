@@ -1,0 +1,85 @@
+title: Hero
+description: The first viewport — the promise, the two ways in, and a marked worksheet that shows what a term with you looks like.
+fields:
+    heading:
+        type: text
+        label: Headline
+        default: Tutoring that shows up on the report card.
+        description: Say what changes for the student, not how good you are. Around forty characters reads best at this size.
+    intro:
+        type: textarea
+        label: Opening line
+        rows: 3
+        default: Maths, English, the sciences and entrance exams for ages 8 to 18 — taught by qualified teachers who still mark in red pen and tell you exactly what changed.
+    ctaLabel:
+        type: text
+        label: Button label
+        default: Book a free assessment
+    ctaUrl:
+        type: url
+        label: Button links to
+        default: /contact
+    secondaryLabel:
+        type: text
+        label: Second link label
+        default: See the programs
+    secondaryUrl:
+        type: url
+        label: Second link goes to
+        default: /programs
+    factOne:
+        type: text
+        label: First fact
+        default: Qualified teachers only
+    factTwo:
+        type: text
+        label: Second fact
+        default: Groups of four or fewer
+    factThree:
+        type: text
+        label: Third fact
+        default: A report every four weeks
+    sheetTitle:
+        type: text
+        label: Worksheet title
+        default: Algebra — worksheet 7
+    sheetName:
+        type: text
+        label: Worksheet student
+        default: Maya R., Grade 9
+        description: Use a first name and initial, and only with the family's permission.
+    grade:
+        type: text
+        label: Circled grade
+        default: A−
+    gradeNote:
+        type: text
+        label: Tag under the worksheet
+        default: was a C+ in September
+    sheetNote:
+        type: text
+        label: Red-pen note at the bottom
+        default: Nearly — square the whole bracket
+    problems:
+        type: repeater
+        label: Worksheet lines
+        item_label: question
+        add_button_label: Add a line
+        source: site.worksheet
+        sub_fields:
+            question:
+                type: text
+                label: Question
+                default: Solve 3x + 7 = 22
+            answer:
+                type: text
+                label: Student's answer
+                default: x = 5
+            correct:
+                type: toggle
+                label: Marked correct
+                default: '1'
+            correction:
+                type: text
+                label: Red-pen correction (when wrong)
+                default: ''

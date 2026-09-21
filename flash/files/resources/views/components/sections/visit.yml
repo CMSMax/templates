@@ -1,0 +1,6 @@
+title: Book and visit
+description: The closing call to book a consult, the house rules, and a studio card with the address and opening hours. The contact details and rules live in site settings; the hours live in the Hours collection.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    emailLabel: { type: text, label: Text before the email address }

@@ -1,0 +1,21 @@
+title: Contact
+description: The blue header, the phone number set large, an email booking button, the workshop address and hours, and what to have ready.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Intro, rows: 3 }
+    phoneLabel: { type: text, label: Phone label }
+    emailLabel: { type: text, label: Email label }
+    emailSubject: { type: text, label: Email subject line }
+    emailButton: { type: text, label: Email button text }
+    addressLabel: { type: text, label: Address label }
+    hoursLabel: { type: text, label: Hours label }
+    readyHeading: { type: text, label: Checklist heading }
+    items:
+        type: repeater
+        label: Checklist
+        source: site.ready_list
+        item_label: text
+        add_button_label: Add item
+        sub_fields:
+            text: { type: text, label: Item }
+    lidText: { type: text, label: Badge lettering (runs round the lid) }

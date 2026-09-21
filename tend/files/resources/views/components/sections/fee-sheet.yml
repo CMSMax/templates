@@ -1,0 +1,15 @@
+title: Fee sheet
+description: Every session type on dotted rule-leaders, with its length and price, from the Fees collection.
+fields:
+    heading: { type: text, label: Headline }
+    note: { type: textarea, label: Payment note, rows: 2 }
+    fees:
+        type: repeater
+        label: Fees
+        source: fees
+        item_label: name
+        sub_fields:
+            name: { type: text, label: Session type }
+            detail: { type: text, label: Short detail }
+            length: { type: text, label: Length }
+            price: { type: text, label: Price }

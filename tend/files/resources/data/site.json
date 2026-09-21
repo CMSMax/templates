@@ -1,0 +1,95 @@
+{
+    "name": "Tend Counseling",
+    "short_name": "tend",
+    "tagline": "Unhurried, practical therapy for adults and couples — in person in Portland and online across Oregon and Washington.",
+    "clinician": "Nora Lind",
+    "credentials": "LMFT",
+    "clinician_initials": "NL",
+    "clinician_focus": "Anxiety, burnout, relationships & life transitions",
+    "license_note": "Licensed Marriage & Family Therapist · Oregon #T2291 · Washington #LF61044",
+    "phone": "(555) 204-7718",
+    "phone_href": "tel:+15552047718",
+    "email": "hello@tend.example",
+    "address": "2130 SE Division Street, Suite 3",
+    "city": "Portland, OR 97202",
+    "directions_url": "https://maps.google.com/?q=2130+SE+Division+Street+Portland+OR",
+    "service_area": "In person in Portland · Online across Oregon & Washington",
+    "availability": "Now welcoming new clients",
+    "next_openings": "Tuesday & Thursday evenings",
+    "reply_time": "Replies within one business day",
+    "hours_short": "Mon–Thu 9am–7pm · Fri 9am–1pm",
+    "hours_note": "Sessions by appointment. No weekend sessions.",
+    "cta_label": "Book a free consultation",
+    "cta_link": "/#contact",
+    "booking_link": "mailto:hello@tend.example?subject=Free%20consultation",
+    "session_length": "50 minutes",
+    "fee_from": "$165",
+    "crisis_note": "Tend is not an emergency service. If you are in crisis, call or text 988 (Suicide & Crisis Lifeline) or call 911.",
+    "crisis_phone": "988",
+    "crisis_href": "tel:988",
+    "logistics": [
+        "50-minute sessions",
+        "From $165 · sliding scale spots",
+        "Superbills for out-of-network",
+        "No referral needed"
+    ],
+    "steps": [
+        {
+            "title": "A free 15-minute call",
+            "body": "Tell me a little about what's going on. I'll ask a few questions, you can ask me anything, and we'll see if it feels like a fit."
+        },
+        {
+            "title": "Your first session",
+            "body": "Fifty minutes to get the whole picture — what brought you here, what you've tried, and what you'd like to be different."
+        },
+        {
+            "title": "Settle into a rhythm",
+            "body": "Most people start weekly, then space sessions out as things steady. You set the pace, and we check in on it together."
+        }
+    ],
+    "progress": [
+        {
+            "title": "Sunday evenings stop feeling like a cliff edge.",
+            "body": "The week ahead is still busy. It just isn't loud in your head at 9pm."
+        },
+        {
+            "title": "An argument stays an argument.",
+            "body": "It ends in the kitchen instead of following you both to bed and into Tuesday."
+        },
+        {
+            "title": "You can name what you feel before it names you.",
+            "body": "Tired, disappointed, overstretched — words that turn a fog into something you can work with."
+        },
+        {
+            "title": "Rest feels like rest again.",
+            "body": "A free afternoon that doesn't come with a list of what you should be doing instead."
+        }
+    ],
+    "insurance": [
+        {
+            "title": "In network",
+            "body": "Aetna, Providence Health Plan and Regence BlueCross BlueShield. Bring your card to the first session and we'll check your benefits together."
+        },
+        {
+            "title": "Out of network",
+            "body": "I provide a monthly superbill you can submit for reimbursement. Many plans return 50–80% of the fee — worth a call to yours."
+        },
+        {
+            "title": "Sliding scale",
+            "body": "A few weekly spots are held at $95–$140 for students, artists, and anyone between jobs. Just ask — no paperwork to prove it."
+        }
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "Inner weather: a cool mist canvas, periwinkle dawn skies drawn in CSS with fine grain, one apricot sun, night-blue ink. Calm, adult and quietly modern. Never sage-and-beige, never leaves or lotuses, never the eyes-closed-in-the-sunshine stock photo.",
+        "type": "Rethink Sans (medium, tight tracking) for UI, body and the first half of every headline; Spectral italic (light) for the feeling half — 'A calmer place / to think out loud.' Numbers and captions also in Spectral italic.",
+        "color": "One accent: apricot (bg-primary) for the primary button and the sun in each sky — nothing else. Periwinkle (sky-dawn / bg-sky) carries the hero and one band. Night (bg-secondary / sky-night) carries the contact band and footer. Everything else is mist canvas, white cards, ink and muted text. Never add another color.",
+        "signature": "The inner-weather forecast — specialties typeset as a forecast table, each with a weather glyph, a condition, a first-person line in italic ('I can't switch my brain off'), and what the work looks like. Keep it wherever the design evolves.",
+        "voice": "Warm, plain and unhurried, written in the therapist's own first person. Short sentences, concrete everyday outcomes, honest numbers. No exclamation marks, no 'healing journey', no 'you are not alone', no testimonials."
+    }
+}

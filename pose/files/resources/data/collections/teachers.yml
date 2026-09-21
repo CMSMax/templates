@@ -1,0 +1,8 @@
+label: Teachers
+icon: 🙋
+fields:
+    name: { type: text, label: Name }
+    role: { type: text, label: What they teach }
+    bio: { type: textarea, label: Short bio, rows: 3 }
+    image: { type: image, label: Portrait }
+    imageAlt: { type: text, label: Portrait description }

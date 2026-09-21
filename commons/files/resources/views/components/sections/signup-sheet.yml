@@ -1,0 +1,16 @@
+title: Sign-up sheet
+description: Volunteer roles on a clipboard sheet — role, when, time commitment, what you'll do, and a sign-up button that emails the volunteer desk. Roles live in the Volunteer roles collection.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    signupLabel: { type: text, label: Button text }
+    roles:
+        type: repeater
+        label: Roles
+        source: roles
+        item_label: role
+        sub_fields:
+            role: { type: text, label: Role }
+            when: { type: text, label: When }
+            commitment: { type: text, label: Time commitment }
+            task: { type: textarea, label: What you'll do }

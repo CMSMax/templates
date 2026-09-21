@@ -1,0 +1,6 @@
+[
+    { "name": "Margaret Hale", "role": "Founding partner, CPA", "bio": "Twenty years in practice. Looks after our restaurants, shops and family businesses.", "image": "/images/hero-partner.jpg" },
+    { "name": "Daniel Okafor", "role": "Partner, Enrolled Agent", "bio": "Handles IRS notices and representation. Has never met a letter he couldn’t answer.", "image": "https://assets.ui.sh/avatars/2.webp?size=480" },
+    { "name": "Priya Raman", "role": "Head of bookkeeping", "bio": "Runs the monthly close for ninety clients, on time, every month.", "image": "https://assets.ui.sh/avatars/1.webp?size=480" },
+    { "name": "Arjun Mehta", "role": "Payroll lead", "bio": "Keeps two hundred people paid every other Friday without anyone noticing.", "image": "https://assets.ui.sh/avatars/13.webp?size=480" }
+]

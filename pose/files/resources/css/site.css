@@ -1,0 +1,136 @@
+@import 'tailwindcss';
+
+@theme {
+    /* Chalk-white canvas, mist-teal panels, deep teal-black ink. */
+    --color-canvas: #f6f7f4;
+    --color-surface: #e3eeea;
+    --color-card: #ffffff;
+    --color-ink: #10292b;
+    --color-muted: #4a5f61;
+    --color-line: #d2dcda;
+    /* Studio teal carries buttons and every pictogram; the deep teal is the
+       one dark band. The Branding page's colors reach the site through these
+       four. */
+    --color-primary: #0d6b63;
+    --color-primary-foreground: #f2fbf8;
+    --color-secondary: #0b3a39;
+    --color-secondary-foreground: #eef6f3;
+    /* The spark: chartreuse, only for the pose being held, the intro offer,
+       and the one call to action on the dark band. */
+    --color-spark: #d6f26a;
+    --color-spark-ink: #10292b;
+    --font-sans:
+        'Funnel Sans', ui-sans-serif, system-ui, -apple-system, 'Segoe UI',
+        sans-serif;
+    --font-display:
+        'Funnel Display', 'Funnel Sans', ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+blockquote {
+    text-wrap: balance;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+::selection {
+    background-color: var(--color-spark);
+    color: var(--color-spark-ink);
+}
+
+/* First-viewport arrival: copy rises, then the photo and its plate. */
+@keyframes rise-in {
+    from {
+        opacity: 0;
+        transform: translateY(16px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+[data-rise] {
+    animation: rise-in 800ms cubic-bezier(0.22, 1, 0.36, 1) both;
+    animation-delay: calc(60ms + var(--i, 0) * 100ms);
+}
+
+/* The sequence: one plate is held at a time. The layout script moves
+   data-active along the row at the pace of a breath; hovering or focusing a
+   plate holds that one instead. */
+.plate {
+    transition:
+        background-color 500ms ease,
+        color 500ms ease,
+        transform 500ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.plate[data-active] {
+    background-color: var(--color-spark);
+    color: var(--color-spark-ink);
+    transform: translateY(-6px);
+}
+
+.plate[data-active] .plate-figure {
+    color: var(--color-spark-ink);
+}
+
+.plate-figure {
+    transition: color 500ms ease;
+}
+
+/* The cue word under the heading swaps with the plate being held. */
+.cue {
+    transition: opacity 300ms ease;
+}
+
+.cue[data-fading] {
+    opacity: 0;
+}
+
+/* The breath ring beside the cue: it fills on an inhale, empties on an exhale. */
+.breath-ring {
+    transition: transform 2400ms cubic-bezier(0.37, 0, 0.63, 1);
+    transform: scale(0.55);
+}
+
+.breath-ring[data-breath='Inhale'] {
+    transform: scale(1);
+}
+
+.plates {
+    scrollbar-width: none;
+}
+
+.plates::-webkit-scrollbar {
+    display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    [data-rise] {
+        animation: none;
+    }
+
+    .plate,
+    .plate-figure,
+    .cue,
+    .breath-ring {
+        transition: none;
+    }
+
+    .plate[data-active] {
+        transform: none;
+    }
+}

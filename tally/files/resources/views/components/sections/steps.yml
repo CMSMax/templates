@@ -1,0 +1,6 @@
+title: How it works
+description: Four steps from the first call to the monthly report, each with when it happens.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    steps: { type: repeater, label: Steps, source: site.steps, item_label: title, sub_fields: { when: { type: text, label: When }, title: { type: text, label: Step }, body: { type: textarea, label: Description } } }

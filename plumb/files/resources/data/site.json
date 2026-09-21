@@ -1,0 +1,129 @@
+{
+    "name": "Plumb Line Plumbing",
+    "short_name": "Plumb",
+    "tagline": "Licensed plumbers for Denver homes. Flat prices, quoted before we pick up a wrench.",
+    "phone": "(720) 555-0147",
+    "phone_href": "tel:+17205550147",
+    "email": "hello@plumbline.example",
+    "address": "3310 Walnut Street, Denver, CO 80205",
+    "license": "Colorado Master Plumber #MP.0041872 · Insured",
+    "emergency_note": "Burst pipe or no water? We answer 24/7, and nights cost the same as days.",
+    "cta_label": "Book a plumber",
+    "cta_link": "/contact",
+    "nav_links": [
+        {
+            "label": "Services",
+            "href": "/services"
+        },
+        {
+            "label": "Prices",
+            "href": "/prices"
+        },
+        {
+            "label": "What's wrong?",
+            "href": "/#finder"
+        },
+        {
+            "label": "Contact",
+            "href": "/contact"
+        }
+    ],
+    "areas": [
+        {
+            "name": "Highland"
+        },
+        {
+            "name": "Park Hill"
+        },
+        {
+            "name": "Washington Park"
+        },
+        {
+            "name": "Capitol Hill"
+        },
+        {
+            "name": "Sloan's Lake"
+        },
+        {
+            "name": "Congress Park"
+        },
+        {
+            "name": "Berkeley"
+        },
+        {
+            "name": "Platt Park"
+        },
+        {
+            "name": "Lakewood"
+        },
+        {
+            "name": "Englewood"
+        },
+        {
+            "name": "Wheat Ridge"
+        },
+        {
+            "name": "Aurora"
+        }
+    ],
+    "hours": [
+        {
+            "days": "Monday – Friday",
+            "time": "7am – 7pm"
+        },
+        {
+            "days": "Saturday",
+            "time": "8am – 4pm"
+        },
+        {
+            "days": "Sunday",
+            "time": "Emergencies only"
+        },
+        {
+            "days": "Emergency line",
+            "time": "24 hours, every day"
+        }
+    ],
+    "ready_list": [
+        {
+            "text": "Where the problem is, and when it started"
+        },
+        {
+            "text": "A photo of the fixture, the leak or the drain"
+        },
+        {
+            "text": "Where your main shutoff is, if you know"
+        }
+    ],
+    "price_groups": [
+        {
+            "name": "Drains",
+            "body": "Cleared with a cable or a jetter, then camera-checked on request."
+        },
+        {
+            "name": "Water heaters",
+            "body": "Tank and tankless. Haul-away of the old unit is always included."
+        },
+        {
+            "name": "Leaks & pipes",
+            "body": "Found, fixed, and pressure-tested before we pack up."
+        },
+        {
+            "name": "Fixtures",
+            "body": "Your fixture or ours. Every price includes fitting and a test run."
+        }
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "The graphics of a city water department: porcelain fixtures, enamel utility plates, cast-iron meter lids. Porcelain-white canvas, one committed field of enamel blue, cast-iron ink, hairline rules, and bright daylight photographs of real jobs.",
+        "type": "Anybody at width 125, weight 800 for every heading, wide and heavy like cast lettering; Geist for everything else at 1.0625rem/1.65. Never a third family.",
+        "color": "Canvas #f5f6f4, surface #ffffff, ink #13171c, muted #515a63, hairline #d8dcdd, tint #e3e9f8. Enamel blue #1747c8 is bg-primary: the hero field, the closing call band, the primary button, the water in the pipe, active states. Ink bands (bg-ink) once per page.",
+        "signature": "The fault finder — pick what is going on (a leak, a slow drain, no hot water) and a work ticket shows the likely cause, what the plumber does, the flat price and how long it takes. The meter-lid roundel is the badge that carries the licence line.",
+        "voice": "A master plumber who explains before charging. Plain words, real prices, short sentences, no exclamation points, no 'your plumbing experts' filler."
+    }
+}

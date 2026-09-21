@@ -1,0 +1,9 @@
+title: Navigation
+description: The announcement strip, the logo, page links and the shop button.
+fields:
+    announcement: { type: text, label: Announcement }
+    showAnnouncement: { type: toggle, label: Show the announcement strip }
+    shopLabel: { type: text, label: Shop link text }
+    makersLabel: { type: text, label: Makers link text }
+    aboutLabel: { type: text, label: About link text }
+    visitLabel: { type: text, label: Visit link text }

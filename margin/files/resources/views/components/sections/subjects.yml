@@ -1,0 +1,35 @@
+title: Subjects
+description: The index of what you teach — one large line per program, each linking to its own page.
+fields:
+    heading:
+        type: text
+        label: Headline
+        default: Five subjects, taught properly.
+    note:
+        type: textarea
+        label: Note beside the headline
+        rows: 2
+        default: Every program runs one-to-one or in a group of four, in Harrow Hill or online.
+    items:
+        type: repeater
+        label: Programs
+        item_label: title
+        add_button_label: Add a program
+        source: collections.program
+        sub_fields:
+            title:
+                type: text
+                label: Program
+                default: Maths
+            summary:
+                type: text
+                label: One-line summary
+                default: Number sense to calculus, one idea at a time, with the working shown every time.
+            ages:
+                type: text
+                label: Ages
+                default: Ages 8–18
+            link:
+                type: url
+                label: Links to
+                default: /programs/maths

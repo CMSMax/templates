@@ -1,0 +1,13 @@
+label: Plans
+icon: 🎟️
+fields:
+    name: { type: text, label: Plan name }
+    price: { type: text, label: Price (e.g. $139) }
+    per: { type: text, label: Price note (e.g. a month) }
+    description: { type: text, label: One-line description }
+    featureOne: { type: text, label: First included item }
+    featureTwo: { type: text, label: Second included item }
+    featureThree: { type: text, label: Third included item }
+    highlight: { type: toggle, label: Mark as most popular }
+    ctaLabel: { type: text, label: Button text }
+    ctaLink: { type: url, label: Button link }
