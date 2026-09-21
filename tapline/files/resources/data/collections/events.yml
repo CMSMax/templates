@@ -1,0 +1,8 @@
+label: This week
+icon: 📅
+fields:
+    day: { type: text, label: Day }
+    short: { type: text, label: Short day (Tue) }
+    title: { type: text, label: What's on }
+    time: { type: text, label: Time }
+    note: { type: textarea, label: Details, rows: 2 }

@@ -1,0 +1,12 @@
+title: Footer
+description: The closing block on every page — tagline, visit and contact details, social links, and the page links.
+fields:
+    social:
+        type: repeater
+        label: Social links
+        source: site.social
+        item_label: label
+        add_button_label: Add a social link
+        sub_fields:
+            label: { type: text, label: Name }
+            href: { type: url, label: Link }

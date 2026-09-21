@@ -1,0 +1,12 @@
+title: Navigation
+description: The site header — menu links, phone number and booking button.
+fields:
+    links:
+        type: repeater
+        label: Menu links
+        source: site.nav_links
+        item_label: label
+        add_button_label: Add link
+        sub_fields:
+            label: { type: text, label: Label }
+            href: { type: url, label: Link }

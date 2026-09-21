@@ -1,0 +1,9 @@
+title: Hero
+description: The red band — the bakery's short name set huge, the headline with the Order ahead button, a tall photo, and today's hours and first bake.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    linkLabel: { type: text, label: Menu link text }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }
+    wordmarkSize: { type: select, label: Name size, options: { huge: Huge (names up to 6 letters), large: Large (up to 12 letters), medium: Medium (longer names) } }

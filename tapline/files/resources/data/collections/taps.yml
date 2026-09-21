@@ -1,0 +1,16 @@
+label: Taps
+icon: 🍺
+fields:
+    number: { type: text, label: Tap number }
+    name: { type: text, label: Name }
+    style: { type: text, label: Style }
+    section: { type: text, label: Tap list group }
+    description: { type: textarea, label: Tasting note, rows: 2 }
+    abv: { type: text, label: ABV }
+    ibu: { type: text, label: IBU (leave empty to hide) }
+    color: { type: select, label: Glass color, options: { pale: Pale, straw: Straw, gold: Gold, haze: Hazy, amber: Amber, copper: Copper, ruby: Ruby, brown: Brown, stout: Stout } }
+    pour: { type: text, label: Pour size }
+    price: { type: text, label: Price }
+    tag: { type: text, label: Tag (New, Last keg, Guest…) }
+    flight: { type: toggle, label: In the hero flight (pick 4–5) }
+    featured: { type: toggle, label: On the homepage tap board }

@@ -1,0 +1,23 @@
+title: Footer
+description: Contact details, opening hours and footer links.
+fields:
+    note: { type: textarea, label: Short description, rows: 2 }
+    legal: { type: text, label: Small print }
+    links:
+        type: repeater
+        label: Footer links
+        source: site.nav_links
+        item_label: label
+        add_button_label: Add link
+        sub_fields:
+            label: { type: text, label: Label }
+            href: { type: url, label: Link }
+    hours:
+        type: repeater
+        label: Opening hours
+        source: hours
+        item_label: day
+        add_button_label: Add day
+        sub_fields:
+            day: { type: text, label: Day }
+            hours: { type: text, label: Hours }

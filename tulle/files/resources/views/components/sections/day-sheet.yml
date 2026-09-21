@@ -1,0 +1,10 @@
+title: The day sheet
+description: A sample run-of-show, typeset like the timeline a planner sends every vendor.
+fields:
+    kicker: { type: text, label: Small label }
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    sheetTitle: { type: text, label: Sheet title }
+    sheetCouple: { type: text, label: Couple on the sheet }
+    sheetDate: { type: text, label: Date on the sheet }
+    items: { type: repeater, label: Timeline, source: site.day_timeline, item_label: title, add_button_label: Add a moment, sub_fields: { time: { type: text, label: Time }, title: { type: text, label: What happens }, note: { type: text, label: Note } } }

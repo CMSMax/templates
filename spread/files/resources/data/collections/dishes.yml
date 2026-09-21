@@ -1,0 +1,7 @@
+label: Dishes
+icon: 🥗
+fields:
+    name: { type: text, label: Dish }
+    note: { type: text, label: What's in it }
+    menu: { type: text, label: Menu (the menu's link name) }
+    course: { type: select, label: Course, options: { "1": First course, "2": Second course, "3": Third course } }

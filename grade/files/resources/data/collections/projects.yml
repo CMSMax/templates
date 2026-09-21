@@ -1,0 +1,16 @@
+label: Projects
+icon: 🏗️
+fields:
+    title: { type: text, label: Project name }
+    slug: { type: text, label: URL slug }
+    date: { type: text, label: Completed (YYYY-MM-DD) }
+    description: { type: textarea, label: Short description, rows: 3 }
+    image: { type: image, label: Photo }
+    link: { type: url, label: Page link }
+    content: { type: richtext, label: Story }
+    imageAlt: { type: text, label: Photo description }
+    location: { type: text, label: Neighborhood }
+    scope: { type: text, label: Scope }
+    weeks: { type: text, label: Weeks on site }
+    year: { type: text, label: Year }
+    number: { type: text, label: Job number }

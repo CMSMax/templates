@@ -1,0 +1,8 @@
+title: Quote
+description: One kind word from a client or planner, set large beside a photo.
+fields:
+    quote: { type: textarea, label: Quote, rows: 3 }
+    name: { type: text, label: Name }
+    role: { type: text, label: Who they are }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }

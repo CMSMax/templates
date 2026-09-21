@@ -1,0 +1,50 @@
+[
+    {
+        "slug": "harvest-supper",
+        "name": "The Harvest Supper",
+        "style": "Family-style dinner",
+        "price": "72",
+        "minimum": "30 guests",
+        "description": "Big platters down the middle of the table and everyone reaching across. Our most-booked wedding and rehearsal-dinner menu.",
+        "course_1": "To start",
+        "course_2": "For the table",
+        "course_3": "Something sweet",
+        "featured": true
+    },
+    {
+        "slug": "long-table",
+        "name": "The Long Table",
+        "style": "Grazing table",
+        "price": "58",
+        "minimum": "40 guests",
+        "description": "One unbroken table of cheeses, cured meats, roasted vegetables and bread, built on site and replenished all evening.",
+        "course_1": "On the table",
+        "course_2": "From the kitchen",
+        "course_3": "",
+        "featured": false
+    },
+    {
+        "slug": "passed-and-poured",
+        "name": "Passed and Poured",
+        "style": "Cocktail reception",
+        "price": "46",
+        "minimum": "50 guests",
+        "description": "Eight small bites carried through the room on trays, and a bar that pours one seasonal cocktail alongside wine and beer.",
+        "course_1": "Passed",
+        "course_2": "At the bar",
+        "course_3": "",
+        "featured": false
+    },
+    {
+        "slug": "working-lunch",
+        "name": "The Working Lunch",
+        "style": "Office buffet or boxed",
+        "price": "24",
+        "minimum": "15 people",
+        "description": "A lunch people talk about in the afternoon meeting. Delivered, labeled for every diet and set out by noon.",
+        "course_1": "Mains",
+        "course_2": "Salads and sides",
+        "course_3": "",
+        "featured": false
+    }
+]

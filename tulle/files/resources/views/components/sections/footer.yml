@@ -1,0 +1,6 @@
+title: Footer
+description: The closing band with the studio address, contact details, and page links.
+fields:
+    blurb: { type: textarea, label: Short description, rows: 2 }
+    instagramUrl: { type: url, label: Instagram link }
+    instagramLabel: { type: text, label: Instagram link text }

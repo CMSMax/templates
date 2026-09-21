@@ -1,0 +1,10 @@
+title: Checklist
+description: What to bring to a first appointment.
+fields:
+    eyebrow: { type: text, label: Eyebrow }
+    heading: { type: textarea, label: Heading, rows: 2 }
+    intro: { type: textarea, label: Introduction, rows: 2 }
+    itemOne: { type: text, label: First item }
+    itemTwo: { type: text, label: Second item }
+    itemThree: { type: text, label: Third item }
+    itemFour: { type: text, label: Fourth item }

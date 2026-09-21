@@ -1,0 +1,15 @@
+title: Proof
+description: One client in their own words beside the numbers that back it up.
+fields:
+    quote: { type: textarea, label: Quote, rows: 4 }
+    name: { type: text, label: Client }
+    detail: { type: text, label: Job and year }
+    figures:
+        type: repeater
+        label: Figures
+        source: site.figures
+        item_label: label
+        add_button_label: Add figure
+        sub_fields:
+            value: { type: text, label: Number }
+            label: { type: text, label: What it counts }

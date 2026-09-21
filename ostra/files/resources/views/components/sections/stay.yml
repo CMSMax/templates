@@ -1,0 +1,23 @@
+title: The stay
+description: What every night includes, and the front-desk card with check-in, check-out, and breakfast times.
+fields:
+    eyebrow: { type: text, label: Small label }
+    heading: { type: text, label: Headline }
+    headingAccent: { type: text, label: Headline accent (italic) }
+    deskHeading: { type: text, label: Front-desk card title }
+    included:
+        type: repeater
+        label: Included with every night
+        source: site.included
+        item_label: title
+        sub_fields:
+            title: { type: text, label: What }
+            note: { type: textarea, label: A line about it, rows: 2 }
+    desk:
+        type: repeater
+        label: Front-desk times
+        source: site.desk
+        item_label: label
+        sub_fields:
+            label: { type: text, label: Label }
+            value: { type: text, label: Time }

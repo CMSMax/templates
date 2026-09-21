@@ -1,0 +1,1 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" class="size-full" aria-hidden="true"><path fill-rule="evenodd" d="M16 2a14 14 0 1 0 0 28a14 14 0 1 0 0-28ZM10 9.5h12v2.6h-4.7V23h-2.6V12.1H10Z"/></svg>

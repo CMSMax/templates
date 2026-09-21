@@ -1,0 +1,24 @@
+title: Visit & book
+description: The one dark band — how to book, the booking policy, opening hours, address and contact details.
+fields:
+    eyebrow: { type: text, label: Small line above the headline }
+    heading: { type: text, label: Headline }
+    headingAccent: { type: text, label: Italic second line }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    hoursHeading: { type: text, label: Hours heading }
+    policy:
+        type: repeater
+        label: Booking policy
+        source: site.booking_policy
+        item_label: text
+        add_button_label: Add a line
+        sub_fields:
+            text: { type: text, label: Line }
+    hours:
+        type: repeater
+        label: Opening hours
+        source: hours
+        item_label: day
+        sub_fields:
+            day: { type: text, label: Day }
+            time: { type: text, label: Hours (or Closed) }

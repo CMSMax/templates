@@ -1,0 +1,6 @@
+label: Nearby
+icon: 🧭
+fields:
+    place: { type: text, label: Place }
+    note: { type: text, label: One-line note }
+    distance: { type: text, label: How far (e.g. 4 min on foot) }

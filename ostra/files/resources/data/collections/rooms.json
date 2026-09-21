@@ -1,0 +1,44 @@
+[
+    {
+        "number": "02",
+        "name": "The Harbour Room",
+        "slug": "harbour-room",
+        "summary": "Our quietest room, on the ground floor. Tall shutters open straight onto the water, and the terrace — and breakfast — are ten steps away.",
+        "sleeps": "2 guests",
+        "bed": "King bed",
+        "size": "24 m²",
+        "view": "Harbour view",
+        "rate": "185",
+        "image": "/images/room-harbour.jpg",
+        "alt": "A linen-dressed bed with a claret throw beside an open shuttered window looking out to the sea",
+        "features": "Step-free rain shower · Writing desk · Blackout linen curtains"
+    },
+    {
+        "number": "07",
+        "name": "The Balcony Suite",
+        "slug": "balcony-suite",
+        "summary": "A stone bath by open French doors, and a wrought-iron balcony wide enough for two chairs and a bottle of rosé at dusk.",
+        "sleeps": "2 guests",
+        "bed": "King bed",
+        "size": "38 m²",
+        "view": "Village and sea",
+        "rate": "260",
+        "image": "/images/room-balcony.jpg",
+        "alt": "A freestanding stone bathtub beside open French doors and a small balcony in golden light",
+        "features": "Freestanding stone bath · Private balcony · Separate sitting corner"
+    },
+    {
+        "number": "11",
+        "name": "The Attic Twin",
+        "slug": "attic-twin",
+        "summary": "Two narrow beds under the old roof beams, a round window onto the cypresses, and the best-kept secret price in the house.",
+        "sleeps": "2 guests",
+        "bed": "Two single beds",
+        "size": "18 m²",
+        "view": "Cypress garden",
+        "rate": "140",
+        "image": "/images/room-attic.jpg",
+        "alt": "Two single beds with striped red blankets under sloping timber beams and a round window",
+        "features": "Exposed roof beams · Round garden window · Shared terrace access"
+    }
+]

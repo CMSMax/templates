@@ -1,0 +1,18 @@
+title: Welcome
+description: A cascading headline, a few words from the hosts, and the house in four numbers.
+fields:
+    eyebrow: { type: text, label: Small label }
+    lineOne: { type: text, label: Headline — first line }
+    lineTwo: { type: text, label: Headline — second line (italic) }
+    lineThree: { type: text, label: Headline — third line }
+    lineFour: { type: text, label: Headline — fourth line }
+    body: { type: textarea, label: Welcome text, rows: 4 }
+    signoff: { type: text, label: Signed by }
+    facts:
+        type: repeater
+        label: The house in numbers
+        source: site.facts
+        item_label: value
+        sub_fields:
+            value: { type: text, label: Number }
+            label: { type: text, label: What it means }

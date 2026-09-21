@@ -1,0 +1,19 @@
+title: Contact details
+description: Phone, email, address, opening hours and the emergency line.
+fields:
+    phoneTitle: { type: text, label: Phone heading }
+    phoneNote: { type: text, label: Phone note }
+    emailTitle: { type: text, label: Email heading }
+    emailNote: { type: textarea, label: Email note, rows: 2 }
+    visitTitle: { type: text, label: Address heading }
+    visitNote: { type: textarea, label: Address note, rows: 2 }
+    emergencyTitle: { type: text, label: Emergency heading }
+    hours:
+        type: repeater
+        label: Opening hours
+        source: hours
+        item_label: day
+        add_button_label: Add day
+        sub_fields:
+            day: { type: text, label: Day }
+            hours: { type: text, label: Hours }

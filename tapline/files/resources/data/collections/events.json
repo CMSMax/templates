@@ -1,0 +1,37 @@
+[
+    {
+        "day": "Tuesday",
+        "short": "Tue",
+        "title": "Pub trivia",
+        "time": "7 pm",
+        "note": "Teams of up to six. Winners drink free for a round, losers pick next week's categories."
+    },
+    {
+        "day": "Wednesday",
+        "short": "Wed",
+        "title": "Growler fill night",
+        "time": "All day",
+        "note": "Two dollars off every growler and crowler fill, any beer on the board."
+    },
+    {
+        "day": "Thursday",
+        "short": "Thu",
+        "title": "Vinyl night",
+        "time": "6 pm",
+        "note": "Bring a record, we'll spin it. One side per person, no skipping."
+    },
+    {
+        "day": "Friday",
+        "short": "Fri",
+        "title": "Food truck & nitro",
+        "time": "5 pm",
+        "note": "A different truck out front every week, and Low Light pours on nitro."
+    },
+    {
+        "day": "Sunday",
+        "short": "Sun",
+        "title": "Brewery tour",
+        "time": "1 pm",
+        "note": "Forty minutes through the brewhouse with the brewer, a taster at every tank. $15."
+    }
+]

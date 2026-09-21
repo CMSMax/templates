@@ -1,0 +1,15 @@
+title: Services
+description: The kinds of job the crew takes on, as a ruled list beside a sticky heading.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Intro, rows: 3 }
+    items:
+        type: repeater
+        label: Services
+        source: services
+        item_label: name
+        add_button_label: Add service
+        sub_fields:
+            name: { type: text, label: Service }
+            summary: { type: textarea, label: One-line summary, rows: 2 }
+            tags: { type: text, label: Trades involved }

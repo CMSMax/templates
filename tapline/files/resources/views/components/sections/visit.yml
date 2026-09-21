@@ -1,0 +1,8 @@
+title: Hours & directions
+description: Address, hours from the Hours collection, house notes and the directions button.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    directionsLabel: { type: text, label: Directions button text }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }

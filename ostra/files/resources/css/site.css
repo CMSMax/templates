@@ -1,0 +1,65 @@
+@import 'tailwindcss';
+
+@theme {
+    --color-canvas: #f7efe8;
+    --color-surface: #efe2d8;
+    --color-card: #fbf6f1;
+    --color-ink: #2e1612;
+    --color-muted: #6e4d45;
+    --color-line: #e3d1c5;
+    /* The one accent: shutter claret. The Branding page's colors reach the
+       site through primary/secondary, so retune these to recolor the site. */
+    --color-primary: #9a2b1f;
+    --color-primary-foreground: #fbf3ec;
+    --color-secondary: #efe2d8;
+    --color-secondary-foreground: #2e1612;
+    --font-sans: 'Jost', ui-sans-serif, system-ui, -apple-system, sans-serif;
+    --font-display: 'Bodoni Moda', 'Didot', 'Bodoni 72', Georgia, serif;
+}
+
+/* The homepage lays the header over the hero photograph; every other page
+   keeps the solid bar. The layout's `header` prop sets data-header on <body>. */
+@custom-variant overlay (&:where([data-header='overlay'] *));
+
+/* The dotted leader between a nearby place and how far it is. */
+@utility leader {
+    flex: 1 1 0%;
+    min-width: 1.5rem;
+    border-bottom: 1.5px dotted currentColor;
+    opacity: 0.35;
+    transform: translateY(-0.3em);
+}
+
+/* A striped canvas awning with a scalloped hem: claret and cream stripes,
+   one scallop per stripe. */
+@utility awning {
+    height: 4.5rem;
+    background: repeating-linear-gradient(90deg, var(--color-primary) 0 2.5rem, var(--color-card) 2.5rem 5rem);
+    mask:
+        linear-gradient(#000 0 0) top / 100% calc(100% - 1.25rem) no-repeat,
+        radial-gradient(circle 1.25rem at 50% 0, #000 97%, transparent) left bottom / 2.5rem 1.25rem repeat-x;
+}
+
+/* First-viewport arrival: copy rises in sequence (--i is each element's
+   slot). Time-based, so no script is involved. */
+@keyframes rise-in {
+    from {
+        opacity: 0;
+        transform: translateY(18px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+[data-rise] {
+    animation: rise-in 1000ms cubic-bezier(0.22, 1, 0.36, 1) both;
+    animation-delay: calc(120ms + var(--i, 0) * 110ms);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    [data-rise] {
+        animation: none;
+    }
+}

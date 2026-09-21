@@ -1,0 +1,12 @@
+title: Hero
+description: The mint opening panel — headline, introduction, buttons and photo.
+fields:
+    eyebrow: { type: text, label: Eyebrow }
+    heading: { type: textarea, label: Headline, rows: 2 }
+    intro: { type: textarea, label: Introduction, rows: 3 }
+    secondaryLabel: { type: text, label: Second button label }
+    secondaryHref: { type: url, label: Second button link }
+    rating: { type: text, label: Rating }
+    ratingNote: { type: text, label: Rating note }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }

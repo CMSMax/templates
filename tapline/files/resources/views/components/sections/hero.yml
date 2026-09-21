@@ -1,0 +1,7 @@
+title: Hero
+description: The opening headline over the tasting flight. The glasses are the taps switched on "In the hero flight" in the Taps collection, drawn in each tap's glass color.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    secondaryLabel: { type: text, label: Tap list link text }
+    flightLabel: { type: text, label: Flight label }

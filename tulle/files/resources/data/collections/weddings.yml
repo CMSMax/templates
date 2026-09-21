@@ -1,0 +1,18 @@
+label: Weddings
+icon: 💐
+fields:
+    couple: { type: text, label: Couple }
+    place: { type: text, label: Venue and town }
+    season: { type: text, label: Month or season }
+    guests: { type: text, label: Guest count }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }
+    story: { type: textarea, label: One-line story, rows: 2 }
+    chip1Name: { type: text, label: Swatch 1 name }
+    chip1: { type: color, label: Swatch 1 color }
+    chip2Name: { type: text, label: Swatch 2 name }
+    chip2: { type: color, label: Swatch 2 color }
+    chip3Name: { type: text, label: Swatch 3 name }
+    chip3: { type: color, label: Swatch 3 color }
+    chip4Name: { type: text, label: Swatch 4 name }
+    chip4: { type: color, label: Swatch 4 color }

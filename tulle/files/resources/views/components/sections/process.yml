@@ -1,0 +1,7 @@
+title: How we work
+description: The planning process as four numbered stages on one line, from the first conversation to the day itself.
+fields:
+    kicker: { type: text, label: Small label }
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    items: { type: repeater, label: Stages, source: site.steps, item_label: title, add_button_label: Add a stage, sub_fields: { title: { type: text, label: Stage }, body: { type: textarea, label: Description }, when: { type: text, label: Timing } } }

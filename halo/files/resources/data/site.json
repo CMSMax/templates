@@ -1,0 +1,138 @@
+{
+    "name": "Halo Salon & Spa",
+    "short_name": "Halo",
+    "tagline": "Hair, skin, nails and body under one roof on Linden Avenue — unhurried appointments, honest prices, and people who remember how you like it.",
+    "phone": "(555) 284-7120",
+    "phone_href": "tel:+15552847120",
+    "email": "hello@halo.example",
+    "address": "88 Linden Avenue",
+    "city": "Springfield",
+    "directions_url": "https://maps.google.com/?q=88+Linden+Avenue+Springfield",
+    "hours_short": "Tue–Sat 9am–8pm · Sun 10am–5pm",
+    "cta_label": "Book an appointment",
+    "cta_link": "/visit",
+    "booking_link": "/visit#book",
+    "rating": "4.9",
+    "rating_note": "from 1,240 reviews",
+    "license_note": "Licensed cosmetologists and estheticians",
+    "nav": [
+        {
+            "label": "Menu",
+            "href": "/menu"
+        },
+        {
+            "label": "Studio",
+            "href": "/studio"
+        },
+        {
+            "label": "Team",
+            "href": "/studio#team"
+        },
+        {
+            "label": "Visit",
+            "href": "/visit"
+        }
+    ],
+    "social": [
+        {
+            "label": "Instagram",
+            "href": "https://instagram.com/"
+        },
+        {
+            "label": "TikTok",
+            "href": "https://tiktok.com/"
+        },
+        {
+            "label": "Pinterest",
+            "href": "https://pinterest.com/"
+        }
+    ],
+    "ticker": [
+        {
+            "text": "Open Tuesday to Sunday"
+        },
+        {
+            "text": "88 Linden Avenue, Springfield"
+        },
+        {
+            "text": "Walk-in blowouts before noon"
+        },
+        {
+            "text": "Free consultation with every colour"
+        },
+        {
+            "text": "Gift cards at the front desk"
+        }
+    ],
+    "menu_groups": [
+        {
+            "name": "Hair",
+            "body": "Cuts, blowouts and styling for every length and texture.",
+            "image": "/images/hero-cut.jpg",
+            "imageAlt": "A stylist cutting a client's shoulder-length dark hair by a bright window"
+        },
+        {
+            "name": "Colour",
+            "body": "Balayage, gloss and grey blending, planned at a free consult.",
+            "image": "/images/colour.jpg",
+            "imageAlt": "A colourist brushing honey balayage onto sections of long brown hair"
+        },
+        {
+            "name": "Skin",
+            "body": "Facials matched to your skin on the day, not a script.",
+            "image": "/images/hero-facial.jpg",
+            "imageAlt": "An esthetician applying a cream mask to a relaxed client's cheek"
+        },
+        {
+            "name": "Nails",
+            "body": "Long-wear manicures and pedicures with properly clean tools.",
+            "image": "/images/nails.jpg",
+            "imageAlt": "A nail technician painting a client's nails a deep merlot red"
+        },
+        {
+            "name": "Body",
+            "body": "Massage in a quiet room, with as much or as little talk as you like.",
+            "image": "/images/body.jpg",
+            "imageAlt": "A quiet treatment room made up with white linen, warm stones and eucalyptus"
+        }
+    ],
+    "menu_note": "Prices are where an appointment starts. Longer or thicker hair may take more time, and we always tell you before we begin.",
+    "approach_stats": [
+        {
+            "stat": "15 min",
+            "label": "Every appointment starts with a conversation, not a cape."
+        },
+        {
+            "stat": "12",
+            "label": "Stylists, colourists and therapists — each a specialist."
+        },
+        {
+            "stat": "Since 2011",
+            "label": "On Linden Avenue, with many of the same clients."
+        }
+    ],
+    "booking_policy": [
+        {
+            "text": "Book online, by phone, or at the front desk."
+        },
+        {
+            "text": "Free cancellation up to 24 hours before."
+        },
+        {
+            "text": "New colour clients get a free patch test and consult."
+        }
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "A neighbourhood salon and spa with a magazine eye: rose-porcelain canvas, blush-clay panels, aubergine ink, one merlot accent, bright daylight photography cut into arches like salon mirrors.",
+        "type": "Bodoni Moda (regular, with an italic phrase in most headlines) for every heading and price; Manrope for body and UI. Headlines large and airy, body at a comfortable reading size.",
+        "color": "One accent: merlot (bg-primary / text-primary) for buttons, prices, and the italic word in a headline. Aubergine (bg-secondary) carries exactly one dark band — the visit section. Everything else is canvas, blush surface, cream cards, ink and muted text. Never add another color.",
+        "signature": "The treatment menu — services printed like a spa menu with dotted leaders, durations and merlot prices, beside a tall arched photo that changes to match the group being read. Keep the arch shape on photographs wherever the design evolves.",
+        "voice": "Warm, assured, a little wry. Short sentences and real details — times, prices, names. No exclamation marks, no 'pamper yourself', no 'luxurious experience'."
+    }
+}

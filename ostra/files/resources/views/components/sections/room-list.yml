@@ -1,0 +1,22 @@
+title: Room details
+description: Every room at length — photograph and key-fob, description, beds, size, view, features, and nightly rate. Rooms live in the Rooms collection.
+fields:
+    buttonLabel: { type: text, label: Button text on each room }
+    rooms:
+        type: repeater
+        label: Rooms
+        source: rooms
+        item_label: name
+        sub_fields:
+            number: { type: text, label: Room number }
+            name: { type: text, label: Room name }
+            slug: { type: text, label: Anchor (URL-safe) }
+            summary: { type: textarea, label: Description, rows: 3 }
+            sleeps: { type: text, label: Sleeps }
+            bed: { type: text, label: Beds }
+            size: { type: text, label: Size }
+            view: { type: text, label: View }
+            rate: { type: text, label: Nightly rate from }
+            image: { type: image, label: Photo }
+            alt: { type: text, label: Photo description }
+            features: { type: text, label: Features }

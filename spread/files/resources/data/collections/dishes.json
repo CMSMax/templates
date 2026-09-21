@@ -1,0 +1,146 @@
+[
+    {
+        "menu": "harvest-supper",
+        "course": "1",
+        "name": "Whipped ricotta toast",
+        "note": "Roasted persimmon, hot honey, thyme"
+    },
+    {
+        "menu": "harvest-supper",
+        "course": "1",
+        "name": "Little gem salad",
+        "note": "Pickled shallot, buttermilk, toasted seeds"
+    },
+    {
+        "menu": "harvest-supper",
+        "course": "2",
+        "name": "Roast chicken",
+        "note": "Charred lemon, salsa verde, pan juices"
+    },
+    {
+        "menu": "harvest-supper",
+        "course": "2",
+        "name": "Slow-cooked short rib",
+        "note": "Red wine, root vegetables, horseradish cream"
+    },
+    {
+        "menu": "harvest-supper",
+        "course": "2",
+        "name": "Farro and pomegranate",
+        "note": "Feta, mint, toasted walnut"
+    },
+    {
+        "menu": "harvest-supper",
+        "course": "2",
+        "name": "Charred broccoli",
+        "note": "Chili, garlic, lemon"
+    },
+    {
+        "menu": "harvest-supper",
+        "course": "3",
+        "name": "Pear and almond tart",
+        "note": "Crème fraîche, cardamom"
+    },
+    {
+        "menu": "long-table",
+        "course": "1",
+        "name": "Three farm cheeses",
+        "note": "Honeycomb, quince paste, figs"
+    },
+    {
+        "menu": "long-table",
+        "course": "1",
+        "name": "Cured meats",
+        "note": "Coppa, finocchiona, bresaola"
+    },
+    {
+        "menu": "long-table",
+        "course": "1",
+        "name": "Roasted squash",
+        "note": "Brown butter, sage, pepitas"
+    },
+    {
+        "menu": "long-table",
+        "course": "1",
+        "name": "Breads from the oven",
+        "note": "Sourdough, focaccia, seeded rye"
+    },
+    {
+        "menu": "long-table",
+        "course": "2",
+        "name": "Burrata",
+        "note": "Blistered grapes, aged balsamic"
+    },
+    {
+        "menu": "long-table",
+        "course": "2",
+        "name": "Warm olives and nuts",
+        "note": "Orange peel, rosemary"
+    },
+    {
+        "menu": "passed-and-poured",
+        "course": "1",
+        "name": "Beet tartlet",
+        "note": "Goat cheese, dill"
+    },
+    {
+        "menu": "passed-and-poured",
+        "course": "1",
+        "name": "Persimmon crostini",
+        "note": "Whipped ricotta, pistachio"
+    },
+    {
+        "menu": "passed-and-poured",
+        "course": "1",
+        "name": "Short rib on brioche",
+        "note": "Pickled onion, horseradish"
+    },
+    {
+        "menu": "passed-and-poured",
+        "course": "1",
+        "name": "Mushroom arancini",
+        "note": "Parmesan, truffle salt"
+    },
+    {
+        "menu": "passed-and-poured",
+        "course": "2",
+        "name": "The Orchard",
+        "note": "Apple brandy, cider, bitters"
+    },
+    {
+        "menu": "passed-and-poured",
+        "course": "2",
+        "name": "Wine and beer",
+        "note": "From growers and brewers within 60 miles"
+    },
+    {
+        "menu": "working-lunch",
+        "course": "1",
+        "name": "Herb-roasted chicken",
+        "note": "Salsa verde, lemon"
+    },
+    {
+        "menu": "working-lunch",
+        "course": "1",
+        "name": "Roasted cauliflower",
+        "note": "Tahini, chickpeas, sumac"
+    },
+    {
+        "menu": "working-lunch",
+        "course": "2",
+        "name": "Grain salad",
+        "note": "Farro, pomegranate, feta"
+    },
+    {
+        "menu": "working-lunch",
+        "course": "2",
+        "name": "Market greens",
+        "note": "Shallot vinaigrette"
+    },
+    {
+        "menu": "working-lunch",
+        "course": "2",
+        "name": "Brown butter cookies",
+        "note": "Sea salt"
+    }
+]

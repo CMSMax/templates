@@ -1,0 +1,6 @@
+title: Tap board
+description: What's pouring now. Switch "On the homepage tap board" on for each tap to show here in the Taps collection.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    linkLabel: { type: text, label: Tap list link text }

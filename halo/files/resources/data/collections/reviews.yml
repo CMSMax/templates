@@ -1,0 +1,6 @@
+label: Reviews
+icon: ⭐
+fields:
+    quote: { type: textarea, label: Quote, rows: 3 }
+    name: { type: text, label: Name }
+    service: { type: text, label: Service they had }

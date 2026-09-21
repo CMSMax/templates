@@ -1,0 +1,5 @@
+title: Request a quote
+description: The closing plum band with the Request a quote button and the kitchen's phone, email and service area (from site settings).
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }

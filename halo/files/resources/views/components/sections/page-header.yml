@@ -1,0 +1,10 @@
+title: Page header
+description: The opening of an inner page — a large headline with an italic phrase and an optional arched photo.
+fields:
+    eyebrow: { type: text, label: Small line above the headline }
+    heading: { type: text, label: Headline }
+    headingAccent: { type: text, label: Italic second line }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    showImage: { type: toggle, label: Show the photo }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }

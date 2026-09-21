@@ -1,0 +1,10 @@
+title: Dentist's note
+description: A large quote from the lead dentist with their portrait.
+fields:
+    quote: { type: textarea, label: Quote, rows: 4 }
+    name: { type: text, label: Name }
+    role: { type: text, label: Role }
+    image: { type: image, label: Portrait }
+    imageAlt: { type: text, label: Portrait description }
+    linkLabel: { type: text, label: Button label }
+    linkHref: { type: url, label: Button link }

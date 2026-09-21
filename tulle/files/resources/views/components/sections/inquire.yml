@@ -1,0 +1,12 @@
+title: Inquire
+description: The closing plum band — what to send, the email address set large, and the inquiry button.
+fields:
+    kicker: { type: text, label: Small label }
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    firstLabel: { type: text, label: First thing to send }
+    firstNote: { type: text, label: First note }
+    secondLabel: { type: text, label: Second thing to send }
+    secondNote: { type: text, label: Second note }
+    thirdLabel: { type: text, label: Third thing to send }
+    thirdNote: { type: text, label: Third note }

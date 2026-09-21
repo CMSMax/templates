@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Check-up & clean",
+        "group": "Everyday care",
+        "blurb": "An unhurried exam, a hygienist clean and polish, and X-rays only when you need them.",
+        "detail": "We check every tooth, your gums and your bite, screen for oral cancer, and talk you through anything we find before we touch it. Most visits take 45 minutes and end with a plan you can read.",
+        "price": "from $95",
+        "duration": "45 min"
+    },
+    {
+        "name": "Children's dentistry",
+        "group": "Everyday care",
+        "blurb": "Short, cheerful first visits that teach kids the chair is nothing to fear.",
+        "detail": "From the first tooth to the teenage years: gentle check-ups, sealants, fluoride and brushing coaching. Parents stay in the room, and every child leaves with a sticker and a clean smile.",
+        "price": "from $65",
+        "duration": "30 min"
+    },
+    {
+        "name": "Fillings",
+        "group": "Restorative",
+        "blurb": "Tooth-coloured composite, matched to your shade and finished in one visit.",
+        "detail": "We numb gently, remove only what we must, and rebuild the tooth in a composite that blends in. No metal, no second appointment.",
+        "price": "from $140",
+        "duration": "40 min"
+    },
+    {
+        "name": "Crowns & bridges",
+        "group": "Restorative",
+        "blurb": "Strong porcelain restorations for cracked, worn or missing teeth.",
+        "detail": "A crown protects a weakened tooth; a bridge fills a gap without surgery. Both are shade-matched and fitted over two visits, with a temporary in between.",
+        "price": "from $1,050",
+        "duration": "2 visits"
+    },
+    {
+        "name": "Dental implants",
+        "group": "Restorative",
+        "blurb": "A permanent replacement root and tooth that looks and feels like your own.",
+        "detail": "We plan every implant from a 3D scan, place it under local anaesthetic, and fit the final crown once it has settled — usually three to four months later.",
+        "price": "from $3,200",
+        "duration": "3–4 months"
+    },
+    {
+        "name": "Whitening",
+        "group": "Cosmetic",
+        "blurb": "Custom trays and professional gel for a brighter shade you control at home.",
+        "detail": "We take a quick scan, make trays that fit only you, and show you how to use the gel. Most people see several shades of difference within two weeks, without the sensitivity of strip kits.",
+        "price": "$395",
+        "duration": "2 weeks"
+    },
+    {
+        "name": "Clear aligners",
+        "group": "Cosmetic",
+        "blurb": "Near-invisible trays that straighten teeth without brackets or wires.",
+        "detail": "A digital scan maps your smile from start to finish before you commit. You change trays every one to two weeks and check in with us every eight.",
+        "price": "from $3,400",
+        "duration": "6–18 months"
+    },
+    {
+        "name": "Veneers",
+        "group": "Cosmetic",
+        "blurb": "Thin porcelain shells that reshape chipped, gapped or stained front teeth.",
+        "detail": "We preview your new smile in a trial mock-up first, so you see the shape and shade before anything is made. Final veneers are bonded at a second visit.",
+        "price": "from $1,150 per tooth",
+        "duration": "2 visits"
+    },
+    {
+        "name": "Emergency care",
+        "group": "Everyday care",
+        "blurb": "Toothache, a broken tooth or a lost filling — seen the same day.",
+        "detail": "Call before 10am and we hold a slot for you that day. We relieve the pain first and explain the options second, with the price written down before we start.",
+        "price": "from $85",
+        "duration": "Same day"
+    }
+]

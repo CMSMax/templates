@@ -1,0 +1,5 @@
+title: Page not found
+description: The red 404 band with a way back home and to the menu.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }

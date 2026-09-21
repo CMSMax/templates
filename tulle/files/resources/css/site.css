@@ -1,0 +1,89 @@
+@import 'tailwindcss';
+
+@theme {
+    /* A planner's design board: foam-board white canvas, a petal-tinted
+       surface band, aubergine ink in two tiers, hairline lines. */
+    --color-canvas: oklch(98.4% 0.004 330);
+    --color-surface: oklch(95.2% 0.012 345);
+    --color-ink: oklch(23% 0.03 345);
+    --color-muted: oklch(46% 0.025 345);
+    --color-line: oklch(88% 0.014 345);
+    /* primary is the committed heather-plum field: the hero panel, the
+       inquiry band, the one filled button, and the process numerals. The
+       customer's Branding color replaces it at serve time; keep the
+       foreground paired with it. */
+    --color-primary: oklch(41% 0.09 352);
+    --color-primary-foreground: oklch(98.4% 0.004 330);
+    /* secondary is the petal tint for pins and quiet marks, never text. */
+    --color-secondary: oklch(90% 0.035 350);
+    --color-secondary-foreground: oklch(23% 0.03 345);
+    --font-display: 'Bodoni Moda', 'Didot', 'Bodoni 72', 'Times New Roman', serif;
+    --font-sans: 'Jost', ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+::selection {
+    background-color: var(--color-secondary);
+    color: var(--color-ink);
+}
+
+/* Tracked small caps for kickers and labels — the lettering on a sample tag. */
+@utility label-caps {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+}
+
+/* Package inclusions arrive as HTML from the packages collection. */
+.included ul {
+    display: grid;
+    gap: 0.75rem;
+}
+
+.included li {
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.included li::before {
+    content: '';
+    position: absolute;
+    top: 0.7em;
+    left: 0;
+    width: 0.625rem;
+    height: 1px;
+    background-color: var(--color-primary);
+}
+
+/* The hero photograph settles in once on load, like a board being laid
+   down — time-based, no script, and skipped under reduced motion. */
+@keyframes settle {
+    from {
+        opacity: 0;
+        transform: scale(1.02);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+[data-settle] {
+    animation: settle 1200ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    [data-settle] {
+        animation: none;
+    }
+}

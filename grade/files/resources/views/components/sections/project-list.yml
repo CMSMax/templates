@@ -1,0 +1,21 @@
+title: Project list
+description: Every finished job as an alternating row of stamped photo and summary.
+fields:
+    linkLabel: { type: text, label: Link text }
+    items:
+        type: repeater
+        label: Projects
+        source: projects
+        item_label: title
+        add_button_label: Add project
+        sub_fields:
+            title: { type: text, label: Project name }
+            description: { type: textarea, label: Short description, rows: 3 }
+            image: { type: image, label: Photo }
+            imageAlt: { type: text, label: Photo description }
+            location: { type: text, label: Neighborhood }
+            scope: { type: text, label: Scope }
+            weeks: { type: text, label: Weeks on site }
+            year: { type: text, label: Year }
+            number: { type: text, label: Job number }
+            link: { type: url, label: Page link }

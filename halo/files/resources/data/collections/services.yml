@@ -1,0 +1,9 @@
+label: Services
+icon: ✂️
+fields:
+    name: { type: text, label: Service }
+    category: { type: select, label: Group, options: { Hair: Hair, Colour: Colour, Skin: Skin, Nails: Nails, Body: Body } }
+    description: { type: textarea, label: Short description, rows: 2 }
+    duration: { type: text, label: Duration (e.g. 60 min) }
+    price: { type: text, label: Price (e.g. $85 or from $240) }
+    featured: { type: toggle, label: Show on the homepage menu }

@@ -1,0 +1,31 @@
+{
+    "name": "Halo",
+    "industry": "salons-and-spas",
+    "description": "An editorial template for hair salons, day spas and beauty studios — rose-porcelain canvas, merlot accent, Bodoni headlines, arched mirror-shaped photography, a scrolling hours ticker, and a signature treatment menu whose photo changes as you move through Hair, Colour, Skin, Nails and Body.",
+    "pages": [
+        "Home",
+        "Menu",
+        "Studio",
+        "Visit",
+        "404"
+    ],
+    "collections": [
+        "services",
+        "team",
+        "reviews",
+        "hours",
+        "faqs"
+    ],
+    "variants": {
+        "arch": "Centered headline over one wide arched photo of the studio"
+    },
+    "default_variant_name": "Mirrors",
+    "default_variant_description": "Type-led hero beside three arched photos of the work",
+    "cta": "Book an appointment",
+    "theme": "light",
+    "accent": "#7b2d3b",
+    "fonts": [
+        "Bodoni Moda",
+        "Manrope"
+    ]
+}

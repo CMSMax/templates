@@ -1,0 +1,9 @@
+label: Team
+icon: 💇
+fields:
+    name: { type: text, label: Name }
+    role: { type: text, label: Role }
+    specialty: { type: text, label: Specialty }
+    image: { type: image, label: Portrait }
+    imageAlt: { type: text, label: Portrait description }
+    link: { type: url, label: Booking link }

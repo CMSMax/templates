@@ -1,0 +1,47 @@
+@props(['title' => 'Halo Salon & Spa', 'description' => ''])
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $description }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:type" content="website">
+@if ($site->social_image)<meta property="og:image" content="{{ $site->social_image }}">@endif
+@if ($site->favicon)<link rel="icon" href="{{ $site->favicon }}">@else<link rel="icon" href="/favicon.svg" type="image/svg+xml">@endif
+@if ($site->apple_icon)<link rel="apple-touch-icon" href="{{ $site->apple_icon }}">@endif
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..600;1,6..96,400..600&family=Manrope:wght@400..700&display=swap">
+@vite(['resources/css/site.css'])
+</head>
+<body class="bg-canvas font-sans text-ink antialiased" data-instant-navigation>
+    {{--
+    THESIS: the neighbourhood salon with a magazine eye — calm, specific, a little glamorous, never precious.
+    Refuses the stock spa site: no lotus icons, no "pamper yourself", no gold-on-black, no three service cards.
+    OWN-WORLD: rose-porcelain canvas, blush-clay panels, aubergine ink, one merlot accent, Bodoni Moda headlines
+    with an italic phrase over Manrope text, bright daylight photography cut into arches like salon mirrors.
+    STORY: a visitor sees the work, reads the menu and its prices, meets the people, and books.
+    FIRST VIEWPORT: type-led hero left; three arched photos of the work right, with the next-opening tag.
+    SIGNATURE: the treatment menu — a printed spa menu whose arched photo follows the group being read.
+    --}}
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:rounded-full focus:bg-card focus:px-4 focus:py-2 focus:font-semibold focus:outline-2 focus:outline-offset-2 focus:outline-primary">Skip to content</a>
+    <div class="isolate">
+        <x-sections.nav/>
+        <main id="main-content">{{ $slot }}</main>
+        <x-sections.footer/>
+    </div>
+    <script>
+    (function () {
+        const toggle = document.querySelector('[data-nav-toggle]'), panel = document.getElementById('mobile-nav');
+        if (!toggle || !panel) return;
+        const set = (open) => { panel.hidden = !open; toggle.setAttribute('aria-expanded', String(open)); };
+        toggle.addEventListener('click', () => set(panel.hidden));
+        panel.addEventListener('click', (event) => { if (event.target.closest('a')) set(false); });
+        document.addEventListener('mab:navigated', () => set(false));
+    })();
+    </script>
+</body>
+</html>

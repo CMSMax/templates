@@ -1,0 +1,11 @@
+{
+    "name": "Proof",
+    "industry": "bakeries",
+    "description": "A bold, framed template for neighborhood bakeries — bone canvas ruled with hairlines, one cherry-red band carrying the bakery's name in giant serif letters, a departure-board of what comes out of the oven and when, a seasonal bake laid out like a spec sheet, and an order-ahead call always in reach.",
+    "pages": ["Home", "Menu", "404"],
+    "collections": ["bakes", "menu", "hours"],
+    "cta": "Order ahead",
+    "theme": "light",
+    "accent": "#9c1f1b",
+    "fonts": ["Gloock", "Schibsted Grotesk"]
+}

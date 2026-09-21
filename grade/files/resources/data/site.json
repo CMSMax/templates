@@ -1,0 +1,39 @@
+{
+    "name": "Grade Building Co.",
+    "short_name": "Grade",
+    "tagline": "Additions, remodels, and new builds. Quoted plainly, built once.",
+    "phone": "(503) 555-0148",
+    "phone_href": "tel:+15035550148",
+    "email": "office@gradebuilding.example",
+    "address": "2210 SE Division Street, Portland, OR 97202",
+    "service_area": "Portland and the inner suburbs, within 30 miles",
+    "license": "CCB #214067 · Licensed, bonded, insured",
+    "founded": "2006",
+    "hours_note": "Office open Mon–Fri, 7am–4pm. Site visits by appointment.",
+    "cta_label": "Request a quote",
+    "cta_link": "/#quote",
+    "nav_links": [
+        { "label": "Work", "href": "/projects" },
+        { "label": "Services", "href": "/#services" },
+        { "label": "Process", "href": "/#process" },
+        { "label": "Contact", "href": "/#quote" }
+    ],
+    "figures": [
+        { "value": "19", "label": "Years building in Portland" },
+        { "value": "240+", "label": "Jobs finished and signed off" },
+        { "value": "96%", "label": "Finished on the date we quoted" }
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "What's written on the materials of a job site: lumber grade stamps and surveyor's locate paint. Poured-concrete canvas, stamp-ink type, square corners, hairline rules, and bright daylight photographs of real work.",
+        "type": "Big Shoulders Stencil (weight 800, uppercase) for every heading, set huge and tight; Archivo for everything else at 1.0625rem/1.7. Never a third family.",
+        "color": "Canvas #e7e5e0, surface #f3f2ee, ink #17181a, muted #55565a, hairline #c9c6be. The locate-paint orange is bg-primary: CTA buttons, the paint swash, the quote band, list markers — a fill only, never text. Ink bands (bg-ink) for rhythm, one per page.",
+        "signature": "The grade stamp — an inked, double-ruled, slightly tilted tag pressed onto every project photo, logging the job name, year, scope, and weeks on site. Every photo of work gets one.",
+        "voice": "A site foreman who keeps promises. Short declarative sentences, real numbers, no exclamation points, no 'quality craftsmanship' filler."
+    }
+}

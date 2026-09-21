@@ -1,0 +1,12 @@
+title: Facts
+description: Four quick reasons to choose the practice.
+fields:
+    items:
+        type: repeater
+        label: Facts
+        source: facts
+        item_label: title
+        add_button_label: Add fact
+        sub_fields:
+            title: { type: text, label: Title }
+            detail: { type: text, label: Detail }

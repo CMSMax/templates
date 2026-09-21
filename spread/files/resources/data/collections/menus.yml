@@ -1,0 +1,13 @@
+label: Menus
+icon: 🍽️
+fields:
+    name: { type: text, label: Menu name }
+    slug: { type: text, label: Link name (lowercase, dashes — dishes point at this) }
+    style: { type: text, label: Service style }
+    price: { type: text, label: Price per guest (number only) }
+    minimum: { type: text, label: Minimum }
+    description: { type: textarea, label: Description, rows: 3 }
+    course_1: { type: text, label: First course heading }
+    course_2: { type: text, label: Second course heading (leave empty to hide) }
+    course_3: { type: text, label: Third course heading (leave empty to hide) }
+    featured: { type: toggle, label: Feature on the homepage menu card }

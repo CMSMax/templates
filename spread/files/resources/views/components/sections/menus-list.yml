@@ -1,0 +1,5 @@
+title: Menu list
+description: Every menu in full, typeset as a printed card on plum beside its price and minimum. Edit menus and dishes in the Menus and Dishes collections; the closing line is the dietary note in site settings.
+fields:
+    askLabel: { type: text, label: Button text on each menu }
+    dietaryHeading: { type: text, label: Dietary note heading }

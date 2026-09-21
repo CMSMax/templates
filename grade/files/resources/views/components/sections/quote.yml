@@ -1,0 +1,7 @@
+title: Quote request
+description: The orange closing band with the quote button and every way to reach the office.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    ctaLabel: { type: text, label: Button text }
+    subject: { type: text, label: Email subject line }

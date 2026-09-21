@@ -1,0 +1,7 @@
+title: Menus
+description: The printed menu card for the featured menu, laid on a table photo, beside an index of every menu with its price per guest. Menus and dishes live in the Menus and Dishes collections; switch "Feature on the homepage menu card" on the menu to show here.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    linkLabel: { type: text, label: Menus page link text }
+    image: { type: image, label: Table photo behind the card }

@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Walk the site",
+        "weeks": "Week 0",
+        "body": "We come out, measure, and tell you what's realistic. No charge, no pressure."
+    },
+    {
+        "title": "Fixed quote",
+        "weeks": "Week 1–2",
+        "body": "A line-item price and a start date in writing. Changes are priced before they're built."
+    },
+    {
+        "title": "Build",
+        "weeks": "On site",
+        "body": "One crew lead, a Friday update every week, and a job site swept every night."
+    },
+    {
+        "title": "Walkthrough",
+        "weeks": "Handover",
+        "body": "We fix the punch list, hand over the warranty, and come back at one year to check."
+    }
+]

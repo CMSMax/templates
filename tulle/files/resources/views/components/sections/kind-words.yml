@@ -1,0 +1,8 @@
+title: Kind words
+description: One couple's words, set large beside a detail photograph.
+fields:
+    quote: { type: textarea, label: Quote, rows: 4 }
+    name: { type: text, label: Couple }
+    detail: { type: text, label: Wedding detail }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }

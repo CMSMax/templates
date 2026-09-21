@@ -1,0 +1,18 @@
+title: Team
+description: Portraits and short bios of the team.
+fields:
+    eyebrow: { type: text, label: Eyebrow }
+    heading: { type: textarea, label: Heading, rows: 2 }
+    intro: { type: textarea, label: Introduction, rows: 2 }
+    items:
+        type: repeater
+        label: Team members
+        source: team
+        item_label: name
+        add_button_label: Add person
+        sub_fields:
+            name: { type: text, label: Name }
+            role: { type: text, label: Role }
+            bio: { type: textarea, label: Bio }
+            image: { type: image, label: Photo }
+            imageAlt: { type: text, label: Photo description }

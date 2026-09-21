@@ -1,0 +1,53 @@
+[
+    {
+        "couple": "Priya & Theo",
+        "place": "Millbrook Vineyard terrace, Millbrook, New York",
+        "season": "August",
+        "guests": "140 guests",
+        "image": "/images/vineyard-walk.jpg",
+        "imageAlt": "A bride in a silk slip dress and long veil walking hand in hand with the groom across a sunlit stone terrace toward the vines.",
+        "story": "Vows on the terrace at five, dinner between the vines as the light went gold.",
+        "chip1Name": "Silk",
+        "chip1": "#efe6da",
+        "chip2Name": "Vine",
+        "chip2": "#6f7a45",
+        "chip3Name": "Terrace",
+        "chip3": "#cdb59a",
+        "chip4Name": "Late sky",
+        "chip4": "#a9c1d6"
+    },
+    {
+        "couple": "Maren & Jo",
+        "place": "Walled garden, Stockbridge, Massachusetts",
+        "season": "May",
+        "guests": "64 guests",
+        "image": "/images/garden-aisle.jpg",
+        "imageAlt": "Wooden chairs lining a grass aisle toward a loose arrangement of pale pink ranunculus, blossom branches, and blush roses in front of an old stone wall.",
+        "story": "A small ceremony among the fruit trees, then supper on the lawn until dark.",
+        "chip1Name": "Ranunculus",
+        "chip1": "#efc3c7",
+        "chip2Name": "Blossom",
+        "chip2": "#f8ecee",
+        "chip3Name": "Old stone",
+        "chip3": "#b9ad9b",
+        "chip4Name": "Boxwood",
+        "chip4": "#56644a"
+    },
+    {
+        "couple": "Ada & Samuel",
+        "place": "The Library at Wyndham House, Hudson",
+        "season": "December",
+        "guests": "90 guests",
+        "image": "/images/library-dinner.jpg",
+        "imageAlt": "A long dinner table in a wood-panelled library, dressed in deep plum linen with dark red amaranthus, plum dahlias, and clusters of ivory candles.",
+        "story": "Plum velvet, candlelight, and a dinner that ran long in the best way.",
+        "chip1Name": "Claret",
+        "chip1": "#5a1f33",
+        "chip2Name": "Dahlia",
+        "chip2": "#8e3b5b",
+        "chip3Name": "Candle",
+        "chip3": "#f3e6cf",
+        "chip4Name": "Walnut",
+        "chip4": "#5b4232"
+    }
+]

@@ -1,0 +1,18 @@
+title: Rooms
+description: Every room as an arched photograph hung with its key-fob tag, with its beds, size, view, and nightly rate. Rooms live in the Rooms collection.
+fields:
+    eyebrow: { type: text, label: Small label }
+    heading: { type: text, label: Headline }
+    headingAccent: { type: text, label: Headline accent (italic) }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    linkLabel: { type: text, label: Link to the Rooms page }
+    rooms:
+        type: repeater
+        label: Rooms
+        source: rooms
+        item_label: name
+        sub_fields:
+            number: { type: text, label: Room number }
+            name: { type: text, label: Room name }
+            rate: { type: text, label: Nightly rate from }
+            image: { type: image, label: Photo }

@@ -1,0 +1,5 @@
+title: Packages
+description: Each package in full — starting price, when to book, who it is for, and everything it includes.
+fields:
+    includedLabel: { type: text, label: Inclusions label }
+    items: { type: repeater, label: Packages, source: packages, item_label: name, add_button_label: Add a package, sub_fields: { name: { type: text, label: Package name }, price: { type: text, label: Starting price }, bestFor: { type: text, label: Best for }, summary: { type: textarea, label: Summary }, timing: { type: text, label: When to book }, included: { type: richtext, label: What is included } } }

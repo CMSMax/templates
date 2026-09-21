@@ -1,0 +1,11 @@
+{
+    "name": "Tulle",
+    "industry": "wedding-planners",
+    "description": "A light, editorial template for wedding planners and event designers — foam-board white, one heather-plum field, Bodoni headlines, every wedding shown as a design board with its four named paint-chip colors, packages as a ruled price index, a vendor-ready order of the day, and an inquire-about-your-date call to action at every turn.",
+    "pages": ["Home", "Services", "404"],
+    "collections": ["packages", "weddings"],
+    "cta": "Inquire about your date",
+    "theme": "light",
+    "accent": "#6e344f",
+    "fonts": ["Bodoni Moda", "Jost"]
+}

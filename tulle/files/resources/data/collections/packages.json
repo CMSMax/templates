@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Full planning and design",
+        "price": "from $14,500",
+        "bestFor": "Couples starting from a date, or not even that.",
+        "summary": "We plan the whole wedding with you: venue search, budget, design, every vendor, and the day itself.",
+        "timing": "Twelve to eighteen months out",
+        "included": "<ul><li>Venue search and site visits, up to five</li><li>Budget built and tracked line by line</li><li>A design board: palette, florals, stationery, and floor plan</li><li>Vendor shortlists, contracts, and every meeting</li><li>Guest travel and hotel blocks</li><li>Rehearsal, and two planners on the day</li></ul>"
+    },
+    {
+        "name": "Partial planning",
+        "price": "from $7,800",
+        "bestFor": "Couples with a venue booked and a few vendors in hand.",
+        "summary": "We step in where you need us, finish the vendor team, design the day, and run it.",
+        "timing": "Six to nine months out",
+        "included": "<ul><li>Vendor shortlists for everything still open</li><li>A design board: palette, florals, and floor plan</li><li>Monthly planning calls and a shared checklist</li><li>A written timeline for the day, confirmed with every vendor</li><li>Rehearsal, and two planners on the day</li></ul>"
+    },
+    {
+        "name": "Wedding-month coordination",
+        "price": "from $3,600",
+        "bestFor": "Couples who planned it themselves and want to be guests at their own wedding.",
+        "summary": "We take over eight weeks out, check every detail, and carry the day so you do not have to.",
+        "timing": "Ten weeks out or later",
+        "included": "<ul><li>A handover meeting and a walk-through at the venue</li><li>Every vendor contract reviewed and confirmed</li><li>A written timeline for the day</li><li>Rehearsal, and one lead planner plus an assistant on the day</li></ul>"
+    }
+]

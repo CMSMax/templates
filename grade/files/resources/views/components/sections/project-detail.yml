@@ -1,0 +1,5 @@
+title: Project story
+description: One finished job — its title, job facts, stamped photo, story, and links to other jobs. The content comes from the Projects collection.
+fields:
+    backLabel: { type: text, label: Back link text }
+    moreHeading: { type: text, label: Other jobs heading }

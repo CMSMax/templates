@@ -1,0 +1,188 @@
+@import 'tailwindcss';
+
+@theme {
+    /* Poured concrete, stamp ink, and one can of locate paint. */
+    --color-canvas: #e7e5e0;
+    --color-surface: #f3f2ee;
+    --color-ink: #17181a;
+    --color-muted: #55565a;
+    --color-line: #c9c6be;
+    /* The locate-paint orange is the brand primary, so a color the owner
+       picks on the Branding page repaints every mark, button, and band.
+       It is a fill color only — never body text. */
+    --color-primary: #f2541b;
+    --color-primary-foreground: #17181a;
+    --color-secondary: #17181a;
+    --color-secondary-foreground: #f3f2ee;
+
+    --font-display:
+        'Big Shoulders Stencil', 'Arial Narrow', 'Roboto Condensed',
+        sans-serif;
+    --font-sans: 'Archivo', ui-sans-serif, system-ui, sans-serif;
+
+    --text-hero: clamp(3.75rem, 13.5vw, 12.5rem);
+    --text-hero--line-height: 0.92;
+    --text-section: clamp(2.75rem, 6vw, 5rem);
+    --text-section--line-height: 0.92;
+
+    --animate-stamp: stamp 520ms cubic-bezier(0.2, 1.4, 0.4, 1) both;
+}
+
+@keyframes stamp {
+    from {
+        opacity: 0;
+        transform: rotate(var(--tilt, -2deg)) scale(1.18);
+    }
+    to {
+        opacity: 1;
+        transform: rotate(var(--tilt, -2deg)) scale(1);
+    }
+}
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 5rem;
+    }
+
+    :focus-visible {
+        outline: 2px solid var(--color-ink);
+        outline-offset: 3px;
+    }
+
+    footer :focus-visible,
+    .bg-ink :focus-visible {
+        outline-color: var(--color-canvas);
+    }
+}
+
+/* The grade stamp: an inked, double-ruled tag pressed onto every job
+   photo. The speckle is canvas-coloured dots over the ink, the way a stamp
+   never takes evenly on rough-sawn wood. */
+@utility stamp {
+    position: relative;
+    transform: rotate(var(--tilt, -2deg));
+    border: 2px solid var(--color-ink);
+    outline: 1px solid var(--color-ink);
+    outline-offset: 3px;
+    background: var(--color-surface);
+    color: var(--color-ink);
+
+    &::after {
+        content: '';
+        position: absolute;
+        inset: -6px;
+        pointer-events: none;
+        background-image:
+            radial-gradient(
+                circle at 20% 30%,
+                var(--color-surface) 0 1px,
+                transparent 1.6px
+            ),
+            radial-gradient(
+                circle at 70% 60%,
+                var(--color-surface) 0 1.2px,
+                transparent 1.8px
+            ),
+            radial-gradient(
+                circle at 45% 85%,
+                var(--color-surface) 0 0.8px,
+                transparent 1.4px
+            );
+        background-size:
+            13px 11px,
+            17px 19px,
+            23px 15px;
+        opacity: 0.55;
+    }
+}
+
+/* Body copy from the projects collection (richtext). */
+@utility prose-job {
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: var(--color-ink);
+
+    & > * + * {
+        margin-top: 1.25em;
+    }
+
+    & h2,
+    & h3 {
+        font-family: var(--font-display);
+        font-weight: 800;
+        text-transform: uppercase;
+        line-height: 0.95;
+        margin-top: 2em;
+    }
+
+    & h2 {
+        font-size: 2.25rem;
+    }
+
+    & h3 {
+        font-size: 1.625rem;
+    }
+
+    & ul {
+        list-style: square;
+        padding-left: 1.25em;
+    }
+
+    & li + li {
+        margin-top: 0.4em;
+    }
+
+    & li::marker {
+        color: var(--color-primary);
+    }
+
+    & a {
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 3px;
+        text-decoration-color: var(--color-primary);
+    }
+}
+
+/* Scroll reveals: both states gated behind the class the layout script
+   stamps first, so a failed script costs the animation, never the content. */
+html.reveal-ready [data-reveal] {
+    opacity: 0;
+    transform: translateY(14px);
+    transition:
+        opacity 600ms cubic-bezier(0.22, 1, 0.36, 1),
+        transform 600ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+html.reveal-ready [data-reveal].is-visible {
+    opacity: 1;
+    transform: none;
+}
+
+html.reveal-ready [data-reveal] .stamp {
+    opacity: 0;
+}
+
+html.reveal-ready [data-reveal].is-visible .stamp {
+    animation: var(--animate-stamp);
+    animation-delay: 260ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    html.reveal-ready [data-reveal] {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+
+    html.reveal-ready [data-reveal] .stamp,
+    html.reveal-ready [data-reveal].is-visible .stamp {
+        opacity: 1;
+        animation: none;
+    }
+}

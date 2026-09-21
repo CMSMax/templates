@@ -1,0 +1,5 @@
+label: Opening hours
+icon: 🕘
+fields:
+    day: { type: text, label: Day }
+    time: { type: text, label: Hours (or Closed) }

@@ -1,0 +1,9 @@
+label: Treatments
+icon: list
+fields:
+    name: { type: text, label: Name }
+    group: { type: select, label: Group, options: { "Everyday care": "Everyday care", "Restorative": "Restorative", "Cosmetic": "Cosmetic" } }
+    blurb: { type: textarea, label: Short description }
+    detail: { type: textarea, label: Full description }
+    price: { type: text, label: Price }
+    duration: { type: text, label: Time }

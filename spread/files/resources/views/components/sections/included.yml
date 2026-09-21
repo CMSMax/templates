@@ -1,0 +1,17 @@
+title: What we bring
+description: Two photos beside the list of everything a booking includes — staff, rentals, bar, clearing up.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    image: { type: image, label: Large photo }
+    imageAlt: { type: text, label: Large photo description }
+    detail: { type: image, label: Small photo }
+    detailAlt: { type: text, label: Small photo description }
+    items:
+        type: repeater
+        label: Included
+        source: site.included
+        item_label: name
+        sub_fields:
+            name: { type: text, label: What }
+            detail: { type: text, label: Detail }

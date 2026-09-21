@@ -1,0 +1,6 @@
+title: Page header
+description: The mint panel that opens an inner page.
+fields:
+    eyebrow: { type: text, label: Eyebrow }
+    heading: { type: textarea, label: Heading, rows: 2 }
+    intro: { type: textarea, label: Introduction, rows: 3 }

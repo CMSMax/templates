@@ -1,0 +1,6 @@
+label: Process steps
+icon: 📐
+fields:
+    title: { type: text, label: Step }
+    weeks: { type: text, label: When }
+    body: { type: textarea, label: What happens, rows: 2 }

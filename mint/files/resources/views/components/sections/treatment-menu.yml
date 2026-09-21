@@ -1,0 +1,19 @@
+title: Treatment menu
+description: The list of treatments with prices, beside a sticky introduction.
+fields:
+    eyebrow: { type: text, label: Eyebrow }
+    heading: { type: textarea, label: Heading, rows: 2 }
+    intro: { type: textarea, label: Introduction, rows: 3 }
+    linkLabel: { type: text, label: Link label }
+    linkHref: { type: url, label: Link }
+    items:
+        type: repeater
+        label: Treatments
+        source: treatments
+        item_label: name
+        add_button_label: Add treatment
+        sub_fields:
+            name: { type: text, label: Name }
+            price: { type: text, label: Price }
+            blurb: { type: textarea, label: Short description }
+            duration: { type: text, label: Time }

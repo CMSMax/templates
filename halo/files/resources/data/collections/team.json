@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Mara Vance",
+        "role": "Founder & senior stylist",
+        "specialty": "Precision cuts and short hair",
+        "image": "/images/team-mara.jpg",
+        "imageAlt": "Mara, a stylist with a short dark bob, smiling in the salon",
+        "link": "/visit#book"
+    },
+    {
+        "name": "Theo Laurent",
+        "role": "Colour director",
+        "specialty": "Balayage and grey blending",
+        "image": "/images/team-theo.jpg",
+        "imageAlt": "Theo, a colourist with a grey beard and black apron, in the salon",
+        "link": "/visit#book"
+    },
+    {
+        "name": "Ama Owusu",
+        "role": "Lead esthetician",
+        "specialty": "Facials for sensitive skin",
+        "image": "/images/team-ama.jpg",
+        "imageAlt": "Ama, an esthetician with natural curly hair, smiling in a treatment room",
+        "link": "/visit#book"
+    },
+    {
+        "name": "June Park",
+        "role": "Nail artist",
+        "specialty": "Long-wear gel and fine nail art",
+        "image": "/images/team-june.jpg",
+        "imageAlt": "June, a nail artist with her hair tied back, smiling in the salon",
+        "link": "/visit#book"
+    }
+]

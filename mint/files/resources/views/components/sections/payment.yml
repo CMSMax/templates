@@ -1,0 +1,12 @@
+title: Payment options
+description: Insurance, membership plan and monthly payments.
+fields:
+    eyebrow: { type: text, label: Eyebrow }
+    heading: { type: textarea, label: Heading, rows: 2 }
+    insuranceTitle: { type: text, label: Insurance title }
+    insuranceBody: { type: textarea, label: Insurance text, rows: 3 }
+    memberTitle: { type: text, label: Membership title }
+    memberPrice: { type: text, label: Membership price }
+    memberBody: { type: textarea, label: Membership text, rows: 3 }
+    financeTitle: { type: text, label: Payments title }
+    financeBody: { type: textarea, label: Payments text, rows: 3 }

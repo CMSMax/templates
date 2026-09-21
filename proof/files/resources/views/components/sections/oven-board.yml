@@ -1,0 +1,7 @@
+title: Oven times
+description: The signature board — what comes out of the oven and when. Edit the rows in the Oven times collection.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    footnote: { type: text, label: Footnote }
+    items: { type: repeater, label: Bakes, source: bakes, item_label: item, sub_fields: { time: { type: text, label: Out at }, item: { type: text, label: What comes out }, note: { type: textarea, label: Note }, tag: { type: text, label: Tag } } }

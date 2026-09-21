@@ -1,0 +1,13 @@
+title: How booking works
+description: The path from first message to the day itself, as a timeline with lead times. The line beside the headline is the lead-time note from site settings.
+fields:
+    heading: { type: text, label: Headline }
+    items:
+        type: repeater
+        label: Steps
+        source: site.steps
+        item_label: name
+        sub_fields:
+            when: { type: text, label: When }
+            name: { type: text, label: Step }
+            detail: { type: textarea, label: Detail, rows: 2 }

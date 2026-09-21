@@ -1,0 +1,17 @@
+title: Reviews
+description: The overall rating and three patient quotes.
+fields:
+    eyebrow: { type: text, label: Eyebrow }
+    heading: { type: textarea, label: Heading, rows: 2 }
+    rating: { type: text, label: Rating }
+    ratingNote: { type: text, label: Rating note }
+    items:
+        type: repeater
+        label: Reviews
+        source: reviews
+        item_label: name
+        add_button_label: Add review
+        sub_fields:
+            quote: { type: textarea, label: Quote }
+            name: { type: text, label: Name }
+            detail: { type: text, label: Detail }

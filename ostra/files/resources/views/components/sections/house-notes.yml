@@ -1,0 +1,14 @@
+title: House notes
+description: Arrival, parking, pets, cancellations, and access, as open-and-close questions.
+fields:
+    eyebrow: { type: text, label: Small label }
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    policies:
+        type: repeater
+        label: Questions
+        source: site.policies
+        item_label: question
+        sub_fields:
+            question: { type: text, label: Question }
+            answer: { type: textarea, label: Answer, rows: 3 }

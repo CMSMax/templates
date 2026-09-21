@@ -1,0 +1,90 @@
+{
+    "name": "Tulle",
+    "tagline": "Wedding planning and design for couples who want the day to feel like theirs.",
+    "phone": "(555) 318-2046",
+    "phone_href": "tel:+15553182046",
+    "email": "hello@tulle.example",
+    "address": "14 Mercer Street, Studio 3",
+    "city": "Hudson, New York",
+    "map_url": "https://maps.google.com/?q=14+Mercer+Street+Hudson+NY",
+    "service_area": "Across the Hudson Valley, the Berkshires, and anywhere you are willing to fly us.",
+    "booking_note": "Now booking",
+    "booking_years": "2027 · 2028",
+    "weddings_per_year": "14 weddings a year",
+    "reply_note": "We reply to every inquiry within two working days.",
+    "cta_label": "Inquire about your date",
+    "inquire_url": "/#inquire",
+    "palette_label": "This season's board",
+    "palette": [
+        { "name": "Heather", "hex": "#6e344f" },
+        { "name": "Sweet pea", "hex": "#e7b9c9" },
+        { "name": "Oat linen", "hex": "#e9dfd0" },
+        { "name": "Olive leaf", "hex": "#7d8062" }
+    ],
+    "steps": [
+        {
+            "title": "A first conversation",
+            "body": "An hour, on the phone or over coffee in the studio. Your date, your guest count, and what you want people to remember.",
+            "when": "Free, no obligation"
+        },
+        {
+            "title": "The design board",
+            "body": "We turn that conversation into a palette, a floor plan, and a budget that adds up, then shortlist the venues and vendors that fit.",
+            "when": "Weeks 2 to 6"
+        },
+        {
+            "title": "Every detail, confirmed",
+            "body": "Contracts, tastings, fittings, and the timeline for the day, reviewed with you and signed off by every vendor.",
+            "when": "The months between"
+        },
+        {
+            "title": "The day itself",
+            "body": "Two planners on site from the first delivery to the last car. You get married. We carry the timeline.",
+            "when": "From 8 am to the last dance"
+        }
+    ],
+    "day_timeline": [
+        { "time": "9:00", "title": "Florals and rentals arrive", "note": "Tulle on site to receive and place" },
+        { "time": "11:30", "title": "Hair and makeup", "note": "Bridal suite, light lunch at noon" },
+        { "time": "2:15", "title": "First look", "note": "The walled garden, ten minutes, no guests" },
+        { "time": "4:00", "title": "Ceremony", "note": "Guests seated by 3:45, string trio from 3:30" },
+        { "time": "4:40", "title": "Cocktail hour", "note": "Terrace; family portraits on the lawn" },
+        { "time": "6:00", "title": "Dinner and toasts", "note": "Three toasts, four minutes each" },
+        { "time": "8:30", "title": "First dance, then the band", "note": "Last song 10:45, sparkler exit 11:00" }
+    ],
+    "faqs": [
+        {
+            "question": "How far ahead should we book?",
+            "answer": "For full planning, twelve to eighteen months is ideal. We take wedding-month coordination as late as ten weeks out when a date is free."
+        },
+        {
+            "question": "Do you travel?",
+            "answer": "Yes. Most of our weddings are within two hours of Hudson, and we plan a few further afield each year. Travel is quoted at cost."
+        },
+        {
+            "question": "Can we bring our own vendors?",
+            "answer": "Of course. We will happily work with anyone you have already booked, and suggest people we trust for everything you have not."
+        },
+        {
+            "question": "What does it cost?",
+            "answer": "Each package has a starting fee, shown on the services page. Your quote depends on guest count, travel, and how much design work the day needs."
+        },
+        {
+            "question": "Is the planning fee separate from our budget?",
+            "answer": "Yes. Our fee covers our time. Your wedding budget covers the venue and vendors, and we help you plan and track every line of it."
+        }
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "The planner's design board: a foam-board white page where each wedding is shown as a photograph beside the palette it was built from, paint-chip swatches with names. One committed heather-plum field carries the hero panel and the inquiry band; everything else is white space and hairlines.",
+        "type": "Bodoni Moda (a high-contrast didone) for every heading, couple name, and numeral, with its italic for one or two words of emphasis. Jost for body text at 1rem with a relaxed line height, and for tracked uppercase labels at 0.75rem. Times and prices use tabular numerals.",
+        "color": "Light theme. Canvas, a petal-tinted surface band, aubergine ink in two tiers (ink, muted), and hairline lines. Primary is the heather-plum field: hero panel, inquiry band, the one filled button, and process numerals. Secondary is a pale petal used only for small marks. Swatch chip colors are content, set per wedding in the collection.",
+        "signature": "Weddings, by palette — each featured wedding is a design board: a portrait photograph with a paint-chip card of its four colors, each chip named, beside the couple, venue, season, and guest count. Keep it on the homepage and update it as new weddings are photographed.",
+        "voice": "Warm, exact, and unflustered. Talks in dates, headcounts, and hours. Short sentences. No exclamation points, no superlatives, no 'dream wedding'."
+    }
+}

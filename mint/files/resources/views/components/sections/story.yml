@@ -1,0 +1,14 @@
+title: Practice story
+description: The practice's story, a wide photo and three numbers.
+fields:
+    eyebrow: { type: text, label: Eyebrow }
+    heading: { type: textarea, label: Heading, rows: 2 }
+    body: { type: textarea, label: Story, rows: 6 }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }
+    statOne: { type: text, label: First number }
+    statOneLabel: { type: text, label: First number label }
+    statTwo: { type: text, label: Second number }
+    statTwoLabel: { type: text, label: Second number label }
+    statThree: { type: text, label: Third number }
+    statThreeLabel: { type: text, label: Third number label }

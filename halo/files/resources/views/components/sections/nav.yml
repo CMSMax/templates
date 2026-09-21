@@ -1,0 +1,12 @@
+title: Navigation
+description: The links across the top of every page, plus the booking button (its words and link live in Site data).
+fields:
+    links:
+        type: repeater
+        label: Links
+        source: site.nav
+        item_label: label
+        add_button_label: Add a link
+        sub_fields:
+            label: { type: text, label: Link text }
+            href: { type: url, label: Link }

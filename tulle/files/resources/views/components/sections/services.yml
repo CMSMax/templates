@@ -1,0 +1,8 @@
+title: Services
+description: The packages as a ruled, numbered index with who each is for and its starting price.
+fields:
+    kicker: { type: text, label: Small label }
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    linkLabel: { type: text, label: Services page link text }
+    items: { type: repeater, label: Packages, source: packages, item_label: name, add_button_label: Add a package, sub_fields: { name: { type: text, label: Package name }, price: { type: text, label: Starting price }, bestFor: { type: text, label: Best for }, summary: { type: textarea, label: Summary }, timing: { type: text, label: When to book }, included: { type: richtext, label: What is included } } }

@@ -1,0 +1,11 @@
+{
+    "name": "Grade",
+    "industry": "contractors",
+    "description": "A job-site template for builders and remodelers — poured-concrete canvas, condensed stencil headlines, locate-paint orange, and an inked grade stamp on every project photo that logs the job, the scope, and the weeks it took.",
+    "pages": ["Home", "Projects", "Project detail", "404"],
+    "collections": ["projects", "services", "steps"],
+    "cta": "Request a quote",
+    "theme": "light",
+    "accent": "#f2541b",
+    "fonts": ["Big Shoulders Stencil", "Archivo"]
+}

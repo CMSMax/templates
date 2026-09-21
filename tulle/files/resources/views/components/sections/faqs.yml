@@ -1,0 +1,6 @@
+title: Questions
+description: Common questions as an open-and-close list.
+fields:
+    kicker: { type: text, label: Small label }
+    heading: { type: text, label: Heading }
+    items: { type: repeater, label: Questions, source: site.faqs, item_label: question, add_button_label: Add a question, sub_fields: { question: { type: text, label: Question }, answer: { type: textarea, label: Answer } } }

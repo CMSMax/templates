@@ -1,0 +1,15 @@
+title: Process
+description: The steps every job follows, on a dark band.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Intro, rows: 2 }
+    items:
+        type: repeater
+        label: Steps
+        source: steps
+        item_label: title
+        add_button_label: Add step
+        sub_fields:
+            title: { type: text, label: Step }
+            weeks: { type: text, label: When }
+            body: { type: textarea, label: What happens, rows: 2 }

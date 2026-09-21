@@ -1,0 +1,7 @@
+title: Navigation
+description: The header with the business name, page links, and the inquiry button.
+fields:
+    servicesLabel: { type: text, label: Services link text }
+    weddingsLabel: { type: text, label: Weddings link text }
+    processLabel: { type: text, label: Process link text }
+    contactLabel: { type: text, label: Contact link text }

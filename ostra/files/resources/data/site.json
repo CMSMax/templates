@@ -1,0 +1,114 @@
+{
+    "name": "Hotel Ostra",
+    "short_name": "Ostra",
+    "tagline": "Twelve rooms in a pink house above the harbour, and a breakfast that runs until eleven.",
+    "place": "Above the harbour · Port Solenne",
+    "phone": "(555) 204-7718",
+    "phone_href": "tel:+15552047718",
+    "email": "stay@hotelostra.example",
+    "address": "3 Rue du Vieux Port",
+    "city": "Port Solenne",
+    "directions_url": "https://maps.google.com/?q=3+Rue+du+Vieux+Port+Port+Solenne",
+    "booking_url": "mailto:stay@hotelostra.example?subject=Checking%20availability",
+    "cta_label": "Check availability",
+    "currency": "$",
+    "rate_note": "Rates are per room, per night, breakfast included.",
+    "instagram": "https://instagram.com/",
+    "facts": [
+        {
+            "value": "12",
+            "label": "Rooms, no two alike"
+        },
+        {
+            "value": "4 min",
+            "label": "Walk down to the harbour"
+        },
+        {
+            "value": "1962",
+            "label": "The year the shutters were first painted"
+        },
+        {
+            "value": "11 am",
+            "label": "When breakfast ends, not before"
+        }
+    ],
+    "included": [
+        {
+            "title": "Breakfast on the terrace",
+            "note": "Bread from the bakery on the corner, fruit from the market, eggs any way you like."
+        },
+        {
+            "title": "Beach towels and a basket",
+            "note": "Take them down to the cove. Bring them back sandy — we expect it."
+        },
+        {
+            "title": "An honesty bar",
+            "note": "Local wine and cold beer in the salon. Write it in the book."
+        },
+        {
+            "title": "Bicycles to borrow",
+            "note": "Four town bikes by the gate, with a map of the flat routes."
+        },
+        {
+            "title": "Fast Wi-Fi, if you must",
+            "note": "In every room and on the terrace. The sea is better."
+        },
+        {
+            "title": "A late checkout, when we can",
+            "note": "Ask at breakfast. If the room is free, it's yours until two."
+        }
+    ],
+    "desk": [
+        {
+            "label": "Check-in",
+            "value": "From 3 pm"
+        },
+        {
+            "label": "Check-out",
+            "value": "By 11 am"
+        },
+        {
+            "label": "Breakfast",
+            "value": "8 – 11 am"
+        },
+        {
+            "label": "Front desk",
+            "value": "7 am – 11 pm"
+        }
+    ],
+    "policies": [
+        {
+            "question": "What if I arrive after the desk closes?",
+            "answer": "Tell us your train or flight and we'll leave your key in a lockbox by the gate, with the code sent to your phone the afternoon you arrive."
+        },
+        {
+            "question": "Is there parking?",
+            "answer": "We have six spaces behind the house, first come, first served, at no charge. The public car park on the hill is a five-minute walk."
+        },
+        {
+            "question": "Can I bring my dog?",
+            "answer": "Well-behaved dogs are welcome in the garden rooms for a small cleaning fee. Let us know when you book so we can put out a bowl and a bed."
+        },
+        {
+            "question": "What is your cancellation policy?",
+            "answer": "Cancel up to seven days before arrival and we refund you in full. Inside seven days, we keep the first night."
+        },
+        {
+            "question": "Are the rooms accessible?",
+            "answer": "The Harbour Room is on the ground floor with a step-free shower. The upper floors are reached by stairs only — the house is older than lifts."
+        }
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "A small, sun-washed inn: rose-plaster canvas, oxblood ink, claret shutters, and a striped red-and-cream awning. Calm, warm, photographic — the house and its rooms lead, the interface stays quiet. Hairline rules, no cards-on-cards, no gradients except the dark wash that keeps text readable over the hero photograph.",
+        "type": "Bodoni Moda for every heading — regular weight, tight tracking, one italic phrase per heading at most; the house's short name is set huge across the bottom of the hero. Jost for all text, navigation, and labels; small labels in Jost uppercase with wide tracking.",
+        "color": "One accent: shutter claret (bg-primary) for the check-availability button, the key-fob tags, and the awning. Everything else is plaster canvas, deeper plaster surface, oxblood ink, and muted text. The stay band and the booking band use the ink as a dark ground. Never add a second accent.",
+        "signature": "The key-fob tag — every room carries a claret fob with a punched hole and its room number set in Bodoni italic, hung over the corner of its photograph, and the Rooms page opens on the full key rack. Keep it wherever the design evolves; a new room gets a new fob.",
+        "voice": "A host talking, unhurried and specific: walking times, breakfast hours, what's in the room. Short sentences. No exclamation marks, no 'luxury', no 'unforgettable'."
+    }
+}

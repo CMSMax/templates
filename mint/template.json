@@ -1,0 +1,30 @@
+{
+    "name": "Mint",
+    "industry": "dentists",
+    "description": "A fresh, colour-blocked template for family and cosmetic dental practices — aqua-mint fields borrowed from good toothpaste packaging, deep ink type, a coral dot of warmth, and a drag-to-compare smile gallery that shows the work instead of describing it.",
+    "pages": [
+        "Home",
+        "Treatments",
+        "About",
+        "New patients",
+        "Contact",
+        "404"
+    ],
+    "collections": [
+        "treatments",
+        "team",
+        "reviews",
+        "hours",
+        "faqs",
+        "facts",
+        "steps"
+    ],
+    "cta": "Book a visit",
+    "theme": "light",
+    "accent": "#16324a",
+    "secondary": "#a9e5d8",
+    "fonts": [
+        "Bricolage Grotesque",
+        "Hanken Grotesk"
+    ]
+}

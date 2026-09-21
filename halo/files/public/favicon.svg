@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+    <style>
+        .bg { fill: #7b2d3b }
+        .mark { fill: #fbf4f2 }
+        @media (prefers-color-scheme: dark) { .bg { fill: #9c4152 } .mark { fill: #fbf4f2 } }
+    </style>
+    <circle class="bg" cx="16" cy="16" r="16"/>
+    <path class="mark" fill-rule="evenodd" d="M9.5 25V14.5a6.5 6.5 0 0 1 13 0V25Zm2.5-2.5V14.5a4 4 0 0 1 8 0v8Z"/>
+    <path class="mark" d="M23.5 5.5l.75 1.75 1.75.75-1.75.75-.75 1.75-.75-1.75-1.75-.75 1.75-.75Z"/>
+</svg>

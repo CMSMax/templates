@@ -1,0 +1,120 @@
+@import 'tailwindcss';
+
+@theme {
+    /* One fixed palette, borrowed from oral-care packaging: a white carton,
+       an aqua-mint field that carries whole regions, deep ink type, and a
+       single coral dot of warmth. Real values live here and only here. */
+    --color-canvas: #ffffff;
+    --color-surface: #f3f7f6;
+    --color-ink: #0d2230;
+    --color-muted: #4b5c67;
+    --color-line: #dce5e3;
+    --color-mint: #a9e5d8;
+    --color-mint-soft: #e2f5f0;
+    --color-accent: #16324a;
+    --color-accent-ink: #ffffff;
+    --color-pop: #f0644c;
+    --font-display: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif;
+    --font-sans: 'Hanken Grotesk', ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Rich-text bodies (treatment details) inherit the display face on headings. */
+.prose-mint h2,
+.prose-mint h3 {
+    font-family: var(--font-display);
+    color: var(--color-ink);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+/* Scroll reveals: both states gated behind the class the reveal script
+   stamps, so a failed script costs the animation, never the content. */
+html.reveal-ready [data-reveal] {
+    opacity: 0;
+    transform: translateY(16px);
+    transition:
+        opacity 700ms cubic-bezier(0.22, 1, 0.36, 1),
+        transform 700ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+html.reveal-ready [data-reveal].is-visible {
+    opacity: 1;
+    transform: none;
+}
+
+/* The smile compare: the "before" photo is clipped to the slider's value.
+   --split is set by the range input; without script it rests at 50%. */
+[data-compare] {
+    --split: 50%;
+}
+
+[data-compare-before] {
+    clip-path: inset(0 calc(100% - var(--split)) 0 0);
+}
+
+[data-compare-handle] {
+    left: var(--split);
+}
+
+[data-compare] input[type='range'] {
+    appearance: none;
+    -webkit-appearance: none;
+    background: transparent;
+    cursor: ew-resize;
+}
+
+[data-compare] input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 3rem;
+    height: 100vh;
+    opacity: 0;
+}
+
+[data-compare] input[type='range']::-moz-range-thumb {
+    width: 3rem;
+    height: 100vh;
+    border: 0;
+    opacity: 0;
+}
+
+[data-compare]:has(input:focus-visible) [data-compare-knob] {
+    outline: 2px solid var(--color-canvas);
+    outline-offset: 3px;
+}
+
+/* The hero's opening: the headline lines rise in sequence once. */
+@keyframes rise-in {
+    from {
+        opacity: 0;
+        transform: translateY(18px);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+[data-rise] {
+    animation: rise-in 900ms cubic-bezier(0.22, 1, 0.36, 1) both;
+    animation-delay: calc(80ms + var(--i, 0) * 110ms);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    html.reveal-ready [data-reveal] {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+
+    [data-rise] {
+        animation: none;
+    }
+}

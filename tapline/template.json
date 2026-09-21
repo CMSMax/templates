@@ -1,0 +1,11 @@
+{
+    "name": "Tapline",
+    "industry": "bars-breweries",
+    "description": "A bold, tap-list-first template for breweries, taprooms and neighborhood bars — deep cobalt walls, foam-white extended type and one amber accent, a tasting flight of beer-colored glasses drawn right into the hero, a ruled tap board where every beer shows its true color, ABV and pour price, the week's regulars, and hours and directions under a come-by-tonight call to action.",
+    "pages": ["Home", "Tap list", "404"],
+    "collections": ["taps", "events", "hours"],
+    "cta": "Come by tonight",
+    "theme": "dark",
+    "accent": "#f6a623",
+    "fonts": ["Anybody", "Onest"]
+}

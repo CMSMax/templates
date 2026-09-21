@@ -1,0 +1,15 @@
+title: The brewery
+description: The story beside a brewhouse photo, the turning stamp, and three numbers.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Story, rows: 5 }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }
+    items:
+        type: repeater
+        label: Numbers
+        source: site.brewery_facts
+        item_label: value
+        sub_fields:
+            value: { type: text, label: Number }
+            label: { type: text, label: What it counts }

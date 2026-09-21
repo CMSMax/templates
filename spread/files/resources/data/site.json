@@ -1,0 +1,93 @@
+{
+    "name": "Spread Catering",
+    "short_name": "Spread",
+    "tagline": "Seasonal catering for weddings, offices and every table in between.",
+    "phone": "(555) 318-0442",
+    "phone_href": "tel:+15553180442",
+    "email": "hello@spread.example",
+    "quote_link": "mailto:hello@spread.example?subject=Quote%20request",
+    "cta_label": "Request a quote",
+    "service_area": "Hudson Valley and New York City",
+    "kitchen": "14 Mill Street, Kingston, NY",
+    "lead_time": "Most weddings book 4–9 months out. Office lunches can go out with 48 hours' notice.",
+    "instagram": "https://instagram.com/",
+    "instagram_handle": "@spreadcatering",
+    "currency": "$",
+    "season": "Autumn menus, served September to November",
+    "dietary_note": "Every menu can be made vegetarian, vegan, gluten-free or nut-free for any number of guests. Tell us who's coming and we'll cook for all of them — at no extra charge.",
+    "events": [
+        {
+            "name": "Weddings",
+            "detail": "60–250 guests. Plated, family-style or a long grazing table.",
+            "link": "/menus#long-table"
+        },
+        {
+            "name": "Office lunches",
+            "detail": "15–400 people. Boxed or buffet, on the table by noon.",
+            "link": "/menus#working-lunch"
+        },
+        {
+            "name": "Celebrations",
+            "detail": "Birthdays, rehearsal dinners, showers. From 20 guests.",
+            "link": "/menus#harvest-supper"
+        },
+        {
+            "name": "Receptions",
+            "detail": "Launches, galas, openings. Passed bites and a bar.",
+            "link": "/menus#passed-and-poured"
+        }
+    ],
+    "included": [
+        {
+            "name": "Staff, in aprons",
+            "detail": "Chefs on site and one server for every 15 guests."
+        },
+        {
+            "name": "Plates, glasses and linen",
+            "detail": "Rentals ordered, delivered and counted back out."
+        },
+        {
+            "name": "A bar, if you want one",
+            "detail": "Licensed bartenders, seasonal cocktails, local wine and beer."
+        },
+        {
+            "name": "Clearing up",
+            "detail": "We leave the kitchen cleaner than we found it."
+        }
+    ],
+    "steps": [
+        {
+            "when": "Months out",
+            "name": "Tell us the date",
+            "detail": "Guest count, the venue, how you'd like people fed. We hold the date and send a first menu within two days."
+        },
+        {
+            "when": "Six weeks out",
+            "name": "Come for a tasting",
+            "detail": "Sit down in our kitchen for a tasting of your menu for two. Change anything you like."
+        },
+        {
+            "when": "Two weeks out",
+            "name": "Final numbers",
+            "detail": "Confirm the head count and dietary needs. We walk the venue and plan the running order."
+        },
+        {
+            "when": "On the day",
+            "name": "We cook, serve and clear",
+            "detail": "We arrive hours early, cook on site and are gone by the last dance. You never see a dish pit."
+        }
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "The autumn market meets the event table: a deep plum field (bg-secondary) owns the hero and the closing band, a pink-linen canvas carries everything between, and candlelit tablescape photography sets the mood.",
+        "type": "Young Serif (one weight) for every heading, menu name and price; Onest for everything else. No third family, no italics.",
+        "color": "One accent: persimmon (bg-primary). It paints the Request a quote button, the price per guest on the featured menu card, and the brand mark. Everything else is plum, linen, plum-black ink and muted mauve. Never add a second accent.",
+        "signature": "The printed menu card — each menu typeset like a card printed for the event: double hairline frame, courses in small letterspaced caps, dishes centered in serif, and the price per guest at the foot. Menus and their dishes live in the menus and dishes collections.",
+        "voice": "Warm, exact and unhurried. Numbers over adjectives — guest counts, lead times, prices per guest. No exclamation marks, no 'culinary journeys'."
+    }
+}

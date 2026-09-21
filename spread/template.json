@@ -1,0 +1,11 @@
+{
+    "name": "Spread",
+    "industry": "caterers",
+    "description": "A jewel-toned template for caterers and event kitchens — deep plum fields, one persimmon accent and candlelit tablescape photography, an event-type rail under the hero, menus typeset like printed event cards with the price per guest, a lead-time booking timeline, and a request-a-quote call to action at both ends of the page.",
+    "pages": ["Home", "Menus", "404"],
+    "collections": ["menus", "dishes"],
+    "cta": "Request a quote",
+    "theme": "light",
+    "accent": "#e8652d",
+    "fonts": ["Young Serif", "Onest"]
+}

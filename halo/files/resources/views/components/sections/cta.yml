@@ -1,0 +1,6 @@
+title: Call to book
+description: A quiet closing band with a headline, one line of copy, and the booking button.
+fields:
+    heading: { type: text, label: Headline }
+    headingAccent: { type: text, label: Italic phrase }
+    body: { type: textarea, label: Supporting copy, rows: 2 }

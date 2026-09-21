@@ -1,0 +1,66 @@
+{
+    "name": "Tapline Brewing",
+    "short_name": "Tapline",
+    "tagline": "A small brewery with a big tap list. Brewed out back, poured at the bar, twenty feet from the tanks.",
+    "phone": "(555) 318-4402",
+    "phone_href": "tel:+15553184402",
+    "email": "hello@tapline.example",
+    "address": "418 Foundry Street",
+    "city": "Milwaukee, WI 53204",
+    "map_url": "https://maps.google.com/?q=418+Foundry+Street+Milwaukee+WI",
+    "instagram": "https://instagram.com/",
+    "instagram_handle": "@taplinebrewing",
+    "cta_label": "Come by tonight",
+    "cta_link": "/#visit",
+    "currency": "$",
+    "open_summary": "Open Tue–Sun from 3 pm",
+    "hours_note": "Closed Mondays. Last call 30 minutes before close.",
+    "flight_note": "Any four as a flight — $12",
+    "stamp": "Brewed on site • Poured since 2016 •",
+    "tap_sections": [
+        {
+            "name": "Our beer",
+            "note": "Brewed here, twenty feet behind the bar"
+        },
+        {
+            "name": "Guest taps",
+            "note": "Friends of the brewery, rotating weekly"
+        },
+        {
+            "name": "Not beer",
+            "note": "Cider, wine and the zero-proof stuff"
+        }
+    ],
+    "house_notes": [
+        "Kids welcome until 8 pm, dogs welcome on the patio any time.",
+        "No kitchen — food trucks park out front Thursday to Sunday, and you're welcome to bring your own.",
+        "Crowlers and 4-packs of anything on the board, to go."
+    ],
+    "brewery_facts": [
+        {
+            "value": "20 ft",
+            "label": "from the tanks to the taps"
+        },
+        {
+            "value": "900",
+            "label": "barrels brewed a year, all of it poured here"
+        },
+        {
+            "value": "140+",
+            "label": "different beers since the doors opened"
+        }
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "A taproom wall painted deep cobalt: foam-white type, hairline rules, and beer itself as the only other color. No cards, no gradients, no neon. The tap list is the design.",
+        "type": "Anybody run wide (font-stretch 130–150%, weights 700–900) for headings, tap numbers and prices; Onest for everything else. No third family.",
+        "color": "One accent: amber (bg-primary) — the Come by tonight button, tags like New or Last keg, and nothing else. Beer colors (pale, straw, gold, haze, amber, copper, ruby, brown, stout) are data: each tap's color field paints its glass. Never use them as decoration.",
+        "signature": "The tasting flight and the tap board. The hero's paddle holds the taps marked 'In the hero flight' as CSS-drawn glasses in their true colors, and the tap board lists every featured tap with its number, glass, style, ABV and pour price. Both live in the Taps collection; keep them wherever the design evolves.",
+        "voice": "Dry, specific, confident. Numbers over adjectives, short sentences, one joke at most. No exclamation points, no hop puns."
+    }
+}

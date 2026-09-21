@@ -1,0 +1,13 @@
+title: Reviews
+description: One review set large in italic, with the rest in a quiet row beneath.
+fields:
+    eyebrow: { type: text, label: Section label }
+    reviews:
+        type: repeater
+        label: Reviews
+        source: reviews
+        item_label: name
+        sub_fields:
+            quote: { type: textarea, label: Quote, rows: 3 }
+            name: { type: text, label: Name }
+            service: { type: text, label: Service they had }

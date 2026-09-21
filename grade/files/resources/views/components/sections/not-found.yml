@@ -1,0 +1,7 @@
+title: Not found
+description: The page shown when a visitor follows a broken link.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Message, rows: 2 }
+    homeLabel: { type: text, label: Homepage button }
+    workLabel: { type: text, label: Projects link }

@@ -1,0 +1,6 @@
+label: Reviews
+icon: star
+fields:
+    quote: { type: textarea, label: Quote }
+    name: { type: text, label: Name }
+    detail: { type: text, label: Detail }

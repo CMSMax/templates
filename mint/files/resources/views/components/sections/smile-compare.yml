@@ -1,0 +1,13 @@
+title: Smile compare
+description: A before/after photo pair split by a draggable handle, with the case details.
+fields:
+    eyebrow: { type: text, label: Eyebrow }
+    heading: { type: textarea, label: Heading, rows: 2 }
+    intro: { type: textarea, label: Introduction, rows: 3 }
+    treatment: { type: text, label: Treatment }
+    visits: { type: text, label: Visits }
+    timeframe: { type: text, label: Start to finish }
+    before: { type: image, label: Before photo }
+    after: { type: image, label: After photo }
+    imageAlt: { type: text, label: Photo description }
+    caption: { type: text, label: Caption }

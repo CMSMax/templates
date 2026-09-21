@@ -1,0 +1,18 @@
+title: Hero
+description: The opening promise on the plum field, the Request a quote button, the tablescape photo, and the event-type rail beneath it.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    secondaryLabel: { type: text, label: Menus link text }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }
+    eventsHeading: { type: text, label: Event types heading }
+    items:
+        type: repeater
+        label: Event types
+        source: site.events
+        item_label: name
+        sub_fields:
+            name: { type: text, label: Event type }
+            detail: { type: text, label: Guest counts and service }
+            link: { type: url, label: Link }

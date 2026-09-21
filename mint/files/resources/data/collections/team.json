@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Dr. Helen Marsh",
+        "role": "Principal dentist",
+        "bio": "Twenty years in practice and a firm believer that nobody should leave the chair confused about what just happened.",
+        "image": "/images/team-helen.jpg",
+        "imageAlt": "Dr. Helen Marsh in navy scrubs, smiling in a bright treatment room"
+    },
+    {
+        "name": "Dr. Arjun Mehta",
+        "role": "Cosmetic & implant dentist",
+        "bio": "Plans every implant and veneer case from a 3D scan, and shows you the result before a single tooth is touched.",
+        "image": "/images/team-arjun.jpg",
+        "imageAlt": "Dr. Arjun Mehta in a light blue scrub top, smiling in the clinic hallway"
+    },
+    {
+        "name": "Amara Okafor",
+        "role": "Dental hygienist",
+        "bio": "Known for the gentlest clean in town and for turning nervous first-timers into regulars.",
+        "image": "/images/team-amara.jpg",
+        "imageAlt": "Amara Okafor in mint scrubs, smiling beside a sunny window"
+    }
+]

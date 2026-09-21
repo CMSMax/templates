@@ -1,0 +1,5 @@
+title: Page
+description: The page's title and search description.
+fields:
+    title: { type: text, label: Page title }
+    description: { type: textarea, label: Search description, rows: 3 }

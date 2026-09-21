@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Harlow Street rear addition",
+        "slug": "harlow-street-addition",
+        "date": "2025-06-20",
+        "description": "Two storeys added to the back of a 1924 bungalow: a kitchen and family room below, a primary suite above, and a cedar deck to the garden.",
+        "image": "/images/projects/harlow-addition.jpg",
+        "link": "/projects/harlow-street-addition",
+        "content": "<p>The Okafors loved their street and had outgrown their house. Moving meant leaving both. We added 740 square feet to the back of the bungalow instead, and kept the front exactly as the neighbours know it.</p><h2>What we built</h2><ul><li>New foundation and a two-storey timber frame tied into the 1924 structure</li><li>Open kitchen and family room with a wall of folding glass to the garden</li><li>Primary suite with a walk-in closet and a curbless shower</li><li>Board-and-batten siding, black-framed windows, and a 400 sq ft cedar deck</li></ul><h2>How it went</h2><p>The old back wall came off in week three and the family stayed in the house the whole time, behind a sealed dust wall. Structural and final inspections passed on the first visit.</p><p>We finished two days ahead of the schedule we signed and inside the quoted price, with one agreed change order for the deck lighting.</p>",
+        "imageAlt": "A white two-storey rear addition with black windows and a cedar deck, seen from the lawn.",
+        "location": "SE Portland",
+        "scope": "Two-storey addition",
+        "weeks": "22",
+        "year": "2025",
+        "number": "118"
+    },
+    {
+        "title": "Alder Court kitchen",
+        "slug": "alder-court-kitchen",
+        "date": "2024-11-08",
+        "description": "Three small rooms turned into one bright kitchen: a load-bearing wall out, a steel beam in, white oak and honed concrete throughout.",
+        "image": "/images/projects/alder-kitchen.jpg",
+        "link": "/projects/alder-court-kitchen",
+        "content": "<p>A closed galley kitchen, a pantry, and a dining room nobody used. The wall between them carried the second floor, which is why three earlier contractors told the owners to live with it.</p><h2>What we built</h2><ul><li>Removed the bearing wall and set an engineered steel beam, flush with the ceiling</li><li>New electrical service, recessed lighting, and a dedicated range circuit</li><li>White oak cabinetry to the ceiling, a 10-foot island, honed concrete counters</li><li>A 9-foot picture window where the pantry door used to be</li></ul><h2>How it went</h2><p>The beam went in over one long weekend with temporary shoring. The owners cooked on a hot plate in the garage for eleven weeks and said it was worth it.</p>",
+        "imageAlt": "A bright open kitchen with white oak cabinets, a long island with stools, and a large garden window.",
+        "location": "NE Portland",
+        "scope": "Kitchen remodel",
+        "weeks": "11",
+        "year": "2024",
+        "number": "112"
+    },
+    {
+        "title": "Linden backyard cottage",
+        "slug": "linden-backyard-cottage",
+        "date": "2024-05-30",
+        "description": "A 420 sq ft backyard cottage for a parent moving closer: permits, foundation, cedar shingles, a standing-seam roof, and its own utilities.",
+        "image": "/images/projects/linden-cottage.jpg",
+        "link": "/projects/linden-backyard-cottage",
+        "content": "<p>A detached accessory dwelling for a mother moving across the country to be near her grandchildren. Close enough to walk over for dinner, separate enough to close the door.</p><h2>What we built</h2><ul><li>Permit drawings, site plan, and the city's ADU review, handled start to finish</li><li>Slab foundation with a separate water, sewer, and electrical connection</li><li>Cedar shingle siding, a standing-seam metal roof, and a full-glass entry</li><li>One bedroom, a kitchenette, and a step-free bathroom</li></ul><h2>How it went</h2><p>Permits took seven weeks; building took sixteen. We protected the old maple at the back of the lot with a root-zone fence the whole way through.</p>",
+        "imageAlt": "A small cedar-shingled backyard cottage with a dark metal roof and a glass door, along a gravel path.",
+        "location": "Sellwood",
+        "scope": "Backyard cottage (ADU)",
+        "weeks": "16",
+        "year": "2024",
+        "number": "106"
+    }
+]

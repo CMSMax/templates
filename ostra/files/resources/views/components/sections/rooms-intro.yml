@@ -1,0 +1,6 @@
+title: Rooms introduction
+description: The Rooms page headline and the key rack — one key-fob per room, each jumping to that room.
+fields:
+    eyebrow: { type: text, label: Small label }
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }

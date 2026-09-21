@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Signature cut & finish",
+        "category": "Hair",
+        "description": "A consultation, a precise cut, and a blow-dry you can recreate at home.",
+        "duration": "60 min",
+        "price": "$85",
+        "featured": true
+    },
+    {
+        "name": "Blowout",
+        "category": "Hair",
+        "description": "Wash, scalp massage, and a smooth or bouncy finish that lasts the week.",
+        "duration": "45 min",
+        "price": "$55",
+        "featured": true
+    },
+    {
+        "name": "Curl cut",
+        "category": "Hair",
+        "description": "Cut dry, curl by curl, so your shape works with your texture.",
+        "duration": "75 min",
+        "price": "$110",
+        "featured": false
+    },
+    {
+        "name": "Event styling",
+        "category": "Hair",
+        "description": "Updos, waves or braids for weddings and big nights. Trial available.",
+        "duration": "60 min",
+        "price": "from $95",
+        "featured": false
+    },
+    {
+        "name": "Balayage",
+        "category": "Colour",
+        "description": "Hand-painted, soft-grown-out colour, toned and finished with a blowout.",
+        "duration": "3 hr",
+        "price": "from $240",
+        "featured": true
+    },
+    {
+        "name": "Gloss & tone",
+        "category": "Colour",
+        "description": "Adds shine and refreshes colour between appointments.",
+        "duration": "45 min",
+        "price": "$70",
+        "featured": false
+    },
+    {
+        "name": "Root colour",
+        "category": "Colour",
+        "description": "Regrowth coverage or grey blending, matched to your last visit.",
+        "duration": "90 min",
+        "price": "$120",
+        "featured": true
+    },
+    {
+        "name": "Halo facial",
+        "category": "Skin",
+        "description": "Cleanse, exfoliation, extractions and a mask chosen for your skin that day.",
+        "duration": "60 min",
+        "price": "$125",
+        "featured": true
+    },
+    {
+        "name": "Express glow",
+        "category": "Skin",
+        "description": "A thirty-minute brightening facial for lunch breaks.",
+        "duration": "30 min",
+        "price": "$70",
+        "featured": false
+    },
+    {
+        "name": "Brow shape & tint",
+        "category": "Skin",
+        "description": "Mapped to your face, waxed or threaded, tinted to match.",
+        "duration": "30 min",
+        "price": "$45",
+        "featured": false
+    },
+    {
+        "name": "Gel manicure",
+        "category": "Nails",
+        "description": "Shaping, cuticle care and a two-week gel colour.",
+        "duration": "50 min",
+        "price": "$55",
+        "featured": true
+    },
+    {
+        "name": "Spa pedicure",
+        "category": "Nails",
+        "description": "A soak, scrub, massage and polish of your choice.",
+        "duration": "60 min",
+        "price": "$65",
+        "featured": false
+    },
+    {
+        "name": "Deep tissue massage",
+        "category": "Body",
+        "description": "Firm, focused work on shoulders, back and legs.",
+        "duration": "60 min",
+        "price": "$130",
+        "featured": true
+    },
+    {
+        "name": "Relaxation massage",
+        "category": "Body",
+        "description": "Long, slow strokes with warm oil. Ninety minutes if you can spare it.",
+        "duration": "60 min",
+        "price": "$115",
+        "featured": false
+    }
+]

@@ -1,0 +1,6 @@
+label: Services
+icon: 🧰
+fields:
+    name: { type: text, label: Service }
+    summary: { type: textarea, label: One-line summary, rows: 2 }
+    tags: { type: text, label: Trades involved }

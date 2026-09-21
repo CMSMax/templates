@@ -1,0 +1,15 @@
+label: Rooms
+icon: 🔑
+fields:
+    number: { type: text, label: Room number (on the key fob) }
+    name: { type: text, label: Room name }
+    slug: { type: text, label: Anchor (URL-safe) }
+    summary: { type: textarea, label: Description, rows: 3 }
+    sleeps: { type: text, label: Sleeps }
+    bed: { type: text, label: Beds }
+    size: { type: text, label: Size }
+    view: { type: text, label: View }
+    rate: { type: text, label: Nightly rate from (number only) }
+    image: { type: image, label: Photo }
+    alt: { type: text, label: Photo description }
+    features: { type: text, label: Room features (separate with ·) }

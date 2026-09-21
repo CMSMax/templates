@@ -1,0 +1,17 @@
+title: Nearby
+description: What is close by and how long it takes to get there, with the address and a directions link. Places live in the Nearby collection; the address in site settings.
+fields:
+    eyebrow: { type: text, label: Small label }
+    heading: { type: text, label: Headline }
+    headingAccent: { type: text, label: Headline accent (italic) }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    directionsLabel: { type: text, label: Directions link text }
+    nearby:
+        type: repeater
+        label: Places nearby
+        source: nearby
+        item_label: place
+        sub_fields:
+            place: { type: text, label: Place }
+            note: { type: text, label: One-line note }
+            distance: { type: text, label: How far }

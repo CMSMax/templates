@@ -1,0 +1,12 @@
+title: Ticker
+description: A slow, scrolling line of short facts — hours, address, walk-ins, gift cards.
+fields:
+    label: { type: text, label: Label for screen readers }
+    items:
+        type: repeater
+        label: Lines
+        source: site.ticker
+        item_label: text
+        add_button_label: Add a line
+        sub_fields:
+            text: { type: text, label: Line }

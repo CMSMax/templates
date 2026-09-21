@@ -1,0 +1,11 @@
+title: Full tap list
+description: Every tap, grouped by the tap list groups in site settings. Each tap's "Tap list group" must match a group name.
+fields:
+    groups:
+        type: repeater
+        label: Tap list groups
+        source: site.tap_sections
+        item_label: name
+        sub_fields:
+            name: { type: text, label: Group name }
+            note: { type: text, label: Note }

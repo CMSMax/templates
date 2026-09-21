@@ -1,0 +1,9 @@
+title: Order ahead and visit
+description: The closing band — how to order ahead with the call button, the weekly hours, and the address. Hours come from the Hours collection; the order note and order list from site settings.
+fields:
+    heading: { type: text, label: Headline }
+    orderHeading: { type: text, label: Order list heading }
+    hoursHeading: { type: text, label: Hours heading }
+    findHeading: { type: text, label: Address heading }
+    directionsLabel: { type: text, label: Directions link text }
+    items: { type: repeater, label: Hours, source: hours, item_label: day, sub_fields: { day: { type: text, label: Day or days }, hours: { type: text, label: Hours } } }

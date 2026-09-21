@@ -1,0 +1,9 @@
+label: Packages
+icon: 📋
+fields:
+    name: { type: text, label: Package name }
+    price: { type: text, label: Starting price }
+    bestFor: { type: text, label: Best for }
+    summary: { type: textarea, label: Summary, rows: 3 }
+    timing: { type: text, label: When to book }
+    included: { type: richtext, label: What is included }

@@ -1,0 +1,5 @@
+title: Full menu
+description: Every item in the Menu collection, grouped by the menu sections in site settings. An item shows under the group its "Menu group" matches.
+fields:
+    footnote: { type: textarea, label: Footnote, rows: 2 }
+    items: { type: repeater, label: Menu items, source: menu, item_label: name, sub_fields: { name: { type: text, label: Item }, section: { type: text, label: Menu group }, description: { type: textarea, label: Description }, price: { type: text, label: Price }, tag: { type: text, label: Tag }, featured: { type: toggle, label: Show on the homepage counter } } }

@@ -1,0 +1,32 @@
+[
+    {
+        "place": "The harbour and the fish market",
+        "note": "Boats in by seven, the market done by ten",
+        "distance": "4 min on foot"
+    },
+    {
+        "place": "The pine-shaded beach",
+        "note": "Pebbles, clear water, a café with shade",
+        "distance": "9 min on foot"
+    },
+    {
+        "place": "The Saturday market",
+        "note": "Wednesdays too, in the square by the church",
+        "distance": "6 min on foot"
+    },
+    {
+        "place": "The coves by boat",
+        "note": "Departures from the quay every hour in summer",
+        "distance": "5 min on foot"
+    },
+    {
+        "place": "Vineyards of the coast",
+        "note": "Tastings at three family domaines — we'll call ahead",
+        "distance": "10 min by bike"
+    },
+    {
+        "place": "The train station",
+        "note": "We'll pick you up if you tell us the time",
+        "distance": "8 min by car"
+    }
+]

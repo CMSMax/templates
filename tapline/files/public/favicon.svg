@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+    <style>
+        rect { fill: #121d5c }
+        .foam { fill: #f3eee3 }
+        .beer { fill: #f6a623 }
+        @media (prefers-color-scheme: dark) { rect { fill: #1a2770 } }
+    </style>
+    <rect width="32" height="32" rx="7"/>
+    <path class="foam" d="M7.5 10.2V9a3 3 0 0 1 4.3-2.7 3.6 3.6 0 0 1 6.4-.7A3 3 0 0 1 24.5 8v2.2Z"/>
+    <path class="beer" fill-rule="evenodd" d="M8.2 11.6h15.6l-1.9 15.2a1.4 1.4 0 0 1-1.4 1.2h-9a1.4 1.4 0 0 1-1.4-1.2Zm3.3 2.4h1.5l-.6 10.5h-1.3Z"/>
+</svg>

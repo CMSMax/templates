@@ -1,0 +1,60 @@
+{
+    "name": "Proof Bakery",
+    "short_name": "Proof",
+    "tagline": "Sourdough, pastry and seasonal fruit, baked through the night on Mill Street.",
+    "phone": "(555) 304-7720",
+    "phone_href": "tel:+15553047720",
+    "email": "hello@proofbakery.example",
+    "address": "214 Mill Street",
+    "city": "Hudson, NY 12534",
+    "map_link": "https://maps.google.com/?q=214+Mill+Street+Hudson+NY",
+    "instagram": "https://instagram.com/",
+    "instagram_handle": "@proofbakery",
+    "hours_summary": "Tue – Sun, 7am – 2pm",
+    "hours_note": "Closed Mondays. We close early when the shelves are empty.",
+    "order_note": "Call by 2pm the day before for whole cakes, tarts, and bread by the dozen. We'll have it boxed and waiting at the counter.",
+    "order_items": [
+        "Whole cakes",
+        "Fruit tarts",
+        "Bread by the dozen",
+        "Office mornings"
+    ],
+    "cta_label": "Order ahead",
+    "cta_link": "tel:+15553047720",
+    "currency": "$",
+    "menu_sections": [
+        {
+            "name": "Bread",
+            "slug": "bread",
+            "note": "Naturally leavened, fermented for two days"
+        },
+        {
+            "name": "Pastry",
+            "slug": "pastry",
+            "note": "Laminated with cultured butter"
+        },
+        {
+            "name": "Cakes & tarts",
+            "slug": "cakes-and-tarts",
+            "note": "By the slice, or whole with a day's notice"
+        },
+        {
+            "name": "To drink",
+            "slug": "to-drink",
+            "note": "Poured at the counter"
+        }
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "A framed bakery broadsheet: bone canvas inside hairline borders, square corners, no cards and no rounded photos. One cherry-red band carries the bakery's short name in giant serif letters, and a cocoa footer closes the page.",
+        "type": "Gloock (display serif, weight 400 only) for the wordmark, headings, bake times and prices; Schibsted Grotesk for everything else. No third family.",
+        "color": "One accent: cherry red (bg-primary). It paints the hero band, the oven times, prices, and the Order ahead buttons. Everything else is bone, flour-sack surface and cocoa ink. Never add a second color.",
+        "signature": "The oven board — what comes out of the oven and when, typeset like a departure board with the times in red. It lives in the Bakes collection; keep it wherever the design evolves.",
+        "voice": "Early-morning plain speech. Times, ingredients and names of farms over adjectives. No exclamation points, no puns about dough."
+    }
+}

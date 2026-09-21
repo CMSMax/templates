@@ -1,0 +1,16 @@
+title: Hero
+description: The stencilled promise, the paint-marked second line, the quote button, and the stamped job-site photo.
+fields:
+    heading: { type: text, label: First line }
+    headingMarked: { type: text, label: Second line (paint-marked) }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    ctaLabel: { type: text, label: Button text }
+    ctaLink: { type: url, label: Button link }
+    image: { type: image, label: Job-site photo }
+    imageAlt: { type: text, label: Photo description }
+    stampNumber: { type: text, label: Stamp — job number }
+    stampTitle: { type: text, label: Stamp — title }
+    stampLocation: { type: text, label: Stamp — neighborhood }
+    stampYear: { type: text, label: Stamp — year }
+    stampScope: { type: text, label: Stamp — scope }
+    stampWeeks: { type: text, label: Stamp — weeks }

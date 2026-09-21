@@ -1,0 +1,52 @@
+@import 'tailwindcss';
+
+@theme {
+    /* Bone, flour-sack and cocoa, ruled with hairlines — and one cherry red. */
+    --color-canvas: #f2eadd;
+    --color-surface: #e9dfcd;
+    --color-ink: #2b1812;
+    --color-muted: #6b5448;
+    --color-line: #d8c9b3;
+    /* The one accent: cherry oxblood. The Branding page's colors reach the
+       site through primary/secondary, so retune these to recolor it. */
+    --color-primary: #9c1f1b;
+    --color-primary-foreground: #f7efe3;
+    --color-secondary: #2b1812;
+    --color-secondary-foreground: #f2eadd;
+    --font-sans:
+        'Schibsted Grotesk', ui-sans-serif, system-ui, -apple-system,
+        sans-serif;
+    --font-display: 'Gloock', 'Iowan Old Style', Georgia, ui-serif, serif;
+}
+
+html {
+    scroll-padding-top: 5rem;
+}
+
+::selection {
+    background-color: var(--color-primary);
+    color: var(--color-primary-foreground);
+}
+
+/* The wordmark rises out of its own baseline on first load — the one
+   authored moment. Time-based, so no script is involved. */
+@keyframes proof-rise {
+    from {
+        transform: translateY(0.35em);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@utility rise {
+    animation: proof-rise 1100ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .rise {
+        animation: none;
+    }
+}

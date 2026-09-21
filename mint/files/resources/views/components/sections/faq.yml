@@ -1,0 +1,15 @@
+title: FAQ
+description: Common questions with expandable answers.
+fields:
+    eyebrow: { type: text, label: Eyebrow }
+    heading: { type: textarea, label: Heading, rows: 2 }
+    intro: { type: textarea, label: Introduction, rows: 2 }
+    items:
+        type: repeater
+        label: Questions
+        source: faqs
+        item_label: question
+        add_button_label: Add question
+        sub_fields:
+            question: { type: text, label: Question }
+            answer: { type: textarea, label: Answer }

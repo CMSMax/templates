@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Are you taking new patients?",
+        "answer": "Yes — adults and children. Most new patients are seen within a week, and emergencies the same day."
+    },
+    {
+        "question": "Do you take my insurance?",
+        "answer": "We work with most PPO plans and file the claim for you. Send us your plan name and we'll confirm your cover before you visit."
+    },
+    {
+        "question": "I'm nervous about the dentist. Can you help?",
+        "answer": "Tell us when you book. We'll go slowly, explain each step before it happens, and stop whenever you raise a hand."
+    },
+    {
+        "question": "What if I don't have insurance?",
+        "answer": "Our prices are published and fixed. The Mint membership plan covers two check-ups a year plus 15% off treatment."
+    },
+    {
+        "question": "Can I pay over time?",
+        "answer": "Yes. Treatment over $500 can be split into monthly payments with no interest over twelve months."
+    }
+]

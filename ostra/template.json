@@ -1,0 +1,11 @@
+{
+    "name": "Ostra",
+    "industry": "hotels-lodging",
+    "description": "A sun-washed, room-first template for boutique hotels, inns, and guesthouses — rose-plaster canvas, oxblood ink and one claret accent, the house's name set huge across a full-bleed photograph, every room hung with its own key-fob tag, a front-desk card for check-in and breakfast, a what's-nearby list with walking times, and a check-availability call to action under a striped awning.",
+    "pages": ["Home", "Rooms", "404"],
+    "collections": ["rooms", "nearby"],
+    "cta": "Check availability",
+    "theme": "light",
+    "accent": "#9a2b1f",
+    "fonts": ["Bodoni Moda", "Jost"]
+}

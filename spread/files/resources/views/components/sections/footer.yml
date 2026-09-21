@@ -1,0 +1,4 @@
+title: Footer
+description: The brand, a short blurb, links and the kitchen's contact details from site settings.
+fields:
+    blurb: { type: textarea, label: Blurb, rows: 3 }

@@ -1,0 +1,5 @@
+label: Facts
+icon: check
+fields:
+    title: { type: text, label: Title }
+    detail: { type: text, label: Detail }

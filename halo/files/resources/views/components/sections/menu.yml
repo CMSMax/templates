@@ -1,0 +1,33 @@
+title: Treatment menu
+description: The signature price list — services grouped like a printed spa menu, with an arched photo that follows the group being read. Shows the featured services, or every service.
+fields:
+    eyebrow: { type: text, label: Small line above the headline }
+    heading: { type: text, label: Headline }
+    headingAccent: { type: text, label: Italic phrase }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    show: { type: select, label: Services shown, options: { featured: Featured only, all: Every service } }
+    linkLabel: { type: text, label: Link text (leave empty to hide) }
+    linkHref: { type: url, label: Link }
+    groups:
+        type: repeater
+        label: Menu groups
+        source: site.menu_groups
+        item_label: name
+        add_button_label: Add a group
+        sub_fields:
+            name: { type: text, label: Group name (matches a service's group) }
+            body: { type: textarea, label: Short description, rows: 2 }
+            image: { type: image, label: Arched photo }
+            imageAlt: { type: text, label: Photo description }
+    services:
+        type: repeater
+        label: Services
+        source: services
+        item_label: name
+        sub_fields:
+            name: { type: text, label: Service }
+            category: { type: text, label: Group }
+            description: { type: textarea, label: Short description, rows: 2 }
+            duration: { type: text, label: Duration }
+            price: { type: text, label: Price }
+            featured: { type: toggle, label: Show on the homepage }

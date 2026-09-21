@@ -1,0 +1,7 @@
+label: Oven times
+icon: ⏲️
+fields:
+    time: { type: text, label: Out of the oven at }
+    item: { type: text, label: What comes out }
+    note: { type: textarea, label: Note, rows: 2 }
+    tag: { type: text, label: Tag (Gone by 10, Weekends only…) }

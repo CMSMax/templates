@@ -1,0 +1,17 @@
+title: Treatment list
+description: Every treatment with its description, price and time.
+fields:
+    note: { type: textarea, label: Price note, rows: 2 }
+    items:
+        type: repeater
+        label: Treatments
+        source: treatments
+        item_label: name
+        add_button_label: Add treatment
+        sub_fields:
+            name: { type: text, label: Name }
+            group: { type: text, label: Group }
+            blurb: { type: textarea, label: Short description }
+            detail: { type: textarea, label: Full description }
+            price: { type: text, label: Price }
+            duration: { type: text, label: Time }

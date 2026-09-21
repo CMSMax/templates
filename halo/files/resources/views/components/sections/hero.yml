@@ -1,0 +1,17 @@
+title: Hero
+description: The opening — a big headline with an italic phrase, the booking button, and three arched photos of the work with the next-opening tag.
+fields:
+    eyebrow: { type: text, label: Small line above the headline }
+    heading: { type: text, label: Headline }
+    headingAccent: { type: text, label: Italic second line }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    secondaryLabel: { type: text, label: Second link text (leave empty to hide) }
+    secondaryLink: { type: url, label: Second link }
+    tagLabel: { type: text, label: Tag label }
+    tagText: { type: text, label: Tag text (leave empty to hide) }
+    imageOne: { type: image, label: Left photo }
+    imageOneAlt: { type: text, label: Left photo description }
+    imageTwo: { type: image, label: Middle photo }
+    imageTwoAlt: { type: text, label: Middle photo description }
+    imageThree: { type: image, label: Right photo }
+    imageThreeAlt: { type: text, label: Right photo description }

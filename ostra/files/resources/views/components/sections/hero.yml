@@ -1,0 +1,8 @@
+title: Hero
+description: The house's photograph edge to edge, a line of welcome, the two main actions, and the name set huge across the bottom.
+fields:
+    body: { type: textarea, label: Welcome line, rows: 3 }
+    secondaryLabel: { type: text, label: Second button text }
+    secondaryLink: { type: url, label: Second button link }
+    image: { type: image, label: Photograph }
+    imageAlt: { type: text, label: Photograph description }

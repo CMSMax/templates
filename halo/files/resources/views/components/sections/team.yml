@@ -1,0 +1,19 @@
+title: Team
+description: The people, in arched portraits — each with a role, a specialty and a link to book them.
+fields:
+    eyebrow: { type: text, label: Small line above the headline }
+    heading: { type: text, label: Headline }
+    headingAccent: { type: text, label: Italic phrase }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    team:
+        type: repeater
+        label: People
+        source: team
+        item_label: name
+        sub_fields:
+            name: { type: text, label: Name }
+            role: { type: text, label: Role }
+            specialty: { type: text, label: Specialty }
+            image: { type: image, label: Portrait }
+            imageAlt: { type: text, label: Portrait description }
+            link: { type: url, label: Booking link }

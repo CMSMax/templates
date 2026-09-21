@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Country sourdough",
+        "section": "Bread",
+        "description": "Our house loaf. Two-day ferment, a dark crust, and a soft, tangy crumb.",
+        "price": "11",
+        "tag": "",
+        "featured": true
+    },
+    {
+        "name": "Seeded rye",
+        "section": "Bread",
+        "description": "Dense and dark, with sunflower, flax and caraway. Slices thin for toast.",
+        "price": "12",
+        "tag": "",
+        "featured": false
+    },
+    {
+        "name": "Baguette",
+        "section": "Bread",
+        "description": "Crisp shell, open crumb. A second batch comes out at 11.",
+        "price": "5",
+        "tag": "",
+        "featured": false
+    },
+    {
+        "name": "Rosemary focaccia",
+        "section": "Bread",
+        "description": "Olive oil, flaky salt, and rosemary from the garden out back.",
+        "price": "6",
+        "tag": "Vegan",
+        "featured": false
+    },
+    {
+        "name": "Butter croissant",
+        "section": "Pastry",
+        "description": "Three days of lamination with cultured butter. Shatters properly.",
+        "price": "4.75",
+        "tag": "",
+        "featured": true
+    },
+    {
+        "name": "Almond croissant",
+        "section": "Pastry",
+        "description": "Twice-baked with frangipane and toasted almonds.",
+        "price": "5.75",
+        "tag": "",
+        "featured": false
+    },
+    {
+        "name": "Cardamom morning bun",
+        "section": "Pastry",
+        "description": "Croissant dough rolled with cardamom and orange sugar.",
+        "price": "5.25",
+        "tag": "Weekends",
+        "featured": true
+    },
+    {
+        "name": "Ham and gruyère",
+        "section": "Pastry",
+        "description": "Smoked ham, aged gruyère and a little mustard, folded in croissant dough.",
+        "price": "7",
+        "tag": "",
+        "featured": false
+    },
+    {
+        "name": "Plum and almond galette",
+        "section": "Cakes & tarts",
+        "description": "Brown-butter rye crust, frangipane, and roasted plums.",
+        "price": "6",
+        "tag": "",
+        "featured": true
+    },
+    {
+        "name": "Olive oil chocolate cake",
+        "section": "Cakes & tarts",
+        "description": "Dark, damp and not too sweet, with a crackled top.",
+        "price": "5.50",
+        "tag": "",
+        "featured": false
+    },
+    {
+        "name": "Lemon tart",
+        "section": "Cakes & tarts",
+        "description": "Sharp lemon curd in a sweet short crust, brûléed to order.",
+        "price": "6",
+        "tag": "",
+        "featured": false
+    },
+    {
+        "name": "Drip coffee",
+        "section": "To drink",
+        "description": "From a roaster two blocks away. Free refills while you sit.",
+        "price": "3",
+        "tag": "",
+        "featured": false
+    },
+    {
+        "name": "Cappuccino",
+        "section": "To drink",
+        "description": "Double shot, whole or oat milk.",
+        "price": "4.75",
+        "tag": "",
+        "featured": false
+    },
+    {
+        "name": "Hot chocolate",
+        "section": "To drink",
+        "description": "Melted dark chocolate and whole milk. That's all.",
+        "price": "4.50",
+        "tag": "",
+        "featured": false
+    }
+]

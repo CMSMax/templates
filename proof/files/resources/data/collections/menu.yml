@@ -1,0 +1,9 @@
+label: Menu
+icon: 🥐
+fields:
+    name: { type: text, label: Item }
+    section: { type: text, label: Menu group }
+    description: { type: textarea, label: Description, rows: 2 }
+    price: { type: text, label: Price }
+    tag: { type: text, label: Tag (Vegan, Weekends…) }
+    featured: { type: toggle, label: Show on the homepage counter }

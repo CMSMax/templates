@@ -1,0 +1,44 @@
+{
+    "name": "Mint Family Dental",
+    "short_name": "Mint",
+    "tagline": "Gentle, modern dentistry for the whole family.",
+    "phone": "(555) 238-6468",
+    "phone_href": "tel:+15552386468",
+    "email": "hello@mintdental.example",
+    "address": "214 Linden Avenue, Suite 2, Springfield",
+    "map_href": "https://maps.google.com/?q=214+Linden+Avenue+Springfield",
+    "hours_note": "Evening appointments Tuesday and Thursday",
+    "emergency_note": "Toothache or broken tooth? Call before 10am for a same-day visit.",
+    "cta_label": "Book a visit",
+    "nav_links": [
+        {
+            "label": "Treatments",
+            "href": "/treatments"
+        },
+        {
+            "label": "About",
+            "href": "/about"
+        },
+        {
+            "label": "New patients",
+            "href": "/new-patients"
+        },
+        {
+            "label": "Contact",
+            "href": "/contact"
+        }
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "Oral-care packaging made into a website: white carton canvas, aqua-mint fields that own whole regions (hero, closing band), deep ink type set big and tight, rounded 'carton' panels, and one coral dot of warmth.",
+        "type": "Bricolage Grotesque for display (weight 600, tight tracking, large); Hanken Grotesk for text at 1rem/1.65. Numbers tabular.",
+        "color": "White canvas and ink text. bg-mint is the committed field color — use it for whole bands, never as small tints on text. bg-accent (deep ink blue) is reserved for buttons and the facts stripe. text-pop (coral) appears only as small dots, stars and the compare knob. Never add another color.",
+        "signature": "The smile compare — a before/after photo pair split by a draggable handle, with a caption tab naming the treatment and visit count. Keep it on the homepage wherever the design evolves.",
+        "voice": "Warm, plain, reassuring. Short sentences. Say what happens and what it costs. No fear, no jargon, no exclamation points."
+    }
+}

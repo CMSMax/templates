@@ -1,0 +1,5 @@
+label: First visit steps
+icon: list-ordered
+fields:
+    title: { type: text, label: Title }
+    detail: { type: textarea, label: Detail }
