@@ -1,0 +1,5 @@
+label: Hours
+icon: clock
+fields:
+    day: { type: text }
+    hours: { type: text }

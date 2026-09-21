@@ -1,0 +1,45 @@
+title: House plan
+description: The drawn cutaway of a home with a numbered pin on the room each trade lives in. This is the template's signature — keep it.
+fields:
+    heading:
+        type: text
+        label: Headline
+        default: Every trade under one roof.
+    intro:
+        type: textarea
+        label: Opening line
+        rows: 3
+        default: Most homes keep three companies on the fridge. This is all of them, and the same crew answers whichever one you need.
+    items:
+        type: repeater
+        label: Pinned trades
+        item_label: title
+        add_button_label: Add a trade
+        source: collections.service
+        sub_fields:
+            title:
+                type: text
+                label: Trade
+                default: Heating & cooling
+            summary:
+                type: text
+                label: One line
+                default: Furnaces, heat pumps, mini-splits and the annual tune-up.
+            link:
+                type: url
+                label: Links to
+                default: /services/heating-and-cooling
+            pinX:
+                type: number
+                label: Pin across
+                default: '240'
+                min: 0
+                max: 480
+                description: Where the numbered pin sits on the drawing, left to right, out of 480.
+            pinY:
+                type: number
+                label: Pin down
+                default: '113'
+                min: 0
+                max: 360
+                description: Where the numbered pin sits on the drawing, top to bottom, out of 360.

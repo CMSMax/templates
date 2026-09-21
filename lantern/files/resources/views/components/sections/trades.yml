@@ -1,0 +1,22 @@
+title: Trades band
+description: The four things you cover, edge to edge, directly under the hero.
+fields:
+    items:
+        type: repeater
+        label: Trades
+        item_label: title
+        add_button_label: Add a trade
+        source: collections.service
+        sub_fields:
+            title:
+                type: text
+                label: Trade
+                default: Heating & cooling
+            summary:
+                type: text
+                label: One line
+                default: Furnaces, heat pumps, mini-splits and the annual tune-up.
+            link:
+                type: url
+                label: Links to
+                default: /services/heating-and-cooling

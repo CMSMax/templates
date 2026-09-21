@@ -1,0 +1,10 @@
+label: Recent work
+icon: camera
+fields:
+    title: { type: text }
+    place: { type: text }
+    trade: { type: text }
+    duration: { type: text }
+    note: { type: textarea }
+    image: { type: image }
+    imageAlt: { type: text }

@@ -1,0 +1,28 @@
+title: Questions
+description: The six questions a homeowner asks before they call — answered in two sentences each.
+fields:
+    heading:
+        type: text
+        label: Headline
+        default: Questions before you book.
+    note:
+        type: textarea
+        label: Note beside the list
+        rows: 3
+        default: Anything else, call and ask. We would rather answer it now than on the driveway.
+    items:
+        type: repeater
+        label: Questions
+        item_label: question
+        add_button_label: Add a question
+        source: collections.faqs
+        sub_fields:
+            question:
+                type: text
+                label: Question
+                default: Do you charge for the estimate?
+            answer:
+                type: textarea
+                label: Answer
+                rows: 4
+                default: Replacement quotes and handyman lists are free. Repair diagnostics are $89, and we waive it if you have us do the work.

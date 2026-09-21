@@ -1,0 +1,65 @@
+{
+    "name": "Lantern Home Services",
+    "short_name": "Lantern",
+    "tagline": "One number for the whole house.",
+    "phone": "(555) 108-4420",
+    "phone_href": "tel:+15551084420",
+    "email": "book@lantern.example",
+    "address": "119 Fairbank Road, Wrenfield",
+    "service_area": "Wrenfield, Oak Row, Colliers Mill and the river side of Route 9",
+    "hours_note": "Open 7am to 7pm, and a real person answers after hours",
+    "license": "Licensed, bonded and insured — HVAC #M-40219, Electrical #E-11884",
+    "rating": "4.9",
+    "review_count": "312",
+    "nav_links": [
+        {
+            "label": "Services",
+            "url": "/services"
+        },
+        {
+            "label": "Recent work",
+            "url": "/work"
+        },
+        {
+            "label": "About",
+            "url": "/about"
+        },
+        {
+            "label": "Contact",
+            "url": "/contact"
+        }
+    ],
+    "footer_links": [
+        {
+            "label": "Heating & cooling",
+            "url": "/services/heating-and-cooling"
+        },
+        {
+            "label": "Plumbing",
+            "url": "/services/plumbing"
+        },
+        {
+            "label": "Electrical",
+            "url": "/services/electrical"
+        },
+        {
+            "label": "Repairs & handyman",
+            "url": "/services/repairs-and-handyman"
+        },
+        {
+            "label": "Recent work",
+            "url": "/work"
+        },
+        {
+            "label": "About us",
+            "url": "/about"
+        }
+    ],
+    "art_direction": {
+        "identity": "Warm bone canvas, espresso ink, one clay accent used as a spice. Wide Archivo signage lettering over Libre Franklin text. Hairline rules instead of boxes, two-pixel corners instead of pills, and bright daylight photography that breaks the container.",
+        "type": "Archivo held at wdth 112 for every heading; Libre Franklin at 1.0625rem/1.7 for body. Headings are semibold and tracked tight, never bold. Numbers are tabular.",
+        "color": "Bone is roughly seventy percent of any viewport. Clay (bg-accent) is reserved for the primary button, the house-plan pins and the four trade squares. Espresso (bg-deep) belongs to the closing band and the footer only. Never add a third brand colour, never a gradient.",
+        "signature": "The house plan — a drawn cutaway of a home with a numbered clay pin on the room each trade lives in, and the same numbers on the rows beside it. Keep it wherever the design evolves.",
+        "voice": "Plain, specific and unhurried. Name the trade and the street. Give times and counts instead of adjectives. Two sentences maximum, no exclamation points, no hype."
+    }
+}

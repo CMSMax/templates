@@ -1,0 +1,15 @@
+label: Services
+icon: wrench
+fields:
+    title: { type: text }
+    slug: { type: text }
+    link: { type: url }
+    summary: { type: text }
+    price: { type: text }
+    response: { type: text }
+    pinX: { type: number }
+    pinY: { type: number }
+    image: { type: image }
+    imageAlt: { type: text }
+    description: { type: textarea }
+    content: { type: richtext }

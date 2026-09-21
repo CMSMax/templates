@@ -1,0 +1,24 @@
+title: Footer
+description: The closing block — the mark, what you do, how to reach you, and the fine print.
+fields:
+    note:
+        type: textarea
+        label: Fine print
+        rows: 3
+        default: Lantern is a demonstration company. Swap the name, the number and the service area for your own.
+        description: Copyright, licence numbers or a disclaimer. Keep it to one line.
+    links:
+        type: repeater
+        label: What we do
+        item_label: label
+        add_button_label: Add a link
+        source: site.footer_links
+        sub_fields:
+            label:
+                type: text
+                label: Label
+                default: Heating & cooling
+            url:
+                type: url
+                label: Links to
+                default: /services/heating-and-cooling

@@ -1,0 +1,34 @@
+title: How it works
+description: Three steps between the phone call and a finished job.
+fields:
+    heading:
+        type: text
+        label: Headline
+        default: What happens after you call.
+    stepOne:
+        type: text
+        label: Step one
+        default: A person answers
+    stepOneBody:
+        type: textarea
+        label: Step one — detail
+        rows: 3
+        default: No phone tree and no callback queue. Tell us what the house is doing and we book the window.
+    stepTwo:
+        type: text
+        label: Step two
+        default: We look, then we price
+    stepTwoBody:
+        type: textarea
+        label: Step two — detail
+        rows: 3
+        default: The technician diagnoses on site and hands you a flat price before anything is opened up.
+    stepThree:
+        type: text
+        label: Step three
+        default: It gets finished
+    stepThreeBody:
+        type: textarea
+        label: Step three — detail
+        rows: 3
+        default: Four out of five repairs are done on the first visit, because the common parts are already on the van.
