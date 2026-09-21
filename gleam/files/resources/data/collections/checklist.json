@@ -1,0 +1,15 @@
+[
+    { "room": "Kitchen", "task": "Counters, backsplash and sink scrubbed", "standard": true, "deep": true, "move_out": true },
+    { "room": "Kitchen", "task": "Hob, microwave and appliance fronts", "standard": true, "deep": true, "move_out": true },
+    { "room": "Kitchen", "task": "Cupboard fronts and handles", "standard": false, "deep": true, "move_out": true },
+    { "room": "Kitchen", "task": "Inside the oven and fridge", "standard": false, "deep": false, "move_out": true },
+    { "room": "Bathrooms", "task": "Toilet, shower, bath and basin", "standard": true, "deep": true, "move_out": true },
+    { "room": "Bathrooms", "task": "Mirrors and chrome polished", "standard": true, "deep": true, "move_out": true },
+    { "room": "Bathrooms", "task": "Tile grout and limescale", "standard": false, "deep": true, "move_out": true },
+    { "room": "Living areas", "task": "Dusting of every reachable surface", "standard": true, "deep": true, "move_out": true },
+    { "room": "Living areas", "task": "Beds made, cushions and throws reset", "standard": true, "deep": true, "move_out": false },
+    { "room": "Living areas", "task": "Baseboards, door frames and switches", "standard": false, "deep": true, "move_out": true },
+    { "room": "Whole home", "task": "Floors vacuumed and mopped", "standard": true, "deep": true, "move_out": true },
+    { "room": "Whole home", "task": "Bins emptied and relined", "standard": true, "deep": true, "move_out": true },
+    { "room": "Whole home", "task": "Inside drawers and wardrobes", "standard": false, "deep": false, "move_out": true }
+]

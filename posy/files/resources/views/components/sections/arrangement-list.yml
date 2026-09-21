@@ -1,0 +1,4 @@
+title: Arrangement list
+description: Every arrangement, grouped by the sections in site.arrangement_sections, with sizes and prices.
+fields:
+    items: { type: repeater, label: Arrangements, source: arrangements, item_label: name, sub_fields: { name: { type: text, label: Arrangement }, section: { type: text, label: Section slug }, description: { type: textarea, label: Description }, price: { type: text, label: Starting price }, sizes: { type: text, label: Sizes and prices }, image: { type: image, label: Photo }, image_alt: { type: text, label: Photo description }, home_spot: { type: select, label: On the homepage, options: { lead: Large, side: Small, none: Hidden } } } }

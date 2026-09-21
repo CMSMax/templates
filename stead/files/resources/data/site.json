@@ -1,0 +1,63 @@
+{
+    "name": "Stead Property Management",
+    "wordmark": "Stead",
+    "tagline": "Residential property management, done plainly.",
+    "city": "Portland",
+    "service_area": "Portland and the inner suburbs",
+    "phone": "(555) 238-7700",
+    "phone_href": "tel:+15552387700",
+    "emergency_phone": "(555) 238-7711",
+    "emergency_phone_href": "tel:+15552387711",
+    "email": "hello@stead.example",
+    "email_href": "mailto:hello@stead.example",
+    "address": "1420 SE Division Street, Suite 3",
+    "map_url": "https://maps.google.com/?q=1420+SE+Division+Street+Portland",
+    "hours_note": "Maintenance emergencies answered 24/7",
+    "cta_label": "Get a rental analysis",
+    "cta_link": "/#contact",
+    "resident_portal_url": "https://portal.stead.example",
+    "maintenance_url": "https://portal.stead.example/maintenance",
+    "apply_url": "https://portal.stead.example/apply",
+    "stats": [
+        { "value": "640", "label": "Homes under management" },
+        { "value": "11 days", "label": "Average time to lease" },
+        { "value": "5th", "label": "Of the month, owners are paid" }
+    ],
+    "statement": {
+        "title": "Owner statement",
+        "period": "September 2026",
+        "property": "1418 SE Alder St., Unit B",
+        "net_label": "Deposited to you",
+        "net": "$2,169.00",
+        "deposit_note": "Sent by direct deposit on Sept 5"
+    },
+    "statement_lines": [
+        { "label": "Rent collected", "amount": "$2,450.00" },
+        { "label": "Management fee (8%)", "amount": "−$196.00" },
+        { "label": "Kitchen faucet repair", "amount": "−$85.00" }
+    ],
+    "onboarding": [
+        { "marker": "Day 1", "title": "Walkthrough", "body": "We visit the home with you, photograph every room, and note anything a resident will ask about." },
+        { "marker": "Day 3", "title": "Priced and listed", "body": "A written rent recommendation, professional photos, and a listing on every major rental site." },
+        { "marker": "Day 11", "title": "Resident placed", "body": "Screened for income, rental history, and credit. You see the file before anyone signs." },
+        { "marker": "Day 30", "title": "First statement", "body": "Rent collected, your statement posted, and the balance deposited to your account on the 5th." }
+    ],
+    "hours": [
+        { "day": "Monday – Friday", "hours": "9:00 am – 5:30 pm" },
+        { "day": "Saturday", "hours": "10:00 am – 2:00 pm" },
+        { "day": "Sunday", "hours": "Closed" }
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "A calm, numerate residential property manager: mineral blue-gray canvas, navy ink, one brass accent, dusk architecture photography with softly rounded corners, and navy bands for the process and footer.",
+        "type": "Bricolage Grotesque for every heading, number and the wordmark (medium weight, tight tracking); Geist for body and interface text at 1rem with a relaxed line height. Money and counts always use tabular numerals.",
+        "color": "Mineral canvas and near-white surface, ink text in two tiers (ink, muted), hairline lines. One accent: primary (brass) only for the main button, the statement's net line, and the day markers. Text on primary uses primary-foreground (ink). Never add a second accent.",
+        "signature": "The owner statement (sections/statement) — a sample monthly statement typeset like a real ledger, with dotted leaders from each line item to its amount, laid over the hero photograph. Its lines come from site.statement and site.statement_lines. Keep it in the hero wherever the design evolves.",
+        "voice": "Plain, numerate and calm. Say what happens and when, in numbers where possible. No superlatives, no exclamation points, no promises about returns."
+    }
+}

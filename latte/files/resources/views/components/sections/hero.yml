@@ -1,0 +1,14 @@
+title: Hero
+description: The opening welcome — today's hours, a headline, the two main actions, and three photographs.
+fields:
+    heading: { type: text, label: Headline }
+    headingAccent: { type: text, label: Headline accent (italic) }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    secondaryLabel: { type: text, label: Second button text }
+    secondaryLink: { type: url, label: Second button link }
+    imageLeft: { type: image, label: Left photo }
+    imageLeftAlt: { type: text, label: Left photo description }
+    imageCenter: { type: image, label: Center photo }
+    imageCenterAlt: { type: text, label: Center photo description }
+    imageRight: { type: image, label: Right photo }
+    imageRightAlt: { type: text, label: Right photo description }

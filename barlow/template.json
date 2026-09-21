@@ -1,0 +1,11 @@
+{
+    "name": "Barlow",
+    "industry": "barbershops",
+    "description": "A dark, tungsten-lit template for classic barbershops — condensed brass-and-bone type, moody photography of fades and hot towel shaves, a price list typeset like the shop's painted board with dotted leaders, and a book-a-chair call to action always in reach.",
+    "pages": ["Home", "Services", "About", "404"],
+    "collections": ["services", "barbers", "hours"],
+    "cta": "Book a chair",
+    "theme": "dark",
+    "accent": "#c9a664",
+    "fonts": ["Barlow Condensed", "Hanken Grotesk"]
+}

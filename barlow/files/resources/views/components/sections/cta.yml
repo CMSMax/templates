@@ -1,0 +1,5 @@
+title: Call to action
+description: A closing invitation with the call and book buttons. The phone and booking link live in site settings.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 2 }

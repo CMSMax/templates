@@ -1,0 +1,53 @@
+{
+    "name": "Gleam Home Cleaning",
+    "wordmark": "Gleam",
+    "tagline": "The same careful cleaner, every visit.",
+    "phone": "(555) 318-4420",
+    "phone_href": "tel:+15553184420",
+    "email": "hello@gleamclean.example",
+    "city": "Springfield",
+    "service_area": "Springfield, Riverside, Oak Park and Maple Heights",
+    "hours_note": "Cleans Monday to Saturday, 8 am – 6 pm",
+    "cta_label": "Book a clean",
+    "cta_href": "/#book",
+    "rating": "4.9",
+    "review_count": "212",
+    "response_note": "We answer the phone ourselves and reply to every message within two hours during the working day.",
+    "promises": [
+        { "title": "Insured and bonded", "body": "Every cleaner is employed by us, background-checked and covered." },
+        { "title": "The same cleaner", "body": "Book a regular clean and the same person comes every time." },
+        { "title": "Supplies included", "body": "We bring plant-based products, cloths and a HEPA vacuum." },
+        { "title": "The 24-hour promise", "body": "Missed a spot? Tell us within a day and we come back free." }
+    ],
+    "steps": [
+        { "title": "Tell us about your place", "body": "Rooms, pets, anything that needs extra attention. We confirm a fixed price before we book." },
+        { "title": "We clean to the checklist", "body": "Your cleaner works room by room through the Clean Facts list and leaves a note of anything they noticed." },
+        { "title": "Keep the same cleaner", "body": "Weekly, every two weeks or monthly — same person, same day, and you can pause any time." }
+    ],
+    "reviews": [
+        { "quote": "Ana has cleaned our house every other Friday for two years. I have never once had to explain anything twice, and she noticed the leak under the sink before we did.", "name": "Priya N.", "detail": "Regular clean, every two weeks" },
+        { "quote": "We got the full deposit back on a flat we had lived in for six years. The oven looked newer than the day we moved in.", "name": "Marcus T.", "detail": "Move-out clean" },
+        { "quote": "Two dogs, one toddler, one very honest price. They came back the next morning for a window I thought I had imagined was missed.", "name": "Hannah L.", "detail": "Deep clean, then monthly" }
+    ],
+    "extras": [
+        { "name": "Inside the oven", "price": "$45", "note": "Racks, glass and trays degreased" },
+        { "name": "Inside the fridge", "price": "$35", "note": "Emptied, wiped, shelves washed" },
+        { "name": "Interior windows", "price": "$40", "note": "Glass, frames and sills, up to 10 panes" },
+        { "name": "Inside cabinets", "price": "$40", "note": "Emptied, wiped and put back as found" },
+        { "name": "Laundry, wash and fold", "price": "$25", "note": "One load, folded and put away" },
+        { "name": "Balcony or patio", "price": "$30", "note": "Swept, furniture and railings wiped" }
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "A careful, honest cleaning company presented like good refill-soap packaging: a clean white canvas, pale rinse-blue label panels, navy ink, heavy and hairline rules, and generous whitespace. Calm, bright and exact — never busy.",
+        "type": "Archivo for every heading, price and label, set semi-expanded (font-stretch 116%) at semibold; Geist for body and interface text at 1rem with a relaxed line height. Prices and numbers are tabular.",
+        "color": "White canvas, rinse-blue surface for label panels and bands, ink text in two tiers (ink, muted), hairline lines. One accent: primary (glove yellow) only for the booking button, the rating seal and the ticks on the Clean Facts label. Text on primary uses primary-foreground. The closing booking panel is secondary (ink). Never add a second accent.",
+        "signature": "The Clean Facts label — the cleaning checklist typeset like a nutrition-facts panel: heavy rules, room-by-room rows, and a tick for each clean (Standard, Deep, Move-out). It is the answer to 'what exactly do I get?'. Keep it on the homepage and the services page wherever the design evolves.",
+        "voice": "Plain, specific and warm. Numbers over adjectives (three hours for a two-bedroom, from $140). No 'sparkling', no 'top-notch', no exclamation points, no promises the business cannot keep."
+    }
+}

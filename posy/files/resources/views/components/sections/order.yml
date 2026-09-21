@@ -1,0 +1,6 @@
+title: Order and visit
+description: How to order — the phone number set large, same-day delivery details — beside the studio's address and hours.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    emailLabel: { type: text, label: Email link text }

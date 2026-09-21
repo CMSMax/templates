@@ -1,0 +1,8 @@
+title: Services and prices
+description: The services as a ruled price list, each row linking to its full description.
+fields:
+    eyebrow: { type: text, label: Small line above the heading }
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    linkLabel: { type: text, label: Link text }
+    items: { type: repeater, label: Services, source: services, item_label: name, sub_fields: { name: { type: text, label: Service }, summary: { type: textarea, label: Summary }, duration: { type: text, label: Time on site }, price: { type: text, label: Starting price } } }

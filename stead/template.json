@@ -1,0 +1,11 @@
+{
+    "name": "Stead",
+    "industry": "property-management",
+    "description": "A calm, numerate template for residential property managers — mineral canvas, navy ink, one brass accent, dusk architecture photography, a sample owner's statement typeset like a real ledger, a plain fee sheet, and a residents' corner for rent, repairs, and available homes.",
+    "pages": ["Home", "Rentals", "404"],
+    "collections": ["services", "plans", "rentals"],
+    "cta": "Get a rental analysis",
+    "theme": "light",
+    "accent": "#d9a54a",
+    "fonts": ["Bricolage Grotesque", "Geist"]
+}

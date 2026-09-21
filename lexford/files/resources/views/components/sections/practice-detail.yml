@@ -1,0 +1,5 @@
+title: Practice area details
+description: Every practice area in full — its description and the matters it typically covers. Each has its own anchor, so the homepage index links straight to it.
+fields:
+    mattersLabel: { type: text, label: Typical matters label }
+    items: { type: repeater, label: Practice areas, source: practice_areas, item_label: name, sub_fields: { name: { type: text, label: Practice area }, slug: { type: text, label: Anchor }, summary: { type: textarea, label: One-line summary }, description: { type: textarea, label: Full description }, matters: { type: textarea, label: Typical matters } } }

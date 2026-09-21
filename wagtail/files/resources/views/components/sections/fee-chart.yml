@@ -1,0 +1,22 @@
+title: Fee chart
+description: The signature price list — each service with a Dog column and a Cat column. Shows the featured services, or every service grouped.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    dogLabel: { type: text, label: First price column }
+    catLabel: { type: text, label: Second price column }
+    show: { type: select, label: Services shown, options: { featured: Featured only, all: Every service by group } }
+    linkLabel: { type: text, label: Link text (leave empty to hide) }
+    linkHref: { type: url, label: Link }
+    services:
+        type: repeater
+        label: Services
+        source: services
+        item_label: name
+        sub_fields:
+            name: { type: text, label: Service }
+            category: { type: text, label: Group }
+            description: { type: textarea, label: Short description, rows: 2 }
+            dog_price: { type: text, label: Dog price }
+            cat_price: { type: text, label: Cat price }
+            featured: { type: toggle, label: Show on the homepage }

@@ -1,0 +1,94 @@
+{
+    "name": "Wagtail Animal Clinic",
+    "short_name": "Wagtail",
+    "tagline": "A family-owned veterinary clinic for dogs and cats — unhurried exams, fear-free handling, and prices you can see before you sit down.",
+    "phone": "(555) 318-2204",
+    "phone_href": "tel:+15553182204",
+    "email": "hello@wagtail.example",
+    "address": "214 Linden Avenue",
+    "city": "Springfield",
+    "directions_url": "https://maps.google.com/?q=214+Linden+Avenue+Springfield",
+    "hours_short": "Mon–Fri 7:30am–7pm · Sat 8am–2pm",
+    "hours_headline": "Open six days a week",
+    "hours_note": "Closed Sundays and major holidays",
+    "same_day_note": "Sick today? Call before noon for a same-day visit.",
+    "emergency_label": "After hours, call Northside Animal ER",
+    "emergency_phone": "(555) 410-9911",
+    "emergency_phone_href": "tel:+15554109911",
+    "cta_label": "Book a visit",
+    "cta_link": "/#visit",
+    "booking_link": "tel:+15553182204",
+    "license_note": "Dr. Nora Ellis, DVM · Fear Free Certified Practice",
+    "hero_facts": [
+        "New patients welcome",
+        "Fear Free Certified",
+        "Same-day sick visits"
+    ],
+    "fees_note": "Prices are where a visit starts. We always give you an estimate before any treatment, and nothing is added without asking.",
+    "service_groups": [
+        {
+            "name": "Everyday care",
+            "body": "The visits that keep a healthy pet healthy."
+        },
+        {
+            "name": "Sick & diagnostics",
+            "body": "When something is off, answers the same day."
+        },
+        {
+            "name": "Surgery & dental",
+            "body": "Planned procedures, estimated in writing first."
+        }
+    ],
+    "triage": [
+        {
+            "title": "A check-up or vaccines",
+            "body": "Yearly exams, puppy and kitten series, and boosters — booked at a time that suits you.",
+            "label": "Book a wellness visit",
+            "link": "/#visit"
+        },
+        {
+            "title": "Something's not right today",
+            "body": "Limping, not eating, an upset stomach. We hold same-day slots every morning.",
+            "label": "Call (555) 318-2204",
+            "link": "tel:+15553182204"
+        },
+        {
+            "title": "It can't wait",
+            "body": "Trouble breathing, a suspected poisoning, or a seizure that won't stop. Go now.",
+            "label": "Northside Animal ER · (555) 410-9911",
+            "link": "tel:+15554109911"
+        }
+    ],
+    "promises": [
+        {
+            "title": "Thirty-minute exams",
+            "body": "Time to sniff the room, settle, and ask every question — never a ten-minute rush."
+        },
+        {
+            "title": "Fear-free handling",
+            "body": "Treats, non-slip mats, pheromone diffusers, and a separate quiet waiting room for cats."
+        },
+        {
+            "title": "An estimate first",
+            "body": "You see the cost of any treatment before it starts, and you decide."
+        }
+    ],
+    "testimonial": {
+        "quote": "Biscuit used to shake in the parking lot. Now she pulls me through the door. They explained everything, and the bill matched the estimate to the dollar.",
+        "name": "Priya S.",
+        "pet": "Biscuit, 7-year-old beagle"
+    },
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "The honest neighborhood vet: porcelain canvas, biscuit panels, deep navy type, one cobalt accent, warm natural-light pet photography. Calm and confident — never a cartoon paw-print site.",
+        "type": "Bricolage Grotesque (semibold, tight tracking) for every heading; Hanken Grotesk for body and UI. Big, friendly headlines; body stays at a comfortable reading size.",
+        "color": "One accent: cobalt (bg-primary) for the primary button, the prices in the fee chart, and small focal marks. Navy (bg-secondary) carries exactly one dark band — the visit and hours section. Everything else is canvas, biscuit surface, white cards, ink, and muted text. Never add another color.",
+        "signature": "The fee chart — services printed like a clinic's wall chart, with a Dog column and a Cat column of cobalt prices on hairline rules. Keep it wherever the design evolves.",
+        "voice": "Warm, plain, a little wry. Short sentences and real numbers. No exclamation marks, no 'fur babies', no vague promises."
+    }
+}

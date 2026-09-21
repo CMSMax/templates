@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Café au lait dahlia",
+        "latin": "Dahlia ‘Café au Lait’",
+        "source": "Wren Hill Farm, 12 miles north",
+        "x": 42,
+        "y": 37
+    },
+    {
+        "name": "Garden rose",
+        "latin": "Rosa ‘Distant Drums’",
+        "source": "Alder & Rye Growers",
+        "x": 48,
+        "y": 60
+    },
+    {
+        "name": "Ranunculus",
+        "latin": "Ranunculus asiaticus",
+        "source": "Wren Hill Farm",
+        "x": 59,
+        "y": 42
+    },
+    {
+        "name": "Pincushion flower",
+        "latin": "Scabiosa atropurpurea",
+        "source": "Our own cutting garden",
+        "x": 71,
+        "y": 36
+    },
+    {
+        "name": "Foxglove",
+        "latin": "Digitalis purpurea",
+        "source": "Hollow Creek Flowers",
+        "x": 61,
+        "y": 15
+    },
+    {
+        "name": "Oat grass",
+        "latin": "Avena sativa",
+        "source": "Dried in the studio",
+        "x": 26,
+        "y": 27
+    }
+]

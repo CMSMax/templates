@@ -1,0 +1,51 @@
+@import 'tailwindcss';
+
+@theme {
+    --color-canvas: #faf6ee;
+    --color-surface: #f2eadc;
+    --color-card: #fffdf8;
+    --color-ink: #1f1712;
+    --color-muted: #6b5b4e;
+    --color-line: #e3d8c6;
+    /* The one accent: roasted espresso. The Branding page's colors reach the
+       site through primary/secondary, so retune these to recolor the site. */
+    --color-primary: #3a2a20;
+    --color-primary-foreground: #faf6ee;
+    --color-secondary: #f2eadc;
+    --color-secondary-foreground: #1f1712;
+    --font-sans: 'Inter Tight', ui-sans-serif, system-ui, -apple-system, sans-serif;
+    --font-display: 'Inter Tight', ui-sans-serif, system-ui, -apple-system, sans-serif;
+    --font-serif: 'Instrument Serif', 'Iowan Old Style', Georgia, serif;
+}
+
+/* The menu card's dotted leader between an item's name and its price. */
+@utility leader {
+    flex: 1 1 0%;
+    min-width: 1.5rem;
+    border-bottom: 1.5px dotted var(--color-line);
+    transform: translateY(-0.3em);
+}
+
+/* First-viewport arrival: copy rises, the photographs settle in sequence
+   (--i is each element's slot). Time-based, so no script is involved. */
+@keyframes rise-in {
+    from {
+        opacity: 0;
+        transform: translateY(16px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+[data-rise] {
+    animation: rise-in 900ms cubic-bezier(0.22, 1, 0.36, 1) both;
+    animation-delay: calc(80ms + var(--i, 0) * 90ms);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    [data-rise] {
+        animation: none;
+    }
+}

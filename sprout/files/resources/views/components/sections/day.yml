@@ -1,0 +1,19 @@
+title: A day at Sprout
+description: The daily rhythm as a time-stamped timeline beside two photos.
+fields:
+    eyebrow: { type: text, label: Eyebrow }
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    imageMain: { type: image, label: Large photo }
+    imageMainAlt: { type: text, label: Large photo description }
+    imageInset: { type: image, label: Small photo }
+    imageInsetAlt: { type: text, label: Small photo description }
+    day:
+        type: repeater
+        label: Daily rhythm
+        source: site.day
+        item_label: title
+        sub_fields:
+            time: { type: text, label: Time }
+            title: { type: text, label: Moment }
+            body: { type: textarea, label: Description }

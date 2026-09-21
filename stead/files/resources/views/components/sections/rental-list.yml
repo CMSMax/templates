@@ -1,0 +1,8 @@
+title: Available homes
+description: The page heading and the grid of homes for rent, each with rent, size, availability, and an apply link (site.json apply_url).
+fields:
+    eyebrow: { type: text, label: Eyebrow }
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    applyLabel: { type: text, label: Apply link text }
+    items: { type: repeater, label: Homes, source: rentals, item_label: title, sub_fields: { title: { type: text, label: Home }, neighborhood: { type: text, label: Neighborhood }, rent: { type: text, label: Monthly rent }, beds: { type: text, label: Bedrooms }, baths: { type: text, label: Bathrooms }, size: { type: text, label: Size }, available: { type: text, label: Availability }, image: { type: image, label: Photo }, alt: { type: text, label: Photo description }, summary: { type: textarea, label: Summary } } }

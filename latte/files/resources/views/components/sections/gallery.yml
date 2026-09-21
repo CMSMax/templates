@@ -1,0 +1,15 @@
+title: Photo gallery
+description: A row of photos from the café. Add or change photos in the Gallery collection.
+fields:
+    heading: { type: text, label: Headline }
+    headingAccent: { type: text, label: Headline accent (italic) }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    linkLabel: { type: text, label: Instagram link text }
+    photos:
+        type: repeater
+        label: Photos
+        source: gallery
+        item_label: alt
+        sub_fields:
+            image: { type: image, label: Photo }
+            alt: { type: text, label: Description }

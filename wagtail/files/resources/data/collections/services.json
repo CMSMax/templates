@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Wellness exam",
+        "category": "Everyday care",
+        "description": "A nose-to-tail check, weight and diet talk, and a plan for the year ahead.",
+        "dog_price": "$68",
+        "cat_price": "$62",
+        "featured": true
+    },
+    {
+        "name": "Core vaccines",
+        "category": "Everyday care",
+        "description": "Rabies, DHPP or FVRCP, given on a schedule that fits your pet's life — not every vaccine every year.",
+        "dog_price": "$32",
+        "cat_price": "$32",
+        "featured": true
+    },
+    {
+        "name": "Puppy or kitten series",
+        "category": "Everyday care",
+        "description": "Three visits over the first months: exams, vaccines, deworming, and all the questions.",
+        "dog_price": "$225",
+        "cat_price": "$195",
+        "featured": false
+    },
+    {
+        "name": "Microchip",
+        "category": "Everyday care",
+        "description": "Implanted in seconds, registered before you leave.",
+        "dog_price": "$45",
+        "cat_price": "$45",
+        "featured": true
+    },
+    {
+        "name": "Sick visit",
+        "category": "Sick & diagnostics",
+        "description": "Same-day exam for anything that's off — limping, itching, an upset stomach.",
+        "dog_price": "$78",
+        "cat_price": "$74",
+        "featured": true
+    },
+    {
+        "name": "Blood panel",
+        "category": "Sick & diagnostics",
+        "description": "In-house results within the hour, so we can talk options at the same visit.",
+        "dog_price": "from $120",
+        "cat_price": "from $120",
+        "featured": false
+    },
+    {
+        "name": "Digital X-rays",
+        "category": "Sick & diagnostics",
+        "description": "Two views with a same-day read, shown to you on screen.",
+        "dog_price": "from $180",
+        "cat_price": "from $165",
+        "featured": false
+    },
+    {
+        "name": "Dental cleaning",
+        "category": "Surgery & dental",
+        "description": "Under anesthesia with full-mouth X-rays, scaling, and polishing. Extractions quoted first.",
+        "dog_price": "from $380",
+        "cat_price": "from $340",
+        "featured": true
+    },
+    {
+        "name": "Spay or neuter",
+        "category": "Surgery & dental",
+        "description": "Pre-surgical bloodwork, pain relief, and a recovery call the next morning, all included.",
+        "dog_price": "from $420",
+        "cat_price": "from $260",
+        "featured": true
+    },
+    {
+        "name": "Lump removal",
+        "category": "Surgery & dental",
+        "description": "Removal and lab analysis, with a clear estimate after the first exam.",
+        "dog_price": "from $350",
+        "cat_price": "from $320",
+        "featured": false
+    }
+]

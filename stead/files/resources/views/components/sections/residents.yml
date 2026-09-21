@@ -1,0 +1,12 @@
+title: Residents
+description: The residents' corner — pay rent, request a repair, see available homes, and the emergency line. Portal links live in site.json.
+fields:
+    eyebrow: { type: text, label: Eyebrow }
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    payLabel: { type: text, label: Pay rent link text }
+    payNote: { type: text, label: Pay rent note }
+    repairLabel: { type: text, label: Repair link text }
+    repairNote: { type: text, label: Repair note }
+    rentalsLabel: { type: text, label: Rentals link text }
+    rentalsNote: { type: text, label: Rentals note }

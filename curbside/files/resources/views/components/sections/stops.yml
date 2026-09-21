@@ -1,0 +1,6 @@
+title: This week's stops
+description: The schedule board. Each stop lives in the Stops collection — switch on "This is the next stop" for the one to light up.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    instagramLabel: { type: text, label: Instagram link text }

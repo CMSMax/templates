@@ -1,0 +1,6 @@
+title: Navigation
+description: The header with the firm's name, page links, and the consultation button.
+fields:
+    practiceLabel: { type: text, label: Practice areas link text }
+    aboutLabel: { type: text, label: About link text }
+    contactLabel: { type: text, label: Contact link text }

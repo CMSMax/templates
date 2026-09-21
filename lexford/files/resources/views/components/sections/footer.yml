@@ -1,0 +1,4 @@
+title: Footer
+description: The firm's name, a short description, office and contact details, and the legal disclaimer.
+fields:
+    blurb: { type: textarea, label: Short description, rows: 3 }

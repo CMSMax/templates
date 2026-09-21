@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Margaret Hale",
+        "role": "Founding partner",
+        "image": "/images/attorney-margaret-hale.jpg",
+        "credentials": "J.D., Columbia Law School · Admitted 1999",
+        "bio": "Margaret founded the firm after a decade in commercial litigation. She advises owner-led businesses and leads the firm’s trial work."
+    },
+    {
+        "name": "Arjun Mehta",
+        "role": "Partner",
+        "image": "/images/attorney-arjun-mehta.jpg",
+        "credentials": "J.D., University of Michigan · Admitted 2011",
+        "bio": "Arjun leads the real estate and business practice, and is known for closing on schedule and reading every page of every lease."
+    },
+    {
+        "name": "Naomi Brooks",
+        "role": "Associate",
+        "image": "/images/attorney-naomi-brooks.jpg",
+        "credentials": "J.D., Howard University · Admitted 2018",
+        "bio": "Naomi practices family law and estate planning, guiding clients through some of the most personal decisions they will make."
+    }
+]

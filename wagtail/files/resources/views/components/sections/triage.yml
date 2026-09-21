@@ -1,0 +1,15 @@
+title: What brings you in
+description: Three routes on ruled rows — a routine visit, a sick-today call, and the after-hours emergency number.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    triage:
+        type: repeater
+        label: Routes
+        source: site.triage
+        item_label: title
+        sub_fields:
+            title: { type: text, label: Situation }
+            body: { type: textarea, label: Description, rows: 2 }
+            label: { type: text, label: Link text }
+            link: { type: url, label: Link (page, tel: or external) }

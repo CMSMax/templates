@@ -1,0 +1,34 @@
+{
+    "name": "Juniper",
+    "tagline": "A neighborhood kitchen cooking with the season.",
+    "phone": "(555) 318-4402",
+    "phone_href": "tel:+15553184402",
+    "email": "table@juniper.example",
+    "address": "214 Linden Street",
+    "city": "Springfield",
+    "map_url": "https://maps.google.com/?q=214+Linden+Street+Springfield",
+    "hours_note": "Closed Mondays",
+    "cta_label": "Reserve a table",
+    "large_party_note": "Parties of seven or more, and private dinners in the back room, are booked by email.",
+    "walk_in_note": "Our bar and window counter are kept for walk-ins every night.",
+    "courses": [
+        { "name": "Starters", "slug": "starters" },
+        { "name": "Mains", "slug": "mains" },
+        { "name": "Sides", "slug": "sides" },
+        { "name": "Desserts", "slug": "desserts" },
+        { "name": "Drinks", "slug": "drinks" }
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "A calm, printed-menu restaurant site: warm linen canvas, green-black ink, generous whitespace, soft natural-light food photography with rounded corners, and pill-shaped buttons.",
+        "type": "Instrument Serif for every heading and dish name (regular, with italic for course titles and descriptions); Figtree for body and interface text at 1rem with a relaxed line height; prices use tabular numerals.",
+        "color": "Linen canvas and paper surface, ink text in two tiers (ink, muted), hairline lines. One accent: primary (juniper green) only for the Reserve button, the menu card's sprig ornament, and link hovers. The Visit band is the only dark (ink) surface. Never add a second accent.",
+        "signature": "The printed menu card — a paper card with an inset hairline frame, italic course titles between rules, and dish names joined to prices by dotted leaders. Keep it wherever the menu appears.",
+        "voice": "Warm, unhurried, and specific about ingredients and farms. Short sentences. No exclamation points, no superlatives."
+    }
+}

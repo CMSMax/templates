@@ -1,0 +1,16 @@
+title: FAQ and tour
+description: Frequently asked questions beside the tour card with phone, email, address, and hours.
+fields:
+    eyebrow: { type: text, label: Eyebrow }
+    heading: { type: text, label: FAQ headline }
+    tourHeading: { type: text, label: Tour card headline }
+    tourBody: { type: textarea, label: Tour card copy, rows: 3 }
+    tourButton: { type: text, label: Tour button text }
+    faqs:
+        type: repeater
+        label: Questions
+        source: faqs
+        item_label: question
+        sub_fields:
+            question: { type: text, label: Question }
+            answer: { type: textarea, label: Answer }

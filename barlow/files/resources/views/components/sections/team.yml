@@ -1,0 +1,16 @@
+title: Barbers
+description: A portrait of each barber with their role and what they are known for. The barbers live in the Barbers collection.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    items:
+        type: repeater
+        label: Barbers
+        source: barbers
+        item_label: name
+        sub_fields:
+            name: { type: text, label: Name }
+            role: { type: text, label: Role }
+            specialty: { type: text, label: Known for }
+            image: { type: image, label: Portrait }
+            alt: { type: text, label: Portrait description }

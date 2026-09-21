@@ -1,0 +1,11 @@
+{
+    "name": "Sprout",
+    "industry": "education-childcare",
+    "description": "A calm, sunlit template for daycares, preschools, and early-learning centers — sticker-word headline, programs laid out like a growth chart by age, a day's rhythm, and a schedule-a-tour call to action.",
+    "pages": ["Home", "Programs", "404"],
+    "collections": ["programs", "faqs"],
+    "cta": "Schedule a tour",
+    "theme": "light",
+    "accent": "#f5b841",
+    "fonts": ["Fredoka", "Figtree"]
+}

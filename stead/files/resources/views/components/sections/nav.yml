@@ -1,0 +1,7 @@
+title: Navigation
+description: The header with the business name, page links, and the rental-analysis button.
+fields:
+    servicesLabel: { type: text, label: Services link text }
+    feesLabel: { type: text, label: Fees link text }
+    rentalsLabel: { type: text, label: Rentals link text }
+    residentsLabel: { type: text, label: Residents link text }

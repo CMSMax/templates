@@ -1,0 +1,6 @@
+title: Programs header
+description: The Programs page title, introduction, and a jump link to each program.
+fields:
+    eyebrow: { type: text, label: Eyebrow }
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Introduction, rows: 3 }

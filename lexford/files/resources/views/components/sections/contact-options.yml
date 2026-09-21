@@ -1,0 +1,9 @@
+title: Contact options
+description: The three ways to reach the firm — call, email, or visit — beside the office hours. Contact details and hours come from the site settings.
+fields:
+    callHeading: { type: text, label: Call heading }
+    callBody: { type: textarea, label: Call description, rows: 2 }
+    emailHeading: { type: text, label: Email heading }
+    emailBody: { type: textarea, label: Email description, rows: 2 }
+    visitHeading: { type: text, label: Visit heading }
+    hoursHeading: { type: text, label: Hours heading }

@@ -1,0 +1,4 @@
+title: Footer
+description: The closing band with the studio's address, hours, and ways to order.
+fields:
+    blurb: { type: textarea, label: Short description, rows: 2 }

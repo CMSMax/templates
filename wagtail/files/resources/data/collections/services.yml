@@ -1,0 +1,9 @@
+label: Services
+icon: 🩺
+fields:
+    name: { type: text, label: Service }
+    category: { type: select, label: Group, options: { 'Everyday care': Everyday care, 'Sick & diagnostics': Sick & diagnostics, 'Surgery & dental': Surgery & dental } }
+    description: { type: textarea, label: Short description, rows: 2 }
+    dog_price: { type: text, label: Dog price (e.g. $68 or from $380) }
+    cat_price: { type: text, label: Cat price (e.g. $62 or from $340) }
+    featured: { type: toggle, label: Show in the homepage fee chart }

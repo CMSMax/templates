@@ -1,0 +1,7 @@
+title: Ways to book
+description: Three ways to get a table — by phone, by email for large parties, and walking in. Contact details come from site.json.
+fields:
+    callHeading: { type: text, label: Phone heading }
+    callBody: { type: textarea, label: Phone details, rows: 2 }
+    partyHeading: { type: text, label: Large-party heading }
+    walkInHeading: { type: text, label: Walk-in heading }

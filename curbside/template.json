@@ -1,0 +1,11 @@
+{
+    "name": "Curbside",
+    "industry": "food-trucks",
+    "description": "A bold, schedule-first template for food trucks and street-food vendors — pale concrete, asphalt-black bands and one traffic-yellow like a painted curb, big street-sign type, this week's stops as a ruled board with the next stop lit up, a menu board with dotted price leaders, and a book-the-truck catering band.",
+    "pages": ["Home", "Menu", "404"],
+    "collections": ["stops", "menu"],
+    "cta": "Find the truck",
+    "theme": "light",
+    "accent": "#ffcc12",
+    "fonts": ["Big Shoulders Display", "Archivo"]
+}

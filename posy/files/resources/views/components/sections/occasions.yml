@@ -1,0 +1,7 @@
+title: Occasions
+description: Weddings, sympathy, events, and weekly flowers as a ruled list with starting prices.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    linkLabel: { type: text, label: Email link text }
+    items: { type: repeater, label: Occasions, source: site.occasions, item_label: name, sub_fields: { name: { type: text, label: Occasion }, description: { type: textarea, label: Description }, price: { type: text, label: Price line } } }

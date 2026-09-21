@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Al pastor",
+        "section": "Tacos",
+        "description": "Spit-roasted pork, charred pineapple, onion, cilantro.",
+        "price": "4.50",
+        "tag": "",
+        "featured": true
+    },
+    {
+        "name": "Carne asada",
+        "section": "Tacos",
+        "description": "Grilled skirt steak, salsa roja, white onion.",
+        "price": "5",
+        "tag": "",
+        "featured": true
+    },
+    {
+        "name": "Birria",
+        "section": "Tacos",
+        "description": "Braised beef, melted cheese, a cup of consommé for dipping.",
+        "price": "5.50",
+        "tag": "Spicy",
+        "featured": true
+    },
+    {
+        "name": "Crispy fish",
+        "section": "Tacos",
+        "description": "Beer-battered cod, cabbage, chipotle crema.",
+        "price": "5",
+        "tag": "",
+        "featured": false
+    },
+    {
+        "name": "Mushroom al carbón",
+        "section": "Tacos",
+        "description": "Fire-grilled oyster mushrooms, salsa verde, pickled onion.",
+        "price": "4.50",
+        "tag": "Veg",
+        "featured": true
+    },
+    {
+        "name": "Burrito bowl",
+        "section": "Plates",
+        "description": "Rice, black beans, your choice of meat, pico, crema.",
+        "price": "13",
+        "tag": "",
+        "featured": true
+    },
+    {
+        "name": "Quesadilla grande",
+        "section": "Plates",
+        "description": "Flour tortilla, Oaxaca cheese, rajas, side of salsa.",
+        "price": "11",
+        "tag": "Veg",
+        "featured": false
+    },
+    {
+        "name": "Street corn",
+        "section": "On the side",
+        "description": "Grilled elote, lime mayo, cotija, chile.",
+        "price": "5",
+        "tag": "Veg",
+        "featured": true
+    },
+    {
+        "name": "Chips & salsa",
+        "section": "On the side",
+        "description": "Fried this morning, two salsas.",
+        "price": "4",
+        "tag": "Veg",
+        "featured": false
+    },
+    {
+        "name": "Rice & beans",
+        "section": "On the side",
+        "description": "Red rice and refried pintos.",
+        "price": "4",
+        "tag": "Veg",
+        "featured": false
+    },
+    {
+        "name": "Agua fresca",
+        "section": "To drink",
+        "description": "Hibiscus or watermelon, whatever came in fresh.",
+        "price": "4",
+        "tag": "",
+        "featured": false
+    },
+    {
+        "name": "Mexican Coke",
+        "section": "To drink",
+        "description": "The glass bottle, ice cold.",
+        "price": "3.50",
+        "tag": "",
+        "featured": false
+    }
+]

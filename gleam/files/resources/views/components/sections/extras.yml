@@ -1,0 +1,7 @@
+title: Extras
+description: Add-ons priced like a menu, with dotted leaders between each name and its price.
+fields:
+    eyebrow: { type: text, label: Small line above the heading }
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    items: { type: repeater, label: Extras, source: site.extras, item_label: name, sub_fields: { name: { type: text, label: Extra }, price: { type: text, label: Price }, note: { type: text, label: Detail } } }

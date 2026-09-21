@@ -1,0 +1,12 @@
+title: Hero
+description: The opening statement with the rental-analysis button, the dusk photograph, the sample owner statement, and three figures.
+fields:
+    eyebrow: { type: text, label: Eyebrow }
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    secondaryLabel: { type: text, label: Secondary link text }
+    secondaryLink: { type: url, label: Secondary link }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }
+    stats: { type: repeater, label: Figures, source: site.stats, item_label: label, sub_fields: { value: { type: text, label: Figure }, label: { type: text, label: Label } } }
+    statementLines: { type: repeater, label: Owner statement lines, source: site.statement_lines, item_label: label, sub_fields: { label: { type: text, label: Line item }, amount: { type: text, label: Amount } } }

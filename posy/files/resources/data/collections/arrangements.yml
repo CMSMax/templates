@@ -1,0 +1,11 @@
+label: Arrangements
+icon: 💐
+fields:
+    name: { type: text, label: Arrangement }
+    section: { type: text, label: Section slug (must match a slug in arrangement sections) }
+    description: { type: textarea, label: Description, rows: 2 }
+    price: { type: text, label: Starting price (number only) }
+    sizes: { type: text, label: Sizes and prices }
+    image: { type: image, label: Photo }
+    image_alt: { type: text, label: Photo description }
+    home_spot: { type: select, label: On the homepage, options: { lead: Large, side: Small, none: Hidden } }

@@ -1,0 +1,9 @@
+label: Services
+icon: ✂️
+fields:
+    name: { type: text, label: Service }
+    category: { type: text, label: Group }
+    description: { type: textarea, label: Description, rows: 2 }
+    price: { type: text, label: Price }
+    duration: { type: text, label: Time in the chair }
+    featured: { type: toggle, label: Show on the homepage price list }

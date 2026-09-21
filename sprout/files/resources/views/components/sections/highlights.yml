@@ -1,0 +1,14 @@
+title: Highlights
+description: Three cards overlapping the hero photo — what every day includes, a photo, and a parent review.
+fields:
+    heading: { type: text, label: List heading }
+    image: { type: image, label: Center photo }
+    imageAlt: { type: text, label: Center photo description }
+    highlights:
+        type: repeater
+        label: Daily highlights
+        source: site.highlights
+        item_label: label
+        sub_fields:
+            label: { type: text, label: Highlight }
+            icon: { type: select, label: Icon, options: { book: Book, sun: Sun, apple: Apple, palette: Palette, sprout: Sprout } }

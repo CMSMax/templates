@@ -1,0 +1,10 @@
+label: Stops
+icon: 🚚
+fields:
+    day: { type: text, label: Day }
+    meal: { type: text, label: Service (lunch, dinner, late…) }
+    place: { type: text, label: Where }
+    address: { type: text, label: Street address }
+    hours: { type: text, label: Serving hours }
+    map_url: { type: url, label: Map link }
+    next: { type: toggle, label: This is the next stop }

@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Business & contracts",
+        "slug": "business",
+        "summary": "Formation, shareholder agreements, and the contracts a growing company signs every week.",
+        "description": "We act as outside counsel to owner-led companies — setting up the business properly, drafting and negotiating the agreements that carry real risk, and stepping in early when a deal or a partnership starts to go wrong.",
+        "matters": "Company formation, shareholder and partnership agreements, commercial leases, supplier and customer contracts, buying or selling a business"
+    },
+    {
+        "name": "Employment",
+        "slug": "employment",
+        "summary": "Advice for employers and employees on hiring, policies, disputes and departures.",
+        "description": "Whether you run a team or work on one, employment problems move quickly and carry deadlines. We give straight advice on where you stand, negotiate settlements, and represent you before agencies and in court.",
+        "matters": "Employment contracts, handbooks and policies, wrongful termination, discrimination and harassment claims, severance negotiations, non-compete agreements"
+    },
+    {
+        "name": "Real estate",
+        "slug": "real-estate",
+        "summary": "Residential and commercial transactions, closings, title issues and landlord–tenant disputes.",
+        "description": "From a first home to a portfolio of commercial units, we review every document before you sign it, work with lenders and title companies to keep closings on schedule, and resolve disputes when a property deal breaks down.",
+        "matters": "Purchases and sales, closings, title and boundary disputes, commercial leasing, landlord–tenant matters, zoning questions"
+    },
+    {
+        "name": "Estate planning & probate",
+        "slug": "estate-planning",
+        "summary": "Wills, trusts and powers of attorney — and a steady hand through probate.",
+        "description": "Good planning is a kindness to the people you leave behind. We draft clear wills and trusts that reflect your wishes, review them as your life changes, and guide families through probate and estate administration with patience.",
+        "matters": "Wills and living trusts, powers of attorney, healthcare directives, probate and estate administration, trust disputes"
+    },
+    {
+        "name": "Family law",
+        "slug": "family",
+        "summary": "Divorce, custody and support, handled with discretion and an eye on what comes after.",
+        "description": "Family matters are personal and rarely simple. We help you reach fair agreements through negotiation and mediation where we can, and represent you firmly in court where we must — always with your children and your future in view.",
+        "matters": "Divorce and separation, child custody and parenting plans, child and spousal support, prenuptial agreements, modifications"
+    },
+    {
+        "name": "Civil litigation",
+        "slug": "litigation",
+        "summary": "When a dispute can’t be settled, we take it to court — prepared.",
+        "description": "Most disputes resolve before trial, and they resolve better when the other side knows you are ready for one. We assess your case candidly, pursue early settlement where it serves you, and try cases when it doesn’t.",
+        "matters": "Contract and business disputes, property disputes, professional negligence, debt recovery, appeals"
+    }
+]

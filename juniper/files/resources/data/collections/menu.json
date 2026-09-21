@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Sourdough & cultured butter",
+        "section": "Starters",
+        "description": "Baked each morning, with flaky salt and wildflower honey.",
+        "price": "7",
+        "featured": false
+    },
+    {
+        "name": "Burrata & roasted peaches",
+        "section": "Starters",
+        "description": "Basil, aged balsamic, grilled bread.",
+        "price": "16",
+        "featured": true
+    },
+    {
+        "name": "Charred broccolini",
+        "section": "Starters",
+        "description": "Lemon, chili, whipped ricotta, toasted almonds.",
+        "price": "13",
+        "featured": false
+    },
+    {
+        "name": "Beef tartare",
+        "section": "Starters",
+        "description": "Juniper, cornichon, egg yolk, rye crisps.",
+        "price": "18",
+        "featured": false
+    },
+    {
+        "name": "Market greens",
+        "section": "Starters",
+        "description": "Shaved fennel, radish, soft herbs, cider vinaigrette.",
+        "price": "12",
+        "featured": false
+    },
+    {
+        "name": "Roast half chicken",
+        "section": "Mains",
+        "description": "Thyme, juniper, charred lemon, pan juices.",
+        "price": "29",
+        "featured": true
+    },
+    {
+        "name": "Brown butter pappardelle",
+        "section": "Mains",
+        "description": "Hand-cut pasta, crispy sage, aged parmesan.",
+        "price": "24",
+        "featured": true
+    },
+    {
+        "name": "Seared market fish",
+        "section": "Mains",
+        "description": "Braised white beans, salsa verde, fennel.",
+        "price": "32",
+        "featured": false
+    },
+    {
+        "name": "Braised short rib",
+        "section": "Mains",
+        "description": "Soft polenta, gremolata, red wine jus.",
+        "price": "34",
+        "featured": false
+    },
+    {
+        "name": "Roasted carrots & grains",
+        "section": "Mains",
+        "description": "Whipped yogurt, dukkah, farro, carrot-top pesto.",
+        "price": "22",
+        "featured": false
+    },
+    {
+        "name": "Crispy potatoes",
+        "section": "Sides",
+        "description": "Rosemary, garlic aioli.",
+        "price": "9",
+        "featured": false
+    },
+    {
+        "name": "Grilled greens",
+        "section": "Sides",
+        "description": "Olive oil, lemon, sea salt.",
+        "price": "8",
+        "featured": false
+    },
+    {
+        "name": "Heirloom tomatoes",
+        "section": "Sides",
+        "description": "Shallot, torn basil, sherry vinegar.",
+        "price": "10",
+        "featured": false
+    },
+    {
+        "name": "Olive oil cake",
+        "section": "Desserts",
+        "description": "Crème fraîche, roasted figs, honey.",
+        "price": "11",
+        "featured": true
+    },
+    {
+        "name": "Dark chocolate pot de crème",
+        "section": "Desserts",
+        "description": "Sea salt, whipped cream.",
+        "price": "10",
+        "featured": false
+    },
+    {
+        "name": "Seasonal sorbet",
+        "section": "Desserts",
+        "description": "Ask your server for today's flavors.",
+        "price": "8",
+        "featured": false
+    },
+    {
+        "name": "Juniper & tonic",
+        "section": "Drinks",
+        "description": "House gin, cucumber, rosemary, juniper berries.",
+        "price": "14",
+        "featured": true
+    },
+    {
+        "name": "Garden spritz",
+        "section": "Drinks",
+        "description": "Aperitivo, sparkling wine, orange, thyme.",
+        "price": "13",
+        "featured": false
+    },
+    {
+        "name": "Wine by the glass",
+        "section": "Drinks",
+        "description": "A short list of small growers, changed weekly.",
+        "price": "12",
+        "featured": false
+    },
+    {
+        "name": "House sodas",
+        "section": "Drinks",
+        "description": "Rhubarb, ginger, or lemon verbena.",
+        "price": "6",
+        "featured": false
+    }
+]

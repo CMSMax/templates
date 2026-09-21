@@ -1,0 +1,9 @@
+title: Our story
+description: How the firm began and how it works today, with the founding year and a photograph.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: First paragraph, rows: 4 }
+    bodyMore: { type: textarea, label: Second paragraph, rows: 4 }
+    foundedLabel: { type: text, label: Founding-year label }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }

@@ -1,0 +1,8 @@
+title: Fees
+description: The fee sheet — each plan's rate, what it covers, and a plain note about cancelling.
+fields:
+    eyebrow: { type: text, label: Eyebrow }
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    note: { type: text, label: Footnote }
+    items: { type: repeater, label: Plans, source: plans, item_label: name, sub_fields: { name: { type: text, label: Plan }, rate: { type: text, label: Rate }, rate_note: { type: text, label: Rate note }, description: { type: textarea, label: Description }, includes: { type: textarea, label: What's included }, featured: { type: toggle, label: Highlight this plan } } }

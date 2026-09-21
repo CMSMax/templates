@@ -1,0 +1,7 @@
+title: Navigation
+description: The header with the logo, page links, and the order button.
+fields:
+    arrangementsLabel: { type: text, label: Arrangements link text }
+    seasonLabel: { type: text, label: In-season link text }
+    occasionsLabel: { type: text, label: Occasions link text }
+    visitLabel: { type: text, label: Visit link text }

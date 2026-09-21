@@ -1,0 +1,6 @@
+title: Navigation
+description: The header with the logo, page links, and the reservation button.
+fields:
+    menuLabel: { type: text, label: Menu link text }
+    storyLabel: { type: text, label: Story link text }
+    visitLabel: { type: text, label: Visit link text }

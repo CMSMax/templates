@@ -1,0 +1,8 @@
+label: Barbers
+icon: 💈
+fields:
+    name: { type: text, label: Name }
+    role: { type: text, label: Role }
+    specialty: { type: text, label: Known for }
+    image: { type: image, label: Portrait }
+    alt: { type: text, label: Portrait description }

@@ -1,0 +1,9 @@
+title: Menu card
+description: The menu set like a printed card. Dishes come from the Menu collection; courses come from site.courses.
+fields:
+    heading: { type: text, label: Card title }
+    subheading: { type: text, label: Line under the title }
+    featuredOnly: { type: select, label: Show, options: { "1": Homepage favorites only, "0": Every course } }
+    linkLabel: { type: text, label: Full-menu button text (leave empty to hide) }
+    note: { type: textarea, label: Note at the bottom, rows: 2 }
+    items: { type: repeater, label: Dishes, source: menu, item_label: name, sub_fields: { name: { type: text, label: Dish }, section: { type: text, label: Course }, description: { type: textarea, label: Description }, price: { type: text, label: Price }, featured: { type: toggle, label: Show on the homepage } } }

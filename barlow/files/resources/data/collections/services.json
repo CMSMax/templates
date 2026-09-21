@@ -1,0 +1,14 @@
+[
+    { "name": "Classic cut", "category": "Haircuts", "description": "Scissors and clippers, shaped to your head and how you actually wear it.", "price": "38", "duration": "45 min", "featured": true },
+    { "name": "Skin fade", "category": "Haircuts", "description": "A seamless fade down to the skin, blended by hand and finished with a razor line.", "price": "42", "duration": "45 min", "featured": true },
+    { "name": "Scissor cut", "category": "Haircuts", "description": "All scissors, no clippers, for longer styles that need to move.", "price": "45", "duration": "50 min", "featured": false },
+    { "name": "Buzz cut", "category": "Haircuts", "description": "One guard all over, cleaned up at the neck and ears.", "price": "25", "duration": "20 min", "featured": true },
+    { "name": "Kids cut", "category": "Haircuts", "description": "For gentlemen under 12. Same care, smaller chair.", "price": "28", "duration": "30 min", "featured": true },
+    { "name": "Hot towel shave", "category": "Shaves & beards", "description": "Hot towels, pre-shave oil, two passes with a straight razor, and a cold towel to close.", "price": "45", "duration": "45 min", "featured": true },
+    { "name": "Beard trim & shape", "category": "Shaves & beards", "description": "Trimmed, shaped, and lined with a razor, finished with oil and balm.", "price": "25", "duration": "25 min", "featured": true },
+    { "name": "Cut & beard", "category": "Shaves & beards", "description": "Any haircut plus a full beard trim and shape, in one sitting.", "price": "60", "duration": "70 min", "featured": true },
+    { "name": "Head shave", "category": "Shaves & beards", "description": "A smooth straight-razor head shave with hot towels.", "price": "40", "duration": "40 min", "featured": false },
+    { "name": "Line-up", "category": "Extras", "description": "Neck, edges, and hairline cleaned up between cuts.", "price": "15", "duration": "15 min", "featured": true },
+    { "name": "Grey blending", "category": "Extras", "description": "A soft, natural tint that takes the edge off the grey, not all of it.", "price": "35", "duration": "30 min", "featured": true },
+    { "name": "Scalp treatment", "category": "Extras", "description": "Exfoliating wash, massage, and a cooling tonic.", "price": "30", "duration": "20 min", "featured": false }
+]

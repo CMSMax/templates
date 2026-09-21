@@ -1,0 +1,68 @@
+{
+    "name": "Posy",
+    "tagline": "Seasonal flowers, cut this morning and arranged by hand.",
+    "phone": "(555) 204-7719",
+    "phone_href": "tel:+15552047719",
+    "email": "orders@posy.example",
+    "address": "38 Orchard Lane",
+    "city": "Springfield",
+    "map_url": "https://maps.google.com/?q=38+Orchard+Lane+Springfield",
+    "hours_note": "Closed Sundays, except Mother's Day.",
+    "cta_label": "Order flowers",
+    "order_url": "/#order",
+    "delivery_cutoff": "Order by 1 pm for same-day delivery",
+    "delivery_area": "Across Springfield and every town within fifteen miles. Delivery is $12, or free on orders over $120.",
+    "delivery_days": "Monday to Saturday",
+    "arrangement_sections": [
+        {
+            "name": "Bouquets",
+            "slug": "bouquets",
+            "blurb": "Hand-tied, wrapped in tissue, and ready for a vase of their own."
+        },
+        {
+            "name": "Vase arrangements",
+            "slug": "vases",
+            "blurb": "Arranged in a vessel you keep, for a table, a mantel, or a reception desk."
+        },
+        {
+            "name": "Sympathy",
+            "slug": "sympathy",
+            "blurb": "Quiet, white-led flowers for a service or a home. We deliver to every chapel in town."
+        }
+    ],
+    "occasions": [
+        {
+            "name": "Weddings",
+            "description": "Bouquets, buttonholes, arches, and tables — one designer from the first call to the last petal.",
+            "price": "from $2,400"
+        },
+        {
+            "name": "Sympathy and funerals",
+            "description": "Casket sprays, wreaths, and arrangements for the home, delivered with care and on time.",
+            "price": "from $95"
+        },
+        {
+            "name": "Dinners and events",
+            "description": "Long-table runners, bar pieces, and entrance urns for private dinners and launches.",
+            "price": "from $450"
+        },
+        {
+            "name": "Weekly flowers",
+            "description": "A fresh arrangement every week for your home, restaurant, or office. Pause any time.",
+            "price": "$45 a week"
+        }
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "The shop as an old-master floral still life: flowers glowing out of a dark, varnished green-umber ground, lit from one side. Square-cornered photographs hung like paintings, hairline rules, generous dark space.",
+        "type": "Castoro (a Dutch old-style serif) for every heading, arrangement name, and numeral; its italic for Latin flower names and asides. Hanken Grotesk for body and interface text at 1rem with a relaxed line height. Prices use tabular numerals.",
+        "color": "Dark theme. Canvas and a one-step-lighter surface band, vellum ink in two tiers (ink, muted), hairline lines. One spot color: primary (peony coral) only for the order button, the numerals of the still-life key, and link hovers. Never add a second accent; the photographs carry the color.",
+        "signature": "The keyed still life — a portrait photograph of this week's arrangement beside a museum-label key that numbers each stem with its common name, italic Latin name, and the farm it came from. Keep it on the homepage and update it with the season.",
+        "voice": "Unhurried and exact about stems, growers, and delivery times. Short sentences. No exclamation points, no superlatives."
+    }
+}

@@ -1,0 +1,5 @@
+title: Consultation
+description: The closing green band inviting a free first consultation, with the phone number, email and office address.
+fields:
+    heading: { type: textarea, label: Heading, rows: 2 }
+    body: { type: textarea, label: Supporting copy, rows: 3 }

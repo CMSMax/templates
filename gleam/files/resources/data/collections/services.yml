@@ -1,0 +1,11 @@
+label: Services
+icon: 🧽
+fields:
+    name: { type: text, label: Service }
+    slug: { type: text, label: Anchor (lowercase, no spaces) }
+    summary: { type: textarea, label: One-line summary, rows: 2 }
+    description: { type: textarea, label: Full description, rows: 4 }
+    duration: { type: text, label: Typical time on site }
+    price: { type: text, label: Starting price }
+    unit: { type: text, label: Price unit (per visit, one time) }
+    price_note: { type: textarea, label: What the price covers, rows: 2 }

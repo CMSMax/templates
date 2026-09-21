@@ -1,0 +1,15 @@
+title: The craft
+description: An editorial mosaic — a big headline with the year you opened, two photographs, a brass quote tile, and a card promoting one service.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    image: { type: image, label: Top photo }
+    imageAlt: { type: text, label: Top photo description }
+    feature: { type: image, label: Large photo }
+    featureAlt: { type: text, label: Large photo description }
+    quote: { type: textarea, label: Quote, rows: 2 }
+    quoteName: { type: text, label: Quote attribution }
+    cardHeading: { type: text, label: Card headline }
+    cardBody: { type: textarea, label: Card copy, rows: 2 }
+    cardLink: { type: url, label: Card link }
+    cardLinkLabel: { type: text, label: Card link text }

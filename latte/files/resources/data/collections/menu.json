@@ -1,0 +1,20 @@
+[
+    { "name": "Espresso", "section": "Coffee", "description": "Our house blend — chocolate, stone fruit, a little brown sugar.", "price": "3.50", "featured": true },
+    { "name": "Flat white", "section": "Coffee", "description": "A double ristretto with silky steamed milk.", "price": "4.75", "featured": true },
+    { "name": "Latte", "section": "Coffee", "description": "Espresso, steamed milk, and the art we practise daily.", "price": "5.00", "featured": true },
+    { "name": "Cortado", "section": "Coffee", "description": "Equal parts espresso and warm milk.", "price": "4.25", "featured": false },
+    { "name": "Filter of the day", "section": "Coffee", "description": "A rotating single origin, brewed by the cup.", "price": "4.00", "featured": false },
+    { "name": "Iced vanilla latte", "section": "Coffee", "description": "House vanilla bean syrup, cold milk, espresso over ice.", "price": "5.75", "featured": true },
+    { "name": "Matcha latte", "section": "Tea & more", "description": "Ceremonial-grade matcha whisked to order.", "price": "5.50", "featured": false },
+    { "name": "Chai", "section": "Tea & more", "description": "Our own spice blend, simmered with black tea.", "price": "5.25", "featured": false },
+    { "name": "Hot chocolate", "section": "Tea & more", "description": "Dark chocolate melted into steamed milk, marshmallows on request.", "price": "4.75", "featured": false },
+    { "name": "Loose-leaf tea", "section": "Tea & more", "description": "Earl grey, sencha, chamomile, or fresh mint.", "price": "3.75", "featured": false },
+    { "name": "Butter croissant", "section": "Bakery", "description": "Three days in the making, laminated by hand.", "price": "4.00", "featured": true },
+    { "name": "Cardamom bun", "section": "Bakery", "description": "Soft, sticky, fragrant — gone by eleven most days.", "price": "4.50", "featured": true },
+    { "name": "Almond croissant", "section": "Bakery", "description": "Twice baked with frangipane and toasted almonds.", "price": "5.00", "featured": false },
+    { "name": "Banana bread", "section": "Bakery", "description": "Brown butter, walnuts, served warm with salted butter.", "price": "4.25", "featured": false },
+    { "name": "Avocado toast", "section": "Plates", "description": "Sourdough, smashed avocado, poached egg, chili, herbs.", "price": "13.50", "featured": true },
+    { "name": "Croque madame", "section": "Plates", "description": "Ham, gruyère, béchamel, and a fried egg on top.", "price": "15.00", "featured": true },
+    { "name": "Granola bowl", "section": "Plates", "description": "House granola, Greek yogurt, seasonal fruit, honey.", "price": "11.00", "featured": false },
+    { "name": "Soup & bread", "section": "Plates", "description": "Today's soup with a thick slice of sourdough.", "price": "10.50", "featured": false }
+]

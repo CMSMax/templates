@@ -1,0 +1,5 @@
+label: Gallery
+icon: 🖼️
+fields:
+    image: { type: image, label: Photo }
+    alt: { type: text, label: Description (alt text) }

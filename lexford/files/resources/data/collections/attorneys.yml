@@ -1,0 +1,8 @@
+label: Attorneys
+icon: 👤
+fields:
+    name: { type: text, label: Name }
+    role: { type: text, label: Title }
+    image: { type: image, label: Portrait }
+    credentials: { type: text, label: Education and admission }
+    bio: { type: textarea, label: Short biography, rows: 3 }

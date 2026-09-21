@@ -1,0 +1,15 @@
+title: Our approach
+description: A deep-green panel with your philosophy, license, and three trust facts.
+fields:
+    eyebrow: { type: text, label: Eyebrow }
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: First paragraph, rows: 4 }
+    bodySecondary: { type: textarea, label: Second paragraph, rows: 2 }
+    facts:
+        type: repeater
+        label: Trust facts
+        source: site.facts
+        item_label: label
+        sub_fields:
+            value: { type: text, label: Number or short value }
+            label: { type: text, label: What it means }

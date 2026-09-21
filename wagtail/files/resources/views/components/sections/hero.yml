@@ -1,0 +1,8 @@
+title: Hero
+description: The opening promise — a big headline, the book-a-visit button, the phone number, and a tall photo with the clinic-hours card.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    cardHeading: { type: text, label: Card title }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }

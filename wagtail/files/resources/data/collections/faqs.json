@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Are you taking new patients?",
+        "answer": "Yes. Call or stop by and we'll set up your first visit. If you have records from a previous vet, send them ahead and we'll have read them before you arrive."
+    },
+    {
+        "question": "Do you see animals other than dogs and cats?",
+        "answer": "Dogs and cats are all we do, and we do them well. For rabbits, birds, and reptiles we're happy to point you to a trusted exotics vet nearby."
+    },
+    {
+        "question": "How do I pay?",
+        "answer": "Payment is due at the visit. We take cards, cash, and CareCredit, and we'll help you file a pet insurance claim before you leave."
+    },
+    {
+        "question": "My pet gets anxious at the vet. Can you help?",
+        "answer": "It's most of what we think about. Ask for a quiet-room appointment, bring their favorite treats, and if needed we can prescribe a calming medication to give at home before the visit."
+    },
+    {
+        "question": "What if my pet needs care when you're closed?",
+        "answer": "Call Northside Animal ER at (555) 410-9911 — they're open around the clock and send us a full report the next morning, so we can pick up from there."
+    }
+]

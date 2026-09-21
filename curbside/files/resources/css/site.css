@@ -1,0 +1,86 @@
+@import 'tailwindcss';
+
+@theme {
+    /* Pale concrete, asphalt ink, and one painted-curb yellow. */
+    --color-canvas: #efeee9;
+    --color-surface: #e4e2db;
+    --color-card: #faf9f6;
+    --color-ink: #151513;
+    --color-muted: #57564f;
+    --color-line: #d2d0c7;
+    /* The one accent: traffic-safety yellow. The Branding page's colors reach
+       the site through primary/secondary, so retune these to recolor it. */
+    --color-primary: #ffcc12;
+    --color-primary-foreground: #151513;
+    --color-secondary: #151513;
+    --color-secondary-foreground: #efeee9;
+    --font-sans: 'Archivo', ui-sans-serif, system-ui, -apple-system, sans-serif;
+    --font-display:
+        'Big Shoulders Display', 'Arial Narrow', 'Roboto Condensed',
+        ui-sans-serif, sans-serif;
+}
+
+::selection {
+    background-color: var(--color-primary);
+    color: var(--color-primary-foreground);
+}
+
+/* The painted curb: diagonal hazard stripes, used as an edge on the stops
+   board and the footer. */
+@utility curb-stripe {
+    background-image: repeating-linear-gradient(
+        -45deg,
+        var(--color-primary) 0 14px,
+        var(--color-ink) 14px 28px
+    );
+}
+
+/* The menu board's dotted leader between a dish and its price. */
+@utility leader {
+    flex: 1 1 0%;
+    min-width: 1.5rem;
+    border-bottom: 2px dotted var(--color-line);
+    transform: translateY(-0.35em);
+}
+
+/* The yellow curb band under the hero: menu names rolling past like
+   traffic. Two identical tracks make the loop seamless. */
+@keyframes curb-roll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+@utility marquee {
+    animation: curb-roll 38s linear infinite;
+}
+
+/* First-viewport arrival: time-based, so no script is involved. */
+@keyframes pull-up {
+    from {
+        opacity: 0;
+        transform: translateY(18px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+[data-rise] {
+    animation: pull-up 800ms cubic-bezier(0.16, 1, 0.3, 1) both;
+    animation-delay: calc(60ms + var(--i, 0) * 90ms);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    [data-rise] {
+        animation: none;
+    }
+
+    .marquee {
+        animation: none;
+    }
+}

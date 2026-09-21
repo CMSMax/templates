@@ -1,0 +1,47 @@
+[
+    {
+        "day": "Tue",
+        "meal": "Lunch",
+        "place": "Harbor Office Park",
+        "address": "1200 NW Harbor Blvd",
+        "hours": "11:00 – 2:00",
+        "map_url": "https://maps.google.com/?q=1200+NW+Harbor+Blvd+Portland",
+        "next": false
+    },
+    {
+        "day": "Wed",
+        "meal": "Dinner",
+        "place": "Tall Pines Brewing",
+        "address": "88 SE Alder St",
+        "hours": "5:00 – 9:00",
+        "map_url": "https://maps.google.com/?q=88+SE+Alder+St+Portland",
+        "next": true
+    },
+    {
+        "day": "Thu",
+        "meal": "Lunch",
+        "place": "Linden Street Market",
+        "address": "410 N Linden St",
+        "hours": "11:00 – 2:30",
+        "map_url": "https://maps.google.com/?q=410+N+Linden+St+Portland",
+        "next": false
+    },
+    {
+        "day": "Fri",
+        "meal": "Late",
+        "place": "Ninth Ave Taproom",
+        "address": "901 SE 9th Ave",
+        "hours": "6:00 – 11:00",
+        "map_url": "https://maps.google.com/?q=901+SE+9th+Ave+Portland",
+        "next": false
+    },
+    {
+        "day": "Sat",
+        "meal": "Brunch",
+        "place": "Eastside Farmers Market",
+        "address": "2300 E Burnside St",
+        "hours": "9:00 – 2:00",
+        "map_url": "https://maps.google.com/?q=2300+E+Burnside+St+Portland",
+        "next": false
+    }
+]

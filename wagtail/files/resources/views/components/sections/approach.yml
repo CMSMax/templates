@@ -1,0 +1,15 @@
+title: Our approach
+description: A soft panel with a photo, three promises about how visits work, and one client quote.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }
+    promises:
+        type: repeater
+        label: Promises
+        source: site.promises
+        item_label: title
+        sub_fields:
+            title: { type: text, label: Promise }
+            body: { type: textarea, label: Detail, rows: 2 }

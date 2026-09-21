@@ -1,0 +1,7 @@
+title: Arrangements
+description: A gallery hang of arrangements — one large and the rest small, chosen with each arrangement's "On the homepage" setting.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    linkLabel: { type: text, label: Link text }
+    items: { type: repeater, label: Arrangements, source: arrangements, item_label: name, sub_fields: { name: { type: text, label: Arrangement }, section: { type: text, label: Section }, description: { type: textarea, label: Description }, price: { type: text, label: Starting price }, sizes: { type: text, label: Sizes and prices }, image: { type: image, label: Photo }, image_alt: { type: text, label: Photo description }, home_spot: { type: select, label: On the homepage, options: { lead: Large, side: Small, none: Hidden } } } }

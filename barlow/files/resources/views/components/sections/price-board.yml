@@ -1,0 +1,8 @@
+title: Price list
+description: The shop's price board — services grouped with dotted leaders to each price. Services live in the Services collection; the groups and the note under the board live in site settings.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    full: { type: toggle, label: Show every service with descriptions }
+    linkLabel: { type: text, label: Link text (leave empty to hide) }
+    linkUrl: { type: url, label: Link }

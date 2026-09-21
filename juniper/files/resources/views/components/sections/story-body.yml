@@ -1,0 +1,12 @@
+title: Story
+description: The restaurant's story — a wide photograph, three paragraphs, and a pull quote beside a dish.
+fields:
+    image: { type: image, label: Wide photo }
+    imageAlt: { type: text, label: Wide photo description }
+    heading: { type: text, label: Headline }
+    paragraphOne: { type: textarea, label: First paragraph, rows: 4 }
+    paragraphTwo: { type: textarea, label: Second paragraph, rows: 4 }
+    paragraphThree: { type: textarea, label: Third paragraph, rows: 3 }
+    quote: { type: textarea, label: Pull quote, rows: 2 }
+    quoteImage: { type: image, label: Quote photo }
+    quoteImageAlt: { type: text, label: Quote photo description }

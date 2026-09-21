@@ -1,0 +1,109 @@
+{
+    "name": "Sprout Early Learning",
+    "short_name": "sprout",
+    "tagline": "A calm, sunlit place for little ones to play, learn, and grow — from six weeks to kindergarten.",
+    "phone": "(555) 204-7713",
+    "phone_href": "tel:+15552047713",
+    "email": "hello@sprout.example",
+    "address": "88 Willow Lane",
+    "city": "Springfield",
+    "directions_url": "https://maps.google.com/?q=88+Willow+Lane+Springfield",
+    "hours_short": "Mon–Fri · 7:00am–6:00pm",
+    "hours_note": "Closed on federal holidays and two teacher-planning days a year",
+    "license_note": "State-licensed childcare center · License #CC-40218",
+    "cta_label": "Schedule a tour",
+    "cta_link": "/#tour",
+    "enrollment_note": "Now enrolling for fall — a few spots left in Toddlers and Pre-K.",
+    "rating": "4.9",
+    "rating_note": "from 120+ parent reviews",
+    "testimonial": {
+        "quote": "Our daughter runs in every morning. The teachers send photos at lunch and know exactly what she's been curious about all week.",
+        "name": "Maya R.",
+        "role": "Parent of a Twos student"
+    },
+    "highlights": [
+        {
+            "icon": "book",
+            "label": "Play-based early literacy"
+        },
+        {
+            "icon": "sun",
+            "label": "Outdoor time twice a day"
+        },
+        {
+            "icon": "apple",
+            "label": "Fresh meals cooked on site"
+        },
+        {
+            "icon": "palette",
+            "label": "Art, music, and movement"
+        }
+    ],
+    "facts": [
+        {
+            "value": "1:4",
+            "label": "Teacher-to-child ratio in our infant and toddler rooms"
+        },
+        {
+            "value": "100%",
+            "label": "Of teachers CPR and first-aid certified"
+        },
+        {
+            "value": "12 yrs",
+            "label": "Caring for families in Springfield"
+        }
+    ],
+    "day": [
+        {
+            "time": "7:00 am",
+            "title": "Gentle arrivals",
+            "body": "Breakfast, a warm hello, and quiet play while friends trickle in."
+        },
+        {
+            "time": "9:00 am",
+            "title": "Circle and discovery",
+            "body": "Songs, a question of the day, then hands-on centers — blocks, art, science."
+        },
+        {
+            "time": "10:30 am",
+            "title": "Garden and outdoor play",
+            "body": "Climbing, digging, and tending our raised beds, rain or shine."
+        },
+        {
+            "time": "12:00 pm",
+            "title": "Lunch and rest",
+            "body": "A family-style meal, then a story and a nap in a calm, dim room."
+        },
+        {
+            "time": "3:00 pm",
+            "title": "Snack and projects",
+            "body": "Small-group projects, music and movement, and more time outside."
+        },
+        {
+            "time": "6:00 pm",
+            "title": "Pick-up and a daily note",
+            "body": "A photo and a few lines about the day, sent before you arrive."
+        }
+    ],
+    "included": [
+        "Breakfast, lunch, and two snacks",
+        "Diapers, wipes, and crib linens",
+        "Daily photo updates in the parent app",
+        "Art, music, and garden supplies",
+        "Twice-yearly parent-teacher conferences",
+        "Kindergarten-readiness assessment in Pre-K"
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "A calm, sunlit early-learning house: pale linen-sage canvas, deep leaf-green type and bands, soft rounded photographs of real classroom moments. Warm and elegant, never a primary-color cartoon.",
+        "type": "Fredoka (medium/semibold) for every heading, big and friendly with tight tracking; Figtree for body and UI text.",
+        "color": "One accent: sunflower (bg-primary) for the main call to action and the small rotated sticker words in the hero. Deep leaf green (bg-secondary) carries one or two dark bands. Everything else is canvas, sage surface, ink, and muted text. Never add another color.",
+        "signature": "The growth chart — programs by age laid out like a height chart on a door frame, each column stepping taller from Infants to Pre-K beside a tick-marked ruler. Keep it wherever the design evolves.",
+        "voice": "Warm, plain, reassuring, specific. Parents are busy and a little anxious — short sentences, concrete details (ratios, meals, times), no exclamation points, no jargon."
+    }
+}

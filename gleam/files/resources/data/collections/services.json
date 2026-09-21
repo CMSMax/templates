@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Regular clean",
+        "slug": "regular",
+        "summary": "Weekly, every two weeks or monthly — the whole home kept where you like it.",
+        "description": "The clean most of our customers keep. The same cleaner arrives on the same day and works through the Regular column of the Clean Facts list: kitchen, bathrooms, floors, dusting and the small resets that make a home feel looked after. Most two-bedroom homes take about three hours.",
+        "duration": "About 3 hours",
+        "price": "$140",
+        "unit": "per visit",
+        "price_note": "Two-bedroom home, every two weeks. Weekly visits are $15 less; larger homes are quoted by room."
+    },
+    {
+        "name": "Deep clean",
+        "slug": "deep",
+        "summary": "A first visit, a spring clean or the reset before guests arrive.",
+        "description": "Everything in a regular clean, plus the places a regular clean leaves alone: baseboards, door frames, light switches, the tops of cupboards, behind the toilet and the build-up on tiles and glass. We recommend one before starting regular visits.",
+        "duration": "About 5 hours",
+        "price": "$260",
+        "unit": "one time",
+        "price_note": "Two-bedroom home. Homes that have gone longer than three months without a clean may take a second visit."
+    },
+    {
+        "name": "Move-in / move-out",
+        "slug": "move-out",
+        "summary": "An empty home cleaned to the standard a landlord's checklist expects.",
+        "description": "Every cupboard, drawer and appliance cleaned inside and out, walls spot-cleaned and floors finished last. We work from your lease or inventory checklist if you send it, and come back free if anything is flagged within 72 hours.",
+        "duration": "About 6 hours",
+        "price": "$340",
+        "unit": "one time",
+        "price_note": "Two-bedroom home, empty. Oven and fridge interiors are included."
+    },
+    {
+        "name": "Office and studio",
+        "slug": "office",
+        "summary": "Small offices, studios and shops, cleaned before you open or after you close.",
+        "description": "Desks, kitchens, washrooms and floors for workplaces up to about 3,000 square feet, on a schedule that suits your hours. One named cleaner, one monthly invoice, and a key-holding agreement if you want us to let ourselves in.",
+        "duration": "From 2 hours",
+        "price": "$120",
+        "unit": "per visit",
+        "price_note": "Up to 1,500 sq ft, weekly. Quoted after a free walk-through."
+    }
+]

@@ -1,0 +1,6 @@
+title: Menu header
+description: The menu page's title and introduction.
+fields:
+    heading: { type: text, label: Headline }
+    headingAccent: { type: text, label: Headline accent (italic) }
+    body: { type: textarea, label: Introduction, rows: 3 }

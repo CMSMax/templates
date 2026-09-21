@@ -1,0 +1,9 @@
+label: Fees
+icon: 🧾
+fields:
+    name: { type: text, label: Plan }
+    rate: { type: text, label: Rate }
+    rate_note: { type: text, label: Rate note }
+    description: { type: textarea, label: Description, rows: 2 }
+    includes: { type: textarea, label: What's included (separated by ·), rows: 2 }
+    featured: { type: toggle, label: Highlight this plan }

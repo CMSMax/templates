@@ -1,0 +1,8 @@
+label: Practice areas
+icon: ⚖️
+fields:
+    name: { type: text, label: Practice area }
+    slug: { type: text, label: Anchor (lowercase, no spaces) }
+    summary: { type: textarea, label: One-line summary, rows: 2 }
+    description: { type: textarea, label: Full description, rows: 4 }
+    matters: { type: textarea, label: Typical matters (comma separated), rows: 2 }

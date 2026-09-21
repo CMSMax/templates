@@ -1,0 +1,13 @@
+label: Programs
+icon: 🌱
+fields:
+    name: { type: text, label: Program name }
+    slug: { type: text, label: Page anchor (short, lowercase) }
+    ages: { type: text, label: Ages }
+    ratio: { type: text, label: Teacher-to-child ratio }
+    schedule: { type: text, label: Schedule options }
+    tuition: { type: text, label: Tuition }
+    description: { type: textarea, label: Short description, rows: 2 }
+    details: { type: textarea, label: Full description (Programs page), rows: 4 }
+    image: { type: image, label: Photo }
+    image_alt: { type: text, label: Photo description (alt text) }

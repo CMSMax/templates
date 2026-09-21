@@ -1,0 +1,11 @@
+{
+    "name": "Lexford",
+    "industry": "professional-services",
+    "description": "A quiet, elegant template for law firms and independent attorneys — ivory canvas, forest-green panels, Newsreader headlines, the firm's name set huge over a full-width photograph, practice areas as a ruled index, and a schedule-a-consultation CTA at every turn.",
+    "pages": ["Home", "Practice areas", "About", "Contact", "404"],
+    "collections": ["practice_areas", "attorneys", "faqs"],
+    "cta": "Schedule a consultation",
+    "theme": "light",
+    "accent": "#1f3d34",
+    "fonts": ["Newsreader", "Inter"]
+}

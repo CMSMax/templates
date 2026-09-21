@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Leasing and screening",
+        "description": "We price the home from real comparables, photograph it properly, and show it within two days of a request.",
+        "includes": "Rent analysis · Listing and showings · Income, credit and history checks · Lease signing"
+    },
+    {
+        "title": "Rent collection",
+        "description": "Residents pay online. Late rent gets a reminder on the 2nd and a formal notice on the 6th — the same way, every time.",
+        "includes": "Online payments · Late notices · Deposit accounting · Monthly owner statements"
+    },
+    {
+        "title": "Maintenance",
+        "description": "Requests come in through the resident portal and get a reply the same day. Anything over $300 waits for your approval.",
+        "includes": "24/7 emergency line · Vetted local trades · Photos before and after · Annual inspections"
+    },
+    {
+        "title": "Renewals and move-outs",
+        "description": "Renewal offers go out 60 days ahead. At move-out we compare the home against the day-one photos, item by item.",
+        "includes": "Renewal pricing · Move-out inspection · Itemized deposit returns · Turnover scheduling"
+    }
+]

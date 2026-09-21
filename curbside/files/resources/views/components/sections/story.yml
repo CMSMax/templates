@@ -1,0 +1,10 @@
+title: Our story
+description: Who runs the truck and why — a large photo beside the copy, with a second smaller photo.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: First paragraph, rows: 4 }
+    bodyMore: { type: textarea, label: Second paragraph, rows: 3 }
+    image: { type: image, label: Large photo }
+    imageAlt: { type: text, label: Large photo description }
+    imageSecond: { type: image, label: Small photo }
+    imageSecondAlt: { type: text, label: Small photo description }

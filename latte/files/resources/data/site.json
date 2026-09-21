@@ -1,0 +1,66 @@
+{
+    "name": "Latte Coffee & Bistro",
+    "short_name": "latte",
+    "tagline": "Slow coffee, good company, and a kitchen that cooks until three.",
+    "phone": "(555) 318-2270",
+    "phone_href": "tel:+15553182270",
+    "email": "hello@latte.example",
+    "address": "214 Linden Avenue",
+    "city": "Springfield",
+    "directions_url": "https://maps.google.com/?q=214+Linden+Avenue+Springfield",
+    "hours_short": "Open daily from 7am",
+    "hours_note": "Kitchen closes 30 minutes before we do",
+    "instagram": "https://instagram.com/",
+    "cta_label": "Get directions",
+    "currency": "$",
+    "menu_note": "Oat, almond, and whole milk at no extra charge. Ask us about today's bake.",
+    "menu_sections": [
+        {
+            "name": "Coffee",
+            "note": "Espresso and filter, roasted in small batches",
+            "on_card": true
+        },
+        {
+            "name": "Tea & more",
+            "note": "For the non-coffee people among us",
+            "on_card": false
+        },
+        {
+            "name": "Bakery",
+            "note": "Baked here every morning from 5am",
+            "on_card": true
+        },
+        {
+            "name": "Plates",
+            "note": "Served all day until the kitchen closes",
+            "on_card": true
+        }
+    ],
+    "facts": [
+        {
+            "value": "2016",
+            "label": "The year we opened our doors"
+        },
+        {
+            "value": "5am",
+            "label": "When the first bake goes in"
+        },
+        {
+            "value": "40",
+            "label": "Seats, plus the window bench"
+        }
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "A quiet neighborhood café on a cream canvas: espresso-black type, oat-toned bands, hairline rules, soft rounded photographs of cups, pastries, and plates in window light. Restraint over decoration.",
+        "type": "Inter Tight for headings and text — medium/semibold headings with tight tracking; Instrument Serif italic only for one accent word per heading and the menu's group titles.",
+        "color": "One accent: roasted espresso (bg-primary) for the main call to action and the menu card's rules. Everything else is cream canvas, oat surface, ink, and muted text. Never add a second color.",
+        "signature": "The menu card — featured items typeset like a printed café menu with a double hairline border, italic group titles, and dotted leaders running to the prices. Keep it wherever the design evolves.",
+        "voice": "Warm, unhurried, specific. Short sentences. No exclamation points, no hype."
+    }
+}

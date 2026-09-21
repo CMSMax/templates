@@ -1,0 +1,4 @@
+title: Footer
+description: The navy footer with the business name, owner and resident links, and contact details from site.json.
+fields:
+    note: { type: text, label: Small print }

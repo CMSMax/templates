@@ -1,0 +1,11 @@
+{
+    "name": "Latte",
+    "industry": "coffee-shops",
+    "description": "A quiet, cream-toned template for neighborhood coffee shops and all-day bistros — warm photography, a menu typeset like a printed café card, and hours and directions up front.",
+    "pages": ["Home", "Menu", "404"],
+    "collections": ["menu", "hours", "gallery"],
+    "cta": "Get directions",
+    "theme": "light",
+    "accent": "#3a2a20",
+    "fonts": ["Inter Tight", "Instrument Serif"]
+}

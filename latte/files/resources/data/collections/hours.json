@@ -1,0 +1,5 @@
+[
+    { "day": "Monday – Friday", "hours": "7:00am – 4:00pm" },
+    { "day": "Saturday", "hours": "8:00am – 5:00pm" },
+    { "day": "Sunday", "hours": "8:00am – 3:00pm" }
+]

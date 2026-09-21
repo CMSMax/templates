@@ -1,0 +1,18 @@
+title: Our story
+description: Who you are in two short paragraphs, three quick facts, and a photo of the room.
+fields:
+    eyebrow: { type: text, label: Eyebrow }
+    heading: { type: text, label: Headline }
+    headingAccent: { type: text, label: Headline accent (italic) }
+    body: { type: textarea, label: First paragraph, rows: 4 }
+    bodySecondary: { type: textarea, label: Second paragraph, rows: 3 }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }
+    facts:
+        type: repeater
+        label: Quick facts
+        source: site.facts
+        item_label: label
+        sub_fields:
+            value: { type: text, label: Number or short value }
+            label: { type: text, label: What it means }

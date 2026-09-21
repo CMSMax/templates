@@ -1,0 +1,5 @@
+title: Page header
+description: The page title, an introduction, and links to each arrangement section.
+fields:
+    heading: { type: text, label: Page title }
+    body: { type: textarea, label: Introduction, rows: 3 }

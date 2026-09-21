@@ -1,0 +1,4 @@
+title: Footer
+description: Address, hours, and contact details at the bottom of every page.
+fields:
+    blurb: { type: textarea, label: Short description, rows: 2 }

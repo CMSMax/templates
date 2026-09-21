@@ -1,0 +1,5 @@
+[
+    { "name": "Walt Barlow", "role": "Owner & master barber", "specialty": "Straight razor shaves and classic scissor work", "image": "/images/barber-walt.jpg", "alt": "Walt, a barber with a silver beard, stropping a straight razor" },
+    { "name": "Marcus Reid", "role": "Senior barber", "specialty": "Skin fades, tapers, and beard sculpting", "image": "/images/barber-marcus.jpg", "alt": "Marcus, a barber in a dark apron, standing beside a leather chair" },
+    { "name": "Jess Navarro", "role": "Barber", "specialty": "Textured crops, longer styles, and kids cuts", "image": "/images/barber-jess.jpg", "alt": "Jess, a barber holding scissors and a comb at the counter" }
+]

@@ -1,0 +1,112 @@
+{
+    "name": "Barlow Barber Co.",
+    "short_name": "Barlow",
+    "tagline": "Classic cuts, hot towel shaves, and an hour in the chair that belongs to you.",
+    "established": "2012",
+    "phone": "(555) 419-0188",
+    "phone_href": "tel:+15554190188",
+    "email": "chair@barlow.example",
+    "address": "88 Dover Street",
+    "city": "Springfield",
+    "directions_url": "https://maps.google.com/?q=88+Dover+Street+Springfield",
+    "booking_url": "/#visit",
+    "cta_label": "Book a chair",
+    "offer_label": "First visit",
+    "offer_text": "Hot towel finish on the house",
+    "rating": "4.9",
+    "rating_note": "from 600+ reviews",
+    "hours_note": "Walk-ins welcome until an hour before close",
+    "instagram": "https://instagram.com/",
+    "currency": "$",
+    "price_note": "Prices include a wash and a hot towel finish. Cash and card welcome.",
+    "service_groups": [
+        {
+            "name": "Haircuts",
+            "note": "Every cut finishes with a neck shave and a proper style."
+        },
+        {
+            "name": "Shaves & beards",
+            "note": "Hot towels, straight razors, and time to do it right."
+        },
+        {
+            "name": "Extras",
+            "note": "Add to any service, or book on its own."
+        }
+    ],
+    "facts": [
+        {
+            "value": "12",
+            "label": "Years behind the chair on Dover Street"
+        },
+        {
+            "value": "3",
+            "label": "Barbers, each with ten years or more at the trade"
+        }
+    ],
+    "reviews": [
+        {
+            "quote": "Best fade I've had in this city, and nobody rushed me out of the chair. I've been back every three weeks since.",
+            "name": "Jordan Ellis",
+            "note": "Regular since 2019"
+        },
+        {
+            "quote": "Booked the hot towel shave before my wedding. Walt took his time, talked me through every pass, and I walked out ten years younger.",
+            "name": "Sam Okafor",
+            "note": "Hot towel shave"
+        },
+        {
+            "quote": "They cut my son's hair with the same care as mine. Good music, good coffee, and the kind of place you actually want to wait in.",
+            "name": "Riley Moreno",
+            "note": "Father and son cuts"
+        }
+    ],
+    "faqs": [
+        {
+            "question": "Do you take walk-ins?",
+            "answer": "Yes, whenever a chair is free. Booking ahead guarantees your time, especially on Fridays and Saturdays, which fill up fast."
+        },
+        {
+            "question": "How long does a haircut take?",
+            "answer": "Plan on 45 minutes for most cuts. We would rather take our time than send you out with a line that is not quite straight."
+        },
+        {
+            "question": "Do you cut kids' hair?",
+            "answer": "Gladly. Kids under 12 get their own price, and we keep a booster seat by the first chair."
+        },
+        {
+            "question": "What if I need to cancel?",
+            "answer": "Call us at least four hours ahead and there is no charge. We just ask so someone else can take the chair."
+        }
+    ],
+    "gallery": [
+        {
+            "image": "/images/finished-cut.jpg",
+            "alt": "A fresh low skin fade with a textured crop, seen from behind"
+        },
+        {
+            "image": "/images/tools.jpg",
+            "alt": "A straight razor, shaving brush, comb, and beard oil on dark walnut"
+        },
+        {
+            "image": "/images/chair.jpg",
+            "alt": "An oxblood leather barber chair beside a wooden counter and brass lamp"
+        },
+        {
+            "image": "/images/razor-shave.jpg",
+            "alt": "A barber shaving a lathered cheek with a straight razor"
+        }
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "A classic barbershop after dark: warm charcoal canvas, bone-white type, tungsten-lit photography of leather chairs, fades, and hot towel shaves. Square corners and hairline rules, like joinery and signwriting. Restraint over decoration.",
+        "type": "Barlow Condensed, uppercase and semibold, for every heading; Hanken Grotesk for all running text. Headlines are big and tight; body copy stays calm.",
+        "color": "One accent: polished brass (bg-primary / text-primary) for the main call to action, prices, one line of the hero headline, and the quote tile. Everything else is charcoal canvas, surface, bone ink, and muted text. Never add a second color.",
+        "signature": "The price board — services typeset like the shop's painted price list inside a double hairline frame, with dotted leaders running to brass prices. Keep it wherever the design evolves.",
+        "voice": "Dry, confident, and specific. Short sentences. Old-trade pride without the costume. No exclamation points, no hype."
+    }
+}

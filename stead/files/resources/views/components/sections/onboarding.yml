@@ -1,0 +1,6 @@
+title: First 30 days
+description: A navy band with the day-by-day timeline from signing on to the owner's first deposit.
+fields:
+    eyebrow: { type: text, label: Eyebrow }
+    heading: { type: text, label: Heading }
+    steps: { type: repeater, label: Steps, source: site.onboarding, item_label: title, sub_fields: { marker: { type: text, label: Day }, title: { type: text, label: Step }, body: { type: textarea, label: Description } } }

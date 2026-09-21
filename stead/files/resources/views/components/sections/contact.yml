@@ -1,0 +1,7 @@
+title: Contact
+description: The closing panel for owners — the rent-estimate offer with email and phone, office hours, and the office address. Contact details and hours live in site.json.
+fields:
+    eyebrow: { type: text, label: Eyebrow }
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    emailLabel: { type: text, label: Button text }

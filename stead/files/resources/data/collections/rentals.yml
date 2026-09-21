@@ -1,0 +1,13 @@
+label: Available homes
+icon: 🏠
+fields:
+    title: { type: text, label: Home }
+    neighborhood: { type: text, label: Neighborhood }
+    rent: { type: text, label: Monthly rent }
+    beds: { type: text, label: Bedrooms }
+    baths: { type: text, label: Bathrooms }
+    size: { type: text, label: Size }
+    available: { type: text, label: Availability }
+    image: { type: image, label: Photo }
+    alt: { type: text, label: Photo description }
+    summary: { type: textarea, label: Summary, rows: 2 }

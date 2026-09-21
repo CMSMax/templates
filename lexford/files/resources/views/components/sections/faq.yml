@@ -1,0 +1,6 @@
+title: Questions
+description: Common questions from new clients, each opening to its answer.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    items: { type: repeater, label: Questions, source: faqs, item_label: question, sub_fields: { question: { type: text, label: Question }, answer: { type: textarea, label: Answer } } }

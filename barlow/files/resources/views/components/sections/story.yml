@@ -1,0 +1,19 @@
+title: Our story
+description: A short history beside two photographs, with two facts about the shop. The facts live in site settings.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Story, rows: 4 }
+    image: { type: image, label: Main photo }
+    imageAlt: { type: text, label: Main photo description }
+    detail: { type: image, label: Small photo }
+    detailAlt: { type: text, label: Small photo description }
+    linkLabel: { type: text, label: Link text (leave empty to hide) }
+    linkUrl: { type: url, label: Link }
+    items:
+        type: repeater
+        label: Facts
+        source: site.facts
+        item_label: value
+        sub_fields:
+            value: { type: text, label: Number or short fact }
+            label: { type: text, label: What it means }

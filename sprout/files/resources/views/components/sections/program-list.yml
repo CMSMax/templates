@@ -1,0 +1,19 @@
+title: Program details
+description: Every program in the Programs collection as a photo and a full description with ratio, schedule, and tuition.
+fields:
+    tuitionNote: { type: textarea, label: Note under the programs, rows: 2 }
+    programs:
+        type: repeater
+        label: Programs
+        source: programs
+        item_label: name
+        sub_fields:
+            name: { type: text, label: Program name }
+            slug: { type: text, label: Page anchor }
+            ages: { type: text, label: Ages }
+            ratio: { type: text, label: Ratio }
+            schedule: { type: text, label: Schedule }
+            tuition: { type: text, label: Tuition }
+            details: { type: textarea, label: Full description }
+            image: { type: image, label: Photo }
+            image_alt: { type: text, label: Photo description }

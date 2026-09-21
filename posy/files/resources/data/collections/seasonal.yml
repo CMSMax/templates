@@ -1,0 +1,8 @@
+label: In season
+icon: 🌿
+fields:
+    name: { type: text, label: Flower }
+    latin: { type: text, label: Latin or variety name }
+    source: { type: text, label: Where it was grown }
+    x: { type: number, label: Marker across the photo (%), min: 0, max: 100 }
+    y: { type: number, label: Marker down the photo (%), min: 0, max: 100 }

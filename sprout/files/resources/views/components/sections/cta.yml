@@ -1,0 +1,5 @@
+title: Tour call to action
+description: A deep-green closing panel with the tour button and phone number.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 2 }

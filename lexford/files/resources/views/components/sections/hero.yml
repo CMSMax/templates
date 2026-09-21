@@ -1,0 +1,9 @@
+title: Hero
+description: The green panel with the headline and consultation button, beside a portrait with the firm's values.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    secondaryLabel: { type: text, label: Practice areas link text }
+    image: { type: image, label: Portrait }
+    imageAlt: { type: text, label: Portrait description }
+    values: { type: repeater, label: Values on the photo, source: site.values, item_label: name, sub_fields: { name: { type: text, label: Value }, description: { type: textarea, label: Description } } }

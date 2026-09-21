@@ -1,0 +1,8 @@
+label: Clean Facts checklist
+icon: ✅
+fields:
+    room: { type: select, label: Room, options: { Kitchen: Kitchen, Bathrooms: Bathrooms, Living areas: Living areas, Whole home: Whole home } }
+    task: { type: text, label: Task }
+    standard: { type: toggle, label: In a regular clean }
+    deep: { type: toggle, label: In a deep clean }
+    move_out: { type: toggle, label: In a move-out clean }

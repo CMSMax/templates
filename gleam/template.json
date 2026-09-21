@@ -1,0 +1,11 @@
+{
+    "name": "Gleam",
+    "industry": "cleaning-services",
+    "description": "A bright, calm template for home and office cleaning companies — white canvas, rinse-blue panels and one glove-yellow accent, services as a ruled price list, and the cleaning checklist typeset like a nutrition label so customers see exactly what every clean includes.",
+    "pages": ["Home", "Services", "404"],
+    "collections": ["services", "checklist", "faqs"],
+    "cta": "Book a clean",
+    "theme": "light",
+    "accent": "#f6d73c",
+    "fonts": ["Archivo", "Geist"]
+}

@@ -1,0 +1,6 @@
+title: Navigation
+description: The header with the company name, page links, phone number and the booking button.
+fields:
+    servicesLabel: { type: text, label: Services link text }
+    includedLabel: { type: text, label: Checklist link text }
+    reviewsLabel: { type: text, label: Reviews link text }

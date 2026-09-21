@@ -1,0 +1,60 @@
+{
+    "name": "Curbside Taco Co.",
+    "short_name": "curbside",
+    "tagline": "Tacos off the back of a truck, pressed to order and handed through the window.",
+    "phone": "(555) 204-8826",
+    "phone_href": "tel:+15552048826",
+    "email": "hola@curbside.example",
+    "catering_email": "events@curbside.example",
+    "city": "Portland, OR",
+    "instagram": "https://instagram.com/",
+    "instagram_handle": "@curbsidetaco",
+    "cta_label": "Find the truck",
+    "cta_link": "/#stops",
+    "currency": "$",
+    "schedule_note": "Weather calls go up on Instagram by 9am. If the window's open, we're serving.",
+    "menu_note": "Corn tortillas pressed on the truck. Every taco can be made vegetarian — just ask at the window.",
+    "menu_sections": [
+        {
+            "name": "Tacos",
+            "note": "Three for $12, or mix and match",
+            "on_board": true
+        },
+        {
+            "name": "Plates",
+            "note": "For when a taco isn't enough",
+            "on_board": true
+        },
+        {
+            "name": "On the side",
+            "note": "Made this morning",
+            "on_board": true
+        },
+        {
+            "name": "To drink",
+            "note": "Cold, and poured at the window",
+            "on_board": false
+        }
+    ],
+    "catering_events": [
+        "Weddings",
+        "Office lunches",
+        "Brewery nights",
+        "Block parties",
+        "Birthdays",
+        "Film sets"
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "The curb itself: pale concrete canvas, asphalt-black bands, and one traffic-safety yellow painted like a curb. Ruled rows instead of cards, hazard stripes as the only ornament, big uppercase street-sign type.",
+        "type": "Big Shoulders Display (uppercase, 800–900) for headings, day names and prices; Archivo for everything else. No third family.",
+        "color": "One accent: traffic yellow (bg-primary). It paints the curb band, the next stop on the schedule, the catering band, and the Find the truck button on dark. Everything else is concrete, asphalt ink and muted gray. Never add a second color.",
+        "signature": "The stops board — this week's parking spots as a ruled street-sign schedule on asphalt with a hazard-stripe edge, the next stop lit yellow. It lives in the Stops collection; keep it wherever the design evolves.",
+        "voice": "Short, sun-baked, specific. Say where and when. No exclamation points, no hype, no puns stacked on puns."
+    }
+}

@@ -1,0 +1,4 @@
+title: Owner statement
+description: The sample monthly statement laid over the hero photo. Its heading and total live in site.json under statement.
+fields:
+    lines: { type: repeater, label: Statement lines, source: site.statement_lines, item_label: label, sub_fields: { label: { type: text, label: Line item }, amount: { type: text, label: Amount } } }

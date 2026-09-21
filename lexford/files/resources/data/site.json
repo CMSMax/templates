@@ -1,0 +1,45 @@
+{
+    "name": "Lexford Law",
+    "wordmark": "Lexford",
+    "tagline": "Clear counsel for the moments that matter.",
+    "phone": "(555) 410-2260",
+    "phone_href": "tel:+15554102260",
+    "email": "counsel@lexford.example",
+    "address": "88 Chancery Lane, Suite 400",
+    "city": "Springfield",
+    "map_url": "https://maps.google.com/?q=88+Chancery+Lane+Springfield",
+    "founded": "2009",
+    "hours_note": "Evening consultations by appointment",
+    "cta_label": "Schedule a consultation",
+    "response_note": "We return every call and email within one business day.",
+    "confidentiality_note": "What you tell us in a consultation stays between us, whether or not you hire the firm.",
+    "disclaimer": "Attorney advertising. The information on this website is not legal advice, and contacting the firm does not create an attorney–client relationship. Prior results do not guarantee a similar outcome.",
+    "hours": [
+        { "day": "Monday – Thursday", "hours": "8:30 am – 6:00 pm" },
+        { "day": "Friday", "hours": "8:30 am – 4:00 pm" },
+        { "day": "Saturday – Sunday", "hours": "Closed" }
+    ],
+    "values": [
+        { "name": "Clarity", "description": "Plain answers, in writing, before any work begins. You will always know where your matter stands and what it will cost." },
+        { "name": "Discretion", "description": "Your affairs are handled by the few people who need to know them — and never discussed anywhere else." },
+        { "name": "Resolve", "description": "We prepare every matter as if it will go to court. That is usually why it doesn’t have to." }
+    ],
+    "approach_steps": [
+        { "title": "A first conversation", "body": "Thirty minutes, by phone or in person. You tell us what happened; we tell you honestly whether we can help." },
+        { "title": "A written plan", "body": "Within a week you receive a short letter setting out your options, our recommended course, and a fixed or capped fee." },
+        { "title": "One attorney, start to finish", "body": "The partner you meet is the partner who does the work — and who answers when you call." }
+    ],
+    "logo": "",
+    "logo_mobile": "",
+    "logo_inverted": "",
+    "favicon": "",
+    "apple_icon": "",
+    "social_image": "",
+    "art_direction": {
+        "identity": "A quiet, established law firm: ivory canvas, green-black ink, generous whitespace, warm editorial photography with softly rounded corners, forest-green panels for the hero and the closing consultation band, and pill-shaped buttons.",
+        "type": "Newsreader for every heading, attorney name and the giant wordmark (regular weight, tight tracking); Inter for body and interface text at 1rem with a relaxed line height.",
+        "color": "Ivory canvas and paper surface, ink text in two tiers (ink, muted), hairline lines. One accent: primary (forest green) only for the main button, the hero panel, the consultation band and link hovers. Text on primary uses primary-foreground. Never add a second accent.",
+        "signature": "The wordmark — the firm's short name (site.wordmark) set enormous in Newsreader, rising out of the bottom of the full-width team photograph in the canvas color. Keep it on the homepage wherever the design evolves.",
+        "voice": "Measured, plain-spoken and reassuring. Short sentences, no legalese, no superlatives, no promises about outcomes, no exclamation points."
+    }
+}

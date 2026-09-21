@@ -1,0 +1,8 @@
+title: Menu board
+description: A short, ruled menu of featured items. Mark items "Show on the homepage menu board" in the Menu collection; groups come from the menu sections in site settings.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    linkLabel: { type: text, label: Full-menu link text }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }

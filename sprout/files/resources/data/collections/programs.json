@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Infants",
+        "slug": "infants",
+        "ages": "6 wks – 12 mos",
+        "ratio": "1 teacher : 4",
+        "schedule": "Full days, Mon–Fri",
+        "tuition": "From $1,680/mo",
+        "description": "Unhurried, responsive care that follows each baby's own rhythm for feeding, napping, and play.",
+        "details": "Your baby's day follows their own schedule, not ours. Primary caregivers learn every cue, keep a detailed log of bottles, naps, and diapers, and fill the room with floor time, songs, and sensory play.",
+        "image": "/images/infants.jpg",
+        "image_alt": "A caregiver's hands steadying a baby on a soft linen play mat beside wooden toys"
+    },
+    {
+        "name": "Toddlers",
+        "slug": "toddlers",
+        "ages": "12 – 24 mos",
+        "ratio": "1 teacher : 4",
+        "schedule": "Full or part days",
+        "tuition": "From $1,540/mo",
+        "description": "First words, first friends, and plenty of room to climb, pour, stack, and explore.",
+        "details": "Toddlers learn with their whole bodies. The room is built for climbing, pouring, and stacking, with simple routines — handwashing, snack, clean-up — that build independence one small step at a time.",
+        "image": "/images/toddlers.jpg",
+        "image_alt": "Two toddlers scooping dried beans in a sensory tray at a low wooden table"
+    },
+    {
+        "name": "Twos",
+        "slug": "twos",
+        "ages": "2 – 3 yrs",
+        "ratio": "1 teacher : 6",
+        "schedule": "Full or part days",
+        "tuition": "From $1,420/mo",
+        "description": "Big feelings, bigger imaginations. Pretend play, early language, and gentle potty learning.",
+        "details": "Twos are ready for more words, more friends, and more ideas. Pretend play, picture books, and small-group art build language and patience, and potty learning happens gently, in partnership with you.",
+        "image": "/images/twos.jpg",
+        "image_alt": "Three-year-olds playing pretend at a wooden play kitchen"
+    },
+    {
+        "name": "Preschool & Pre-K",
+        "slug": "preschool",
+        "ages": "3 – 5 yrs",
+        "ratio": "1 teacher : 8",
+        "schedule": "Full or school-day",
+        "tuition": "From $1,290/mo",
+        "description": "Letters, numbers, and questions answered by doing — so kindergarten feels like the next adventure.",
+        "details": "Project-based learning turns big questions — where do seeds go? why do shadows move? — into weeks of reading, counting, building, and drawing. Pre-K adds kindergarten-readiness work at each child's pace.",
+        "image": "/images/preschool.jpg",
+        "image_alt": "Pre-K children counting with wooden number tiles at a classroom table"
+    }
+]

@@ -1,0 +1,5 @@
+label: Hours
+icon: 🕒
+fields:
+    day: { type: text, label: Day or days }
+    hours: { type: text, label: Hours }

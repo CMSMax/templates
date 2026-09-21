@@ -1,0 +1,5 @@
+title: Menu header
+description: The menu page's headline and introduction. The line under it is the menu note from site settings.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Introduction, rows: 3 }

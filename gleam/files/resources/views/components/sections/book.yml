@@ -1,0 +1,9 @@
+title: Book a clean
+description: The closing panel with the phone number to book, email, service area, hours and a photo.
+fields:
+    eyebrow: { type: text, label: Small line above the heading }
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    emailLabel: { type: text, label: Email link text }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }

@@ -1,0 +1,11 @@
+{
+    "name": "Posy",
+    "industry": "florists",
+    "description": "A dark, painterly template for florists and flower studios — blooms glowing out of a varnished still-life ground, arrangements hung like a salon wall with from-prices, this week's stems keyed like a museum label, occasions from weddings to sympathy, and a same-day delivery cutoff always in view.",
+    "pages": ["Home", "Arrangements", "404"],
+    "collections": ["arrangements", "seasonal", "hours"],
+    "cta": "Order flowers",
+    "theme": "dark",
+    "accent": "#f09a8f",
+    "fonts": ["Castoro", "Hanken Grotesk"]
+}

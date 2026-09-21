@@ -1,0 +1,19 @@
+title: Programs by age
+description: The growth chart — each program in the Programs collection as a column that steps taller by age.
+fields:
+    eyebrow: { type: text, label: Eyebrow }
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    linkLabel: { type: text, label: Link text }
+    linkHref: { type: url, label: Link }
+    programs:
+        type: repeater
+        label: Programs
+        source: programs
+        item_label: name
+        sub_fields:
+            name: { type: text, label: Program name }
+            ages: { type: text, label: Ages }
+            ratio: { type: text, label: Ratio }
+            schedule: { type: text, label: Schedule }
+            description: { type: textarea, label: Short description }

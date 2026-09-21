@@ -1,0 +1,8 @@
+title: Wordmark
+description: A short statement about the firm above the team photograph, with the firm's name set enormous across its foot. The name comes from the site's wordmark setting.
+fields:
+    heading: { type: textarea, label: Statement, rows: 2 }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    linkLabel: { type: text, label: Link text }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }

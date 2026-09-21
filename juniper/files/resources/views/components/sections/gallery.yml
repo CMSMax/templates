@@ -1,0 +1,11 @@
+title: Photo gallery
+description: Four photographs from the kitchen and the table, set in an asymmetric grid.
+fields:
+    imageOne: { type: image, label: Large photo }
+    imageOneAlt: { type: text, label: Large photo description }
+    imageTwo: { type: image, label: Wide photo }
+    imageTwoAlt: { type: text, label: Wide photo description }
+    imageThree: { type: image, label: Small photo (left) }
+    imageThreeAlt: { type: text, label: Small photo (left) description }
+    imageFour: { type: image, label: Small photo (right) }
+    imageFourAlt: { type: text, label: Small photo (right) description }

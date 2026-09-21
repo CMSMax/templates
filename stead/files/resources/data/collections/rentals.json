@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Alder Street Flat",
+        "neighborhood": "Hosford-Abernethy",
+        "rent": "$2,150",
+        "beds": "2 bd",
+        "baths": "1 ba",
+        "size": "940 sq ft",
+        "available": "Available Oct 1",
+        "image": "/images/rental-living-room.jpg",
+        "alt": "Bright living room with oak floors and a large window",
+        "summary": "Second-floor corner flat with oak floors, in-unit laundry, and a bike room downstairs."
+    },
+    {
+        "title": "Clinton Row Townhouse",
+        "neighborhood": "Richmond",
+        "rent": "$3,275",
+        "beds": "3 bd",
+        "baths": "2.5 ba",
+        "size": "1,620 sq ft",
+        "available": "Available now",
+        "image": "/images/rental-townhouse.jpg",
+        "alt": "Row of brick townhouses with dark front doors on a tree-lined street",
+        "summary": "Three floors on a quiet tree-lined block, with a private patio and a one-car garage."
+    },
+    {
+        "title": "Belmont Kitchen Two-Bed",
+        "neighborhood": "Sunnyside",
+        "rent": "$2,480",
+        "beds": "2 bd",
+        "baths": "2 ba",
+        "size": "1,080 sq ft",
+        "available": "Available Oct 15",
+        "image": "/images/rental-kitchen.jpg",
+        "alt": "White kitchen with stone counters and brass fixtures",
+        "summary": "Newly renovated, with a stone-topped island, a gas range, and two full bathrooms."
+    }
+]

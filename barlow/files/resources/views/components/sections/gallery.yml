@@ -1,0 +1,13 @@
+title: Photo gallery
+description: A row of photographs from the shop. The photos live in site settings.
+fields:
+    heading: { type: text, label: Headline }
+    linkLabel: { type: text, label: Instagram link text }
+    items:
+        type: repeater
+        label: Photos
+        source: site.gallery
+        item_label: alt
+        sub_fields:
+            image: { type: image, label: Photo }
+            alt: { type: text, label: Description }

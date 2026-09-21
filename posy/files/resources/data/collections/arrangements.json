@@ -1,0 +1,62 @@
+[
+    {
+        "name": "The Market Bouquet",
+        "section": "bouquets",
+        "description": "Whatever came in this morning at its best — roses, ranunculus, sweet pea — hand-tied and wrapped in tissue.",
+        "price": "65",
+        "sizes": "Classic $65 · Generous $95 · Abundant $140",
+        "image": "/images/market-bouquet.jpg",
+        "image_alt": "A hand-tied bouquet of blush garden roses, white ranunculus, and sweet pea wrapped in tissue and tied with ribbon.",
+        "home_spot": "lead"
+    },
+    {
+        "name": "The Little Posy",
+        "section": "bouquets",
+        "description": "A small jug's worth of cutting-garden flowers. For a bedside, a desk, or a thank-you.",
+        "price": "38",
+        "sizes": "One size, jug included",
+        "image": "/images/little-posy.jpg",
+        "image_alt": "A small posy of cosmos, feverfew, cornflowers, and sweet pea in an old ceramic jug.",
+        "home_spot": "side"
+    },
+    {
+        "name": "Parrot Tulips",
+        "section": "bouquets",
+        "description": "An armful of ruffled parrot tulips, left to curve and open the way tulips want to.",
+        "price": "55",
+        "sizes": "Twenty stems $55 · Forty stems $95",
+        "image": "/images/parrot-tulips.jpg",
+        "image_alt": "Red, flamed, and apricot parrot tulips curving out of a tall glass vase.",
+        "home_spot": "none"
+    },
+    {
+        "name": "The Long Table",
+        "section": "vases",
+        "description": "A low, spilling centerpiece in an aged brass compote, kept short enough to talk over.",
+        "price": "110",
+        "sizes": "Single $110 · Set of three $300",
+        "image": "/images/long-table.jpg",
+        "image_alt": "A low centerpiece of white roses, peach tulips, and trailing jasmine in a brass compote bowl.",
+        "home_spot": "none"
+    },
+    {
+        "name": "The Dark Garden",
+        "section": "vases",
+        "description": "Burgundy dahlias, black hellebores, and smoke bush in a bronze urn. Our most-asked-for piece.",
+        "price": "160",
+        "sizes": "Tall $160 · Statement $240",
+        "image": "/images/dark-garden.jpg",
+        "image_alt": "A tall arrangement of burgundy dahlias, dark roses, hellebores, and trailing amaranthus in a bronze urn.",
+        "home_spot": "side"
+    },
+    {
+        "name": "In Quiet Remembrance",
+        "section": "sympathy",
+        "description": "White roses, stock, and lisianthus with soft silver foliage, in a low stone vessel for the home or the service.",
+        "price": "95",
+        "sizes": "Home $95 · Service $180",
+        "image": "/images/remembrance.jpg",
+        "image_alt": "A calm arrangement of white roses, lisianthus, stock, and silver foliage in a low stone vessel.",
+        "home_spot": "none"
+    }
+]

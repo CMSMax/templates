@@ -1,0 +1,7 @@
+title: Practice areas
+description: The firm's practice areas as a ruled index, each linking to its full description.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    linkLabel: { type: text, label: Link text }
+    items: { type: repeater, label: Practice areas, source: practice_areas, item_label: name, sub_fields: { name: { type: text, label: Practice area }, summary: { type: textarea, label: One-line summary } } }

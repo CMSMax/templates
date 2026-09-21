@@ -1,0 +1,8 @@
+title: How it works
+description: A photo beside the three numbered steps from first call to regular visits.
+fields:
+    eyebrow: { type: text, label: Small line above the heading }
+    heading: { type: text, label: Heading }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }
+    steps: { type: repeater, label: Steps, source: site.steps, item_label: title, sub_fields: { title: { type: text, label: Step }, body: { type: textarea, label: Detail } } }

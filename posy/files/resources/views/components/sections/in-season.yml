@@ -1,0 +1,10 @@
+title: In season
+description: The signature keyed still life — this week's photograph beside a numbered key of each stem, its Latin name, and where it grew.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    caption: { type: text, label: Photo caption }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }
+    showMarkers: { type: toggle, label: Show numbered markers on the photo }
+    items: { type: repeater, label: Stems, source: seasonal, item_label: name, sub_fields: { name: { type: text, label: Flower }, latin: { type: text, label: Latin or variety name }, source: { type: text, label: Where it was grown }, x: { type: number, label: Marker across (%), min: 0, max: 100 }, y: { type: number, label: Marker down (%), min: 0, max: 100 } } }

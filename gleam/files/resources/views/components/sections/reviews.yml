@@ -1,0 +1,6 @@
+title: Reviews
+description: The average rating beside one large customer quote and two smaller ones.
+fields:
+    eyebrow: { type: text, label: Small line above the heading }
+    heading: { type: text, label: Heading }
+    items: { type: repeater, label: Reviews, source: site.reviews, item_label: name, sub_fields: { quote: { type: textarea, label: Quote, rows: 3 }, name: { type: text, label: Customer }, detail: { type: text, label: Service they use } } }

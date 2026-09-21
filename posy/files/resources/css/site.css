@@ -1,0 +1,61 @@
+@import 'tailwindcss';
+
+@theme {
+    /* A varnished still-life ground: green-umber black, a stone-ledge
+       surface one step up, vellum text in two tiers, hairline lines. */
+    --color-canvas: oklch(17.5% 0.012 110);
+    --color-surface: oklch(21.5% 0.013 105);
+    --color-ink: oklch(94% 0.018 85);
+    --color-muted: oklch(76% 0.02 85);
+    --color-line: oklch(33% 0.013 100);
+    /* primary is the ONE spot color (peony coral): CTAs, the numerals of the
+       still-life key, and link hovers. The customer's Branding color replaces
+       it at serve time; keep the foreground paired with it. */
+    --color-primary: oklch(77% 0.105 28);
+    --color-primary-foreground: oklch(17.5% 0.012 110);
+    --color-secondary: oklch(77% 0.105 28);
+    --color-secondary-foreground: oklch(17.5% 0.012 110);
+    --font-display: 'Castoro', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+    --font-sans: 'Hanken Grotesk', ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+html {
+    color-scheme: dark;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+::selection {
+    background-color: color-mix(in oklch, var(--color-primary) 35%, transparent);
+    color: var(--color-ink);
+}
+
+/* The hero still life surfaces out of the dark once on load, like a
+   painting under a gallery light — time-based, no script, and resolved
+   instantly under reduced motion. */
+@keyframes surface {
+    from {
+        opacity: 0;
+        filter: brightness(0.6);
+        transform: scale(1.025);
+    }
+    to {
+        opacity: 1;
+        filter: brightness(1);
+        transform: scale(1);
+    }
+}
+
+[data-surface] {
+    animation: surface 1600ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    [data-surface] {
+        animation: none;
+    }
+}

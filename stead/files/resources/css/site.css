@@ -1,0 +1,69 @@
+@import 'tailwindcss';
+
+@theme {
+    --color-canvas: oklch(95.5% 0.006 240);
+    --color-surface: oklch(99% 0.003 240);
+    --color-ink: oklch(22% 0.028 255);
+    --color-muted: oklch(45% 0.02 255);
+    --color-line: oklch(86% 0.01 245);
+    /* primary is the ONE accent (Stead brass): the main button, the statement's
+       net line, and the day markers. It is a light color, so its foreground is
+       ink. The customer's Branding color replaces it at serve time; keep the
+       foreground paired with it. */
+    --color-primary: oklch(78% 0.12 78);
+    --color-primary-foreground: oklch(22% 0.028 255);
+    --color-secondary: oklch(22% 0.028 255);
+    --color-secondary-foreground: oklch(95.5% 0.006 240);
+    --font-display: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif;
+    --font-sans: 'Geist', ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+::selection {
+    background-color: color-mix(in oklch, var(--color-primary) 35%, transparent);
+    color: var(--color-ink);
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+/* The statement's dotted leader: a rule that fills the gap between a line
+   item and its amount, the way a printed statement does. */
+@utility leader {
+    flex: 1 1 0%;
+    min-width: 1.5rem;
+    border-bottom: 1px dotted color-mix(in oklch, var(--color-ink) 28%, transparent);
+    transform: translateY(-0.3em);
+}
+
+/* The hero photograph and statement settle in once on load — time-based, so
+   no script is involved, and resolved instantly under reduced motion. */
+@keyframes rise {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+[data-rise] {
+    animation: rise 900ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+[data-rise='late'] {
+    animation-delay: 250ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    [data-rise] {
+        animation: none;
+    }
+}

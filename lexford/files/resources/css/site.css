@@ -1,0 +1,59 @@
+@import 'tailwindcss';
+
+@theme {
+    --color-canvas: oklch(97.3% 0.008 85);
+    --color-surface: oklch(99.3% 0.004 85);
+    --color-ink: oklch(21% 0.02 170);
+    --color-muted: oklch(45% 0.016 165);
+    --color-line: oklch(88% 0.012 85);
+    /* primary is the ONE accent (Lexford forest green): CTAs, the hero and
+       consultation panels, and link hovers. The customer's Branding color
+       replaces it at serve time; keep the foreground paired with it. */
+    --color-primary: oklch(31% 0.042 168);
+    --color-primary-foreground: oklch(97.3% 0.008 85);
+    --color-secondary: oklch(31% 0.042 168);
+    --color-secondary-foreground: oklch(97.3% 0.008 85);
+    --font-display: 'Newsreader', 'Iowan Old Style', Georgia, serif;
+    --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+::selection {
+    background-color: color-mix(in oklch, var(--color-primary) 20%, transparent);
+    color: var(--color-ink);
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6.5rem;
+}
+
+body {
+    font-feature-settings: 'cv11', 'ss01';
+}
+
+/* The hero photograph settles in once on load — time-based, so no script
+   is involved, and resolved instantly under reduced motion. */
+@keyframes settle {
+    from {
+        opacity: 0;
+        transform: scale(1.04);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+[data-settle] {
+    animation: settle 1600ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    [data-settle] {
+        animation: none;
+    }
+}

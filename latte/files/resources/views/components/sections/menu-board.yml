@@ -1,0 +1,12 @@
+title: Full menu
+description: Every item in the Menu collection, grouped by the menu groups in site settings.
+fields:
+    groups:
+        type: repeater
+        label: Menu groups
+        source: site.menu_sections
+        item_label: name
+        sub_fields:
+            name: { type: text, label: Group name }
+            note: { type: text, label: Short note }
+            on_card: { type: toggle, label: Show on the homepage menu card }

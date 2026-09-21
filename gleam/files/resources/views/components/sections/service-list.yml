@@ -1,0 +1,5 @@
+title: Service details
+description: Every service with its starting price, time on site, full description and what the price covers.
+fields:
+    priceLabel: { type: text, label: Price note heading }
+    items: { type: repeater, label: Services, source: services, item_label: name, sub_fields: { name: { type: text, label: Service }, slug: { type: text, label: Anchor }, summary: { type: textarea, label: Summary }, description: { type: textarea, label: Description, rows: 4 }, duration: { type: text, label: Time on site }, price: { type: text, label: Starting price }, unit: { type: text, label: Price unit }, price_note: { type: textarea, label: What the price covers } } }

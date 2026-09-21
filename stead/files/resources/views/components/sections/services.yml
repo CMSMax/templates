@@ -1,0 +1,7 @@
+title: Services
+description: A sticky heading beside the numbered list of everything the company handles.
+fields:
+    eyebrow: { type: text, label: Eyebrow }
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    items: { type: repeater, label: Services, source: services, item_label: title, sub_fields: { title: { type: text, label: Service }, description: { type: textarea, label: Description }, includes: { type: text, label: What it includes } } }

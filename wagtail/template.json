@@ -1,0 +1,11 @@
+{
+    "name": "Wagtail",
+    "industry": "pet-services",
+    "description": "A calm, confident template for veterinary clinics — porcelain canvas, navy type and one cobalt accent, warm natural-light pet photography, a what-brings-you-in triage with the emergency number always in reach, and a signature fee chart with a Dog column and a Cat column.",
+    "pages": ["Home", "Services & prices", "404"],
+    "collections": ["services", "hours", "faqs"],
+    "cta": "Book a visit",
+    "theme": "light",
+    "accent": "#2d4ad8",
+    "fonts": ["Bricolage Grotesque", "Hanken Grotesk"]
+}

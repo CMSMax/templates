@@ -1,0 +1,6 @@
+label: Services
+icon: 🔑
+fields:
+    title: { type: text, label: Service }
+    description: { type: textarea, label: Description, rows: 3 }
+    includes: { type: text, label: What it includes (separated by ·) }

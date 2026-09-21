@@ -1,0 +1,14 @@
+title: Reviews
+description: Your rating beside three client quotes, stacked like a guestbook. The rating and the quotes live in site settings.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    items:
+        type: repeater
+        label: Quotes
+        source: site.reviews
+        item_label: name
+        sub_fields:
+            quote: { type: textarea, label: Quote, rows: 3 }
+            name: { type: text, label: Name }
+            note: { type: text, label: Detail (e.g. regular since 2019) }

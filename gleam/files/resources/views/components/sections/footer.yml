@@ -1,0 +1,5 @@
+title: Footer
+description: The company name, a short description, service area, hours and contact details.
+fields:
+    blurb: { type: textarea, label: Short description, rows: 3 }
+    note: { type: text, label: Small print }

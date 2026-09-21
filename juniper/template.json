@@ -1,0 +1,11 @@
+{
+    "name": "Juniper",
+    "industry": "restaurants",
+    "description": "A calm, elegant template for neighborhood restaurants — linen canvas, serif headlines, soft natural-light food photography, a menu typeset like a printed card with dotted price leaders, and hours and reservations always one tap away.",
+    "pages": ["Home", "Menu", "Our story", "Reservations", "404"],
+    "collections": ["menu", "hours"],
+    "cta": "Reserve a table",
+    "theme": "light",
+    "accent": "#2c5445",
+    "fonts": ["Instrument Serif", "Figtree"]
+}

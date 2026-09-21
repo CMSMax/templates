@@ -1,0 +1,7 @@
+title: Page header
+description: The page's headline and introduction, with an optional wide photograph beneath.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Introduction, rows: 3 }
+    image: { type: image, label: Photo (optional) }
+    imageAlt: { type: text, label: Photo description }

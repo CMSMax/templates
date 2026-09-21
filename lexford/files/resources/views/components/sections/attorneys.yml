@@ -1,0 +1,8 @@
+title: Attorneys
+description: Portraits of the firm's attorneys with their names and titles, and optionally their biographies.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    linkLabel: { type: text, label: Link text }
+    showBios: { type: toggle, label: Show biographies }
+    items: { type: repeater, label: Attorneys, source: attorneys, item_label: name, sub_fields: { name: { type: text, label: Name }, role: { type: text, label: Title }, image: { type: image, label: Portrait }, credentials: { type: text, label: Education and admission }, bio: { type: textarea, label: Short biography } } }

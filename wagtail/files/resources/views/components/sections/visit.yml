@@ -1,0 +1,14 @@
+title: Visit
+description: The dark closing band — a welcome, the book-a-visit button, address and email, and the weekly hours from the Hours collection.
+fields:
+    heading: { type: text, label: Headline }
+    body: { type: textarea, label: Supporting copy, rows: 3 }
+    hoursHeading: { type: text, label: Hours card title }
+    hours:
+        type: repeater
+        label: Opening hours
+        source: hours
+        item_label: day
+        sub_fields:
+            day: { type: text, label: Day }
+            hours: { type: text, label: Hours }

@@ -1,0 +1,5 @@
+title: Values
+description: The firm's three commitments to its clients, set in a ruled row. The same names appear on the homepage portrait.
+fields:
+    heading: { type: text, label: Heading }
+    items: { type: repeater, label: Values, source: site.values, item_label: name, sub_fields: { name: { type: text, label: Value }, description: { type: textarea, label: Description } } }

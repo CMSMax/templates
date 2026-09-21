@@ -1,0 +1,8 @@
+title: Approach
+description: A photograph beside the firm's three-step way of working with new clients.
+fields:
+    heading: { type: text, label: Heading }
+    body: { type: textarea, label: Supporting copy, rows: 2 }
+    image: { type: image, label: Photo }
+    imageAlt: { type: text, label: Photo description }
+    steps: { type: repeater, label: Steps, source: site.approach_steps, item_label: title, sub_fields: { title: { type: text, label: Step }, body: { type: textarea, label: Description } } }
