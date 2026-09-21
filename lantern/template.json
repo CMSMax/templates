@@ -1,0 +1,29 @@
+{
+    "name": "Lantern",
+    "industry": "home-services",
+    "description": "An elegant, photo-led template for the trades — HVAC, plumbing, electrical and handyman work under one roof. Warm bone canvas, espresso ink, a single clay accent, wide signage type, hairline rules, and a hand-drawn house plan that pins every trade to the room it lives in.",
+    "pages": [
+        "Home",
+        "Services",
+        "Service detail",
+        "Recent work",
+        "About",
+        "Contact",
+        "404"
+    ],
+    "collections": [
+        "service",
+        "jobs",
+        "reviews",
+        "faqs",
+        "hours"
+    ],
+    "cta": "Book a visit",
+    "theme": "light",
+    "accent": "#b24a1e",
+    "secondary": "#241c16",
+    "fonts": [
+        "Archivo",
+        "Libre Franklin"
+    ]
+}

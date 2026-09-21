@@ -1,0 +1,27 @@
+title: Contact details
+description: Every way to reach you, and the hours behind each one.
+fields:
+    heading:
+        type: text
+        label: Headline
+        default: How to reach us.
+    note:
+        type: textarea
+        label: Opening line
+        rows: 4
+        default: A photograph of the part, the panel or the puddle saves everyone a visit. Send one and we can usually price the work before we arrive.
+    items:
+        type: repeater
+        label: Hours
+        item_label: day
+        add_button_label: Add a row
+        source: collections.hours
+        sub_fields:
+            day:
+                type: text
+                label: Day
+                default: Monday to Friday
+            hours:
+                type: text
+                label: Hours
+                default: 7:00am – 7:00pm

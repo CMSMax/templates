@@ -1,0 +1,23 @@
+[
+    {
+        "quote": "The furnace quit on the coldest night of the year. Someone picked up at eleven, a van was here by seven, and we had heat before the school run.",
+        "name": "Dana R.",
+        "avatar": "https://assets.ui.sh/avatars/3.webp?size=160",
+        "place": "Oak Row",
+        "trade": "Heating & cooling"
+    },
+    {
+        "quote": "They found the leak with a meter instead of a sledgehammer, gave me the price in writing first, and the floor went back exactly as it was.",
+        "name": "Marcus T.",
+        "avatar": "https://assets.ui.sh/avatars/7.webp?size=160",
+        "place": "Fairbank Road",
+        "trade": "Plumbing"
+    },
+    {
+        "quote": "I had a list of nine things I had been ignoring for two years. They did eight in an afternoon and told me honestly that the ninth needed a specialist.",
+        "name": "Priya S.",
+        "avatar": "https://assets.ui.sh/avatars/11.webp?size=160",
+        "place": "Colliers Mill",
+        "trade": "Repairs & handyman"
+    }
+]

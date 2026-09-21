@@ -1,0 +1,122 @@
+@import 'tailwindcss';
+
+/* Lantern's whole colour and type system. Every real value lives here and
+   nowhere else: retune a token and the entire site follows. Markup only ever
+   names the token utilities (bg-canvas, text-ink, border-line, bg-accent). */
+@theme {
+    /* Warm bone is the dominant neutral — roughly seventy percent of any
+       viewport. Surface is the paper that lifts off it. */
+    --color-canvas: #f4efe6;
+    --color-surface: #fbf8f3;
+    --color-ink: #241c16;
+    --color-muted: #6b5a4c;
+    --color-line: #ddd3c4;
+    /* Clay is a spice: the primary button, the house-plan pins, the four
+       trade squares. It never becomes a background field. */
+    --color-accent: #b24a1e;
+    --color-accent-ink: #fdfaf5;
+    /* Espresso belongs to the closing band and the footer only — the two
+       moments where the page stops and asks for the call. */
+    --color-deep: #1e1712;
+    --color-deep-ink: #efe7db;
+    --color-deep-muted: #a89279;
+
+    --font-sans: 'Libre Franklin', ui-sans-serif, system-ui, sans-serif;
+    /* Archivo is a signage grotesque; held slightly wide it reads like
+       lettering on the side of a van rather than like UI. */
+    --font-display: 'Archivo', ui-sans-serif, system-ui, sans-serif;
+    --font-display--font-variation-settings: 'wdth' 112;
+
+    /* One hard corner language. Two pixels everywhere — precise, not
+       rounded, and nothing like the pill-shaped default. */
+    --radius-xs: 2px;
+    --radius-sm: 2px;
+}
+
+/* The hero is the page's one authored moment: the photograph settles out of a
+   slight zoom while the slab's lines arrive in sequence (--i is the slot).
+   Everything below the fold is painted at rest — scrolling this page should
+   feel like walking past a finished wall, not triggering a slideshow. */
+@keyframes lantern-rise {
+    from {
+        opacity: 0;
+        transform: translateY(16px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes lantern-settle {
+    from {
+        transform: scale(1.03);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+[data-rise] {
+    animation: lantern-rise 800ms cubic-bezier(0.22, 1, 0.36, 1) both;
+    animation-delay: calc(120ms + var(--i, 0) * 90ms);
+}
+
+[data-settle] {
+    animation: lantern-settle 2400ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    [data-rise],
+    [data-settle] {
+        animation: none;
+    }
+}
+
+/* Body copy written by the owner (a service page's detail, a story) arrives as
+   HTML no utility class can reach, so it is styled once here. */
+.prose {
+    color: var(--color-muted);
+    font-size: 1.0625rem;
+    line-height: 1.75;
+}
+
+.prose > * + * {
+    margin-top: 1.25rem;
+}
+
+.prose h2 {
+    color: var(--color-ink);
+    font-family: var(--font-display);
+    font-variation-settings: 'wdth' 112;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    margin-top: 2.5rem;
+}
+
+.prose h3 {
+    color: var(--color-ink);
+    font-family: var(--font-display);
+    font-variation-settings: 'wdth' 112;
+    font-size: 1.1875rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.prose strong {
+    color: var(--color-ink);
+    font-weight: 600;
+}
+
+.prose ul {
+    display: grid;
+    gap: 0.625rem;
+}
+
+.prose li {
+    border-top: 1px solid var(--color-line);
+    padding-top: 0.625rem;
+}

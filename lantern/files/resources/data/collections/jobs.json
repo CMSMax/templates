@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Two-storey heat pump, no ductwork",
+        "place": "Fairbank Road",
+        "trade": "Heating & cooling",
+        "duration": "Two days",
+        "note": "Four ductless heads replaced electric baseboard, and the winter bill dropped by a third.",
+        "image": "/images/hvac.jpg",
+        "imageAlt": "A wall-mounted ductless head above an armchair in a sunlit living room"
+    },
+    {
+        "title": "Kitchen re-pipe after a slab leak",
+        "place": "Oak Row",
+        "trade": "Plumbing",
+        "duration": "One day",
+        "note": "Copper rerouted through the ceiling instead of breaking the slab, and the cabinets stayed.",
+        "image": "/images/plumbing.jpg",
+        "imageAlt": "New copper and chrome pipework under a bright kitchen sink"
+    },
+    {
+        "title": "Panel upgrade to 200 amp",
+        "place": "Colliers Mill",
+        "trade": "Electrical",
+        "duration": "One day",
+        "note": "Every circuit labelled, permit pulled, and the town inspection passed the same afternoon.",
+        "image": "/images/electrical.jpg",
+        "imageAlt": "An open electrical panel with tidy labelled breakers"
+    },
+    {
+        "title": "The whole fridge list, in one visit",
+        "place": "Wrenfield",
+        "trade": "Repairs & handyman",
+        "duration": "Half a day",
+        "note": "Eleven small jobs, from a sticking back door to a deck rail that had gone soft.",
+        "image": "/images/repairs.jpg",
+        "imageAlt": "A carpenter fitting a new pale oak cabinet door"
+    }
+]

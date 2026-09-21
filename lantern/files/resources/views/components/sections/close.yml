@@ -1,0 +1,20 @@
+title: Closing band
+description: The dark band that ends every page with one clear next step.
+fields:
+    heading:
+        type: text
+        label: Headline
+        default: Something in the house needs looking at.
+    body:
+        type: textarea
+        label: Line beneath
+        rows: 3
+        default: Call and a person picks up, or send the details and we will come back with a window today.
+    ctaLabel:
+        type: text
+        label: Button label
+        default: Book a visit
+    ctaUrl:
+        type: url
+        label: Button links to
+        default: /contact

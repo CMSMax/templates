@@ -1,0 +1,38 @@
+title: Hero
+description: The first viewport — the promise, the two ways to reach you, and one photograph of real work.
+fields:
+    heading:
+        type: text
+        label: Headline
+        default: The whole house, one phone number.
+        description: Say what you cover, not how good you are. Around forty characters reads best at this size.
+    intro:
+        type: textarea
+        label: Opening line
+        rows: 3
+        default: Heating, cooling, plumbing, electrical and the small repairs in between — handled by one licensed crew that works this side of the river.
+    ctaLabel:
+        type: text
+        label: Button label
+        default: Book a visit
+    ctaUrl:
+        type: url
+        label: Button links to
+        default: /contact
+    image:
+        type: image
+        label: Photograph
+        default: /images/hero.jpg
+        description: Bright daylight, a real person or a finished job. It bleeds off the right edge of the screen, so keep the subject left of centre.
+    imageAlt:
+        type: text
+        label: Photograph description
+        default: A Lantern technician on the front steps of a brick house on a bright morning
+    captionPlace:
+        type: text
+        label: Caption — where
+        default: Fairbank Road
+    captionNote:
+        type: text
+        label: Caption — what happened
+        default: Furnace replaced before lunch

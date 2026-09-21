@@ -1,0 +1,5 @@
+label: Questions
+icon: help-circle
+fields:
+    question: { type: text }
+    answer: { type: textarea }

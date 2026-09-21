@@ -1,0 +1,34 @@
+title: Service list
+description: Every service as a row — photograph, what it covers, what it costs and how fast you get there.
+fields:
+    items:
+        type: repeater
+        label: Services
+        item_label: title
+        add_button_label: Add a service
+        source: collections.service
+        sub_fields:
+            title:
+                type: text
+                label: Service
+                default: Heating & cooling
+            summary:
+                type: text
+                label: One line
+                default: Furnaces, heat pumps, mini-splits and the tune-up that stops February emergencies.
+            price:
+                type: text
+                label: What it costs
+                default: Diagnostic $89, waived if we do the work
+            response:
+                type: text
+                label: How fast
+                default: Same day for no heat or no cool
+            link:
+                type: url
+                label: Links to
+                default: /services/heating-and-cooling
+            image:
+                type: image
+                label: Photograph
+                default: /images/hvac.jpg

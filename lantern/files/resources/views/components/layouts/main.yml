@@ -1,0 +1,14 @@
+title: Page
+description: The document itself — the browser tab title and the one-sentence description search engines quote.
+fields:
+    title:
+        type: text
+        label: Browser tab title
+        default: Lantern Home Services
+        description: Around sixty characters. Put the page first and the company second.
+    description:
+        type: textarea
+        label: Search description
+        rows: 3
+        default: ''
+        description: One sentence, roughly 155 characters, written for someone scanning results.
