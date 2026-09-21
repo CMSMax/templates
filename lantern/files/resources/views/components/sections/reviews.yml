@@ -1,0 +1,35 @@
+title: Reviews
+description: What customers said, in their own words, with the trade and the street attached.
+fields:
+    heading:
+        type: text
+        label: Headline
+        default: What the neighbours say.
+    items:
+        type: repeater
+        label: Reviews
+        item_label: name
+        add_button_label: Add a review
+        source: collections.reviews
+        sub_fields:
+            quote:
+                type: textarea
+                label: What they said
+                rows: 4
+                default: The furnace quit on the coldest night of the year. Someone picked up at eleven, a van was here by seven, and we had heat before the school run.
+            name:
+                type: text
+                label: Name
+                default: Dana R.
+            avatar:
+                type: image
+                label: Photo
+                default: https://assets.ui.sh/avatars/3.webp?size=160
+            place:
+                type: text
+                label: Street or neighbourhood
+                default: Oak Row
+            trade:
+                type: text
+                label: Trade
+                default: Heating & cooling

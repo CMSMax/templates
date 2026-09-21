@@ -1,0 +1,51 @@
+title: Recent work
+description: A scrolling band of finished jobs. Photographs of your own work sell better than any adjective.
+fields:
+    heading:
+        type: text
+        label: Headline
+        default: Work from the last few weeks.
+    linkLabel:
+        type: text
+        label: Link label
+        default: All recent work
+    linkUrl:
+        type: url
+        label: Link goes to
+        default: /work
+    items:
+        type: repeater
+        label: Jobs
+        item_label: title
+        add_button_label: Add a job
+        source: collections.jobs
+        sub_fields:
+            title:
+                type: text
+                label: What the job was
+                default: Two-storey heat pump, no ductwork
+            place:
+                type: text
+                label: Street or neighbourhood
+                default: Fairbank Road
+            trade:
+                type: text
+                label: Trade
+                default: Heating & cooling
+            duration:
+                type: text
+                label: How long it took
+                default: Two days
+            note:
+                type: textarea
+                label: One line about it
+                rows: 3
+                default: Four ductless heads replaced electric baseboard, and the winter bill dropped by a third.
+            image:
+                type: image
+                label: Photograph
+                default: /images/hvac.jpg
+            imageAlt:
+                type: text
+                label: Photograph description
+                default: A wall-mounted ductless head above an armchair in a sunlit living room

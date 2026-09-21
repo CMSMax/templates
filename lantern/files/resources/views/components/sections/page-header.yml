@@ -1,0 +1,12 @@
+title: Page header
+description: The title block at the top of an inner page.
+fields:
+    heading:
+        type: text
+        label: Page title
+        default: Services
+    intro:
+        type: textarea
+        label: Opening line
+        rows: 3
+        default: ''

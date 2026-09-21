@@ -1,0 +1,8 @@
+label: Reviews
+icon: star
+fields:
+    quote: { type: textarea }
+    name: { type: text }
+    avatar: { type: image }
+    place: { type: text }
+    trade: { type: text }

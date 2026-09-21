@@ -1,0 +1,71 @@
+title: Why us
+description: The company in one paragraph, three promises, and three numbers that back them.
+fields:
+    heading:
+        type: text
+        label: Headline
+        default: The same crew, the same schedule, the same standard.
+    body:
+        type: textarea
+        label: Paragraph
+        rows: 4
+        default: Lantern started as two technicians and one van in Wrenfield. We kept the part people liked — you talk to the person who does the work — and added the trades they kept asking us for.
+    image:
+        type: image
+        label: Photograph
+        default: /images/crew.jpg
+    imageAlt:
+        type: text
+        label: Photograph description
+        default: Two Lantern technicians standing beside their van in a driveway on a bright morning
+    pointOne:
+        type: text
+        label: Promise one
+        default: One number for all of it
+    pointOneBody:
+        type: textarea
+        label: Promise one — detail
+        rows: 2
+        default: No three-way call between a plumber, an electrician and whoever installed the furnace.
+    pointTwo:
+        type: text
+        label: Promise two
+        default: The price before the work
+    pointTwoBody:
+        type: textarea
+        label: Promise two — detail
+        rows: 2
+        default: A flat quote in writing. If something turns up behind the wall, we stop and re-quote.
+    pointThree:
+        type: text
+        label: Promise three
+        default: We leave it clean
+    pointThreeBody:
+        type: textarea
+        label: Promise three — detail
+        rows: 2
+        default: Floor protection on the way in, old parts on the counter, and a sweep before we go.
+    statOne:
+        type: text
+        label: Number one
+        default: '14'
+    statOneLabel:
+        type: text
+        label: Number one — label
+        default: Years on these streets
+    statTwo:
+        type: text
+        label: Number two
+        default: 6,200
+    statTwoLabel:
+        type: text
+        label: Number two — label
+        default: Visits finished
+    statThree:
+        type: text
+        label: Number three
+        default: 81%
+    statThreeLabel:
+        type: text
+        label: Number three — label
+        default: Repairs done in one trip
